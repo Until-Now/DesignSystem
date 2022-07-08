@@ -294,36 +294,6 @@
           "value": "{typography.sans-serif.caption-lg.bold}",
           "type": "typography"
         }
-      },
-      "size": {
-        "height": {
-          "sm": {
-            "value": "{semantic.component.sm}",
-            "type": "sizing"
-          },
-          "md": {
-            "value": "{semantic.component.md}",
-            "type": "sizing"
-          },
-          "lg": {
-            "value": "{semantic.component.lg}",
-            "type": "sizing"
-          }
-        },
-        "content": {
-          "sm": {
-            "value": "{size.22}",
-            "type": "sizing"
-          },
-          "md": {
-            "value": "{size.24}",
-            "type": "sizing"
-          },
-          "lg": {
-            "value": "{size.28}",
-            "type": "sizing"
-          }
-        }
       }
     },
     "avatar": {
@@ -2187,22 +2157,6 @@
             "type": "boxShadow"
           }
         }
-      }
-    }
-  },
-  "semantic": {
-    "component": {
-      "sm": {
-        "value": "{size.40}",
-        "type": "sizing"
-      },
-      "md": {
-        "value": "{size.48}",
-        "type": "sizing"
-      },
-      "lg": {
-        "value": "{size.56}",
-        "type": "sizing"
       }
     }
   }

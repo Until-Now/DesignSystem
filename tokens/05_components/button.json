@@ -1,0 +1,36 @@
+{
+  "comp": {
+    "button": {
+      "size": {
+        "height": {
+          "small": {
+            "value": "{semantic.action.size.small}",
+            "type": "sizing"
+          },
+          "medium": {
+            "value": "{semantic.action.size.medium}",
+            "type": "sizing"
+          },
+          "large": {
+            "value": "{semantic.action.size.large}",
+            "type": "sizing"
+          }
+        },
+        "content": {
+          "small": {
+            "value": "{semantic.action.size.content.small}",
+            "type": "sizing"
+          },
+          "medium": {
+            "value": "{semantic.action.size.content.medium}",
+            "type": "sizing"
+          },
+          "large": {
+            "value": "{semantic.action.size.content.large}",
+            "type": "sizing"
+          }
+        }
+      }
+    }
+  }
+}

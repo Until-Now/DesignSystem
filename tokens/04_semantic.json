@@ -138,5 +138,59 @@
         }
       }
     }
+  },
+  "semantic": {
+    "component": {
+      "x-sm": {
+        "value": "{size.32}",
+        "type": "sizing"
+      },
+      "sm": {
+        "value": "{size.40}",
+        "type": "sizing"
+      },
+      "md": {
+        "value": "{size.48}",
+        "type": "sizing"
+      },
+      "lg": {
+        "value": "{size.56}",
+        "type": "sizing"
+      },
+      "x-lg": {
+        "value": "{size.64}",
+        "type": "sizing"
+      }
+    },
+    "action": {
+      "size": {
+        "small": {
+          "value": "{semantic.component.sm}",
+          "type": "sizing"
+        },
+        "medium": {
+          "value": "{semantic.component.md}",
+          "type": "sizing"
+        },
+        "large": {
+          "value": "{semantic.component.lg}",
+          "type": "sizing"
+        },
+        "content": {
+          "small": {
+            "value": "{size.22}",
+            "type": "sizing"
+          },
+          "medium": {
+            "value": "{size.24}",
+            "type": "sizing"
+          },
+          "large": {
+            "value": "{size.28}",
+            "type": "sizing"
+          }
+        }
+      }
+    }
   }
 }
