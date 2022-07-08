@@ -169,34 +169,34 @@
       }
     }
   },
+  "font-family": {
+    "sans-serif": {
+      "heading": {
+        "value": "SF Pro Display",
+        "type": "fontFamilies",
+        "description": "Sans serif font family used for display text & headlines"
+      },
+      "body": {
+        "value": "SF Pro Text",
+        "type": "fontFamilies",
+        "description": "Sans serif font family for title, body, and caption"
+      }
+    },
+    "serif": {
+      "heading": {
+        "value": "Bianco Serif",
+        "type": "fontFamilies",
+        "description": "Serif font family used for display text & headlines"
+      },
+      "body": {
+        "value": "Bianco Serif",
+        "type": "fontFamilies",
+        "description": "Serif font family used for title, body, and caption"
+      }
+    }
+  },
   "fd": {
     "type": {
-      "font-family": {
-        "heading": {
-          "sans-serif": {
-            "value": "SF Pro Display",
-            "type": "fontFamilies",
-            "description": "Sans serif font family used for display text & headlines"
-          },
-          "serif": {
-            "value": "Bianco Serif",
-            "type": "fontFamilies",
-            "description": "Serif font family used for display text & headlines"
-          }
-        },
-        "body": {
-          "sans-serif": {
-            "value": "SF Pro Text",
-            "type": "fontFamilies",
-            "description": "Sans serif font family for title, body, and caption"
-          },
-          "serif": {
-            "value": "Bianco Serif",
-            "type": "fontFamilies",
-            "description": "Serif font family used for title, body, and caption"
-          }
-        }
-      },
       "letter-spacing": {
         "narrowest": {
           "value": "-0.5",
