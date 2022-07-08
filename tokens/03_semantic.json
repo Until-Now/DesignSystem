@@ -274,45 +274,45 @@
         "sans-serif": {
           "regular": {
             "display": {
-              "value": "{fd.type.font-weight.regular}",
+              "value": "{font-weight.regular}",
               "type": "fontWeights"
             },
             "headline": {
-              "value": "{fd.type.font-weight.regular}",
+              "value": "{font-weight.regular}",
               "type": "fontWeights"
             },
             "title": {
-              "value": "{fd.type.font-weight.regular}",
+              "value": "{font-weight.regular}",
               "type": "fontWeights"
             },
             "body": {
-              "value": "{fd.type.font-weight.regular}",
+              "value": "{font-weight.regular}",
               "type": "fontWeights"
             },
             "caption": {
-              "value": "{fd.type.font-weight.regular}",
+              "value": "{font-weight.regular}",
               "type": "fontWeights"
             }
           },
           "bold": {
             "display": {
-              "value": "{fd.type.font-weight.bold}",
+              "value": "{font-weight.bold}",
               "type": "fontWeights"
             },
             "headline": {
-              "value": "{fd.type.font-weight.bold}",
+              "value": "{font-weight.bold}",
               "type": "fontWeights"
             },
             "title": {
-              "value": "{fd.type.font-weight.bold}",
+              "value": "{font-weight.bold}",
               "type": "fontWeights"
             },
             "body": {
-              "value": "{fd.type.font-weight.semibold}",
+              "value": "{font-weight.semibold}",
               "type": "fontWeights"
             },
             "caption": {
-              "value": "{fd.type.font-weight.semibold}",
+              "value": "{font-weight.semibold}",
               "type": "fontWeights"
             }
           }
@@ -320,45 +320,45 @@
         "serif": {
           "regular": {
             "display": {
-              "value": "{fd.type.font-weight.regular}",
+              "value": "{font-weight.regular}",
               "type": "fontWeights"
             },
             "headline": {
-              "value": "{fd.type.font-weight.regular}",
+              "value": "{font-weight.regular}",
               "type": "fontWeights"
             },
             "title": {
-              "value": "{fd.type.font-weight.regular}",
+              "value": "{font-weight.regular}",
               "type": "fontWeights"
             },
             "body": {
-              "value": "{fd.type.font-weight.regular}",
+              "value": "{font-weight.regular}",
               "type": "fontWeights"
             },
             "caption": {
-              "value": "{fd.type.font-weight.regular}",
+              "value": "{font-weight.regular}",
               "type": "fontWeights"
             }
           },
           "bold": {
             "display": {
-              "value": "{fd.type.font-weight.bold}",
+              "value": "{font-weight.bold}",
               "type": "fontWeights"
             },
             "headline": {
-              "value": "{fd.type.font-weight.bold}",
+              "value": "{font-weight.bold}",
               "type": "fontWeights"
             },
             "title": {
-              "value": "{fd.type.font-weight.bold}",
+              "value": "{font-weight.bold}",
               "type": "fontWeights"
             },
             "body": {
-              "value": "{fd.type.font-weight.bold}",
+              "value": "{font-weight.bold}",
               "type": "fontWeights"
             },
             "caption": {
-              "value": "{fd.type.font-weight.bold}",
+              "value": "{font-weight.bold}",
               "type": "fontWeights"
             }
           }

@@ -329,27 +329,27 @@
     "avatar": {
       "size": {
         "x-sm": {
-          "value": "{sys.type.line-height.sans-serif.sm.body}+{sys.type.font-size.sans-serif.sm.body}",
+          "value": "{line-height.sans-serif.sm.body}+{font-size.sans-serif.sm.body}",
           "type": "sizing"
         },
         "sm": {
-          "value": "{sys.type.line-height.sans-serif.md.body}+{sys.type.font-size.sans-serif.md.body}",
+          "value": "{line-height.sans-serif.md.body}+{font-size.sans-serif.md.body}",
           "type": "sizing"
         },
         "md": {
-          "value": "{sys.type.line-height.sans-serif.md.title}+{sys.type.font-size.sans-serif.md.title}",
+          "value": "{line-height.sans-serif.md.title}+{font-size.sans-serif.md.title}",
           "type": "sizing"
         },
         "lg": {
-          "value": "{sys.type.line-height.sans-serif.lg.title}+{sys.type.font-size.sans-serif.lg.title}",
+          "value": "{line-height.sans-serif.lg.title}+{font-size.sans-serif.lg.title}",
           "type": "sizing"
         },
         "x-lg": {
-          "value": "{sys.type.line-height.sans-serif.md.headline}+{sys.type.font-size.sans-serif.md.headline}",
+          "value": "{line-height.sans-serif.md.headline}+{font-size.sans-serif.md.headline}",
           "type": "sizing"
         },
         "xx-lg": {
-          "value": "{sys.type.line-height.sans-serif.sm.display}+{sys.type.font-size.sans-serif.sm.display}",
+          "value": "{line-height.sans-serif.sm.display}+{font-size.sans-serif.sm.display}",
           "type": "sizing"
         }
       },
