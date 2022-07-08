@@ -1,0 +1,398 @@
+{
+  "comp": {
+    "button": {
+      "radius": {
+        "sm": {
+          "value": "{sys.border-radius.2}",
+          "type": "borderRadius"
+        },
+        "md": {
+          "value": "{sys.border-radius.2}",
+          "type": "borderRadius"
+        },
+        "lg": {
+          "value": "{sys.border-radius.2}",
+          "type": "borderRadius"
+        }
+      },
+      "colour": {
+        "primary": {
+          "default": {
+            "state": {
+              "value": "{sys._overlay.accent.primary-light.default}",
+              "type": "color"
+            }
+          },
+          "hover": {
+            "state": {
+              "value": "{sys._overlay.accent.primary-light.hover}",
+              "type": "color"
+            }
+          },
+          "press": {
+            "state": {
+              "value": "{sys._overlay.accent.primary-light.press}",
+              "type": "color"
+            }
+          },
+          "disabled": {
+            "state": {
+              "value": "{sys._overlay.accent.primary-light.disabled}",
+              "type": "color"
+            }
+          }
+        },
+        "secondary": {
+          "default": {
+            "state": {
+              "value": "{sys._overlay.accent.primary-dark.default}",
+              "type": "color"
+            }
+          },
+          "hover": {
+            "state": {
+              "value": "{sys._overlay.accent.primary-dark.hover}",
+              "type": "color"
+            }
+          },
+          "press": {
+            "state": {
+              "value": "{sys._overlay.accent.primary-dark.press}",
+              "type": "color"
+            }
+          },
+          "disabled": {
+            "state": {
+              "value": "{sys._overlay.accent.primary-dark.disabled}",
+              "type": "color"
+            }
+          }
+        },
+        "tertiary": {
+          "default": {
+            "state": {
+              "value": "{sys._overlay.accent.primary-dark.default}",
+              "type": "color"
+            }
+          },
+          "hover": {
+            "state": {
+              "value": "{sys._overlay.accent.primary-dark.hover}",
+              "type": "color"
+            }
+          },
+          "press": {
+            "state": {
+              "value": "{sys._overlay.accent.primary-dark.press}",
+              "type": "color"
+            }
+          },
+          "disabled": {
+            "state": {
+              "value": "{sys._overlay.accent.primary-dark.disabled}",
+              "type": "color"
+            }
+          }
+        },
+        "subtle": {
+          "default": {
+            "state": {
+              "value": "{sys._overlay.accent.primary-dark.default}",
+              "type": "color"
+            }
+          },
+          "hover": {
+            "state": {
+              "value": "{sys._overlay.accent.primary-dark.hover}",
+              "type": "color"
+            }
+          },
+          "press": {
+            "state": {
+              "value": "{sys._overlay.accent.primary-dark.press}",
+              "type": "color"
+            }
+          },
+          "disabled": {
+            "state": {
+              "value": "{sys._overlay.accent.primary-dark.disabled}",
+              "type": "color"
+            }
+          }
+        }
+      }
+    },
+    "input-field": {
+      "radius": {
+        "value": "{sys.border-radius.2}",
+        "type": "borderRadius"
+      }
+    },
+    "menu": {
+      "radius": {
+        "value": "{sys.border-radius.0}",
+        "type": "borderRadius"
+      },
+      "container": {
+        "default": {
+          "value": "{sys._semantic.colour.transparent}",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "{sys._semantic.colour.transparent}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{sys.fg.primary.sf-100}",
+          "type": "color"
+        },
+        "press": {
+          "value": "{sys.fg.primary.sf-200}",
+          "type": "color"
+        }
+      },
+      "type": {
+        "label": {
+          "value": "{typography.sans-serif.body-lg.bold}",
+          "type": "typography"
+        },
+        "link": {
+          "value": "{typography.sans-serif.body-lg.bold}",
+          "type": "typography"
+        }
+      }
+    },
+    "snackbar": {
+      "radius": {
+        "value": "{comp.button.radius.md}",
+        "type": "borderRadius"
+      },
+      "colour": {
+        "error": {
+          "bg": {
+            "value": "{sys._feedback.error.surface}",
+            "type": "color"
+          },
+          "content": {
+            "value": "{sys._feedback.error.content}",
+            "type": "color"
+          },
+          "button-content": {
+            "value": "{sys._feedback.error.content}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "chip": {
+      "colour": {
+        "action": {
+          "active": {
+            "default": {
+              "state": {
+                "value": "{sys._overlay.accent.primary-light.default}",
+                "type": "color"
+              }
+            },
+            "hover": {
+              "state": {
+                "value": "{sys._overlay.accent.primary-light.hover}",
+                "type": "color"
+              }
+            },
+            "press": {
+              "state": {
+                "value": "{sys._overlay.accent.primary-light.press}",
+                "type": "color"
+              }
+            }
+          }
+        },
+        "badge": {
+          "rating": {
+            "default": {
+              "bg": {
+                "value": "{sys._status.default.background}",
+                "type": "color"
+              },
+              "content": {
+                "value": "{sys._status.default.content}",
+                "type": "color"
+              },
+              "rating": {
+                "value": "{sys.fg.star-rating}",
+                "type": "color"
+              }
+            }
+          }
+        },
+        "sentiment": {
+          "selected": {
+            "info": {
+              "default": {
+                "content": {
+                  "value": "{sys._status.sentiment.info.default.content}",
+                  "type": "color"
+                }
+              },
+              "hover": {
+                "content": {
+                  "value": "{sys._status.sentiment.info.hover.content}",
+                  "type": "color"
+                }
+              },
+              "press": {
+                "content": {
+                  "value": "{sys._status.sentiment.info.press.content}",
+                  "type": "color"
+                }
+              }
+            }
+          }
+        }
+      },
+      "size": {
+        "height": {
+          "x-sm": {
+            "value": "{sys.size.20}",
+            "type": "sizing"
+          }
+        },
+        "content": {
+          "xx-sm": {
+            "value": "{sys.size.16}",
+            "type": "sizing"
+          }
+        }
+      },
+      "type": {
+        "x-sm": {
+          "value": "{typography.sans-serif.caption-sm.regular}",
+          "type": "typography"
+        }
+      }
+    },
+    "selection-control": {
+      "switch": {
+        "colour": {
+          "default": {
+            "state": {
+              "value": "{sys._overlay.accent.primary-dark.default}",
+              "type": "color"
+            }
+          },
+          "hover": {
+            "state": {
+              "value": "{sys._overlay.accent.primary-dark.hover}",
+              "type": "color"
+            }
+          },
+          "press": {
+            "state": {
+              "value": "{sys._overlay.accent.primary-dark.press}",
+              "type": "color"
+            }
+          },
+          "error": {
+            "state": {
+              "value": "{sys._overlay.accent.primary-dark.default}",
+              "type": "color"
+            },
+            "outline": {
+              "value": "{sys._inputs.error.outline}",
+              "type": "color"
+            }
+          },
+          "disabled": {
+            "state": {
+              "value": "{sys._overlay.accent.primary-dark.disabled}",
+              "type": "color"
+            }
+          },
+          "active": {
+            "default": {
+              "state": {
+                "value": "{sys._overlay.lighter.default-surface-opacity}",
+                "type": "color"
+              },
+              "toggle-icon": {
+                "value": "{sys._inputs.content.strong}",
+                "type": "color"
+              }
+            },
+            "hover": {
+              "state": {
+                "value": "{sys._overlay.lighter.hover-surface-opacity}",
+                "type": "color"
+              },
+              "toggle-icon": {
+                "value": "{sys._inputs.content.strong}",
+                "type": "color"
+              }
+            },
+            "press": {
+              "state": {
+                "value": "{sys._overlay.lighter.press-surface-opacity}",
+                "type": "color"
+              },
+              "toggle-icon": {
+                "value": "{sys._inputs.content.strong}",
+                "type": "color"
+              }
+            },
+            "error": {
+              "state": {
+                "value": "{sys._overlay.lighter.default-surface-opacity}",
+                "type": "color"
+              },
+              "toggle-icon": {
+                "value": "{sys._inputs.content.strong}",
+                "type": "color"
+              },
+              "outline": {
+                "value": "{sys._inputs.error.outline}",
+                "type": "color"
+              }
+            },
+            "disabled": {
+              "state": {
+                "value": "{sys._overlay.lighter.disabled-surface-opacity}",
+                "type": "color"
+              }
+            }
+          }
+        }
+      },
+      "radio-and-checkbox": {
+        "colour": {
+          "active": {
+            "error": {
+              "outline": {
+                "value": "{sys._inputs.error.outline}",
+                "type": "color"
+              }
+            }
+          }
+        }
+      },
+      "call-out": {
+        "container": {
+          "default": {
+            "bg": {
+              "value": "{sys.fg.primary.sf-100}",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "border-radius": {
+        "call-out": {
+          "all": {
+            "value": "{sys.border-radius.2}",
+            "type": "borderRadius"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "sys": {
+    "_action": {
+      "secondary": {
+        "default": {
+          "background": {
+            "value": "{sys._semantic.colour.primary-surface}",
+            "type": "color"
+          },
+          "content": {
+            "value": "{sys._semantic.colour.on-primary-surface}",
+            "type": "color"
+          },
+          "split": {
+            "value": "{sys._semantic.colour.on-primary-surface}",
+            "type": "color"
+          }
+        }
+      },
+      "tertiary": {
+        "outline": {
+          "value": "{fd._colour.neutral.300}",
+          "type": "color"
+        }
+      }
+    },
+    "bg": {
+      "primary": {
+        "bg-400": {
+          "value": "{fd._colour.brand.primary.700}",
+          "type": "color"
+        }
+      }
+    },
+    "content": {
+      "accent-on-dark": {
+        "value": "{fd._colour.brand.primary.300}",
+        "type": "color"
+      }
+    },
+    "_overlay": {
+      "accent": {
+        "primary-light": {
+          "default": {
+            "value": "rgba({sys._semantic.colour.on-primary},0.00)",
+            "type": "color"
+          },
+          "hover": {
+            "value": "rgba({sys._semantic.colour.on-primary},0.12)",
+            "type": "color"
+          },
+          "press": {
+            "value": "rgba({sys._semantic.colour.on-primary},0.24)",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "rgba({sys._semantic.colour.on-primary},0.00)",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "fg": {
+      "star-rating": {
+        "value": "#FDCD22",
+        "type": "color"
+      }
+    }
+  }
+}
