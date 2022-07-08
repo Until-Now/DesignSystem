@@ -3,15 +3,15 @@
     "button": {
       "radius": {
         "sm": {
-          "value": "{sys.border-radius.100}",
+          "value": "{border-radius.100}",
           "type": "borderRadius"
         },
         "md": {
-          "value": "{sys.border-radius.100}",
+          "value": "{border-radius.100}",
           "type": "borderRadius"
         },
         "lg": {
-          "value": "{sys.border-radius.100}",
+          "value": "{border-radius.100}",
           "type": "borderRadius"
         }
       },
@@ -78,7 +78,7 @@
     },
     "input-field": {
       "radius": {
-        "value": "{sys.border-radius.8}",
+        "value": "{border-radius.8}",
         "type": "borderRadius"
       },
       "content": {
@@ -90,7 +90,7 @@
     },
     "menu": {
       "radius": {
-        "value": "{sys.border-radius.0}",
+        "value": "{border-radius.0}",
         "type": "borderRadius"
       },
       "container": {
@@ -103,11 +103,11 @@
           "type": "color"
         },
         "hover": {
-          "value": "{sys.fg.primary.sf-100}",
+          "value": "{semantic.fg.primary.sf-100}",
           "type": "color"
         },
         "press": {
-          "value": "{sys.fg.primary.sf-200}",
+          "value": "{semantic.fg.primary.sf-200}",
           "type": "color"
         }
       }
@@ -220,13 +220,13 @@
       "border-radius": {
         "tag": {
           "all": {
-            "value": "{sys.border-radius.100}",
+            "value": "{border-radius.100}",
             "type": "borderRadius"
           }
         },
         "track": {
           "all": {
-            "value": "{sys.border-radius.100}",
+            "value": "{border-radius.100}",
             "type": "borderRadius"
           }
         }
@@ -271,11 +271,11 @@
       },
       "border-width": {
         "graph-frame": {
-          "value": "{sys.border-width.1}",
+          "value": "{border-width.1}",
           "type": "borderWidth"
         },
         "line-chart-data": {
-          "value": "{sys.border-width.2}",
+          "value": "{border-width.2}",
           "type": "borderWidth"
         }
       },

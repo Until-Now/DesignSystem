@@ -3,15 +3,15 @@
     "button": {
       "radius": {
         "sm": {
-          "value": "{sys.border-radius.2}",
+          "value": "{border-radius.2}",
           "type": "borderRadius"
         },
         "md": {
-          "value": "{sys.border-radius.2}",
+          "value": "{border-radius.2}",
           "type": "borderRadius"
         },
         "lg": {
-          "value": "{sys.border-radius.2}",
+          "value": "{border-radius.2}",
           "type": "borderRadius"
         }
       },
@@ -124,13 +124,13 @@
     },
     "input-field": {
       "radius": {
-        "value": "{sys.border-radius.2}",
+        "value": "{border-radius.2}",
         "type": "borderRadius"
       }
     },
     "menu": {
       "radius": {
-        "value": "{sys.border-radius.0}",
+        "value": "{border-radius.0}",
         "type": "borderRadius"
       },
       "container": {
@@ -143,11 +143,11 @@
           "type": "color"
         },
         "hover": {
-          "value": "{sys.fg.primary.sf-100}",
+          "value": "{semantic.fg.primary.sf-100}",
           "type": "color"
         },
         "press": {
-          "value": "{sys.fg.primary.sf-200}",
+          "value": "{semantic.fg.primary.sf-200}",
           "type": "color"
         }
       },
@@ -254,13 +254,13 @@
       "size": {
         "height": {
           "x-sm": {
-            "value": "{sys.size.20}",
+            "value": "{size.20}",
             "type": "sizing"
           }
         },
         "content": {
           "xx-sm": {
-            "value": "{sys.size.16}",
+            "value": "{size.16}",
             "type": "sizing"
           }
         }
@@ -379,7 +379,7 @@
         "container": {
           "default": {
             "bg": {
-              "value": "{sys.fg.primary.sf-100}",
+              "value": "{semantic.fg.primary.sf-100}",
               "type": "color"
             }
           }
@@ -388,7 +388,7 @@
       "border-radius": {
         "call-out": {
           "all": {
-            "value": "{sys.border-radius.2}",
+            "value": "{border-radius.2}",
             "type": "borderRadius"
           }
         }
