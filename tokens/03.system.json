@@ -1946,7 +1946,7 @@
       "type": "sizing"
     }
   },
-  "spacing": {
+  "space": {
     "1": {
       "value": "1",
       "type": "spacing"

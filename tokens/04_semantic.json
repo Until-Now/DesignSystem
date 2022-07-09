@@ -359,6 +359,144 @@
           }
         }
       }
+    },
+    "spacing": {
+      "action": {
+        "small": {
+          "padding-left": {
+            "value": "{space.12}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{space.12}",
+            "type": "spacing"
+          }
+        },
+        "medium": {
+          "padding-left": {
+            "value": "{space.16}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{space.16}",
+            "type": "spacing"
+          }
+        },
+        "large": {
+          "padding-left": {
+            "value": "{space.20}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{space.20}",
+            "type": "spacing"
+          }
+        },
+        "text": {
+          "padding-left": {
+            "value": "{space.4}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{space.4}",
+            "type": "spacing"
+          }
+        },
+        "space-between": {
+          "value": "{space.4}",
+          "type": "spacing"
+        }
+      },
+      "input": {
+        "small": {
+          "padding-left": {
+            "value": "{space.12}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{space.12}",
+            "type": "spacing"
+          }
+        },
+        "medium": {
+          "padding-left": {
+            "value": "{space.14}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{space.14}",
+            "type": "spacing"
+          }
+        },
+        "large": {
+          "padding-left": {
+            "value": "{space.16}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{space.16}",
+            "type": "spacing"
+          }
+        },
+        "text": {
+          "padding-left": {
+            "value": "{space.4}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{space.4}",
+            "type": "spacing"
+          }
+        },
+        "space-between": {
+          "value": "{space.4}",
+          "type": "spacing"
+        }
+      },
+      "feedback": {
+        "small-item": {
+          "padding-left": {
+            "value": "{space.8}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{space.8}",
+            "type": "spacing"
+          },
+          "text": {
+            "padding-left": {
+              "value": "{space.8}",
+              "type": "spacing"
+            },
+            "padding-right": {
+              "value": "{space.8}",
+              "type": "spacing"
+            }
+          },
+          "space-between": {
+            "value": "{space.0}",
+            "type": "spacing"
+          }
+        },
+        "large-item": {
+          "padding-left": {
+            "value": "{space.20}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{space.20}",
+            "type": "spacing"
+          },
+          "padding-top": {
+            "value": "{space.20}",
+            "type": "spacing"
+          },
+          "padding-bottom": {
+            "value": "{space.20}",
+            "type": "spacing"
+          }
+        }
+      }
     }
   }
 }

@@ -475,31 +475,31 @@
       },
       "spacing": {
         "left": {
-          "value": "{spacing.8}",
-          "type": "spacing"
+          "type": "spacing",
+          "value": "{space.8}"
         },
         "right": {
-          "value": "{spacing.8}",
-          "type": "spacing"
+          "type": "spacing",
+          "value": "{space.8}"
         },
         "button": {
           "left": {
-            "value": "{spacing.4}",
-            "type": "spacing"
+            "type": "spacing",
+            "value": "{space.4}"
           },
           "right": {
-            "value": "{spacing.4}",
-            "type": "spacing"
+            "type": "spacing",
+            "value": "{space.4}"
           }
         },
         "label": {
           "left": {
-            "value": "{spacing.8}",
-            "type": "spacing"
+            "type": "spacing",
+            "value": "{space.8}"
           },
           "right": {
-            "value": "{spacing.8}",
-            "type": "spacing"
+            "type": "spacing",
+            "value": "{space.8}"
           }
         }
       }
@@ -1221,20 +1221,20 @@
         "spacing": {
           "callout": {
             "left": {
-              "value": "{spacing.16}",
-              "type": "spacing"
+              "type": "spacing",
+              "value": "{space.16}"
             },
             "right": {
-              "value": "{spacing.16}",
-              "type": "spacing"
+              "type": "spacing",
+              "value": "{space.16}"
             },
             "top": {
-              "value": "{spacing.12}",
-              "type": "spacing"
+              "type": "spacing",
+              "value": "{space.12}"
             },
             "bot": {
-              "value": "{spacing.12}",
-              "type": "spacing"
+              "type": "spacing",
+              "value": "{space.12}"
             }
           }
         }
@@ -1493,20 +1493,20 @@
         "spacing": {
           "callout": {
             "left": {
-              "value": "{spacing.16}",
-              "type": "spacing"
+              "type": "spacing",
+              "value": "{space.16}"
             },
             "right": {
-              "value": "{spacing.16}",
-              "type": "spacing"
+              "type": "spacing",
+              "value": "{space.16}"
             },
             "top": {
-              "value": "{spacing.8}",
-              "type": "spacing"
+              "type": "spacing",
+              "value": "{space.8}"
             },
             "bot": {
-              "value": "{spacing.8}",
-              "type": "spacing"
+              "type": "spacing",
+              "value": "{space.8}"
             }
           }
         }
@@ -1961,20 +1961,20 @@
       "spacing": {
         "tag": {
           "left": {
-            "value": "{spacing.8}",
-            "type": "spacing"
+            "type": "spacing",
+            "value": "{space.8}"
           },
           "right": {
-            "value": "{spacing.8}",
-            "type": "spacing"
+            "type": "spacing",
+            "value": "{space.8}"
           },
           "top": {
-            "value": "{spacing.2}",
-            "type": "spacing"
+            "type": "spacing",
+            "value": "{space.2}"
           },
           "bot": {
-            "value": "{spacing.2}",
-            "type": "spacing"
+            "type": "spacing",
+            "value": "{space.2}"
           }
         }
       },

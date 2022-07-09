@@ -16,6 +16,20 @@
             "value": "{semantic.size.action.large}"
           }
         },
+        "width": {
+          "small": {
+            "type": "sizing",
+            "value": "{semantic.size.action.small}"
+          },
+          "medium": {
+            "type": "sizing",
+            "value": "{semantic.size.action.medium}"
+          },
+          "large": {
+            "type": "sizing",
+            "value": "{semantic.size.action.large}"
+          }
+        },
         "content": {
           "small": {
             "type": "sizing",
