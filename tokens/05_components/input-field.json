@@ -1,0 +1,36 @@
+{
+  "comp": {
+    "input-field": {
+      "size": {
+        "height": {
+          "sm": {
+            "value": "{semantic.size.input.small}",
+            "type": "sizing"
+          },
+          "md": {
+            "value": "{semantic.size.input.medium}",
+            "type": "sizing"
+          },
+          "lg": {
+            "value": "{semantic.size.input.large}",
+            "type": "sizing"
+          }
+        },
+        "content": {
+          "sm": {
+            "value": "{semantic.size.input.content.small}",
+            "type": "sizing"
+          },
+          "md": {
+            "value": "{semantic.size.input.content.medium}",
+            "type": "sizing"
+          },
+          "lg": {
+            "value": "{semantic.size.input.content.large}",
+            "type": "sizing"
+          }
+        }
+      }
+    }
+  }
+}

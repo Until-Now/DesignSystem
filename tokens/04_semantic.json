@@ -141,6 +141,10 @@
   },
   "semantic": {
     "component": {
+      "xx-sm": {
+        "value": "{size.24}",
+        "type": "sizing"
+      },
       "x-sm": {
         "value": "{size.32}",
         "type": "sizing"
@@ -260,7 +264,7 @@
               "value": "{size.480}",
               "type": "sizing"
             },
-            "x-lg": {
+            "x-large": {
               "value": "{size.640}",
               "type": "sizing"
             },
@@ -319,6 +323,38 @@
           },
           "xx-lg": {
             "value": "{line-height.sans-serif.sm.display}+{font-size.sans-serif.sm.display}",
+            "type": "sizing"
+          }
+        }
+      },
+      "status": {
+        "small": {
+          "height": {
+            "value": "{semantic.component.xx-sm}",
+            "type": "sizing"
+          },
+          "content": {
+            "value": "{size.20}",
+            "type": "sizing"
+          }
+        },
+        "medium": {
+          "height": {
+            "value": "{semantic.component.x-sm}",
+            "type": "sizing"
+          },
+          "content": {
+            "value": "{size.22}",
+            "type": "sizing"
+          }
+        },
+        "large": {
+          "height": {
+            "value": "{semantic.component.sm}",
+            "type": "sizing"
+          },
+          "content": {
+            "value": "{size.24}",
             "type": "sizing"
           }
         }

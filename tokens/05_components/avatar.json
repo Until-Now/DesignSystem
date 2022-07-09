@@ -1,0 +1,58 @@
+{
+  "comp": {
+    "avatar": {
+      "size": {
+        "x-sm": {
+          "value": "{semantic.size.navigation.x-sm}",
+          "type": "sizing"
+        },
+        "sm": {
+          "value": "{semantic.size.navigation.sm}",
+          "type": "sizing"
+        },
+        "md": {
+          "value": "{semantic.size.navigation.md}",
+          "type": "sizing"
+        },
+        "lg": {
+          "value": "{semantic.size.navigation.lg}",
+          "type": "sizing"
+        },
+        "x-lg": {
+          "value": "{semantic.size.navigation.x-lg}",
+          "type": "sizing"
+        },
+        "xx-lg": {
+          "value": "{semantic.size.navigation.xx-lg}",
+          "type": "sizing"
+        },
+        "content": {
+          "x-sm": {
+            "value": "{semantic.size.navigation.content.x-sm}",
+            "type": "sizing"
+          },
+          "sm": {
+            "value": "{semantic.size.navigation.content.sm}",
+            "type": "sizing"
+          },
+          "md": {
+            "value": "{semantic.size.navigation.content.md}",
+            "type": "sizing"
+          },
+          "lg": {
+            "value": "{semantic.size.navigation.content.lg}",
+            "type": "sizing"
+          },
+          "x-lg": {
+            "value": "{semantic.size.navigation.content.x-lg}",
+            "type": "sizing"
+          },
+          "xx-lg": {
+            "value": "{semantic.size.navigation.content.xx-lg}",
+            "type": "sizing"
+          }
+        }
+      }
+    }
+  }
+}

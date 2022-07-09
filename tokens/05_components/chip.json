@@ -1,0 +1,36 @@
+{
+  "comp": {
+    "chip": {
+      "size": {
+        "height": {
+          "sm": {
+            "value": "{semantic.component.xx-sm}",
+            "type": "sizing"
+          },
+          "md": {
+            "value": "{semantic.component.x-sm}",
+            "type": "sizing"
+          },
+          "lg": {
+            "value": "{semantic.component.sm}",
+            "type": "sizing"
+          }
+        },
+        "content": {
+          "sm": {
+            "value": "{semantic.size.status.small.content}",
+            "type": "sizing"
+          },
+          "md": {
+            "value": "{semantic.size.status.medium.content}",
+            "type": "sizing"
+          },
+          "lg": {
+            "value": "{semantic.size.status.large.content}",
+            "type": "sizing"
+          }
+        }
+      }
+    }
+  }
+}

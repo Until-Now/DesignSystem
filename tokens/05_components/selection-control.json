@@ -1,0 +1,38 @@
+{
+  "comp": {
+    "selection-control": {
+      "switch": {
+        "size": {
+          "width": {
+            "value": "{size.44}",
+            "type": "sizing"
+          },
+          "height": {
+            "value": "{size.32}",
+            "type": "sizing"
+          },
+          "toggle": {
+            "value": "{size.28}",
+            "type": "sizing"
+          },
+          "icon": {
+            "value": "{size.20}",
+            "type": "sizing"
+          }
+        }
+      },
+      "radio-and-checkbox": {
+        "size": {
+          "control": {
+            "value": "{size.20}",
+            "type": "sizing"
+          },
+          "icon": {
+            "value": "{size.24}",
+            "type": "sizing"
+          }
+        }
+      }
+    }
+  }
+}

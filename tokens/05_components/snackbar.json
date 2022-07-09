@@ -1,0 +1,18 @@
+{
+  "comp": {
+    "snackbar": {
+      "size": {
+        "one-line": {
+          "height": {
+            "value": "{semantic.size.feedback.container.small}",
+            "type": "sizing"
+          },
+          "content": {
+            "value": "{semantic.size.feedback.content}",
+            "type": "sizing"
+          }
+        }
+      }
+    }
+  }
+}

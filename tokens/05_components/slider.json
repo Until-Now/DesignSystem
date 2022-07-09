@@ -1,0 +1,34 @@
+{
+  "comp": {
+    "slider": {
+      "size": {
+        "track": {
+          "height": {
+            "value": "{size.8}",
+            "type": "sizing"
+          }
+        },
+        "thumb": {
+          "button": {
+            "value": "{size.32}",
+            "type": "sizing"
+          },
+          "icon": {
+            "value": "{size.20}",
+            "type": "sizing"
+          }
+        },
+        "tag": {
+          "height": {
+            "value": "{size.24}",
+            "type": "sizing"
+          },
+          "width": {
+            "value": "{size.48}",
+            "type": "sizing"
+          }
+        }
+      }
+    }
+  }
+}
