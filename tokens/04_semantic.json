@@ -162,8 +162,8 @@
         "type": "sizing"
       }
     },
-    "action": {
-      "size": {
+    "size": {
+      "action": {
         "small": {
           "value": "{semantic.component.sm}",
           "type": "sizing"
@@ -187,6 +187,138 @@
           },
           "large": {
             "value": "{size.28}",
+            "type": "sizing"
+          }
+        }
+      },
+      "input": {
+        "small": {
+          "value": "{semantic.component.sm}",
+          "type": "sizing"
+        },
+        "medium": {
+          "value": "{semantic.component.md}",
+          "type": "sizing"
+        },
+        "large": {
+          "value": "{semantic.component.lg}",
+          "type": "sizing"
+        },
+        "content": {
+          "small": {
+            "value": "{size.24}",
+            "type": "sizing"
+          },
+          "medium": {
+            "value": "{size.24}",
+            "type": "sizing"
+          },
+          "large": {
+            "value": "{size.24}",
+            "type": "sizing"
+          }
+        }
+      },
+      "feedback": {
+        "content": {
+          "value": "{size.24}",
+          "type": "sizing"
+        },
+        "container": {
+          "loader": {
+            "small": {
+              "value": "{size.1}",
+              "type": "sizing"
+            },
+            "medium": {
+              "value": "{size.2}",
+              "type": "sizing"
+            },
+            "large": {
+              "value": "{size.4}",
+              "type": "sizing"
+            }
+          },
+          "small": {
+            "value": "{size.56}",
+            "type": "sizing"
+          },
+          "large": {
+            "value": "{size.144}",
+            "type": "sizing"
+          },
+          "width": {
+            "small": {
+              "value": "{size.280}",
+              "type": "sizing"
+            },
+            "medium": {
+              "value": "{size.360}",
+              "type": "sizing"
+            },
+            "large": {
+              "value": "{size.480}",
+              "type": "sizing"
+            },
+            "x-lg": {
+              "value": "{size.640}",
+              "type": "sizing"
+            },
+            "xx-large": {
+              "value": "{size.800}",
+              "type": "sizing"
+            }
+          }
+        }
+      },
+      "navigation": {
+        "x-sm": {
+          "value": "{line-height.sans-serif.sm.body}+{font-size.sans-serif.sm.body}",
+          "type": "sizing"
+        },
+        "sm": {
+          "value": "{line-height.sans-serif.md.body}+{font-size.sans-serif.md.body}",
+          "type": "sizing"
+        },
+        "md": {
+          "value": "{line-height.sans-serif.md.title}+{font-size.sans-serif.md.title}",
+          "type": "sizing"
+        },
+        "lg": {
+          "value": "{line-height.sans-serif.lg.title}+{font-size.sans-serif.lg.title}",
+          "type": "sizing"
+        },
+        "x-lg": {
+          "value": "{line-height.sans-serif.md.headline}+{font-size.sans-serif.md.headline}",
+          "type": "sizing"
+        },
+        "xx-lg": {
+          "value": "{line-height.sans-serif.sm.display}+{font-size.sans-serif.sm.display}",
+          "type": "sizing"
+        },
+        "content": {
+          "x-sm": {
+            "value": "{line-height.sans-serif.sm.body}+{font-size.sans-serif.sm.body}",
+            "type": "sizing"
+          },
+          "sm": {
+            "value": "{line-height.sans-serif.md.body}+{font-size.sans-serif.md.body}",
+            "type": "sizing"
+          },
+          "md": {
+            "value": "{line-height.sans-serif.md.title}+{font-size.sans-serif.md.title}",
+            "type": "sizing"
+          },
+          "lg": {
+            "value": "{line-height.sans-serif.lg.title}+{font-size.sans-serif.lg.title}",
+            "type": "sizing"
+          },
+          "x-lg": {
+            "value": "{line-height.sans-serif.md.headline}+{font-size.sans-serif.md.headline}",
+            "type": "sizing"
+          },
+          "xx-lg": {
+            "value": "{line-height.sans-serif.sm.display}+{font-size.sans-serif.sm.display}",
             "type": "sizing"
           }
         }

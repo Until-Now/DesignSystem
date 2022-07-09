@@ -4,30 +4,30 @@
       "size": {
         "height": {
           "small": {
-            "value": "{semantic.action.size.small}",
-            "type": "sizing"
+            "type": "sizing",
+            "value": "{semantic.size.action.small}"
           },
           "medium": {
-            "value": "{semantic.action.size.medium}",
-            "type": "sizing"
+            "type": "sizing",
+            "value": "{semantic.size.action.medium}"
           },
           "large": {
-            "value": "{semantic.action.size.large}",
-            "type": "sizing"
+            "type": "sizing",
+            "value": "{semantic.size.action.large}"
           }
         },
         "content": {
           "small": {
-            "value": "{semantic.action.size.content.small}",
-            "type": "sizing"
+            "type": "sizing",
+            "value": "{semantic.size.action.content.small}"
           },
           "medium": {
-            "value": "{semantic.action.size.content.medium}",
-            "type": "sizing"
+            "type": "sizing",
+            "value": "{semantic.size.action.content.medium}"
           },
           "large": {
-            "value": "{semantic.action.size.content.large}",
-            "type": "sizing"
+            "type": "sizing",
+            "value": "{semantic.size.action.content.large}"
           }
         }
       }
