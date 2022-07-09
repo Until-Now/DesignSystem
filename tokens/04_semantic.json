@@ -358,6 +358,20 @@
             "type": "sizing"
           }
         }
+      },
+      "container": {
+        "small": {
+          "value": "{size.1}",
+          "type": "sizing"
+        },
+        "medium": {
+          "value": "{size.2}",
+          "type": "sizing"
+        },
+        "large": {
+          "value": "{size.4}",
+          "type": "sizing"
+        }
       }
     },
     "spacing": {
@@ -494,6 +508,16 @@
           "padding-bottom": {
             "value": "{space.20}",
             "type": "spacing"
+          },
+          "content-spacing": {
+            "padding-top": {
+              "value": "{space.8}",
+              "type": "spacing"
+            },
+            "padding-bottom": {
+              "value": "{space.8}",
+              "type": "spacing"
+            }
           }
         }
       }

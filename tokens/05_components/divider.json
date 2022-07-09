@@ -1,0 +1,22 @@
+{
+  "comp": {
+    "divider": {
+      "size": {
+        "height": {
+          "small": {
+            "value": "{semantic.size.container.small}",
+            "type": "sizing"
+          },
+          "medium": {
+            "value": "{semantic.size.container.medium}",
+            "type": "sizing"
+          },
+          "large": {
+            "value": "{semantic.size.container.large}",
+            "type": "sizing"
+          }
+        }
+      }
+    }
+  }
+}

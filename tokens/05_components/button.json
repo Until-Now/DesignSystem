@@ -44,6 +44,52 @@
             "value": "{semantic.size.action.content.large}"
           }
         }
+      },
+      "space": {
+        "small": {
+          "padding-left": {
+            "value": "{semantic.spacing.action.small.padding-left}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{semantic.spacing.action.small.padding-right}",
+            "type": "spacing"
+          }
+        },
+        "medium": {
+          "padding-left": {
+            "value": "{semantic.spacing.action.medium.padding-left}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{semantic.spacing.action.medium.padding-right}",
+            "type": "spacing"
+          }
+        },
+        "large": {
+          "padding-left": {
+            "value": "{semantic.spacing.action.large.padding-left}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{semantic.spacing.action.large.padding-right}",
+            "type": "spacing"
+          }
+        },
+        "text": {
+          "padding-left": {
+            "value": "{semantic.spacing.action.text.padding-left}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{semantic.spacing.action.text.padding-right}",
+            "type": "spacing"
+          }
+        },
+        "space-between": {
+          "value": "{semantic.spacing.action.space-between}",
+          "type": "spacing"
+        }
       }
     }
   }
