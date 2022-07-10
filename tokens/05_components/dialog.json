@@ -28,56 +28,56 @@
       "spacing": {
         "header": {
           "padding-left": {
-            "value": "{semantic.spacing.feedback.large-item.padding-left}",
-            "type": "spacing"
+            "type": "spacing",
+            "value": "{semantic.spacing.feedback.ui-dialog.padding-left}"
           },
           "padding-right": {
-            "value": "{semantic.spacing.feedback.large-item.padding-right}",
-            "type": "spacing"
+            "type": "spacing",
+            "value": "{semantic.spacing.feedback.ui-dialog.padding-right}"
           },
           "padding-top": {
-            "value": "{semantic.spacing.feedback.large-item.padding-top}",
-            "type": "spacing"
+            "type": "spacing",
+            "value": "{semantic.spacing.feedback.ui-dialog.padding-top}"
           },
           "padding-bottom": {
-            "value": "{semantic.spacing.feedback.large-item.content-spacing.padding-bottom}",
-            "type": "spacing"
+            "type": "spacing",
+            "value": "{semantic.spacing.feedback.ui-dialog.content-spacing.padding-bottom}"
           }
         },
         "body": {
           "padding-left": {
-            "value": "{semantic.spacing.feedback.large-item.padding-left}",
-            "type": "spacing"
+            "type": "spacing",
+            "value": "{semantic.spacing.feedback.ui-dialog.padding-left}"
           },
           "padding-right": {
-            "value": "{semantic.spacing.feedback.large-item.padding-right}",
-            "type": "spacing"
+            "type": "spacing",
+            "value": "{semantic.spacing.feedback.ui-dialog.padding-right}"
           },
           "padding-top": {
-            "value": "{semantic.spacing.feedback.large-item.content-spacing.padding-top}",
-            "type": "spacing"
+            "type": "spacing",
+            "value": "{semantic.spacing.feedback.ui-dialog.content-spacing.padding-top}"
           },
           "padding-bottom": {
-            "value": "{semantic.spacing.feedback.large-item.content-spacing.padding-bottom}",
-            "type": "spacing"
+            "type": "spacing",
+            "value": "{semantic.spacing.feedback.ui-dialog.content-spacing.padding-bottom}"
           }
         },
         "footer": {
           "padding-left": {
-            "value": "{semantic.spacing.feedback.large-item.padding-left}",
-            "type": "spacing"
+            "type": "spacing",
+            "value": "{semantic.spacing.feedback.ui-dialog.padding-left}"
           },
           "padding-right": {
-            "value": "{semantic.spacing.feedback.large-item.padding-right}",
-            "type": "spacing"
+            "type": "spacing",
+            "value": "{semantic.spacing.feedback.ui-dialog.padding-right}"
           },
           "padding-top": {
-            "value": "{semantic.spacing.feedback.large-item.content-spacing.padding-top}",
-            "type": "spacing"
+            "type": "spacing",
+            "value": "{semantic.spacing.feedback.ui-dialog.content-spacing.padding-top}"
           },
           "padding-bottom": {
-            "value": "{semantic.spacing.feedback.large-item.padding-bottom}",
-            "type": "spacing"
+            "type": "spacing",
+            "value": "{semantic.spacing.feedback.ui-dialog.padding-bottom}"
           }
         }
       }

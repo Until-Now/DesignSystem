@@ -39,6 +39,12 @@
               "type": "spacing"
             }
           }
+        },
+        "border-radius": {
+          "all": {
+            "value": "{semantic.border.radius.round}",
+            "type": "borderRadius"
+          }
         }
       },
       "radio-and-checkbox": {
@@ -70,6 +76,22 @@
               "value": "{space.12}",
               "type": "spacing"
             }
+          }
+        }
+      },
+      "checkbox": {
+        "border-radius": {
+          "all": {
+            "value": "{semantic.border.radius.small}",
+            "type": "borderRadius"
+          }
+        }
+      },
+      "call-out": {
+        "border-radius": {
+          "all": {
+            "value": "{semantic.border-radius.input}",
+            "type": "borderRadius"
           }
         }
       }

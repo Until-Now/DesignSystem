@@ -1955,6 +1955,10 @@
     }
   },
   "space": {
+    "0": {
+      "value": "0",
+      "type": "spacing"
+    },
     "1": {
       "value": "1",
       "type": "spacing"

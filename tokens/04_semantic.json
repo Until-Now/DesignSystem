@@ -508,7 +508,7 @@
             "type": "spacing"
           }
         },
-        "large-item": {
+        "ui-dialog": {
           "padding-left": {
             "value": "{space.20}",
             "type": "spacing"
@@ -614,6 +614,52 @@
             }
           }
         }
+      }
+    },
+    "border": {
+      "radius": {
+        "small": {
+          "value": "{border-radius.2}",
+          "type": "borderRadius"
+        },
+        "medium": {
+          "value": "{border-radius.4}",
+          "type": "borderRadius"
+        },
+        "large": {
+          "value": "{border-radius.8}",
+          "type": "borderRadius"
+        },
+        "x-large": {
+          "value": "{border-radius.16}",
+          "type": "borderRadius"
+        },
+        "round": {
+          "value": "{border-radius.100}",
+          "type": "borderRadius"
+        }
+      }
+    },
+    "border-radius": {
+      "action": {
+        "value": "{border-radius.8}",
+        "type": "borderRadius"
+      },
+      "input": {
+        "value": "{border-radius.8}",
+        "type": "borderRadius"
+      },
+      "status": {
+        "value": "{border-radius.100}",
+        "type": "borderRadius"
+      },
+      "feedback": {
+        "value": "{border-radius.8}",
+        "type": "borderRadius"
+      },
+      "ui-dialog": {
+        "value": "{border-radius.16}",
+        "type": "borderRadius"
       }
     }
   }
