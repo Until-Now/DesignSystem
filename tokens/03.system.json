@@ -1793,6 +1793,10 @@
       "value": "16",
       "type": "sizing"
     },
+    "18": {
+      "value": "18",
+      "type": "sizing"
+    },
     "20": {
       "value": "20",
       "type": "sizing"
@@ -1803,6 +1807,10 @@
     },
     "24": {
       "value": "24",
+      "type": "sizing"
+    },
+    "26": {
+      "value": "26",
       "type": "sizing"
     },
     "28": {

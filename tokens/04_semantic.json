@@ -276,8 +276,12 @@
         }
       },
       "navigation": {
+        "xxx-sm": {
+          "value": "{size.18}",
+          "type": "sizing"
+        },
         "xx-sm": {
-          "value": "20",
+          "value": "{size.26}",
           "type": "sizing"
         },
         "x-sm": {
@@ -305,8 +309,12 @@
           "type": "sizing"
         },
         "content": {
+          "xxx-sm": {
+            "value": "{size.18}",
+            "type": "sizing"
+          },
           "xx-sm": {
-            "value": "20",
+            "value": "{size.26}",
             "type": "sizing"
           },
           "x-sm": {

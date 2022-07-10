@@ -24,6 +24,62 @@
             "type": "sizing"
           }
         }
+      },
+      "spacing": {
+        "header": {
+          "padding-left": {
+            "value": "{semantic.spacing.feedback.large-item.padding-left}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{semantic.spacing.feedback.large-item.padding-right}",
+            "type": "spacing"
+          },
+          "padding-top": {
+            "value": "{semantic.spacing.feedback.large-item.padding-top}",
+            "type": "spacing"
+          },
+          "padding-bottom": {
+            "value": "{semantic.spacing.feedback.large-item.content-spacing.padding-bottom}",
+            "type": "spacing"
+          }
+        },
+        "body": {
+          "padding-left": {
+            "value": "{semantic.spacing.feedback.large-item.padding-left}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{semantic.spacing.feedback.large-item.padding-right}",
+            "type": "spacing"
+          },
+          "padding-top": {
+            "value": "{semantic.spacing.feedback.large-item.content-spacing.padding-top}",
+            "type": "spacing"
+          },
+          "padding-bottom": {
+            "value": "{semantic.spacing.feedback.large-item.content-spacing.padding-bottom}",
+            "type": "spacing"
+          }
+        },
+        "footer": {
+          "padding-left": {
+            "value": "{semantic.spacing.feedback.large-item.padding-left}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{semantic.spacing.feedback.large-item.padding-right}",
+            "type": "spacing"
+          },
+          "padding-top": {
+            "value": "{semantic.spacing.feedback.large-item.content-spacing.padding-top}",
+            "type": "spacing"
+          },
+          "padding-bottom": {
+            "value": "{semantic.spacing.feedback.large-item.padding-bottom}",
+            "type": "spacing"
+          }
+        }
       }
     }
   }

@@ -30,6 +30,84 @@
             "type": "sizing"
           }
         }
+      },
+      "spacing": {
+        "small": {
+          "padding-left": {
+            "value": "{semantic.spacing.status.small.padding-left}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{semantic.spacing.status.small.padding-right}",
+            "type": "spacing"
+          }
+        },
+        "medium": {
+          "padding-left": {
+            "value": "{semantic.spacing.status.medium.padding-left}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{semantic.spacing.status.medium.padding-right}",
+            "type": "spacing"
+          }
+        },
+        "large": {
+          "padding-left": {
+            "value": "{semantic.spacing.status.large.padding-left}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{semantic.spacing.status.large.padding-right}",
+            "type": "spacing"
+          }
+        },
+        "text": {
+          "padding-left": {
+            "value": "{semantic.spacing.status.text.padding-left}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{semantic.spacing.status.text.padding-right}",
+            "type": "spacing"
+          }
+        },
+        "space-between": {
+          "value": "{semantic.spacing.status.space-between}",
+          "type": "spacing"
+        },
+        "with-avatar": {
+          "small": {
+            "padding-left": {
+              "value": "{semantic.spacing.status.nav.small.padding-left}",
+              "type": "spacing"
+            },
+            "padding-right": {
+              "value": "{semantic.spacing.status.nav.small.padding-right}",
+              "type": "spacing"
+            }
+          },
+          "medium": {
+            "padding-left": {
+              "value": "{semantic.spacing.status.nav.medium.padding-left}",
+              "type": "spacing"
+            },
+            "padding-right": {
+              "value": "{semantic.spacing.status.nav.medium.padding-right}",
+              "type": "spacing"
+            }
+          },
+          "large": {
+            "padding-left": {
+              "value": "{semantic.spacing.status.nav.large.padding-left}",
+              "type": "spacing"
+            },
+            "padding-right": {
+              "value": "{semantic.spacing.status.nav.large.padding-right}",
+              "type": "spacing"
+            }
+          }
+        }
       }
     }
   }
