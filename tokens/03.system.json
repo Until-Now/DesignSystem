@@ -449,7 +449,7 @@
     "_inputs": {
       "default": {
         "background": {
-          "value": "{sys.fg.neutral.neutral-primary}",
+          "value": "{semantic.fg.neutral.neutral-primary}",
           "type": "color",
           "description": "Input background default"
         },
@@ -610,7 +610,7 @@
       },
       "disabled": {
         "background": {
-          "value": "{sys.fg.neutral.disabled}",
+          "value": "{semantic.fg.neutral.disabled}",
           "type": "color",
           "description": "Input background error"
         },
@@ -619,14 +619,14 @@
           "type": "color"
         },
         "outline": {
-          "value": "{sys.fg.neutral.disabled}",
+          "value": "{semantic.fg.neutral.disabled}",
           "type": "color",
           "description": "Input stroke/fill disabled"
         }
       },
       "measure": {
         "background": {
-          "value": "{sys.fg.neutral.neutral-secondary}",
+          "value": "{semantic.fg.neutral.neutral-secondary}",
           "type": "color"
         },
         "foreground": {
@@ -771,7 +771,7 @@
       },
       "neutral": {
         "background": {
-          "value": "{sys.fg.neutral.neutral-primary}",
+          "value": "{semantic.fg.neutral.neutral-primary}",
           "type": "color"
         },
         "background-accent": {
@@ -779,11 +779,11 @@
           "type": "color"
         },
         "background-inverse": {
-          "value": "{sys.fg.neutral.neutral-dark}",
+          "value": "{semantic.fg.neutral.neutral-dark}",
           "type": "color"
         },
         "disabled": {
-          "value": "{sys.fg.neutral.disabled}",
+          "value": "{semantic.fg.neutral.disabled}",
           "type": "color"
         },
         "content": {
@@ -854,86 +854,6 @@
         },
         "light": {
           "value": "rgba({colour.grayscale.black},0.1)",
-          "type": "color"
-        }
-      }
-    },
-    "fg": {
-      "neutral": {
-        "neutral-primary": {
-          "value": "{colour.grayscale.white}",
-          "type": "color"
-        },
-        "neutral-secondary": {
-          "value": "{colour.neutral.100}",
-          "type": "color"
-        },
-        "neutral-tertiary": {
-          "value": "{colour.neutral.200}",
-          "type": "color"
-        },
-        "neutral-dark": {
-          "value": "{colour.neutral.600}",
-          "type": "color"
-        },
-        "disabled": {
-          "value": "{sys._action.disabled.background}",
-          "type": "color"
-        }
-      },
-      "error": {
-        "sf-100": {
-          "value": "{colour.error.100}",
-          "type": "color"
-        },
-        "sf-200": {
-          "value": "{colour.error.200}",
-          "type": "color"
-        },
-        "sf-300": {
-          "value": "{colour.error.300}",
-          "type": "color"
-        }
-      },
-      "success": {
-        "sf-100": {
-          "value": "{colour.success.100}",
-          "type": "color"
-        },
-        "sf-200": {
-          "value": "{colour.success.200}",
-          "type": "color"
-        },
-        "sf-300": {
-          "value": "{colour.success.300}",
-          "type": "color"
-        }
-      },
-      "warning": {
-        "sf-100": {
-          "value": "{colour.warning.100}",
-          "type": "color"
-        },
-        "sf-200": {
-          "value": "{colour.warning.200}",
-          "type": "color"
-        },
-        "sf-300": {
-          "value": "{colour.warning.300}",
-          "type": "color"
-        }
-      },
-      "info": {
-        "sf-100": {
-          "value": "{colour.info.100}",
-          "type": "color"
-        },
-        "sf-200": {
-          "value": "{colour.info.200}",
-          "type": "color"
-        },
-        "sf-300": {
-          "value": "{colour.info.300}",
           "type": "color"
         }
       }
@@ -1179,7 +1099,7 @@
         },
         "default": {
           "divider": {
-            "value": "{sys.fg.neutral.neutral-tertiary}",
+            "value": "{semantic.fg.neutral.neutral-tertiary}",
             "type": "color"
           },
           "content": {
@@ -1693,7 +1613,7 @@
         },
         "neutral": {
           "background": {
-            "value": "{sys.fg.neutral.neutral-tertiary}",
+            "value": "{semantic.fg.neutral.neutral-tertiary}",
             "type": "color"
           },
           "content": {
@@ -1706,6 +1626,84 @@
   },
   "semantic": {
     "fg": {
+      "neutral": {
+        "neutral-primary": {
+          "value": "{colour.grayscale.white}",
+          "type": "color"
+        },
+        "neutral-secondary": {
+          "value": "{colour.neutral.100}",
+          "type": "color"
+        },
+        "neutral-tertiary": {
+          "value": "{colour.neutral.200}",
+          "type": "color"
+        },
+        "neutral-dark": {
+          "value": "{colour.neutral.600}",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "{sys._action.disabled.background}",
+          "type": "color"
+        }
+      },
+      "error": {
+        "sf-100": {
+          "value": "{colour.error.100}",
+          "type": "color"
+        },
+        "sf-200": {
+          "value": "{colour.error.200}",
+          "type": "color"
+        },
+        "sf-300": {
+          "value": "{colour.error.300}",
+          "type": "color"
+        }
+      },
+      "success": {
+        "sf-100": {
+          "value": "{colour.success.100}",
+          "type": "color"
+        },
+        "sf-200": {
+          "value": "{colour.success.200}",
+          "type": "color"
+        },
+        "sf-300": {
+          "value": "{colour.success.300}",
+          "type": "color"
+        }
+      },
+      "warning": {
+        "sf-100": {
+          "value": "{colour.warning.100}",
+          "type": "color"
+        },
+        "sf-200": {
+          "value": "{colour.warning.200}",
+          "type": "color"
+        },
+        "sf-300": {
+          "value": "{colour.warning.300}",
+          "type": "color"
+        }
+      },
+      "info": {
+        "sf-100": {
+          "value": "{colour.info.100}",
+          "type": "color"
+        },
+        "sf-200": {
+          "value": "{colour.info.200}",
+          "type": "color"
+        },
+        "sf-300": {
+          "value": "{colour.info.300}",
+          "type": "color"
+        }
+      },
       "primary": {
         "sf-100": {
           "value": "{colour.primary.100}",

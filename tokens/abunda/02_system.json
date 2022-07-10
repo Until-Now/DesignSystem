@@ -55,7 +55,7 @@
     "_status": {
       "default": {
         "background": {
-          "value": "{sys.fg.neutral.neutral-tertiary}",
+          "value": "{semantic.fg.neutral.neutral-tertiary}",
           "type": "color"
         },
         "outline": {
@@ -65,7 +65,7 @@
       },
       "hover": {
         "background": {
-          "value": "{sys.fg.neutral.neutral-tertiary}",
+          "value": "{semantic.fg.neutral.neutral-tertiary}",
           "type": "color"
         },
         "outline": {
@@ -75,7 +75,7 @@
       },
       "press": {
         "background": {
-          "value": "{sys.fg.neutral.neutral-tertiary}",
+          "value": "{semantic.fg.neutral.neutral-tertiary}",
           "type": "color"
         },
         "outline": {

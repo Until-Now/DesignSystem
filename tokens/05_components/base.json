@@ -1771,7 +1771,7 @@
           },
           "error": {
             "bg": {
-              "value": "{sys.fg.error.sf-100}",
+              "value": "{semantic.fg.error.sf-100}",
               "type": "color"
             },
             "content": {
