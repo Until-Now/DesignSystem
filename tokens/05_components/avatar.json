@@ -2,6 +2,10 @@
   "comp": {
     "avatar": {
       "size": {
+        "xx-sm": {
+          "value": "{semantic.size.navigation.xx-sm}",
+          "type": "sizing"
+        },
         "x-sm": {
           "value": "{semantic.size.navigation.x-sm}",
           "type": "sizing"
@@ -27,6 +31,10 @@
           "type": "sizing"
         },
         "content": {
+          "xx-sm": {
+            "value": "{semantic.size.navigation.content.xx-sm}",
+            "type": "sizing"
+          },
           "x-sm": {
             "value": "{semantic.size.navigation.content.x-sm}",
             "type": "sizing"

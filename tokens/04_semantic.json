@@ -276,6 +276,10 @@
         }
       },
       "navigation": {
+        "xx-sm": {
+          "value": "20",
+          "type": "sizing"
+        },
         "x-sm": {
           "value": "{line-height.sans-serif.sm.body}+{font-size.sans-serif.sm.body}",
           "type": "sizing"
@@ -301,6 +305,10 @@
           "type": "sizing"
         },
         "content": {
+          "xx-sm": {
+            "value": "20",
+            "type": "sizing"
+          },
           "x-sm": {
             "value": "{line-height.sans-serif.sm.body}+{font-size.sans-serif.sm.body}",
             "type": "sizing"
@@ -516,6 +524,84 @@
             },
             "padding-bottom": {
               "value": "{space.8}",
+              "type": "spacing"
+            }
+          }
+        }
+      },
+      "status": {
+        "small": {
+          "padding-left": {
+            "value": "{space.4}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{space.4}",
+            "type": "spacing"
+          }
+        },
+        "medium": {
+          "padding-left": {
+            "value": "{space.4}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{space.4}",
+            "type": "spacing"
+          }
+        },
+        "large": {
+          "padding-left": {
+            "value": "{space.4}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{space.4}",
+            "type": "spacing"
+          }
+        },
+        "text": {
+          "padding-left": {
+            "value": "{space.4}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{space.4}",
+            "type": "spacing"
+          }
+        },
+        "space-between": {
+          "value": "{space.4}",
+          "type": "spacing"
+        },
+        "nav": {
+          "small": {
+            "padding-left": {
+              "value": "{space.3}",
+              "type": "spacing"
+            },
+            "padding-right": {
+              "value": "{space.4}",
+              "type": "spacing"
+            }
+          },
+          "medium": {
+            "padding-left": {
+              "value": "{space.3}",
+              "type": "spacing"
+            },
+            "padding-right": {
+              "value": "{space.4}",
+              "type": "spacing"
+            }
+          },
+          "large": {
+            "padding-left": {
+              "value": "{space.3}",
+              "type": "spacing"
+            },
+            "padding-right": {
+              "value": "{space.4}",
               "type": "spacing"
             }
           }
