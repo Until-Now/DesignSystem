@@ -19,6 +19,26 @@
             "value": "{size.20}",
             "type": "sizing"
           }
+        },
+        "spacing": {
+          "callout": {
+            "padding-left": {
+              "value": "{semantic.spacing.input.large.padding-left}",
+              "type": "spacing"
+            },
+            "padding-right": {
+              "value": "{semantic.spacing.input.large.padding-right}",
+              "type": "spacing"
+            },
+            "padding-top": {
+              "value": "{space.8}",
+              "type": "spacing"
+            },
+            "padding-bottom": {
+              "value": "{space.8}",
+              "type": "spacing"
+            }
+          }
         }
       },
       "radio-and-checkbox": {
@@ -30,6 +50,26 @@
           "icon": {
             "value": "{size.24}",
             "type": "sizing"
+          }
+        },
+        "spacing": {
+          "callout": {
+            "padding-left": {
+              "value": "{semantic.spacing.input.large.padding-left}",
+              "type": "spacing"
+            },
+            "padding-right": {
+              "value": "{semantic.spacing.input.large.padding-right}",
+              "type": "spacing"
+            },
+            "padding-top": {
+              "value": "{space.12}",
+              "type": "spacing"
+            },
+            "padding-bottom": {
+              "value": "{space.12}",
+              "type": "spacing"
+            }
           }
         }
       }
