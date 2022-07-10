@@ -30,6 +30,52 @@
             "type": "sizing"
           }
         }
+      },
+      "spacing": {
+        "small": {
+          "padding-left": {
+            "value": "{semantic.spacing.input.small.padding-left}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{semantic.spacing.input.small.padding-right}",
+            "type": "spacing"
+          }
+        },
+        "medium": {
+          "padding-left": {
+            "value": "{semantic.spacing.input.medium.padding-left}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{semantic.spacing.input.medium.padding-right}",
+            "type": "spacing"
+          }
+        },
+        "large": {
+          "padding-left": {
+            "value": "{semantic.spacing.input.large.padding-left}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{semantic.spacing.input.large.padding-right}",
+            "type": "spacing"
+          }
+        },
+        "text": {
+          "padding-left": {
+            "value": "{semantic.spacing.input.text.padding-left}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{semantic.spacing.input.text.padding-right}",
+            "type": "spacing"
+          }
+        },
+        "space-between": {
+          "value": "{semantic.spacing.input.space-between}",
+          "type": "spacing"
+        }
       }
     }
   }
