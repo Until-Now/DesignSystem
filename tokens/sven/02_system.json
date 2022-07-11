@@ -4,15 +4,15 @@
       "secondary": {
         "default": {
           "background": {
-            "value": "{sys._semantic.colour.primary-surface}",
+            "value": "{semantic.primary.light}",
             "type": "color"
           },
           "content": {
-            "value": "{sys._semantic.colour.on-primary-surface}",
+            "value": "{semantic.primary.on-light}",
             "type": "color"
           },
           "split": {
-            "value": "{sys._semantic.colour.on-primary-surface}",
+            "value": "{semantic.primary.on-light}",
             "type": "color"
           }
         }
@@ -42,19 +42,19 @@
       "accent": {
         "primary-light": {
           "default": {
-            "value": "rgba({sys._semantic.colour.on-primary},0.00)",
+            "value": "rgba({semantic.primary.on-primary},0.00)",
             "type": "color"
           },
           "hover": {
-            "value": "rgba({sys._semantic.colour.on-primary},0.12)",
+            "value": "rgba({semantic.primary.on-primary},0.12)",
             "type": "color"
           },
           "press": {
-            "value": "rgba({sys._semantic.colour.on-primary},0.24)",
+            "value": "rgba({semantic.primary.on-primary},0.24)",
             "type": "color"
           },
           "disabled": {
-            "value": "rgba({sys._semantic.colour.on-primary},0.00)",
+            "value": "rgba({semantic.primary.on-primary},0.00)",
             "type": "color"
           }
         }

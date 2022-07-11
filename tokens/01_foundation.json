@@ -772,7 +772,7 @@
           "type": "color"
         },
         "text-link": {
-          "value": "{sys._semantic.colour.primary}",
+          "value": "{semantic.primary.primary}",
           "type": "color"
         }
       }

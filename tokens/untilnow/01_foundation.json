@@ -1366,11 +1366,11 @@
           "type": "color"
         },
         "secondary": {
-          "value": "{sys._semantic.colour.secondary}",
+          "value": "{semantic.secondary.default}",
           "type": "color"
         },
         "error": {
-          "value": "{sys._semantic.sentiment.error}",
+          "value": "{semantic.error.default}",
           "type": "color"
         },
         "success": {
@@ -1396,11 +1396,11 @@
           "type": "color"
         },
         "secondary": {
-          "value": "rgba({sys._semantic.colour.secondary},{sys.opacity.border.soft})",
+          "value": "rgba({semantic.secondary.default},{sys.opacity.border.soft})",
           "type": "color"
         },
         "error": {
-          "value": "rgba({sys._semantic.sentiment.error},{sys.opacity.border.soft})",
+          "value": "rgba({semantic.error.default},{sys.opacity.border.soft})",
           "type": "color"
         },
         "success": {
@@ -1484,34 +1484,34 @@
       },
       "secondary": {
         "strong": {
-          "value": "rgba({sys._semantic.colour.secondary},{sys.opacity.content.solid})",
+          "value": "rgba({semantic.secondary.default},{sys.opacity.content.solid})",
           "type": "color",
           "description": "High emphasis, secondary"
         },
         "mid": {
-          "value": "rgba({sys._semantic.colour.secondary},{sys.opacity.content.md})",
+          "value": "rgba({semantic.secondary.default},{sys.opacity.content.md})",
           "type": "color",
           "description": "md emphasis, secondary"
         },
         "soft": {
-          "value": "rgba({sys._semantic.colour.secondary},{sys.opacity.content.soft})",
+          "value": "rgba({semantic.secondary.default},{sys.opacity.content.soft})",
           "type": "color",
           "description": "Low emphasis, secondary"
         }
       },
       "on-support-secondary": {
         "strong": {
-          "value": "rgba({sys._semantic.colour.on-secondary-surface},{sys.opacity.content.solid})",
+          "value": "rgba({semantic.secondary.on-light},{sys.opacity.content.solid})",
           "type": "color",
           "description": "High emphasis, secondary support"
         },
         "mid": {
-          "value": "rgba({sys._semantic.colour.on-secondary-surface},{sys.opacity.content.md})",
+          "value": "rgba({semantic.secondary.on-light},{sys.opacity.content.md})",
           "type": "color",
           "description": "md emphasis, secondary support"
         },
         "soft": {
-          "value": "rgba({sys._semantic.colour.on-secondary-surface},{sys.opacity.content.soft})",
+          "value": "rgba({semantic.secondary.on-light},{sys.opacity.content.soft})",
           "type": "color",
           "description": "Low emphasis, secondary support"
         }
@@ -1532,15 +1532,15 @@
       },
       "secondary-light": {
         "strong": {
-          "value": "rgba({sys._semantic.colour.secondary-surface},{sys.opacity.content.solid})",
+          "value": "rgba({semantic.secondary.light},{sys.opacity.content.solid})",
           "type": "color"
         },
         "mid": {
-          "value": "rgba({sys._semantic.colour.secondary-surface},{sys.opacity.content.md})",
+          "value": "rgba({semantic.secondary.light},{sys.opacity.content.md})",
           "type": "color"
         },
         "soft": {
-          "value": "rgba({sys._semantic.colour.secondary-surface},{sys.opacity.content.soft})",
+          "value": "rgba({semantic.secondary.light},{sys.opacity.content.soft})",
           "type": "color"
         }
       }
