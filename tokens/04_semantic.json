@@ -411,10 +411,20 @@
         "space-between": {
           "value": "{space.4}",
           "type": "spacing"
+        },
+        "x-small": {
+          "padding-left": {
+            "value": "{space.8}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{space.8}",
+            "type": "spacing"
+          }
         }
       },
       "feedback": {
-        "small-item": {
+        "toast": {
           "padding-left": {
             "value": "{space.8}",
             "type": "spacing"
@@ -436,6 +446,16 @@
           "space-between": {
             "value": "{space.0}",
             "type": "spacing"
+          },
+          "button": {
+            "padding-left": {
+              "value": "{space.4}",
+              "type": "spacing"
+            },
+            "padding-right": {
+              "value": "{space.4}",
+              "type": "spacing"
+            }
           }
         },
         "ui-dialog": {

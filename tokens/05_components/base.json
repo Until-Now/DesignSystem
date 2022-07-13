@@ -472,36 +472,6 @@
           "value": "{sys.elevation.level-3}",
           "type": "boxShadow"
         }
-      },
-      "spacing": {
-        "left": {
-          "type": "spacing",
-          "value": "{space.8}"
-        },
-        "right": {
-          "type": "spacing",
-          "value": "{space.8}"
-        },
-        "button": {
-          "left": {
-            "type": "spacing",
-            "value": "{space.4}"
-          },
-          "right": {
-            "type": "spacing",
-            "value": "{space.4}"
-          }
-        },
-        "label": {
-          "left": {
-            "type": "spacing",
-            "value": "{space.8}"
-          },
-          "right": {
-            "type": "spacing",
-            "value": "{space.8}"
-          }
-        }
       }
     },
     "dialog": {
