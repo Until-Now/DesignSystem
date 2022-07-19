@@ -47,7 +47,7 @@
       },
       "on-light": {
         "soft": {
-          "value": "rgba({sys._semantic.content.primary},0.40)",
+          "value": "rgba({semantic.content.primary},0.40)",
           "type": "color"
         }
       }

@@ -257,26 +257,26 @@
       },
       "disabled": {
         "background": {
-          "value": "{sys._semantic.colour.disabled}",
+          "value": "{semantic.neutral.disabled}",
           "type": "color",
           "description": "Disabled action background state"
         },
         "outline": {
-          "value": "{sys._semantic.colour.disabled}",
+          "value": "{semantic.neutral.disabled}",
           "type": "color",
           "description": "Disabled action background state"
         },
         "background-transparent": {
-          "value": "{sys._semantic.colour.transparent}",
+          "value": "{semantic.neutral.transparent}",
           "type": "color"
         },
         "content": {
-          "value": "rgba({sys._semantic.content.primary},{sys.opacity.content.soft})",
+          "value": "rgba({semantic.content.primary},{sys.opacity.content.soft})",
           "type": "color",
           "description": "Icons and text on disabled action"
         },
         "split": {
-          "value": "rgba({sys._semantic.content.primary},{sys.opacity.content.soft})",
+          "value": "rgba({semantic.content.primary},{sys.opacity.content.soft})",
           "type": "color",
           "description": "Icons and text on disabled action"
         }
@@ -387,7 +387,7 @@
           }
         },
         "outline": {
-          "value": "{sys._semantic.colour.outline}",
+          "value": "{semantic.border.default}",
           "type": "color",
           "description": "Component outline"
         }
@@ -458,7 +458,7 @@
           "type": "color"
         },
         "bg-neutral": {
-          "value": "{sys._semantic.colour.neutral}",
+          "value": "{semantic.neutral.default}",
           "type": "color"
         },
         "bg-accent": {
@@ -470,7 +470,7 @@
           "type": "color"
         },
         "outline": {
-          "value": "{sys._semantic.colour.outline}",
+          "value": "{semantic.border.default}",
           "type": "color",
           "description": "Input stroke/fill default"
         }
@@ -519,7 +519,7 @@
           "type": "color"
         },
         "accent-on-light": {
-          "value": "{sys._semantic.content.text-link}",
+          "value": "{semantic.content.text-link}",
           "type": "color"
         },
         "error": {
@@ -686,7 +686,7 @@
         },
         "warning": {
           "surface": {
-            "value": "{sys._semantic.sentiment.warning}",
+            "value": "{semantic.warning.default}",
             "type": "color"
           },
           "cta": {
@@ -700,7 +700,7 @@
         },
         "success": {
           "surface": {
-            "value": "{sys._semantic.sentiment.success}",
+            "value": "{semantic.success.default}",
             "type": "color"
           },
           "cta": {
@@ -714,7 +714,7 @@
         },
         "info": {
           "surface": {
-            "value": "{sys._semantic.sentiment.info}",
+            "value": "{semantic.info.default}",
             "type": "color"
           },
           "cta": {
@@ -729,43 +729,43 @@
       },
       "warning": {
         "surface": {
-          "value": "{sys._semantic.sentiment.warning-surface}",
+          "value": "{semantic.warning.light}",
           "type": "color"
         },
         "cta": {
-          "value": "{sys._semantic.sentiment.warning}",
+          "value": "{semantic.warning.default}",
           "type": "color"
         },
         "content": {
-          "value": "{sys._semantic.sentiment.on-warning-surface}",
+          "value": "{semantic.warning.emphasised}",
           "type": "color"
         }
       },
       "success": {
         "surface": {
-          "value": "{sys._semantic.sentiment.success-surface}",
+          "value": "{semantic.success.light}",
           "type": "color"
         },
         "cta": {
-          "value": "{sys._semantic.sentiment.success}",
+          "value": "{semantic.success.default}",
           "type": "color"
         },
         "content": {
-          "value": "{sys._semantic.sentiment.on-success-surface}",
+          "value": "{semantic.success.emphasised}",
           "type": "color"
         }
       },
       "info": {
         "surface": {
-          "value": "{sys._semantic.sentiment.info-surface}",
+          "value": "{semantic.info.light}",
           "type": "color"
         },
         "cta": {
-          "value": "{sys._semantic.sentiment.info}",
+          "value": "{semantic.info.default}",
           "type": "color"
         },
         "content": {
-          "value": "{sys._semantic.sentiment.on-info-surface}",
+          "value": "{semantic.info.emphasised}",
           "type": "color"
         }
       },
@@ -861,34 +861,34 @@
     "content": {
       "on-light": {
         "strong": {
-          "value": "rgba({sys._semantic.content.primary},{sys.opacity.content.solid})",
+          "value": "rgba({semantic.content.primary},{sys.opacity.content.solid})",
           "type": "color",
           "description": "High emphasis, dark"
         },
         "mid": {
-          "value": "rgba({sys._semantic.content.primary},{sys.opacity.content.md})",
+          "value": "rgba({semantic.content.primary},{sys.opacity.content.md})",
           "type": "color",
           "description": "md emphasis, dark"
         },
         "soft": {
-          "value": "rgba({sys._semantic.content.primary},{sys.opacity.content.soft})",
+          "value": "rgba({semantic.content.primary},{sys.opacity.content.soft})",
           "type": "color",
           "description": "Low emphasis, dark"
         }
       },
       "on-dark": {
         "strong": {
-          "value": "rgba({sys._semantic.content.primary-inverse},{sys.opacity.content.solid})",
+          "value": "rgba({semantic.content.primary-inverse},{sys.opacity.content.solid})",
           "type": "color",
           "description": "High emphasis, light"
         },
         "mid": {
-          "value": "rgba({sys._semantic.content.primary-inverse},{sys.opacity.content.md})",
+          "value": "rgba({semantic.content.primary-inverse},{sys.opacity.content.md})",
           "type": "color",
           "description": "md emphasis, light"
         },
         "soft": {
-          "value": "rgba({sys._semantic.content.primary-inverse},{sys.opacity.content.soft})",
+          "value": "rgba({semantic.content.primary-inverse},{sys.opacity.content.soft})",
           "type": "color",
           "description": "Low emphasis, light"
         }
@@ -907,7 +907,7 @@
         "type": "color"
       },
       "text-link": {
-        "value": "{sys._semantic.content.text-link}",
+        "value": "{semantic.content.text-link}",
         "type": "color"
       }
     },
@@ -1077,7 +1077,7 @@
         }
       },
       "notification": {
-        "value": "{sys._semantic.sentiment.info}",
+        "value": "{semantic.info.default}",
         "type": "color"
       },
       "tab": {
@@ -1092,7 +1092,7 @@
               "type": "color"
             },
             "background": {
-              "value": "{sys._semantic.colour.transparent}",
+              "value": "{semantic.neutral.transparent}",
               "type": "color"
             }
           }
@@ -1107,7 +1107,7 @@
             "type": "color"
           },
           "background": {
-            "value": "{sys._semantic.colour.transparent}",
+            "value": "{semantic.neutral.transparent}",
             "type": "color"
           }
         }
@@ -1190,37 +1190,37 @@
       },
       "darker": {
         "default-surface-opacity": {
-          "value": "rgba({sys._semantic.content.primary},0.00)",
+          "value": "rgba({semantic.content.primary},0.00)",
           "type": "color"
         },
         "hover-surface-opacity": {
-          "value": "rgba({sys._semantic.content.primary},0.16)",
+          "value": "rgba({semantic.content.primary},0.16)",
           "type": "color"
         },
         "press-surface-opacity": {
-          "value": "rgba({sys._semantic.content.primary},0.32)",
+          "value": "rgba({semantic.content.primary},0.32)",
           "type": "color"
         },
         "disabled-surface-opacity": {
-          "value": "rgba({sys._semantic.content.primary},0.00)",
+          "value": "rgba({semantic.content.primary},0.00)",
           "type": "color"
         }
       },
       "lighter": {
         "default-surface-opacity": {
-          "value": "rgba({sys._semantic.content.primary-inverse},0.00)",
+          "value": "rgba({semantic.content.primary-inverse},0.00)",
           "type": "color"
         },
         "hover-surface-opacity": {
-          "value": "rgba({sys._semantic.content.primary-inverse},0.16)",
+          "value": "rgba({semantic.content.primary-inverse},0.16)",
           "type": "color"
         },
         "press-surface-opacity": {
-          "value": "rgba({sys._semantic.content.primary-inverse},0.32)",
+          "value": "rgba({semantic.content.primary-inverse},0.32)",
           "type": "color"
         },
         "disabled-surface-opacity": {
-          "value": "rgba({sys._semantic.content.primary-inverse},0.00)",
+          "value": "rgba({semantic.content.primary-inverse},0.00)",
           "type": "color"
         }
       },
@@ -1256,7 +1256,7 @@
           "type": "color"
         },
         "outline": {
-          "value": "{sys._semantic.colour.outline}",
+          "value": "{semantic.border.default}",
           "type": "color"
         }
       },
@@ -1270,7 +1270,7 @@
           "type": "color"
         },
         "outline": {
-          "value": "{sys._semantic.colour.outline}",
+          "value": "{semantic.border.default}",
           "type": "color"
         }
       },
@@ -1284,7 +1284,7 @@
           "type": "color"
         },
         "outline": {
-          "value": "{sys._semantic.colour.outline}",
+          "value": "{semantic.border.default}",
           "type": "color"
         }
       },
@@ -1388,31 +1388,31 @@
         "warning": {
           "default": {
             "background": {
-              "value": "{sys._semantic.sentiment.warning-surface}",
+              "value": "{semantic.warning.light}",
               "type": "color"
             },
             "content": {
-              "value": "{sys._semantic.sentiment.on-warning-surface}",
+              "value": "{semantic.warning.emphasised}",
               "type": "color"
             }
           },
           "hover": {
             "background": {
-              "value": "{sys._semantic.sentiment.warning-surface}",
+              "value": "{semantic.warning.light}",
               "type": "color"
             },
             "content": {
-              "value": "{sys._semantic.sentiment.on-warning-surface}",
+              "value": "{semantic.warning.emphasised}",
               "type": "color"
             }
           },
           "press": {
             "background": {
-              "value": "{sys._semantic.sentiment.warning-surface}",
+              "value": "{semantic.warning.light}",
               "type": "color"
             },
             "content": {
-              "value": "{sys._semantic.sentiment.on-warning-surface}",
+              "value": "{semantic.warning.emphasised}",
               "type": "color"
             }
           }
@@ -1420,31 +1420,31 @@
         "success": {
           "default": {
             "background": {
-              "value": "{sys._semantic.sentiment.success-surface}",
+              "value": "{semantic.success.light}",
               "type": "color"
             },
             "content": {
-              "value": "{sys._semantic.sentiment.on-success-surface}",
+              "value": "{semantic.success.emphasised}",
               "type": "color"
             }
           },
           "hover": {
             "background": {
-              "value": "{sys._semantic.sentiment.success-surface}",
+              "value": "{semantic.success.light}",
               "type": "color"
             },
             "content": {
-              "value": "{sys._semantic.sentiment.on-success-surface}",
+              "value": "{semantic.success.emphasised}",
               "type": "color"
             }
           },
           "press": {
             "background": {
-              "value": "{sys._semantic.sentiment.success-surface}",
+              "value": "{semantic.success.light}",
               "type": "color"
             },
             "content": {
-              "value": "{sys._semantic.sentiment.on-success-surface}",
+              "value": "{semantic.success.emphasised}",
               "type": "color"
             }
           }
@@ -1452,31 +1452,31 @@
         "info": {
           "default": {
             "background": {
-              "value": "{sys._semantic.sentiment.info-surface}",
+              "value": "{semantic.info.light}",
               "type": "color"
             },
             "content": {
-              "value": "{sys._semantic.sentiment.on-info-surface}",
+              "value": "{semantic.info.emphasised}",
               "type": "color"
             }
           },
           "hover": {
             "background": {
-              "value": "{sys._semantic.sentiment.info-surface}",
+              "value": "{semantic.info.light}",
               "type": "color"
             },
             "content": {
-              "value": "{sys._semantic.sentiment.on-info-surface}",
+              "value": "{semantic.info.emphasised}",
               "type": "color"
             }
           },
           "press": {
             "background": {
-              "value": "{sys._semantic.sentiment.info-surface}",
+              "value": "{semantic.info.light}",
               "type": "color"
             },
             "content": {
-              "value": "{sys._semantic.sentiment.on-info-surface}",
+              "value": "{semantic.info.emphasised}",
               "type": "color"
             }
           }
@@ -1489,7 +1489,7 @@
                 "type": "color"
               },
               "content": {
-                "value": "{sys._semantic.content.primary-inverse}",
+                "value": "{semantic.content.primary-inverse}",
                 "type": "color"
               }
             },
@@ -1499,7 +1499,7 @@
                 "type": "color"
               },
               "content": {
-                "value": "{sys._semantic.content.primary-inverse}",
+                "value": "{semantic.content.primary-inverse}",
                 "type": "color"
               }
             },
@@ -1509,7 +1509,7 @@
                 "type": "color"
               },
               "content": {
-                "value": "{sys._semantic.content.primary-inverse}",
+                "value": "{semantic.content.primary-inverse}",
                 "type": "color"
               }
             }
@@ -1517,31 +1517,31 @@
           "warning": {
             "default": {
               "background": {
-                "value": "{sys._semantic.sentiment.warning}",
+                "value": "{semantic.warning.default}",
                 "type": "color"
               },
               "content": {
-                "value": "{sys._semantic.content.primary-inverse}",
+                "value": "{semantic.content.primary-inverse}",
                 "type": "color"
               }
             },
             "hover": {
               "background": {
-                "value": "{sys._semantic.sentiment.warning}",
+                "value": "{semantic.warning.default}",
                 "type": "color"
               },
               "content": {
-                "value": "{sys._semantic.content.primary-inverse}",
+                "value": "{semantic.content.primary-inverse}",
                 "type": "color"
               }
             },
             "press": {
               "background": {
-                "value": "{sys._semantic.sentiment.warning}",
+                "value": "{semantic.warning.default}",
                 "type": "color"
               },
               "content": {
-                "value": "{sys._semantic.content.primary-inverse}",
+                "value": "{semantic.content.primary-inverse}",
                 "type": "color"
               }
             }
@@ -1549,31 +1549,31 @@
           "success": {
             "default": {
               "background": {
-                "value": "{sys._semantic.sentiment.success}",
+                "value": "{semantic.success.default}",
                 "type": "color"
               },
               "content": {
-                "value": "{sys._semantic.content.primary-inverse}",
+                "value": "{semantic.content.primary-inverse}",
                 "type": "color"
               }
             },
             "hover": {
               "background": {
-                "value": "{sys._semantic.sentiment.success}",
+                "value": "{semantic.success.default}",
                 "type": "color"
               },
               "content": {
-                "value": "{sys._semantic.content.primary-inverse}",
+                "value": "{semantic.content.primary-inverse}",
                 "type": "color"
               }
             },
             "press": {
               "background": {
-                "value": "{sys._semantic.sentiment.success}",
+                "value": "{semantic.success.default}",
                 "type": "color"
               },
               "content": {
-                "value": "{sys._semantic.content.primary-inverse}",
+                "value": "{semantic.content.primary-inverse}",
                 "type": "color"
               }
             }
@@ -1581,31 +1581,31 @@
           "info": {
             "default": {
               "background": {
-                "value": "{sys._semantic.sentiment.info}",
+                "value": "{semantic.info.default}",
                 "type": "color"
               },
               "content": {
-                "value": "{sys._semantic.content.primary-inverse}",
+                "value": "{semantic.content.primary-inverse}",
                 "type": "color"
               }
             },
             "hover": {
               "background": {
-                "value": "{sys._semantic.sentiment.info}",
+                "value": "{semantic.info.default}",
                 "type": "color"
               },
               "content": {
-                "value": "{sys._semantic.content.primary-inverse}",
+                "value": "{semantic.content.primary-inverse}",
                 "type": "color"
               }
             },
             "press": {
               "background": {
-                "value": "{sys._semantic.sentiment.info}",
+                "value": "{semantic.info.default}",
                 "type": "color"
               },
               "content": {
-                "value": "{sys._semantic.content.primary-inverse}",
+                "value": "{semantic.content.primary-inverse}",
                 "type": "color"
               }
             }

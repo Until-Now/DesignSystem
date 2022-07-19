@@ -1320,7 +1320,7 @@
           "type": "color"
         },
         "transparent": {
-          "value": "rgba({sys._semantic.content.primary-inverse},0.00)",
+          "value": "rgba({semantic.content.primary-inverse},0.00)",
           "type": "color"
         }
       },
@@ -1374,15 +1374,15 @@
           "type": "color"
         },
         "success": {
-          "value": "{sys._semantic.sentiment.success}",
+          "value": "{semantic.success.default}",
           "type": "color"
         },
         "warning": {
-          "value": "{sys._semantic.sentiment.warning}",
+          "value": "{semantic.warning.default}",
           "type": "color"
         },
         "white": {
-          "value": "{sys._semantic.content.primary-inverse}",
+          "value": "{semantic.content.primary-inverse}",
           "type": "color"
         }
       },
@@ -1404,11 +1404,11 @@
           "type": "color"
         },
         "success": {
-          "value": "rgba({sys._semantic.sentiment.success},{sys.opacity.border.soft})",
+          "value": "rgba({semantic.success.default},{sys.opacity.border.soft})",
           "type": "color"
         },
         "warning": {
-          "value": "rgba({sys._semantic.sentiment.warning},{sys.opacity.border.soft})",
+          "value": "rgba({semantic.warning.default},{sys.opacity.border.soft})",
           "type": "color"
         }
       }
@@ -1416,34 +1416,34 @@
     "content": {
       "on-light": {
         "strong": {
-          "value": "rgba({sys._semantic.content.primary},{sys.opacity.content.strong})",
+          "value": "rgba({semantic.content.primary},{sys.opacity.content.strong})",
           "type": "color",
           "description": "High emphasis, dark"
         },
         "mid": {
-          "value": "rgba({sys._semantic.content.primary},{sys.opacity.content.md})",
+          "value": "rgba({semantic.content.primary},{sys.opacity.content.md})",
           "type": "color",
           "description": "md emphasis, dark"
         },
         "soft": {
-          "value": "rgba({sys._semantic.content.primary},{sys.opacity.content.soft})",
+          "value": "rgba({semantic.content.primary},{sys.opacity.content.soft})",
           "type": "color",
           "description": "Low emphasis, dark"
         }
       },
       "on-dark": {
         "strong": {
-          "value": "rgba({sys._semantic.content.primary-inverse},{sys.opacity.content.strong})",
+          "value": "rgba({semantic.content.primary-inverse},{sys.opacity.content.strong})",
           "type": "color",
           "description": "High emphasis, light"
         },
         "mid": {
-          "value": "rgba({sys._semantic.content.primary-inverse},{sys.opacity.content.md})",
+          "value": "rgba({semantic.content.primary-inverse},{sys.opacity.content.md})",
           "type": "color",
           "description": "md emphasis, light"
         },
         "soft": {
-          "value": "rgba({sys._semantic.content.primary-inverse},{sys.opacity.content.soft})",
+          "value": "rgba({semantic.content.primary-inverse},{sys.opacity.content.soft})",
           "type": "color",
           "description": "Low emphasis, light"
         }

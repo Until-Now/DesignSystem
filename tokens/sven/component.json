@@ -135,11 +135,11 @@
       },
       "container": {
         "default": {
-          "value": "{sys._semantic.colour.transparent}",
+          "value": "{semantic.neutral.transparent}",
           "type": "color"
         },
         "disabled": {
-          "value": "{sys._semantic.colour.transparent}",
+          "value": "{semantic.neutral.transparent}",
           "type": "color"
         },
         "hover": {
