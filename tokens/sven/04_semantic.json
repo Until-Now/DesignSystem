@@ -2,15 +2,15 @@
   "semantic": {
     "primary": {
       "primary": {
-        "value": "{colour.primary.500}",
+        "value": "{colour.primary.700}",
         "type": "color"
       },
       "on-primary": {
-        "value": "{colour.grayscale.white}",
+        "value": "{colour.primary.300}",
         "type": "color"
       },
       "light": {
-        "value": "{colour.primary.200}",
+        "value": "{colour.primary.300}",
         "type": "color"
       },
       "on-light": {
@@ -22,51 +22,15 @@
         "type": "color"
       },
       "on-muted": {
-        "value": "{colour.primary.500}",
+        "value": "{colour.primary.700}",
         "type": "color"
       },
       "subtle": {
-        "value": "{colour.grayscale.transparent}",
+        "value": "{colour.grayscale.white}",
         "type": "color"
       },
       "on-subtle": {
-        "value": "{colour.primary.500}",
-        "type": "color"
-      }
-    },
-    "secondary": {
-      "default": {
-        "value": "{colour.secondary.500}",
-        "type": "color",
-        "description": "Secondary key colour"
-      },
-      "on-secondary": {
-        "value": "{colour.grayscale.white}",
-        "type": "color",
-        "description": "Content on secondary"
-      },
-      "light": {
-        "value": "{colour.secondary.200}",
-        "type": "color",
-        "description": "Secondary support colour"
-      },
-      "on-light": {
-        "value": "{colour.secondary.700}",
-        "type": "color",
-        "description": "Content on secondary support"
-      }
-    },
-    "error": {
-      "default": {
-        "value": "{colour.error.200}",
-        "type": "color"
-      },
-      "emphasised": {
-        "value": "{colour.error.300}",
-        "type": "color"
-      },
-      "light": {
-        "value": "{colour.error.100}",
+        "value": "{colour.primary.700}",
         "type": "color"
       }
     },
@@ -136,51 +100,9 @@
         "type": "color"
       }
     },
-    "success": {
-      "default": {
-        "value": "{colour.success.200}",
-        "type": "color"
-      },
-      "emphasised": {
-        "value": "{colour.success.300}",
-        "type": "color"
-      },
-      "light": {
-        "value": "{colour.success.100}",
-        "type": "color"
-      }
-    },
-    "warning": {
-      "default": {
-        "value": "{colour.warning.200}",
-        "type": "color"
-      },
-      "emphasised": {
-        "value": "{colour.warning.300}",
-        "type": "color"
-      },
-      "light": {
-        "value": "{colour.warning.100}",
-        "type": "color"
-      }
-    },
-    "info": {
-      "default": {
-        "value": "{colour.info.200}",
-        "type": "color"
-      },
-      "emphasised": {
-        "value": "{colour.info.300}",
-        "type": "color"
-      },
-      "light": {
-        "value": "{colour.info.100}",
-        "type": "color"
-      }
-    },
     "content": {
       "primary": {
-        "value": "{colour.grayscale.black}",
+        "value": "{colour.primary.700}",
         "type": "color"
       },
       "primary-inverse": {
@@ -188,7 +110,7 @@
         "type": "color"
       },
       "text-link": {
-        "value": "{semantic.primary.primary}",
+        "value": "#09AD72",
         "type": "color"
       }
     }
