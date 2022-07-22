@@ -1114,8 +1114,12 @@
               "value": "{sys._inputs.default.background}",
               "type": "color"
             },
-            "content": {
+            "active-text": {
               "value": "{sys._inputs.content.strong}",
+              "type": "color"
+            },
+            "helper-text": {
+              "value": "{sys._inputs.content.soft}",
               "type": "color"
             },
             "outline": {
@@ -1128,6 +1132,10 @@
       "border-width": {
         "action-default": {
           "value": "{border-width.1}",
+          "type": "borderWidth"
+        },
+        "input": {
+          "value": "{border-width.2}",
           "type": "borderWidth"
         }
       },
@@ -1155,6 +1163,20 @@
           },
           "lg": {
             "value": "{typography.sans-serif.caption-lg.bold}",
+            "type": "typography"
+          }
+        },
+        "input": {
+          "sm": {
+            "value": "{typography.sans-serif.caption-sm.regular}",
+            "type": "typography"
+          },
+          "md": {
+            "value": "{typography.sans-serif.caption-md.regular}",
+            "type": "typography"
+          },
+          "lg": {
+            "value": "{typography.sans-serif.caption-lg.regular}",
             "type": "typography"
           }
         }
