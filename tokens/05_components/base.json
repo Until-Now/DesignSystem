@@ -1009,6 +1009,120 @@
               }
             }
           }
+        },
+        "input": {
+          "default": {
+            "bg": {
+              "value": "{sys._status.default.background}",
+              "type": "color"
+            },
+            "content": {
+              "value": "{sys._status.default.content}",
+              "type": "color"
+            },
+            "outline": {
+              "value": "{sys._status.default.outline}",
+              "type": "color"
+            },
+            "state": {
+              "type": "color",
+              "value": "{sys._overlay.accent.secondary-light.default}"
+            }
+          },
+          "hover": {
+            "bg": {
+              "value": "{sys._status.hover.background}",
+              "type": "color"
+            },
+            "content": {
+              "value": "{sys._status.hover.content}",
+              "type": "color"
+            },
+            "outline": {
+              "value": "{sys._status.hover.outline}",
+              "type": "color"
+            },
+            "state": {
+              "type": "color",
+              "value": "{sys._overlay.accent.secondary-light.hover}"
+            }
+          },
+          "press": {
+            "bg": {
+              "value": "{sys._status.press.background}",
+              "type": "color"
+            },
+            "content": {
+              "value": "{sys._status.press.content}",
+              "type": "color"
+            },
+            "outline": {
+              "value": "{sys._status.default.outline}",
+              "type": "color"
+            },
+            "state": {
+              "type": "color",
+              "value": "{sys._overlay.accent.secondary-light.press}"
+            }
+          },
+          "active": {
+            "default": {
+              "bg": {
+                "value": "{sys._status.selected.default.background}",
+                "type": "color"
+              },
+              "content": {
+                "value": "{sys._status.selected.default.content}",
+                "type": "color"
+              },
+              "state": {
+                "type": "color",
+                "value": "{sys._overlay.lighter.default-surface-opacity}"
+              }
+            },
+            "hover": {
+              "bg": {
+                "value": "{sys._status.selected.hover.background}",
+                "type": "color"
+              },
+              "content": {
+                "value": "{sys._status.selected.hover.content}",
+                "type": "color"
+              },
+              "state": {
+                "type": "color",
+                "value": "{sys._overlay.lighter.hover-surface-opacity}"
+              }
+            },
+            "press": {
+              "bg": {
+                "value": "{sys._status.selected.press.background}",
+                "type": "color"
+              },
+              "content": {
+                "value": "{sys._status.selected.press.content}",
+                "type": "color"
+              },
+              "state": {
+                "type": "color",
+                "value": "{sys._overlay.lighter.press-surface-opacity}"
+              }
+            }
+          },
+          "active-input": {
+            "bg": {
+              "value": "{sys._inputs.default.background}",
+              "type": "color"
+            },
+            "content": {
+              "value": "{sys._inputs.content.strong}",
+              "type": "color"
+            },
+            "outline": {
+              "type": "color",
+              "value": "{sys._inputs.press.outline}"
+            }
+          }
         }
       },
       "border-width": {
