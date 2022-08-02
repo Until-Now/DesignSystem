@@ -197,34 +197,34 @@
   },
   "letter-spacing": {
     "0": {
-      "value": "0",
+      "value": "0%",
       "type": "letterSpacing"
     },
     "negative": {
       "10": {
-        "value": "-0.1",
+        "value": "-1%",
         "type": "letterSpacing"
       },
       "25": {
-        "value": "-0.25",
+        "value": "-2.5%",
         "type": "letterSpacing"
       },
-      "50": {
-        "value": "-0.5",
+      "40": {
+        "value": "-4%",
         "type": "letterSpacing"
       }
     },
     "positive": {
       "10": {
-        "value": "0.1",
+        "value": "1%",
         "type": "letterSpacing"
       },
       "25": {
-        "value": "0.25",
+        "value": "2.5%",
         "type": "letterSpacing"
       },
-      "50": {
-        "value": "0.5",
+      "40": {
+        "value": "4%",
         "type": "letterSpacing"
       }
     }
@@ -501,29 +501,27 @@
     }
   },
   "line-height": {
+    "display": {
+      "value": "105%",
+      "type": "lineHeights"
+    },
+    "headline": {
+      "value": "110%",
+      "type": "lineHeights"
+    },
+    "title": {
+      "value": "130%",
+      "type": "lineHeights"
+    },
+    "body": {
+      "value": "150%",
+      "type": "lineHeights"
+    },
+    "caption": {
+      "value": "125%",
+      "type": "lineHeights"
+    },
     "sans-serif": {
-      "lg": {
-        "display": {
-          "value": "104",
-          "type": "lineHeights"
-        },
-        "headline": {
-          "value": "56",
-          "type": "lineHeights"
-        },
-        "title": {
-          "value": "32",
-          "type": "lineHeights"
-        },
-        "body": {
-          "value": "24",
-          "type": "lineHeights"
-        },
-        "caption": {
-          "value": "20",
-          "type": "lineHeights"
-        }
-      },
       "md": {
         "display": {
           "value": "80",

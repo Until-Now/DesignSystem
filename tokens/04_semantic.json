@@ -227,7 +227,7 @@
           "type": "sizing"
         },
         "lg": {
-          "value": "{line-height.sans-serif.lg.title}+{font-size.sans-serif.lg.title}",
+          "value": "{line-height.title}+{font-size.sans-serif.lg.title}",
           "type": "sizing"
         },
         "x-lg": {
@@ -260,7 +260,7 @@
             "type": "sizing"
           },
           "lg": {
-            "value": "{line-height.sans-serif.lg.title}+{font-size.sans-serif.lg.title}",
+            "value": "{line-height.title}+{font-size.sans-serif.lg.title}",
             "type": "sizing"
           },
           "x-lg": {
