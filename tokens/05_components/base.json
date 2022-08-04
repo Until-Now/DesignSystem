@@ -469,7 +469,7 @@
       },
       "effects": {
         "elevation": {
-          "value": "{sys.elevation.level-3}",
+          "value": "{elevation.300}",
           "type": "boxShadow"
         }
       }
@@ -1182,7 +1182,7 @@
         }
       },
       "elevation": {
-        "value": "{sys.elevation.level-2}",
+        "value": "{elevation.200}",
         "type": "boxShadow"
       }
     },
@@ -2025,13 +2025,13 @@
       "effects": {
         "tag": {
           "elevation": {
-            "value": "{sys.elevation.level-1}",
+            "value": "{elevation.100}",
             "type": "boxShadow"
           }
         },
         "thumb": {
           "elevation": {
-            "value": "{sys.elevation.level-1}",
+            "value": "{elevation.100}",
             "type": "boxShadow"
           }
         }

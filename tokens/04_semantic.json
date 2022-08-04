@@ -215,60 +215,60 @@
           "type": "sizing"
         },
         "x-sm": {
-          "value": "{line-height.sans-serif.sm.body}+{font-size.sans-serif.sm.body}",
+          "value": "{size.32}",
           "type": "sizing"
         },
         "sm": {
-          "value": "{line-height.sans-serif.md.body}+{font-size.sans-serif.md.body}",
+          "value": "{size.40}",
           "type": "sizing"
         },
         "md": {
-          "value": "{line-height.sans-serif.md.title}+{font-size.sans-serif.md.title}",
+          "value": "{size.48}",
           "type": "sizing"
         },
         "lg": {
-          "value": "{line-height.title}+{font-size.sans-serif.lg.title}",
+          "value": "{size.56}",
           "type": "sizing"
         },
         "x-lg": {
-          "value": "{line-height.sans-serif.md.headline}+{font-size.sans-serif.md.headline}",
+          "value": "{size.80}",
           "type": "sizing"
         },
         "xx-lg": {
-          "value": "{line-height.sans-serif.sm.display}+{font-size.sans-serif.sm.display}",
+          "value": "{size.128}",
           "type": "sizing"
         },
         "content": {
           "xxx-sm": {
-            "value": "{size.18}",
+            "value": "{semantic.size.navigation.xxx-sm}",
             "type": "sizing"
           },
           "xx-sm": {
-            "value": "{size.26}",
+            "value": "{semantic.size.navigation.xx-sm}",
             "type": "sizing"
           },
           "x-sm": {
-            "value": "{line-height.sans-serif.sm.body}+{font-size.sans-serif.sm.body}",
+            "value": "{semantic.size.navigation.x-sm}",
             "type": "sizing"
           },
           "sm": {
-            "value": "{line-height.sans-serif.md.body}+{font-size.sans-serif.md.body}",
+            "value": "{semantic.size.navigation.sm}",
             "type": "sizing"
           },
           "md": {
-            "value": "{line-height.sans-serif.md.title}+{font-size.sans-serif.md.title}",
+            "value": "{semantic.size.navigation.md}",
             "type": "sizing"
           },
           "lg": {
-            "value": "{line-height.title}+{font-size.sans-serif.lg.title}",
+            "value": "{semantic.size.navigation.lg}",
             "type": "sizing"
           },
           "x-lg": {
-            "value": "{line-height.sans-serif.md.headline}+{font-size.sans-serif.md.headline}",
+            "value": "{semantic.size.navigation.x-lg}",
             "type": "sizing"
           },
           "xx-lg": {
-            "value": "{line-height.sans-serif.sm.display}+{font-size.sans-serif.sm.display}",
+            "value": "{semantic.size.navigation.xx-lg}",
             "type": "sizing"
           }
         }
@@ -424,7 +424,7 @@
         }
       },
       "feedback": {
-        "toast": {
+        "snackbar": {
           "padding-left": {
             "value": "{space.8}",
             "type": "spacing"
@@ -532,7 +532,7 @@
           "value": "{space.4}",
           "type": "spacing"
         },
-        "nav": {
+        "avatar": {
           "small": {
             "padding-left": {
               "value": "{space.3}",
