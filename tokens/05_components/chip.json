@@ -79,31 +79,31 @@
         "with-avatar": {
           "small": {
             "padding-left": {
-              "value": "{semantic.spacing.status.nav.small.padding-left}",
+              "value": "{semantic.spacing.status.avatar.small.padding-left}",
               "type": "spacing"
             },
             "padding-right": {
-              "value": "{semantic.spacing.status.nav.small.padding-right}",
+              "value": "{semantic.spacing.status.avatar.small.padding-right}",
               "type": "spacing"
             }
           },
           "medium": {
             "padding-left": {
-              "value": "{semantic.spacing.status.nav.medium.padding-left}",
+              "value": "{semantic.spacing.status.avatar.medium.padding-left}",
               "type": "spacing"
             },
             "padding-right": {
-              "value": "{semantic.spacing.status.nav.medium.padding-right}",
+              "value": "{semantic.spacing.status.avatar.medium.padding-right}",
               "type": "spacing"
             }
           },
           "large": {
             "padding-left": {
-              "value": "{semantic.spacing.status.nav.large.padding-left}",
+              "value": "{semantic.spacing.status.avatar.large.padding-left}",
               "type": "spacing"
             },
             "padding-right": {
-              "value": "{semantic.spacing.status.nav.large.padding-right}",
+              "value": "{semantic.spacing.status.avatar.large.padding-right}",
               "type": "spacing"
             }
           }

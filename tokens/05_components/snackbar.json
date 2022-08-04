@@ -16,34 +16,34 @@
       "spacing": {
         "padding-left": {
           "type": "spacing",
-          "value": "{semantic.spacing.feedback.toast.padding-left}"
+          "value": "{semantic.spacing.feedback.snackbar.padding-left}"
         },
         "padding-right": {
           "type": "spacing",
-          "value": "{semantic.spacing.feedback.toast.padding-right}"
+          "value": "{semantic.spacing.feedback.snackbar.padding-right}"
         },
         "cta": {
           "padding-left": {
-            "value": "{semantic.spacing.feedback.toast.button.padding-left}",
+            "value": "{semantic.spacing.feedback.snackbar.button.padding-left}",
             "type": "spacing"
           },
           "padding-right": {
-            "value": "{semantic.spacing.feedback.toast.button.padding-right}",
+            "value": "{semantic.spacing.feedback.snackbar.button.padding-right}",
             "type": "spacing"
           }
         },
         "text": {
           "padding-left": {
-            "value": "{semantic.spacing.feedback.toast.text.padding-left}",
+            "value": "{semantic.spacing.feedback.snackbar.text.padding-left}",
             "type": "spacing"
           },
           "padding-right": {
-            "value": "{semantic.spacing.feedback.toast.text.padding-right}",
+            "value": "{semantic.spacing.feedback.snackbar.text.padding-right}",
             "type": "spacing"
           }
         },
         "space-between": {
-          "value": "{semantic.spacing.feedback.toast.space-between}",
+          "value": "{semantic.spacing.feedback.snackbar.space-between}",
           "type": "spacing"
         }
       }
