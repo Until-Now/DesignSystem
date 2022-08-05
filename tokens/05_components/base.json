@@ -426,11 +426,11 @@
       "colour": {
         "default": {
           "bg": {
-            "value": "{sys._feedback.neutral.background-inverse}",
+            "value": "{system.colour.feedback.neutral.background-inverse}",
             "type": "color"
           },
           "content": {
-            "value": "{sys._feedback.neutral.content.on-dark.strong}",
+            "value": "{system.colour.feedback.content.on-dark.strong}",
             "type": "color"
           },
           "button-content": {
@@ -438,25 +438,25 @@
             "type": "color"
           },
           "divider": {
-            "value": "{sys._feedback.neutral.content.on-dark.soft}",
+            "value": "{system.colour.feedback.content.on-dark.soft}",
             "type": "color"
           }
         },
         "error": {
           "bg": {
-            "value": "{sys._feedback.strong.error.surface}",
+            "value": "{system.colour.feedback.strong.error.surface}",
             "type": "color"
           },
           "content": {
-            "value": "{sys._feedback.strong.error.cta}",
+            "value": "{system.colour.feedback.strong.error.cta}",
             "type": "color"
           },
           "button-content": {
-            "value": "{sys._feedback.strong.error.cta}",
+            "value": "{system.colour.feedback.strong.error.cta}",
             "type": "color"
           },
           "divider": {
-            "value": "{sys._feedback.neutral.content.on-dark.soft}",
+            "value": "{system.colour.feedback.content.on-dark.soft}",
             "type": "color"
           }
         }
@@ -477,7 +477,7 @@
     "dialog": {
       "colour": {
         "bg": {
-          "value": "{sys._feedback.neutral.background}",
+          "value": "{system.colour.feedback.neutral.background}",
           "type": "color"
         }
       },
@@ -1115,16 +1115,16 @@
               "type": "color"
             },
             "active-text": {
-              "value": "{sys._inputs.content.strong}",
+              "value": "{system.colour.inputs.content.strong}",
               "type": "color"
             },
             "helper-text": {
-              "value": "{sys._inputs.content.soft}",
+              "value": "{system.colour.inputs.content.soft}",
               "type": "color"
             },
             "outline": {
               "type": "color",
-              "value": "{sys._inputs.press.outline}"
+              "value": "{system.colour.inputs.press.outline}"
             }
           }
         }
@@ -1199,7 +1199,7 @@
               "type": "color"
             },
             "content": {
-              "value": "{sys._inputs.content.strong}",
+              "value": "{system.colour.inputs.content.strong}",
               "type": "color"
             }
           },
@@ -1214,7 +1214,7 @@
                 "type": "color"
               },
               "content": {
-                "value": "{sys._inputs.content.strong}",
+                "value": "{system.colour.inputs.content.strong}",
                 "type": "color"
               }
             },
@@ -1224,11 +1224,11 @@
                 "type": "color"
               },
               "control": {
-                "value": "{sys._inputs.hover.outline}",
+                "value": "{system.colour.inputs.hover.outline}",
                 "type": "color"
               },
               "content": {
-                "value": "{sys._inputs.content.strong}",
+                "value": "{system.colour.inputs.content.strong}",
                 "type": "color"
               }
             },
@@ -1238,44 +1238,44 @@
                 "type": "color"
               },
               "control": {
-                "value": "{sys._inputs.press.outline}",
+                "value": "{system.colour.inputs.press.outline}",
                 "type": "color"
               },
               "content": {
-                "value": "{sys._inputs.content.strong}",
+                "value": "{system.colour.inputs.content.strong}",
                 "type": "color"
               },
               "outline": {
-                "value": "{sys._inputs.error.focus-outline}",
+                "value": "{system.colour.inputs.error.focus-outline}",
                 "type": "color"
               }
             },
             "disabled": {
               "bg": {
-                "value": "{sys._inputs.disabled.background}",
+                "value": "{system.colour.inputs.disabled.background}",
                 "type": "color"
               },
               "control": {
-                "value": "{sys._inputs.disabled.outline}",
+                "value": "{system.colour.inputs.disabled.outline}",
                 "type": "color"
               },
               "content": {
-                "value": "{sys._inputs.content.soft}",
+                "value": "{system.colour.inputs.content.soft}",
                 "type": "color"
               }
             }
           },
           "disabled": {
             "bg": {
-              "value": "{sys._inputs.disabled.background}",
+              "value": "{system.colour.inputs.disabled.background}",
               "type": "color"
             },
             "control": {
-              "value": "{sys._inputs.disabled.outline}",
+              "value": "{system.colour.inputs.disabled.outline}",
               "type": "color"
             },
             "content": {
-              "value": "{sys._inputs.content.soft}",
+              "value": "{system.colour.inputs.content.soft}",
               "type": "color"
             }
           },
@@ -1285,11 +1285,11 @@
               "type": "color"
             },
             "control": {
-              "value": "{sys._inputs.hover.outline}",
+              "value": "{system.colour.inputs.hover.outline}",
               "type": "color"
             },
             "content": {
-              "value": "{sys._inputs.content.strong}",
+              "value": "{system.colour.inputs.content.strong}",
               "type": "color"
             }
           },
@@ -1299,11 +1299,11 @@
               "type": "color"
             },
             "control": {
-              "value": "{sys._inputs.error.outline}",
+              "value": "{system.colour.inputs.error.outline}",
               "type": "color"
             },
             "content": {
-              "value": "{sys._inputs.content.strong}",
+              "value": "{system.colour.inputs.content.strong}",
               "type": "color"
             }
           }
@@ -1333,11 +1333,11 @@
               "type": "color"
             },
             "toggle-icon": {
-              "value": "{sys._inputs.content.mid}",
+              "value": "{system.colour.inputs.content.mid}",
               "type": "color"
             },
             "content": {
-              "value": "{sys._inputs.content.strong}",
+              "value": "{system.colour.inputs.content.strong}",
               "type": "color"
             },
             "toggle": {
@@ -1351,19 +1351,19 @@
           },
           "hover": {
             "bg": {
-              "value": "{sys._inputs.hover.bg-neutral}",
+              "value": "{system.colour.inputs.hover.bg-neutral}",
               "type": "color"
             },
             "toggle-icon": {
-              "value": "{sys._inputs.content.mid}",
+              "value": "{system.colour.inputs.content.mid}",
               "type": "color"
             },
             "content": {
-              "value": "{sys._inputs.content.strong}",
+              "value": "{system.colour.inputs.content.strong}",
               "type": "color"
             },
             "toggle": {
-              "value": "{sys._inputs.hover.background}",
+              "value": "{system.colour.inputs.hover.background}",
               "type": "color"
             },
             "state": {
@@ -1373,19 +1373,19 @@
           },
           "press": {
             "bg": {
-              "value": "{sys._inputs.press.bg-neutral}",
+              "value": "{system.colour.inputs.press.bg-neutral}",
               "type": "color"
             },
             "toggle-icon": {
-              "value": "{sys._inputs.content.mid}",
+              "value": "{system.colour.inputs.content.mid}",
               "type": "color"
             },
             "content": {
-              "value": "{sys._inputs.content.strong}",
+              "value": "{system.colour.inputs.content.strong}",
               "type": "color"
             },
             "toggle": {
-              "value": "{sys._inputs.press.background}",
+              "value": "{system.colour.inputs.press.background}",
               "type": "color"
             },
             "state": {
@@ -1395,19 +1395,19 @@
           },
           "error": {
             "bg": {
-              "value": "{sys._inputs.error.bg-neutral}",
+              "value": "{system.colour.inputs.error.bg-neutral}",
               "type": "color"
             },
             "toggle-icon": {
-              "value": "{sys._inputs.content.mid}",
+              "value": "{system.colour.inputs.content.mid}",
               "type": "color"
             },
             "content": {
-              "value": "{sys._inputs.content.strong}",
+              "value": "{system.colour.inputs.content.strong}",
               "type": "color"
             },
             "toggle": {
-              "value": "{sys._inputs.error.background}",
+              "value": "{system.colour.inputs.error.background}",
               "type": "color"
             },
             "state": {
@@ -1415,21 +1415,21 @@
               "value": "{sys._overlay.accent.primary-light.default}"
             },
             "outline": {
-              "value": "{sys._inputs.error.focus-outline}",
+              "value": "{system.colour.inputs.error.focus-outline}",
               "type": "color"
             }
           },
           "disabled": {
             "bg": {
-              "value": "{sys._inputs.disabled.background}",
+              "value": "{system.colour.inputs.disabled.background}",
               "type": "color"
             },
             "toggle-icon": {
-              "value": "{sys._inputs.content.disabled}",
+              "value": "{system.colour.inputs.content.disabled}",
               "type": "color"
             },
             "content": {
-              "value": "{sys._inputs.content.disabled}",
+              "value": "{system.colour.inputs.content.disabled}",
               "type": "color"
             },
             "toggle": {
@@ -1448,11 +1448,11 @@
                 "type": "color"
               },
               "toggle-icon": {
-                "value": "{sys._inputs.content.accent-on-light}",
+                "value": "{system.colour.inputs.content.accent-on-light}",
                 "type": "color"
               },
               "content": {
-                "value": "{sys._inputs.content.strong}",
+                "value": "{system.colour.inputs.content.strong}",
                 "type": "color"
               },
               "toggle": {
@@ -1466,19 +1466,19 @@
             },
             "hover": {
               "bg": {
-                "value": "{sys._inputs.hover.bg-accent}",
+                "value": "{system.colour.inputs.hover.bg-accent}",
                 "type": "color"
               },
               "toggle-icon": {
-                "value": "{sys._inputs.content.accent-on-light}",
+                "value": "{system.colour.inputs.content.accent-on-light}",
                 "type": "color"
               },
               "content": {
-                "value": "{sys._inputs.content.strong}",
+                "value": "{system.colour.inputs.content.strong}",
                 "type": "color"
               },
               "toggle": {
-                "value": "{sys._inputs.hover.background}",
+                "value": "{system.colour.inputs.hover.background}",
                 "type": "color"
               },
               "state": {
@@ -1488,19 +1488,19 @@
             },
             "press": {
               "bg": {
-                "value": "{sys._inputs.press.bg-accent}",
+                "value": "{system.colour.inputs.press.bg-accent}",
                 "type": "color"
               },
               "toggle-icon": {
-                "value": "{sys._inputs.content.accent-on-light}",
+                "value": "{system.colour.inputs.content.accent-on-light}",
                 "type": "color"
               },
               "content": {
-                "value": "{sys._inputs.content.strong}",
+                "value": "{system.colour.inputs.content.strong}",
                 "type": "color"
               },
               "toggle": {
-                "value": "{sys._inputs.press.background}",
+                "value": "{system.colour.inputs.press.background}",
                 "type": "color"
               },
               "state": {
@@ -1510,19 +1510,19 @@
             },
             "error": {
               "bg": {
-                "value": "{sys._inputs.error.bg-accent}",
+                "value": "{system.colour.inputs.error.bg-accent}",
                 "type": "color"
               },
               "icon": {
-                "value": "{sys._inputs.content.accent-on-light}",
+                "value": "{system.colour.inputs.content.accent-on-light}",
                 "type": "color"
               },
               "content": {
-                "value": "{sys._inputs.content.strong}",
+                "value": "{system.colour.inputs.content.strong}",
                 "type": "color"
               },
               "toggle": {
-                "value": "{sys._inputs.error.background}",
+                "value": "{system.colour.inputs.error.background}",
                 "type": "color"
               },
               "state": {
@@ -1530,21 +1530,21 @@
                 "value": "{sys._overlay.darker.default-surface-opacity}"
               },
               "outline": {
-                "value": "{sys._inputs.error.focus-outline}",
+                "value": "{system.colour.inputs.error.focus-outline}",
                 "type": "color"
               }
             },
             "disabled": {
               "bg": {
-                "value": "{sys._inputs.disabled.background}",
+                "value": "{system.colour.inputs.disabled.background}",
                 "type": "color"
               },
               "toggle-icon": {
-                "value": "{sys._inputs.content.disabled}",
+                "value": "{system.colour.inputs.content.disabled}",
                 "type": "color"
               },
               "content": {
-                "value": "{sys._inputs.content.disabled}",
+                "value": "{system.colour.inputs.content.disabled}",
                 "type": "color"
               },
               "toggle": {
@@ -1573,11 +1573,11 @@
       },
       "border": {
         "hover": {
-          "value": "{sys._inputs.press.focus-outline}",
+          "value": "{system.colour.inputs.press.focus-outline}",
           "type": "color"
         },
         "error": {
-          "value": "{sys._inputs.error.focus-outline}",
+          "value": "{system.colour.inputs.error.focus-outline}",
           "type": "color"
         }
       },
@@ -1585,13 +1585,13 @@
         "container": {
           "default": {
             "bg": {
-              "value": "{sys._inputs.selected.bg-accent-light}",
+              "value": "{system.colour.inputs.selected.bg-accent-light}",
               "type": "color"
             }
           },
           "disabled": {
             "bg": {
-              "value": "{sys._inputs.disabled.background}",
+              "value": "{system.colour.inputs.disabled.background}",
               "type": "color"
             }
           }
@@ -1615,90 +1615,90 @@
       },
       "hover": {
         "bg": {
-          "value": "{sys._inputs.hover.background}",
+          "value": "{system.colour.inputs.hover.background}",
           "type": "color"
         },
         "bg-transparent": {
-          "value": "{sys._inputs.hover.bg-transparent}",
+          "value": "{system.colour.inputs.hover.bg-transparent}",
           "type": "color"
         },
         "outline": {
-          "value": "{sys._inputs.hover.outline}",
+          "value": "{system.colour.inputs.hover.outline}",
           "type": "color"
         }
       },
       "active": {
         "bg": {
-          "value": "{sys._inputs.press.background}",
+          "value": "{system.colour.inputs.press.background}",
           "type": "color"
         },
         "bg-transparent": {
-          "value": "{sys._inputs.press.bg-transparent}",
+          "value": "{system.colour.inputs.press.bg-transparent}",
           "type": "color"
         },
         "outline": {
-          "value": "{sys._inputs.press.outline}",
+          "value": "{system.colour.inputs.press.outline}",
           "type": "color"
         },
         "focus-outline": {
-          "value": "{sys._inputs.press.focus-outline}",
+          "value": "{system.colour.inputs.press.focus-outline}",
           "type": "color"
         }
       },
       "error": {
         "bg": {
-          "value": "{sys._inputs.error.background}",
+          "value": "{system.colour.inputs.error.background}",
           "type": "color"
         },
         "bg-transparent": {
-          "value": "{sys._inputs.error.bg-transparent}",
+          "value": "{system.colour.inputs.error.bg-transparent}",
           "type": "color"
         },
         "outline": {
-          "value": "{sys._inputs.error.outline}",
+          "value": "{system.colour.inputs.error.outline}",
           "type": "color"
         }
       },
       "disabled": {
         "bg": {
-          "value": "{sys._inputs.disabled.background}",
+          "value": "{system.colour.inputs.disabled.background}",
           "type": "color"
         },
         "bg-transparent": {
-          "value": "{sys._inputs.disabled.bg-transparent}",
+          "value": "{system.colour.inputs.disabled.bg-transparent}",
           "type": "color"
         },
         "outline": {
-          "value": "{sys._inputs.disabled.outline}",
+          "value": "{system.colour.inputs.disabled.outline}",
           "type": "color"
         }
       },
       "content": {
         "strong": {
-          "value": "{sys._inputs.content.strong}",
+          "value": "{system.colour.inputs.content.strong}",
           "type": "color",
           "description": "Active text and default icon colour"
         },
         "mid": {
-          "value": "{sys._inputs.content.mid}",
+          "value": "{system.colour.inputs.content.mid}",
           "type": "color",
           "description": "Label text"
         },
         "soft": {
-          "value": "{sys._inputs.content.soft}",
+          "value": "{system.colour.inputs.content.soft}",
           "type": "color",
           "description": "Helper text"
         },
         "error": {
-          "value": "{sys._inputs.content.error}",
+          "value": "{system.colour.inputs.content.error}",
           "type": "color"
         },
         "disabled": {
-          "value": "{sys._inputs.content.disabled}",
+          "value": "{system.colour.inputs.content.disabled}",
           "type": "color"
         },
         "link": {
-          "value": "{sys._inputs.content.accent-on-light}",
+          "value": "{system.colour.inputs.content.accent-on-light}",
           "type": "color"
         }
       },
@@ -1753,19 +1753,19 @@
     "menu": {
       "container": {
         "default": {
-          "value": "{sys._inputs.selected.default-background}",
+          "value": "{system.colour.inputs.selected.default-background}",
           "type": "color"
         },
         "hover": {
-          "value": "{sys._inputs.selected.hover-background}",
+          "value": "{system.colour.inputs.selected.hover-background}",
           "type": "color"
         },
         "press": {
-          "value": "{sys._inputs.selected.press-background}",
+          "value": "{system.colour.inputs.selected.press-background}",
           "type": "color"
         },
         "disabled": {
-          "value": "{sys._inputs.selected.disabled-background}",
+          "value": "{system.colour.inputs.selected.disabled-background}",
           "type": "color"
         }
       },
@@ -1775,19 +1775,19 @@
       },
       "content": {
         "strong": {
-          "value": "{sys._inputs.content.strong}",
+          "value": "{system.colour.inputs.content.strong}",
           "type": "color"
         },
         "mid": {
-          "value": "{sys._inputs.content.mid}",
+          "value": "{system.colour.inputs.content.mid}",
           "type": "color"
         },
         "disabled": {
-          "value": "{sys._inputs.content.disabled}",
+          "value": "{system.colour.inputs.content.disabled}",
           "type": "color"
         },
         "text-link": {
-          "value": "{sys._inputs.content.accent-on-light}",
+          "value": "{system.colour.inputs.content.accent-on-light}",
           "type": "color"
         }
       },
@@ -1831,15 +1831,15 @@
         "colour": {
           "content": {
             "strong": {
-              "value": "{sys._inputs.content.strong}",
+              "value": "{system.colour.inputs.content.strong}",
               "type": "color"
             },
             "mid": {
-              "value": "{sys._inputs.content.mid}",
+              "value": "{system.colour.inputs.content.mid}",
               "type": "color"
             },
             "error": {
-              "value": "{sys._inputs.content.error}",
+              "value": "{system.colour.inputs.content.error}",
               "type": "color"
             }
           }
@@ -1853,7 +1853,7 @@
               "type": "color"
             },
             "content": {
-              "value": "{sys._inputs.content.strong}",
+              "value": "{system.colour.inputs.content.strong}",
               "type": "color"
             },
             "outline": {
@@ -1867,11 +1867,11 @@
               "type": "color"
             },
             "content": {
-              "value": "{sys._inputs.content.strong}",
+              "value": "{system.colour.inputs.content.strong}",
               "type": "color"
             },
             "outline": {
-              "value": "{sys._inputs.hover.outline}",
+              "value": "{system.colour.inputs.hover.outline}",
               "type": "color"
             }
           },
@@ -1881,11 +1881,11 @@
               "type": "color"
             },
             "content": {
-              "value": "{sys._inputs.content.error}",
+              "value": "{system.colour.inputs.content.error}",
               "type": "color"
             },
             "outline": {
-              "value": "{sys._inputs.error.outline}",
+              "value": "{system.colour.inputs.error.outline}",
               "type": "color"
             }
           },
@@ -1900,15 +1900,15 @@
       "colour": {
         "track": {
           "inactive-bg": {
-            "value": "{sys._inputs.measure.background}",
+            "value": "{system.colour.inputs.measure.background}",
             "type": "color"
           },
           "active-bg": {
-            "value": "{sys._inputs.measure.foreground}",
+            "value": "{system.colour.inputs.measure.foreground}",
             "type": "color"
           },
           "content": {
-            "value": "{sys._inputs.content.strong}",
+            "value": "{system.colour.inputs.content.strong}",
             "type": "color"
           }
         },
@@ -1958,11 +1958,11 @@
         },
         "tag": {
           "bg": {
-            "value": "{sys._inputs.measure.foreground-accent}",
+            "value": "{system.colour.inputs.measure.foreground-accent}",
             "type": "color"
           },
           "content": {
-            "value": "{sys._inputs.content.strong}",
+            "value": "{system.colour.inputs.content.strong}",
             "type": "color"
           }
         }
