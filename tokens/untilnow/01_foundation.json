@@ -1316,7 +1316,7 @@
           "type": "color"
         },
         "disabled": {
-          "value": "{sys._action.disabled.background}",
+          "value": "{system.colour.action.disabled.background}",
           "type": "color"
         },
         "transparent": {
@@ -1362,7 +1362,7 @@
           "type": "color"
         },
         "primary": {
-          "value": "{sys._action.primary.default.background}",
+          "value": "{system.colour.action.primary.default.background}",
           "type": "color"
         },
         "secondary": {
@@ -1388,11 +1388,11 @@
       },
       "transparent": {
         "disabled": {
-          "value": "{sys._action.disabled.background}",
+          "value": "{system.colour.action.disabled.background}",
           "type": "color"
         },
         "primary": {
-          "value": "rgba({sys._action.primary.default.background},{sys.opacity.border.soft})",
+          "value": "rgba({system.colour.action.primary.default.background},{sys.opacity.border.soft})",
           "type": "color"
         },
         "secondary": {
@@ -1450,34 +1450,34 @@
       },
       "primary": {
         "strong": {
-          "value": "rgba({sys._action.primary.default.background},{sys.opacity.content.solid})",
+          "value": "rgba({system.colour.action.primary.default.background},{sys.opacity.content.solid})",
           "type": "color",
           "description": "High emphasis, primary"
         },
         "mid": {
-          "value": "rgba({sys._action.primary.default.background},{sys.opacity.content.md})",
+          "value": "rgba({system.colour.action.primary.default.background},{sys.opacity.content.md})",
           "type": "color",
           "description": "md emphasis, primary"
         },
         "soft": {
-          "value": "rgba({sys._action.primary.default.background},{sys.opacity.content.soft})",
+          "value": "rgba({system.colour.action.primary.default.background},{sys.opacity.content.soft})",
           "type": "color",
           "description": "Low emphasis, primary"
         }
       },
       "on-support-primary": {
         "strong": {
-          "value": "rgba({sys._action.secondary.default.content},{sys.opacity.content.solid})",
+          "value": "rgba({system.colour.action.secondary.default.content},{sys.opacity.content.solid})",
           "type": "color",
           "description": "High emphasis, primary support"
         },
         "mid": {
-          "value": "rgba({sys._action.secondary.default.content},{sys.opacity.content.md})",
+          "value": "rgba({system.colour.action.secondary.default.content},{sys.opacity.content.md})",
           "type": "color",
           "description": "md emphasis, primary support"
         },
         "soft": {
-          "value": "rgba({sys._action.secondary.default.content},{sys.opacity.content.soft})",
+          "value": "rgba({system.colour.action.secondary.default.content},{sys.opacity.content.soft})",
           "type": "color",
           "description": "Low emphasis, primary support"
         }
@@ -1518,15 +1518,15 @@
       },
       "primary-light": {
         "strong": {
-          "value": "rgba({sys._action.secondary.default.background},{sys.opacity.content.solid})",
+          "value": "rgba({system.colour.action.secondary.default.background},{sys.opacity.content.solid})",
           "type": "color"
         },
         "mid": {
-          "value": "rgba({sys._action.secondary.default.background},{sys.opacity.content.md})",
+          "value": "rgba({system.colour.action.secondary.default.background},{sys.opacity.content.md})",
           "type": "color"
         },
         "soft": {
-          "value": "rgba({sys._action.secondary.default.background},{sys.opacity.content.soft})",
+          "value": "rgba({system.colour.action.secondary.default.background},{sys.opacity.content.soft})",
           "type": "color"
         }
       },

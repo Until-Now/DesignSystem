@@ -5,11 +5,11 @@
         "primary": {
           "default": {
             "bg": {
-              "value": "{sys._action.primary.default.background}",
+              "value": "{system.colour.action.primary.default.background}",
               "type": "color"
             },
             "content": {
-              "value": "{sys._action.primary.default.content}",
+              "value": "{system.colour.action.primary.default.content}",
               "type": "color"
             },
             "state": {
@@ -19,11 +19,11 @@
           },
           "hover": {
             "bg": {
-              "value": "{sys._action.primary.hover.background}",
+              "value": "{system.colour.action.primary.hover.background}",
               "type": "color"
             },
             "content": {
-              "value": "{sys._action.primary.hover.content}",
+              "value": "{system.colour.action.primary.hover.content}",
               "type": "color"
             },
             "state": {
@@ -33,11 +33,11 @@
           },
           "press": {
             "bg": {
-              "value": "{sys._action.primary.press.background}",
+              "value": "{system.colour.action.primary.press.background}",
               "type": "color"
             },
             "content": {
-              "value": "{sys._action.primary.press.content}",
+              "value": "{system.colour.action.primary.press.content}",
               "type": "color"
             },
             "state": {
@@ -47,11 +47,11 @@
           },
           "disabled": {
             "bg": {
-              "value": "{sys._action.disabled.background}",
+              "value": "{system.colour.action.disabled.background}",
               "type": "color"
             },
             "content": {
-              "value": "{sys._action.disabled.content}",
+              "value": "{system.colour.action.disabled.content}",
               "type": "color"
             },
             "state": {
@@ -63,11 +63,11 @@
         "secondary": {
           "default": {
             "bg": {
-              "value": "{sys._action.secondary.default.background}",
+              "value": "{system.colour.action.secondary.default.background}",
               "type": "color"
             },
             "content": {
-              "value": "{sys._action.secondary.default.content}",
+              "value": "{system.colour.action.secondary.default.content}",
               "type": "color"
             },
             "state": {
@@ -77,11 +77,11 @@
           },
           "hover": {
             "bg": {
-              "value": "{sys._action.secondary.hover.background}",
+              "value": "{system.colour.action.secondary.hover.background}",
               "type": "color"
             },
             "content": {
-              "value": "{sys._action.secondary.hover.content}",
+              "value": "{system.colour.action.secondary.hover.content}",
               "type": "color"
             },
             "state": {
@@ -91,11 +91,11 @@
           },
           "press": {
             "bg": {
-              "value": "{sys._action.secondary.press.background}",
+              "value": "{system.colour.action.secondary.press.background}",
               "type": "color"
             },
             "content": {
-              "value": "{sys._action.secondary.press.content}",
+              "value": "{system.colour.action.secondary.press.content}",
               "type": "color"
             },
             "state": {
@@ -105,11 +105,11 @@
           },
           "disabled": {
             "bg": {
-              "value": "{sys._action.disabled.background}",
+              "value": "{system.colour.action.disabled.background}",
               "type": "color"
             },
             "content": {
-              "value": "{sys._action.disabled.content}",
+              "value": "{system.colour.action.disabled.content}",
               "type": "color"
             },
             "state": {
@@ -121,11 +121,11 @@
         "tertiary": {
           "default": {
             "bg": {
-              "value": "{sys._action.tertiary.default.background}",
+              "value": "{system.colour.action.tertiary.default.background}",
               "type": "color"
             },
             "content": {
-              "value": "{sys._action.tertiary.default.content}",
+              "value": "{system.colour.action.tertiary.default.content}",
               "type": "color"
             },
             "state": {
@@ -135,11 +135,11 @@
           },
           "hover": {
             "bg": {
-              "value": "{sys._action.tertiary.hover.background}",
+              "value": "{system.colour.action.tertiary.hover.background}",
               "type": "color"
             },
             "content": {
-              "value": "{sys._action.tertiary.hover.content}",
+              "value": "{system.colour.action.tertiary.hover.content}",
               "type": "color"
             },
             "state": {
@@ -149,11 +149,11 @@
           },
           "press": {
             "bg": {
-              "value": "{sys._action.tertiary.press.background}",
+              "value": "{system.colour.action.tertiary.press.background}",
               "type": "color"
             },
             "content": {
-              "value": "{sys._action.tertiary.press.content}",
+              "value": "{system.colour.action.tertiary.press.content}",
               "type": "color"
             },
             "state": {
@@ -163,11 +163,11 @@
           },
           "disabled": {
             "bg": {
-              "value": "{sys._action.disabled.background-transparent}",
+              "value": "{system.colour.action.disabled.background-transparent}",
               "type": "color"
             },
             "content": {
-              "value": "{sys._action.disabled.content}",
+              "value": "{system.colour.action.disabled.content}",
               "type": "color"
             },
             "state": {
@@ -176,22 +176,22 @@
             }
           },
           "outline": {
-            "value": "{sys._action.tertiary.outline}",
+            "value": "{system.colour.action.tertiary.outline}",
             "type": "color"
           },
           "outline-disabled": {
-            "value": "{sys._action.disabled.outline}",
+            "value": "{system.colour.action.disabled.outline}",
             "type": "color"
           }
         },
         "subtle": {
           "default": {
             "bg": {
-              "value": "{sys._action.subtle.default.background}",
+              "value": "{system.colour.action.subtle.default.background}",
               "type": "color"
             },
             "content": {
-              "value": "{sys._action.subtle.default.content}",
+              "value": "{system.colour.action.subtle.default.content}",
               "type": "color"
             },
             "state": {
@@ -201,11 +201,11 @@
           },
           "hover": {
             "bg": {
-              "value": "{sys._action.subtle.hover.background}",
+              "value": "{system.colour.action.subtle.hover.background}",
               "type": "color"
             },
             "content": {
-              "value": "{sys._action.subtle.hover.content}",
+              "value": "{system.colour.action.subtle.hover.content}",
               "type": "color"
             },
             "state": {
@@ -215,11 +215,11 @@
           },
           "press": {
             "bg": {
-              "value": "{sys._action.subtle.press.background}",
+              "value": "{system.colour.action.subtle.press.background}",
               "type": "color"
             },
             "content": {
-              "value": "{sys._action.subtle.press.content}",
+              "value": "{system.colour.action.subtle.press.content}",
               "type": "color"
             },
             "state": {
@@ -229,11 +229,11 @@
           },
           "disabled": {
             "bg": {
-              "value": "{sys._action.disabled.background-transparent}",
+              "value": "{system.colour.action.disabled.background-transparent}",
               "type": "color"
             },
             "content": {
-              "value": "{sys._action.disabled.content}",
+              "value": "{system.colour.action.disabled.content}",
               "type": "color"
             },
             "state": {

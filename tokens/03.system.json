@@ -200,252 +200,256 @@
       "type": "boxShadow"
     }
   },
-  "sys": {
-    "_action": {
-      "primary": {
-        "default": {
-          "background": {
-            "value": "{semantic.primary.primary}",
-            "type": "color",
-            "description": "Primary action background default state"
+  "system": {
+    "colour": {
+      "action": {
+        "primary": {
+          "default": {
+            "background": {
+              "value": "{semantic.primary.primary}",
+              "type": "color",
+              "description": "Primary action background default state"
+            },
+            "content": {
+              "value": "{semantic.primary.on-primary}",
+              "type": "color",
+              "description": "Icons and text on primary action default"
+            },
+            "split": {
+              "value": "{semantic.primary.on-primary}",
+              "type": "color",
+              "description": "Icons and text on primary action default"
+            }
           },
-          "content": {
-            "value": "{semantic.primary.on-primary}",
-            "type": "color",
-            "description": "Icons and text on primary action default"
+          "hover": {
+            "background": {
+              "value": "{system.colour.action.primary.default.background}",
+              "type": "color",
+              "description": "Primary action background hover state"
+            },
+            "content": {
+              "value": "{system.colour.action.primary.default.content}",
+              "type": "color",
+              "description": "Icons and text on primary action hover"
+            },
+            "split": {
+              "value": "{system.colour.action.primary.default.content}",
+              "type": "color",
+              "description": "Icons and text on primary action hover"
+            }
           },
-          "split": {
-            "value": "{semantic.primary.on-primary}",
-            "type": "color",
-            "description": "Icons and text on primary action default"
+          "press": {
+            "background": {
+              "value": "{system.colour.action.primary.default.background}",
+              "type": "color",
+              "description": "Primary action background press state"
+            },
+            "content": {
+              "value": "{system.colour.action.primary.default.content}",
+              "type": "color",
+              "description": "Icons and text on primary action press"
+            },
+            "split": {
+              "value": "{system.colour.action.primary.default.content}",
+              "type": "color",
+              "description": "Icons and text on primary action press"
+            }
           }
         },
-        "hover": {
+        "disabled": {
           "background": {
-            "value": "{sys._action.primary.default.background}",
+            "value": "{semantic.neutral.disabled}",
             "type": "color",
-            "description": "Primary action background hover state"
+            "description": "Disabled action background state"
+          },
+          "outline": {
+            "value": "{semantic.neutral.disabled}",
+            "type": "color",
+            "description": "Disabled action background state"
+          },
+          "background-transparent": {
+            "value": "{semantic.neutral.transparent}",
+            "type": "color"
           },
           "content": {
-            "value": "{sys._action.primary.default.content}",
+            "value": "rgba({semantic.content.primary},{sys.opacity.content.soft})",
             "type": "color",
-            "description": "Icons and text on primary action hover"
+            "description": "Icons and text on disabled action"
           },
           "split": {
-            "value": "{sys._action.primary.default.content}",
+            "value": "rgba({semantic.content.primary},{sys.opacity.content.soft})",
             "type": "color",
-            "description": "Icons and text on primary action hover"
+            "description": "Icons and text on disabled action"
           }
         },
-        "press": {
-          "background": {
-            "value": "{sys._action.primary.default.background}",
-            "type": "color",
-            "description": "Primary action background press state"
+        "secondary": {
+          "default": {
+            "background": {
+              "value": "{semantic.secondary.light}",
+              "type": "color",
+              "description": "Secondary action background default state"
+            },
+            "content": {
+              "value": "{semantic.secondary.on-light}",
+              "type": "color",
+              "description": "Icons and text on secondary action default"
+            },
+            "split": {
+              "value": "{semantic.secondary.on-light}",
+              "type": "color",
+              "description": "Icons and text on secondary action default"
+            }
           },
-          "content": {
-            "value": "{sys._action.primary.default.content}",
-            "type": "color",
-            "description": "Icons and text on primary action press"
+          "hover": {
+            "background": {
+              "value": "{system.colour.action.secondary.default.background}",
+              "type": "color",
+              "description": "Secondary action background hover state"
+            },
+            "content": {
+              "value": "{system.colour.action.secondary.default.content}",
+              "type": "color",
+              "description": "Icons and text on secondary action hover"
+            },
+            "split": {
+              "value": "{system.colour.action.secondary.default.content}",
+              "type": "color",
+              "description": "Icons and text on secondary action hover"
+            }
           },
-          "split": {
-            "value": "{sys._action.primary.default.content}",
-            "type": "color",
-            "description": "Icons and text on primary action press"
-          }
-        }
-      },
-      "disabled": {
-        "background": {
-          "value": "{semantic.neutral.disabled}",
-          "type": "color",
-          "description": "Disabled action background state"
-        },
-        "outline": {
-          "value": "{semantic.neutral.disabled}",
-          "type": "color",
-          "description": "Disabled action background state"
-        },
-        "background-transparent": {
-          "value": "{semantic.neutral.transparent}",
-          "type": "color"
-        },
-        "content": {
-          "value": "rgba({semantic.content.primary},{sys.opacity.content.soft})",
-          "type": "color",
-          "description": "Icons and text on disabled action"
-        },
-        "split": {
-          "value": "rgba({semantic.content.primary},{sys.opacity.content.soft})",
-          "type": "color",
-          "description": "Icons and text on disabled action"
-        }
-      },
-      "secondary": {
-        "default": {
-          "background": {
-            "value": "{semantic.secondary.light}",
-            "type": "color",
-            "description": "Secondary action background default state"
-          },
-          "content": {
-            "value": "{semantic.secondary.on-light}",
-            "type": "color",
-            "description": "Icons and text on secondary action default"
-          },
-          "split": {
-            "value": "{semantic.secondary.on-light}",
-            "type": "color",
-            "description": "Icons and text on secondary action default"
+          "press": {
+            "background": {
+              "value": "{system.colour.action.secondary.default.background}",
+              "type": "color",
+              "description": "Secondary action background press state"
+            },
+            "content": {
+              "value": "{system.colour.action.secondary.default.content}",
+              "type": "color",
+              "description": "Icons and text on secondary action press"
+            },
+            "split": {
+              "value": "{system.colour.action.secondary.default.content}",
+              "type": "color",
+              "description": "Icons and text on secondary action press"
+            }
           }
         },
-        "hover": {
-          "background": {
-            "value": "{sys._action.secondary.default.background}",
-            "type": "color",
-            "description": "Secondary action background hover state"
+        "tertiary": {
+          "default": {
+            "background": {
+              "value": "{semantic.primary.muted}",
+              "type": "color",
+              "description": "Tertiary action background default state"
+            },
+            "content": {
+              "value": "{semantic.primary.on-muted}",
+              "type": "color",
+              "description": "Icons and text on tertiary action default"
+            },
+            "split": {
+              "value": "{semantic.primary.on-muted}",
+              "type": "color",
+              "description": "Icons and text on tertiary action default"
+            }
           },
-          "content": {
-            "value": "{sys._action.secondary.default.content}",
-            "type": "color",
-            "description": "Icons and text on secondary action hover"
+          "hover": {
+            "background": {
+              "value": "{system.colour.action.tertiary.default.background}",
+              "type": "color",
+              "description": "Tertiary action background hover state"
+            },
+            "content": {
+              "value": "{system.colour.action.tertiary.default.content}",
+              "type": "color",
+              "description": "Icons and text on tertiary action hover"
+            },
+            "split": {
+              "value": "{system.colour.action.tertiary.default.content}",
+              "type": "color",
+              "description": "Icons and text on tertiary action hover"
+            }
           },
-          "split": {
-            "value": "{sys._action.secondary.default.content}",
+          "press": {
+            "background": {
+              "value": "{system.colour.action.tertiary.default.background}",
+              "type": "color",
+              "description": "Tertiary action background press state"
+            },
+            "content": {
+              "value": "{system.colour.action.tertiary.default.content}",
+              "type": "color",
+              "description": "Icons and text on tertiary action press"
+            },
+            "split": {
+              "value": "{system.colour.action.tertiary.default.content}",
+              "type": "color",
+              "description": "Icons and text on tertiary action press"
+            }
+          },
+          "outline": {
+            "value": "{semantic.border.default}",
             "type": "color",
-            "description": "Icons and text on secondary action hover"
+            "description": "Component outline"
           }
         },
-        "press": {
-          "background": {
-            "value": "{sys._action.secondary.default.background}",
-            "type": "color",
-            "description": "Secondary action background press state"
+        "subtle": {
+          "default": {
+            "background": {
+              "value": "{semantic.primary.subtle}",
+              "type": "color",
+              "description": "Subtle action background default state"
+            },
+            "content": {
+              "value": "{semantic.primary.on-subtle}",
+              "type": "color",
+              "description": "Icons and text on subtle action default"
+            },
+            "split": {
+              "value": "{semantic.primary.on-subtle}",
+              "type": "color",
+              "description": "Icons and text on subtle action default"
+            }
           },
-          "content": {
-            "value": "{sys._action.secondary.default.content}",
-            "type": "color",
-            "description": "Icons and text on secondary action press"
+          "hover": {
+            "background": {
+              "value": "{system.colour.action.subtle.default.background}",
+              "type": "color",
+              "description": "Subtle action background hover state"
+            },
+            "content": {
+              "value": "{system.colour.action.subtle.default.content}",
+              "type": "color",
+              "description": "Icons and text on subtle action hover"
+            },
+            "split": {
+              "value": "{system.colour.action.subtle.default.content}",
+              "type": "color",
+              "description": "Icons and text on subtle action hover"
+            }
           },
-          "split": {
-            "value": "{sys._action.secondary.default.content}",
-            "type": "color",
-            "description": "Icons and text on secondary action press"
-          }
-        }
-      },
-      "tertiary": {
-        "default": {
-          "background": {
-            "value": "{semantic.primary.muted}",
-            "type": "color",
-            "description": "Tertiary action background default state"
-          },
-          "content": {
-            "value": "{semantic.primary.on-muted}",
-            "type": "color",
-            "description": "Icons and text on tertiary action default"
-          },
-          "split": {
-            "value": "{semantic.primary.on-muted}",
-            "type": "color",
-            "description": "Icons and text on tertiary action default"
-          }
-        },
-        "hover": {
-          "background": {
-            "value": "{sys._action.tertiary.default.background}",
-            "type": "color",
-            "description": "Tertiary action background hover state"
-          },
-          "content": {
-            "value": "{sys._action.tertiary.default.content}",
-            "type": "color",
-            "description": "Icons and text on tertiary action hover"
-          },
-          "split": {
-            "value": "{sys._action.tertiary.default.content}",
-            "type": "color",
-            "description": "Icons and text on tertiary action hover"
-          }
-        },
-        "press": {
-          "background": {
-            "value": "{sys._action.tertiary.default.background}",
-            "type": "color",
-            "description": "Tertiary action background press state"
-          },
-          "content": {
-            "value": "{sys._action.tertiary.default.content}",
-            "type": "color",
-            "description": "Icons and text on tertiary action press"
-          },
-          "split": {
-            "value": "{sys._action.tertiary.default.content}",
-            "type": "color",
-            "description": "Icons and text on tertiary action press"
-          }
-        },
-        "outline": {
-          "value": "{semantic.border.default}",
-          "type": "color",
-          "description": "Component outline"
-        }
-      },
-      "subtle": {
-        "default": {
-          "background": {
-            "value": "{semantic.primary.subtle}",
-            "type": "color",
-            "description": "Subtle action background default state"
-          },
-          "content": {
-            "value": "{semantic.primary.on-subtle}",
-            "type": "color",
-            "description": "Icons and text on subtle action default"
-          },
-          "split": {
-            "value": "{semantic.primary.on-subtle}",
-            "type": "color",
-            "description": "Icons and text on subtle action default"
-          }
-        },
-        "hover": {
-          "background": {
-            "value": "{sys._action.subtle.default.background}",
-            "type": "color",
-            "description": "Subtle action background hover state"
-          },
-          "content": {
-            "value": "{sys._action.subtle.default.content}",
-            "type": "color",
-            "description": "Icons and text on subtle action hover"
-          },
-          "split": {
-            "value": "{sys._action.subtle.default.content}",
-            "type": "color",
-            "description": "Icons and text on subtle action hover"
-          }
-        },
-        "press": {
-          "background": {
-            "value": "{sys._action.subtle.default.background}",
-            "type": "color",
-            "description": "Subtle action background press state"
-          },
-          "content": {
-            "value": "{sys._action.subtle.default.content}",
-            "type": "color",
-            "description": "Icons and text on subtle action press"
-          },
-          "split": {
-            "value": "{sys._action.subtle.default.content}",
-            "type": "color",
-            "description": "Icons and text on subtle action press"
+          "press": {
+            "background": {
+              "value": "{system.colour.action.subtle.default.background}",
+              "type": "color",
+              "description": "Subtle action background press state"
+            },
+            "content": {
+              "value": "{system.colour.action.subtle.default.content}",
+              "type": "color",
+              "description": "Icons and text on subtle action press"
+            },
+            "split": {
+              "value": "{system.colour.action.subtle.default.content}",
+              "type": "color",
+              "description": "Icons and text on subtle action press"
+            }
           }
         }
       }
-    },
+    }
+  },
+  "sys": {
     "_inputs": {
       "default": {
         "background": {
@@ -454,7 +458,7 @@
           "description": "Input background default"
         },
         "bg-transparent": {
-          "value": "{sys._action.subtle.default.background}",
+          "value": "{system.colour.action.subtle.default.background}",
           "type": "color"
         },
         "bg-neutral": {
@@ -534,7 +538,7 @@
           "description": "Input background hover"
         },
         "bg-transparent": {
-          "value": "{sys._action.subtle.default.background}",
+          "value": "{system.colour.action.subtle.default.background}",
           "type": "color"
         },
         "bg-neutral": {
@@ -558,7 +562,7 @@
           "description": "Input background press"
         },
         "bg-transparent": {
-          "value": "{sys._action.subtle.default.background}",
+          "value": "{system.colour.action.subtle.default.background}",
           "type": "color"
         },
         "bg-neutral": {
@@ -575,7 +579,7 @@
           "description": "Input stroke/fill press"
         },
         "focus-outline": {
-          "value": "rgba({sys._action.primary.default.background},{sys.opacity.border.soft})",
+          "value": "rgba({system.colour.action.primary.default.background},{sys.opacity.border.soft})",
           "type": "color",
           "description": "Primary key colour"
         }
@@ -587,7 +591,7 @@
           "description": "Input background error"
         },
         "bg-transparent": {
-          "value": "{sys._action.subtle.default.background}",
+          "value": "{system.colour.action.subtle.default.background}",
           "type": "color"
         },
         "bg-neutral": {
@@ -615,7 +619,7 @@
           "description": "Input background error"
         },
         "bg-transparent": {
-          "value": "{sys._action.subtle.default.background}",
+          "value": "{system.colour.action.subtle.default.background}",
           "type": "color"
         },
         "outline": {
@@ -1594,7 +1598,7 @@
           "type": "color"
         },
         "disabled": {
-          "value": "{sys._action.disabled.background}",
+          "value": "{system.colour.action.disabled.background}",
           "type": "color"
         }
       },
