@@ -1111,7 +1111,7 @@
           },
           "active-input": {
             "bg": {
-              "value": "{sys._inputs.default.background}",
+              "value": "{system.colour.inputs.default.background}",
               "type": "color"
             },
             "active-text": {
@@ -1191,11 +1191,11 @@
         "colour": {
           "default": {
             "bg": {
-              "value": "{sys._inputs.default.background}",
+              "value": "{system.colour.inputs.default.background}",
               "type": "color"
             },
             "control": {
-              "value": "{sys._inputs.default.outline}",
+              "value": "{system.colour.inputs.default.outline}",
               "type": "color"
             },
             "content": {
@@ -1206,11 +1206,11 @@
           "active": {
             "default": {
               "bg": {
-                "value": "{sys._inputs.default.background}",
+                "value": "{system.colour.inputs.default.background}",
                 "type": "color"
               },
               "control": {
-                "value": "{sys._inputs.default.outline-active}",
+                "value": "{system.colour.inputs.default.outline-active}",
                 "type": "color"
               },
               "content": {
@@ -1220,7 +1220,7 @@
             },
             "hover": {
               "bg": {
-                "value": "{sys._inputs.default.background}",
+                "value": "{system.colour.inputs.default.background}",
                 "type": "color"
               },
               "control": {
@@ -1234,7 +1234,7 @@
             },
             "error": {
               "bg": {
-                "value": "{sys._inputs.default.background}",
+                "value": "{system.colour.inputs.default.background}",
                 "type": "color"
               },
               "control": {
@@ -1281,7 +1281,7 @@
           },
           "hover": {
             "bg": {
-              "value": "{sys._inputs.default.background}",
+              "value": "{system.colour.inputs.default.background}",
               "type": "color"
             },
             "control": {
@@ -1295,7 +1295,7 @@
           },
           "error": {
             "bg": {
-              "value": "{sys._inputs.default.background}",
+              "value": "{system.colour.inputs.default.background}",
               "type": "color"
             },
             "control": {
@@ -1329,7 +1329,7 @@
         "colour": {
           "default": {
             "bg": {
-              "value": "{sys._inputs.default.bg-neutral}",
+              "value": "{system.colour.inputs.default.bg-neutral}",
               "type": "color"
             },
             "toggle-icon": {
@@ -1341,7 +1341,7 @@
               "type": "color"
             },
             "toggle": {
-              "value": "{sys._inputs.default.background}",
+              "value": "{system.colour.inputs.default.background}",
               "type": "color"
             },
             "state": {
@@ -1433,7 +1433,7 @@
               "type": "color"
             },
             "toggle": {
-              "value": "{sys._inputs.default.background}",
+              "value": "{system.colour.inputs.default.background}",
               "type": "color"
             },
             "state": {
@@ -1444,7 +1444,7 @@
           "active": {
             "default": {
               "bg": {
-                "value": "{sys._inputs.default.bg-accent}",
+                "value": "{system.colour.inputs.default.bg-accent}",
                 "type": "color"
               },
               "toggle-icon": {
@@ -1456,7 +1456,7 @@
                 "type": "color"
               },
               "toggle": {
-                "value": "{sys._inputs.default.background}",
+                "value": "{system.colour.inputs.default.background}",
                 "type": "color"
               },
               "state": {
@@ -1548,7 +1548,7 @@
                 "type": "color"
               },
               "toggle": {
-                "value": "{sys._inputs.default.background}",
+                "value": "{system.colour.inputs.default.background}",
                 "type": "color"
               },
               "state": {
@@ -1601,15 +1601,15 @@
     "input-field": {
       "default": {
         "bg": {
-          "value": "{sys._inputs.default.background}",
+          "value": "{system.colour.inputs.default.background}",
           "type": "color"
         },
         "bg-transparent": {
-          "value": "{sys._inputs.default.bg-transparent}",
+          "value": "{system.colour.inputs.default.bg-transparent}",
           "type": "color"
         },
         "outline": {
-          "value": "{sys._inputs.default.outline}",
+          "value": "{system.colour.inputs.default.outline}",
           "type": "color"
         }
       },
@@ -1857,7 +1857,7 @@
               "type": "color"
             },
             "outline": {
-              "value": "{sys._inputs.default.outline}",
+              "value": "{system.colour.inputs.default.outline}",
               "type": "color"
             }
           },

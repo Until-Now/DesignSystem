@@ -446,39 +446,41 @@
             }
           }
         }
+      },
+      "inputs": {
+        "default": {
+          "background": {
+            "value": "{semantic.fg.neutral.neutral-primary}",
+            "type": "color",
+            "description": "Input background default"
+          },
+          "bg-transparent": {
+            "value": "{system.colour.action.subtle.default.background}",
+            "type": "color"
+          },
+          "bg-neutral": {
+            "value": "{semantic.neutral.default}",
+            "type": "color"
+          },
+          "bg-accent": {
+            "value": "{semantic.primary.primary}",
+            "type": "color"
+          },
+          "outline-active": {
+            "value": "{semantic.primary.primary}",
+            "type": "color"
+          },
+          "outline": {
+            "value": "{semantic.border.default}",
+            "type": "color",
+            "description": "Input stroke/fill default"
+          }
+        }
       }
     }
   },
   "sys": {
     "_inputs": {
-      "default": {
-        "background": {
-          "value": "{semantic.fg.neutral.neutral-primary}",
-          "type": "color",
-          "description": "Input background default"
-        },
-        "bg-transparent": {
-          "value": "{system.colour.action.subtle.default.background}",
-          "type": "color"
-        },
-        "bg-neutral": {
-          "value": "{semantic.neutral.default}",
-          "type": "color"
-        },
-        "bg-accent": {
-          "value": "{semantic.primary.primary}",
-          "type": "color"
-        },
-        "outline-active": {
-          "value": "{semantic.primary.primary}",
-          "type": "color"
-        },
-        "outline": {
-          "value": "{semantic.border.default}",
-          "type": "color",
-          "description": "Input stroke/fill default"
-        }
-      },
       "selected": {
         "default-background": {
           "type": "color",
@@ -533,7 +535,7 @@
       },
       "hover": {
         "background": {
-          "value": "{sys._inputs.default.background}",
+          "value": "{system.colour.inputs.default.background}",
           "type": "color",
           "description": "Input background hover"
         },
@@ -542,11 +544,11 @@
           "type": "color"
         },
         "bg-neutral": {
-          "value": "{sys._inputs.default.bg-neutral}",
+          "value": "{system.colour.inputs.default.bg-neutral}",
           "type": "color"
         },
         "bg-accent": {
-          "value": "{sys._inputs.default.bg-accent}",
+          "value": "{system.colour.inputs.default.bg-accent}",
           "type": "color"
         },
         "outline": {
@@ -557,7 +559,7 @@
       },
       "press": {
         "background": {
-          "value": "{sys._inputs.default.background}",
+          "value": "{system.colour.inputs.default.background}",
           "type": "color",
           "description": "Input background press"
         },
@@ -566,11 +568,11 @@
           "type": "color"
         },
         "bg-neutral": {
-          "value": "{sys._inputs.default.bg-neutral}",
+          "value": "{system.colour.inputs.default.bg-neutral}",
           "type": "color"
         },
         "bg-accent": {
-          "value": "{sys._inputs.default.bg-accent}",
+          "value": "{system.colour.inputs.default.bg-accent}",
           "type": "color"
         },
         "outline": {
@@ -586,7 +588,7 @@
       },
       "error": {
         "background": {
-          "value": "{sys._inputs.default.background}",
+          "value": "{system.colour.inputs.default.background}",
           "type": "color",
           "description": "Input background error"
         },
@@ -595,11 +597,11 @@
           "type": "color"
         },
         "bg-neutral": {
-          "value": "{sys._inputs.default.bg-neutral}",
+          "value": "{system.colour.inputs.default.bg-neutral}",
           "type": "color"
         },
         "bg-accent": {
-          "value": "{sys._inputs.default.bg-accent}",
+          "value": "{system.colour.inputs.default.bg-accent}",
           "type": "color"
         },
         "outline": {
