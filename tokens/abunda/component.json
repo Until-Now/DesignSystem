@@ -83,7 +83,7 @@
       },
       "content": {
         "link": {
-          "value": "{sys.content.accent-on-light}",
+          "value": "{semantic.content.accent-on-light}",
           "type": "color"
         }
       }
@@ -235,15 +235,15 @@
     "chart": {
       "content": {
         "label": {
-          "value": "{sys.content.on-light.strong}",
+          "value": "{semantic.content.on-light.strong}",
           "type": "color"
         },
         "legend": {
-          "value": "{sys.content.on-light.strong}",
+          "value": "{semantic.content.on-light.strong}",
           "type": "color"
         },
         "title": {
-          "value": "{sys.content.on-light.strong}",
+          "value": "{semantic.content.on-light.strong}",
           "type": "color"
         }
       },
@@ -303,19 +303,19 @@
         "generic": {
           "default": {
             "content-secondary": {
-              "value": "{sys.content.on-dark.mid}",
+              "value": "{semantic.content.on-dark.mid}",
               "type": "color"
             }
           },
           "hover": {
             "content-secondary": {
-              "value": "{sys.content.on-dark.mid}",
+              "value": "{semantic.content.on-dark.mid}",
               "type": "color"
             }
           },
           "press": {
             "content-secondary": {
-              "value": "{sys.content.on-dark.mid}",
+              "value": "{semantic.content.on-dark.mid}",
               "type": "color"
             }
           }

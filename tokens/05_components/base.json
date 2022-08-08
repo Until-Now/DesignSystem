@@ -434,7 +434,7 @@
             "type": "color"
           },
           "button-content": {
-            "value": "{sys.content.accent-on-dark}",
+            "value": "{semantic.content.accent-on-dark}",
             "type": "color"
           },
           "divider": {
@@ -1890,7 +1890,7 @@
             }
           },
           "text-link": {
-            "value": "{sys.content.text-link}",
+            "value": "{semantic.content.text-link}",
             "type": "color"
           }
         }
