@@ -462,14 +462,6 @@
             "value": "{semantic.neutral.default}",
             "type": "color"
           },
-          "bg-accent": {
-            "value": "{semantic.primary.primary}",
-            "type": "color"
-          },
-          "outline-active": {
-            "value": "{semantic.primary.primary}",
-            "type": "color"
-          },
           "outline": {
             "value": "{semantic.border.default}",
             "type": "color",
@@ -480,22 +472,22 @@
           "default-background": {
             "type": "color",
             "description": "Input background default",
-            "value": "{sys._overlay.accent.primary-light.default}"
+            "value": "{semantic.neutral.transparent}"
           },
           "hover-background": {
             "type": "color",
             "description": "Input background default",
-            "value": "{sys._overlay.accent.primary-light.hover}"
+            "value": "{semantic.fg.primary.sf-100}"
           },
           "press-background": {
             "type": "color",
             "description": "Input background default",
-            "value": "{sys._overlay.accent.primary-light.press}"
+            "value": "{semantic.fg.primary.sf-200}"
           },
           "disabled-background": {
             "type": "color",
             "description": "Input background default",
-            "value": "{sys._overlay.accent.primary-light.disabled}"
+            "value": "{semantic.neutral.transparent}"
           },
           "bg-accent-light": {
             "value": "{semantic.primary.light}",
@@ -542,10 +534,6 @@
             "value": "{system.colour.inputs.default.bg-neutral}",
             "type": "color"
           },
-          "bg-accent": {
-            "value": "{system.colour.inputs.default.bg-accent}",
-            "type": "color"
-          },
           "outline": {
             "value": "{semantic.primary.primary}",
             "type": "color",
@@ -564,10 +552,6 @@
           },
           "bg-neutral": {
             "value": "{system.colour.inputs.default.bg-neutral}",
-            "type": "color"
-          },
-          "bg-accent": {
-            "value": "{system.colour.inputs.default.bg-accent}",
             "type": "color"
           },
           "outline": {
@@ -593,10 +577,6 @@
           },
           "bg-neutral": {
             "value": "{system.colour.inputs.default.bg-neutral}",
-            "type": "color"
-          },
-          "bg-accent": {
-            "value": "{system.colour.inputs.default.bg-accent}",
             "type": "color"
           },
           "outline": {

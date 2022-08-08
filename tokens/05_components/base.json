@@ -1210,7 +1210,7 @@
                 "type": "color"
               },
               "control": {
-                "value": "{system.colour.inputs.default.outline-active}",
+                "value": "{system.colour.inputs.hover.outline}",
                 "type": "color"
               },
               "content": {
@@ -1444,7 +1444,7 @@
           "active": {
             "default": {
               "bg": {
-                "value": "{system.colour.inputs.default.bg-accent}",
+                "value": "{system.colour.inputs.hover.outline}",
                 "type": "color"
               },
               "toggle-icon": {
@@ -1466,7 +1466,7 @@
             },
             "hover": {
               "bg": {
-                "value": "{system.colour.inputs.hover.bg-accent}",
+                "value": "{system.colour.inputs.hover.outline}",
                 "type": "color"
               },
               "toggle-icon": {
@@ -1488,7 +1488,7 @@
             },
             "press": {
               "bg": {
-                "value": "{system.colour.inputs.press.bg-accent}",
+                "value": "{system.colour.inputs.press.outline}",
                 "type": "color"
               },
               "toggle-icon": {
@@ -1510,10 +1510,10 @@
             },
             "error": {
               "bg": {
-                "value": "{system.colour.inputs.error.bg-accent}",
+                "value": "{system.colour.inputs.hover.outline}",
                 "type": "color"
               },
-              "icon": {
+              "toggle-icon": {
                 "value": "{system.colour.inputs.content.accent-on-light}",
                 "type": "color"
               },
