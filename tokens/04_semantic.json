@@ -996,6 +996,24 @@
           "type": "color"
         }
       }
+    },
+    "border-width": {
+      "action": {
+        "small": {
+          "value": "{border-width.1}",
+          "type": "borderWidth"
+        }
+      },
+      "input": {
+        "small": {
+          "value": "{border-width.1}",
+          "type": "borderWidth"
+        },
+        "medium": {
+          "value": "{border-width.2}",
+          "type": "borderWidth"
+        }
+      }
     }
   }
 }
