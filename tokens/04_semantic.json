@@ -740,6 +740,20 @@
           "value": "{border-radius.100}",
           "type": "borderRadius"
         }
+      },
+      "width": {
+        "small": {
+          "value": "{border-width.1}",
+          "type": "borderWidth"
+        },
+        "medium": {
+          "value": "{border-width.2}",
+          "type": "borderWidth"
+        },
+        "large": {
+          "value": "{border-width.4}",
+          "type": "borderWidth"
+        }
       }
     },
     "border-radius": {
@@ -1005,6 +1019,16 @@
         }
       },
       "input": {
+        "small": {
+          "value": "{border-width.1}",
+          "type": "borderWidth"
+        },
+        "medium": {
+          "value": "{border-width.2}",
+          "type": "borderWidth"
+        }
+      },
+      "status": {
         "small": {
           "value": "{border-width.1}",
           "type": "borderWidth"
