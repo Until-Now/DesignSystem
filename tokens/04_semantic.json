@@ -762,7 +762,7 @@
         "type": "borderRadius"
       },
       "input": {
-        "value": "{border-radius.8}",
+        "value": "{border-radius.4}",
         "type": "borderRadius"
       },
       "status": {
