@@ -1320,7 +1320,7 @@
           "type": "color"
         },
         "transparent": {
-          "value": "rgba({semantic.content.primary-inverse},0.00)",
+          "value": "rgba({system.content.primary-inverse},0.00)",
           "type": "color"
         }
       },
@@ -1366,23 +1366,23 @@
           "type": "color"
         },
         "secondary": {
-          "value": "{semantic.secondary.default}",
+          "value": "{system.secondary.default}",
           "type": "color"
         },
         "error": {
-          "value": "{semantic.error.default}",
+          "value": "{system.error.default}",
           "type": "color"
         },
         "success": {
-          "value": "{semantic.success.default}",
+          "value": "{system.success.default}",
           "type": "color"
         },
         "warning": {
-          "value": "{semantic.warning.default}",
+          "value": "{system.warning.default}",
           "type": "color"
         },
         "white": {
-          "value": "{semantic.content.primary-inverse}",
+          "value": "{system.content.primary-inverse}",
           "type": "color"
         }
       },
@@ -1396,19 +1396,19 @@
           "type": "color"
         },
         "secondary": {
-          "value": "rgba({semantic.secondary.default},{sys.opacity.border.soft})",
+          "value": "rgba({system.secondary.default},{sys.opacity.border.soft})",
           "type": "color"
         },
         "error": {
-          "value": "rgba({semantic.error.default},{sys.opacity.border.soft})",
+          "value": "rgba({system.error.default},{sys.opacity.border.soft})",
           "type": "color"
         },
         "success": {
-          "value": "rgba({semantic.success.default},{sys.opacity.border.soft})",
+          "value": "rgba({system.success.default},{sys.opacity.border.soft})",
           "type": "color"
         },
         "warning": {
-          "value": "rgba({semantic.warning.default},{sys.opacity.border.soft})",
+          "value": "rgba({system.warning.default},{sys.opacity.border.soft})",
           "type": "color"
         }
       }
@@ -1416,34 +1416,34 @@
     "content": {
       "on-light": {
         "strong": {
-          "value": "rgba({semantic.content.primary},{sys.opacity.content.strong})",
+          "value": "rgba({system.content.primary},{sys.opacity.content.strong})",
           "type": "color",
           "description": "High emphasis, dark"
         },
         "mid": {
-          "value": "rgba({semantic.content.primary},{sys.opacity.content.md})",
+          "value": "rgba({system.content.primary},{sys.opacity.content.md})",
           "type": "color",
           "description": "md emphasis, dark"
         },
         "soft": {
-          "value": "rgba({semantic.content.primary},{sys.opacity.content.soft})",
+          "value": "rgba({system.content.primary},{sys.opacity.content.soft})",
           "type": "color",
           "description": "Low emphasis, dark"
         }
       },
       "on-dark": {
         "strong": {
-          "value": "rgba({semantic.content.primary-inverse},{sys.opacity.content.strong})",
+          "value": "rgba({system.content.primary-inverse},{sys.opacity.content.strong})",
           "type": "color",
           "description": "High emphasis, light"
         },
         "mid": {
-          "value": "rgba({semantic.content.primary-inverse},{sys.opacity.content.md})",
+          "value": "rgba({system.content.primary-inverse},{sys.opacity.content.md})",
           "type": "color",
           "description": "md emphasis, light"
         },
         "soft": {
-          "value": "rgba({semantic.content.primary-inverse},{sys.opacity.content.soft})",
+          "value": "rgba({system.content.primary-inverse},{sys.opacity.content.soft})",
           "type": "color",
           "description": "Low emphasis, light"
         }
@@ -1484,34 +1484,34 @@
       },
       "secondary": {
         "strong": {
-          "value": "rgba({semantic.secondary.default},{sys.opacity.content.solid})",
+          "value": "rgba({system.secondary.default},{sys.opacity.content.solid})",
           "type": "color",
           "description": "High emphasis, secondary"
         },
         "mid": {
-          "value": "rgba({semantic.secondary.default},{sys.opacity.content.md})",
+          "value": "rgba({system.secondary.default},{sys.opacity.content.md})",
           "type": "color",
           "description": "md emphasis, secondary"
         },
         "soft": {
-          "value": "rgba({semantic.secondary.default},{sys.opacity.content.soft})",
+          "value": "rgba({system.secondary.default},{sys.opacity.content.soft})",
           "type": "color",
           "description": "Low emphasis, secondary"
         }
       },
       "on-support-secondary": {
         "strong": {
-          "value": "rgba({semantic.secondary.on-light},{sys.opacity.content.solid})",
+          "value": "rgba({system.secondary.on-light},{sys.opacity.content.solid})",
           "type": "color",
           "description": "High emphasis, secondary support"
         },
         "mid": {
-          "value": "rgba({semantic.secondary.on-light},{sys.opacity.content.md})",
+          "value": "rgba({system.secondary.on-light},{sys.opacity.content.md})",
           "type": "color",
           "description": "md emphasis, secondary support"
         },
         "soft": {
-          "value": "rgba({semantic.secondary.on-light},{sys.opacity.content.soft})",
+          "value": "rgba({system.secondary.on-light},{sys.opacity.content.soft})",
           "type": "color",
           "description": "Low emphasis, secondary support"
         }
@@ -1532,15 +1532,15 @@
       },
       "secondary-light": {
         "strong": {
-          "value": "rgba({semantic.secondary.light},{sys.opacity.content.solid})",
+          "value": "rgba({system.secondary.light},{sys.opacity.content.solid})",
           "type": "color"
         },
         "mid": {
-          "value": "rgba({semantic.secondary.light},{sys.opacity.content.md})",
+          "value": "rgba({system.secondary.light},{sys.opacity.content.md})",
           "type": "color"
         },
         "soft": {
-          "value": "rgba({semantic.secondary.light},{sys.opacity.content.soft})",
+          "value": "rgba({system.secondary.light},{sys.opacity.content.soft})",
           "type": "color"
         }
       }

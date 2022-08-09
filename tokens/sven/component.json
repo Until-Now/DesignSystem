@@ -135,11 +135,11 @@
       },
       "container": {
         "default": {
-          "value": "{semantic.neutral.transparent}",
+          "value": "{system.neutral.transparent}",
           "type": "color"
         },
         "disabled": {
-          "value": "{semantic.neutral.transparent}",
+          "value": "{system.neutral.transparent}",
           "type": "color"
         },
         "hover": {

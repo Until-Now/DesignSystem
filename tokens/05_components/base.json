@@ -1890,7 +1890,7 @@
             }
           },
           "text-link": {
-            "value": "{semantic.content.text-link}",
+            "value": "{system.content.text-link}",
             "type": "color"
           }
         }

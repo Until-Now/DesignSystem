@@ -70,7 +70,7 @@
         },
         "tertiary": {
           "outline": {
-            "value": "rgba({semantic.primary.on-muted},0.20)",
+            "value": "rgba({system.primary.on-muted},0.20)",
             "type": "color"
           }
         }
@@ -95,11 +95,11 @@
       },
       "container": {
         "default": {
-          "value": "{semantic.primary.subtle}",
+          "value": "{system.primary.subtle}",
           "type": "color"
         },
         "disabled": {
-          "value": "{semantic.primary.subtle}",
+          "value": "{system.primary.subtle}",
           "type": "color"
         },
         "hover": {

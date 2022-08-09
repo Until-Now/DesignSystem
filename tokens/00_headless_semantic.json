@@ -385,7 +385,7 @@
           },
           "active": {
             "border-color": {
-              "value": "{semantic.error.emphasised}",
+              "value": "{system.error.emphasised}",
               "type": "color"
             },
             "quiet-border-color": {
@@ -397,11 +397,11 @@
               "type": "color"
             },
             "quiet-text-color": {
-              "value": "{semantic.error.emphasised}",
+              "value": "{system.error.emphasised}",
               "type": "color"
             },
             "background-color": {
-              "value": "{semantic.error.emphasised}",
+              "value": "{system.error.emphasised}",
               "type": "color"
             },
             "quiet-background-color": {
@@ -523,7 +523,7 @@
           },
           "hover": {
             "border-color": {
-              "value": "{semantic.primary.muted}",
+              "value": "{system.primary.muted}",
               "type": "color"
             },
             "quiet-border-color": {
@@ -539,11 +539,11 @@
               "type": "color"
             },
             "background-color": {
-              "value": "{semantic.primary.muted}",
+              "value": "{system.primary.muted}",
               "type": "color"
             },
             "quiet-background-color": {
-              "value": "{semantic.primary.muted}",
+              "value": "{system.primary.muted}",
               "type": "color"
             }
           },
@@ -603,7 +603,7 @@
         "secondary": {
           "default": {
             "border-color": {
-              "value": "{semantic.secondary.default}",
+              "value": "{system.secondary.default}",
               "type": "color"
             },
             "quiet-border-color": {
@@ -611,11 +611,11 @@
               "type": "color"
             },
             "text-color": {
-              "value": "{semantic.secondary.default}",
+              "value": "{system.secondary.default}",
               "type": "color"
             },
             "quiet-text-color": {
-              "value": "{semantic.secondary.default}",
+              "value": "{system.secondary.default}",
               "type": "color"
             },
             "background-color": {
@@ -637,11 +637,11 @@
               "type": "color"
             },
             "text-color": {
-              "value": "{semantic.secondary.default}",
+              "value": "{system.secondary.default}",
               "type": "color"
             },
             "quiet-text-color": {
-              "value": "{semantic.secondary.default}",
+              "value": "{system.secondary.default}",
               "type": "color"
             },
             "background-color": {
@@ -681,7 +681,7 @@
           },
           "focus": {
             "border-color": {
-              "value": "{semantic.secondary.default}",
+              "value": "{system.secondary.default}",
               "type": "color"
             },
             "quiet-border-color": {
@@ -689,11 +689,11 @@
               "type": "color"
             },
             "text-color": {
-              "value": "{semantic.secondary.default}",
+              "value": "{system.secondary.default}",
               "type": "color"
             },
             "quiet-text-color": {
-              "value": "{semantic.secondary.default}",
+              "value": "{system.secondary.default}",
               "type": "color"
             },
             "background-color": {

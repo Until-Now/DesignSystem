@@ -4,15 +4,15 @@
       "secondary": {
         "default": {
           "background": {
-            "value": "{semantic.primary.light}",
+            "value": "{system.primary.light}",
             "type": "color"
           },
           "content": {
-            "value": "{semantic.primary.on-light}",
+            "value": "{system.primary.on-light}",
             "type": "color"
           },
           "split": {
-            "value": "{semantic.primary.on-light}",
+            "value": "{system.primary.on-light}",
             "type": "color"
           }
         }
@@ -42,19 +42,19 @@
       "accent": {
         "primary-light": {
           "default": {
-            "value": "rgba({semantic.primary.on-primary},0.00)",
+            "value": "rgba({system.primary.on-primary},0.00)",
             "type": "color"
           },
           "hover": {
-            "value": "rgba({semantic.primary.on-primary},0.12)",
+            "value": "rgba({system.primary.on-primary},0.12)",
             "type": "color"
           },
           "press": {
-            "value": "rgba({semantic.primary.on-primary},0.24)",
+            "value": "rgba({system.primary.on-primary},0.24)",
             "type": "color"
           },
           "disabled": {
-            "value": "rgba({semantic.primary.on-primary},0.00)",
+            "value": "rgba({system.primary.on-primary},0.00)",
             "type": "color"
           }
         }
