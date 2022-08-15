@@ -96,23 +96,23 @@
     },
     "neutral": {
       "100": {
-        "value": "#F9FAFC",
+        "value": "#F8F8FF",
         "type": "color"
       },
       "200": {
-        "value": "#EAEEF2",
+        "value": "#E6EBFA",
         "type": "color"
       },
       "300": {
-        "value": "#CDD3D9",
+        "value": "#D5DFF5",
         "type": "color"
       },
       "400": {
-        "value": "#A6A9B0",
+        "value": "#9EABC2",
         "type": "color"
       },
       "500": {
-        "value": "#9F9F9F",
+        "value": "#586375",
         "type": "color"
       },
       "600": {
