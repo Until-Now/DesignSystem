@@ -1,0 +1,40 @@
+{
+  "system": {
+    "primary": {
+      "primary": {
+        "value": "{colour.primary.600}",
+        "type": "color"
+      },
+      "on-primary": {
+        "value": "{colour.primary.300}",
+        "type": "color"
+      },
+      "light": {
+        "value": "{colour.primary.300}",
+        "type": "color"
+      },
+      "on-light": {
+        "value": "{colour.primary.700}",
+        "type": "color"
+      },
+      "on-muted": {
+        "value": "{colour.primary.700}",
+        "type": "color"
+      },
+      "on-subtle": {
+        "value": "{colour.primary.700}",
+        "type": "color"
+      }
+    },
+    "secondary": {
+      "light": {
+        "value": "{colour.primary.300}",
+        "type": "color"
+      },
+      "on-light": {
+        "value": "{colour.primary.700}",
+        "type": "color"
+      }
+    }
+  }
+}

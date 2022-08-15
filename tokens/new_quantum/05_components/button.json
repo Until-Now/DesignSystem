@@ -1,0 +1,34 @@
+{
+  "comp": {
+    "button": {
+      "colour": {
+        "secondary": {
+          "default": {
+            "state": {
+              "value": "{system.colour.overlay.primary-dark.default}",
+              "type": "color"
+            }
+          },
+          "hover": {
+            "state": {
+              "value": "{system.colour.overlay.primary-dark.hover}",
+              "type": "color"
+            }
+          },
+          "press": {
+            "state": {
+              "value": "{system.colour.overlay.primary-dark.press}",
+              "type": "color"
+            }
+          },
+          "disabled": {
+            "state": {
+              "value": "{system.colour.overlay.primary-dark.disabled}",
+              "type": "color"
+            }
+          }
+        }
+      }
+    }
+  }
+}
