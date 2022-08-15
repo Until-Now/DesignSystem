@@ -27,6 +27,7 @@
     "untilnow/01_foundation",
     "new_quantum/01_foundation",
     "new_quantum/03_system",
+    "new_quantum/04_semantic",
     "new_quantum/05_components/button"
   ]
 }

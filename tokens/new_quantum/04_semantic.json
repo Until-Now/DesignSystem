@@ -1,0 +1,16 @@
+{
+  "semantic": {
+    "size": {
+      "action": {
+        "small": {
+          "value": "{semantic.component.x-sm}",
+          "type": "sizing"
+        },
+        "medium": {
+          "value": "{semantic.component.sm}",
+          "type": "sizing"
+        }
+      }
+    }
+  }
+}
