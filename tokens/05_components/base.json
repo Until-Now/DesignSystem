@@ -939,8 +939,7 @@
           "value": {
             "value": "{typography.sans-serif.caption-sm.regular}",
             "type": "typography"
-          },
-          "type": "other"
+          }
         },
         "tag": {
           "label": {
