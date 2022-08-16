@@ -45,6 +45,16 @@
           }
         }
       }
+    },
+    "content": {
+      "accent-on-light": {
+        "value": "{system.primary.on-light}",
+        "type": "color"
+      },
+      "accent-on-dark": {
+        "value": "{system.primary.on-primary}",
+        "type": "color"
+      }
     }
   }
 }
