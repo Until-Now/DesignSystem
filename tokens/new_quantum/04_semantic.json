@@ -11,6 +11,40 @@
           "type": "sizing"
         }
       }
+    },
+    "spacing": {
+      "action": {
+        "small": {
+          "padding-left": {
+            "value": "{space.8}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{space.8}",
+            "type": "spacing"
+          }
+        },
+        "medium": {
+          "padding-left": {
+            "value": "{space.12}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{space.12}",
+            "type": "spacing"
+          }
+        },
+        "large": {
+          "padding-left": {
+            "value": "{space.16}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{space.16}",
+            "type": "spacing"
+          }
+        }
+      }
     }
   }
 }
