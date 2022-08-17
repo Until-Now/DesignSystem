@@ -338,9 +338,11 @@
             "type": "spacing"
           }
         },
-        "space-between": {
-          "value": "{space.4}",
-          "type": "spacing"
+        "content": {
+          "space-between": {
+            "value": "{space.4}",
+            "type": "spacing"
+          }
         },
         "x-small": {
           "padding-left": {
@@ -349,6 +351,12 @@
           },
           "padding-right": {
             "value": "{space.8}",
+            "type": "spacing"
+          }
+        },
+        "input-field": {
+          "space-between": {
+            "value": "{space.4}",
             "type": "spacing"
           }
         }

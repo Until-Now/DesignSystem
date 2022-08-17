@@ -72,9 +72,17 @@
             "type": "spacing"
           }
         },
-        "space-between": {
-          "value": "{semantic.spacing.input.space-between}",
-          "type": "spacing"
+        "content": {
+          "space-between": {
+            "value": "{semantic.spacing.input.content.space-between}",
+            "type": "spacing"
+          }
+        },
+        "input-field": {
+          "space-between": {
+            "value": "{semantic.spacing.input.input-field.space-between}",
+            "type": "spacing"
+          }
         }
       },
       "colour": {
