@@ -3,30 +3,30 @@
     "input-field": {
       "size": {
         "height": {
-          "sm": {
+          "small": {
             "value": "{semantic.size.input.small}",
             "type": "sizing"
           },
-          "md": {
+          "medium": {
             "value": "{semantic.size.input.medium}",
             "type": "sizing"
           },
-          "lg": {
+          "large": {
             "value": "{semantic.size.input.large}",
             "type": "sizing"
           }
         },
-        "content": {
-          "sm": {
-            "value": "{semantic.size.input.content.small}",
+        "icon": {
+          "small": {
+            "value": "{semantic.size.input.icon.small}",
             "type": "sizing"
           },
-          "md": {
-            "value": "{semantic.size.input.content.medium}",
+          "medium": {
+            "value": "{semantic.size.input.icon.medium}",
             "type": "sizing"
           },
-          "lg": {
-            "value": "{semantic.size.input.content.large}",
+          "large": {
+            "value": "{semantic.size.input.icon.large}",
             "type": "sizing"
           }
         }

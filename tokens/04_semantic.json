@@ -68,9 +68,9 @@
           "value": "{semantic.component.lg}",
           "type": "sizing"
         },
-        "content": {
+        "icon": {
           "small": {
-            "value": "{size.24}",
+            "value": "{size.22}",
             "type": "sizing"
           },
           "medium": {
@@ -78,7 +78,7 @@
             "type": "sizing"
           },
           "large": {
-            "value": "{size.24}",
+            "value": "{size.28}",
             "type": "sizing"
           }
         }
