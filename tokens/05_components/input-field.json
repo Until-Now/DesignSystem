@@ -205,6 +205,36 @@
           "value": "{semantic.border-width.input.medium}",
           "type": "borderWidth"
         }
+      },
+      "type": {
+        "input": {
+          "value": "{typography.sans-serif.body-md.regular}",
+          "type": "typography"
+        },
+        "helper": {
+          "value": "{typography.sans-serif.body-md.regular}",
+          "type": "typography"
+        },
+        "meta": {
+          "value": "{typography.sans-serif.body-md.regular}",
+          "type": "typography"
+        },
+        "assistive": {
+          "value": "{typography.sans-serif.caption-sm.regular}",
+          "type": "typography"
+        },
+        "assistive-link": {
+          "value": "{typography.sans-serif.caption-sm.bold}",
+          "type": "typography"
+        },
+        "label": {
+          "value": "{typography.sans-serif.caption-md.bold}",
+          "type": "typography"
+        },
+        "inset-label": {
+          "value": "{typography.sans-serif.caption-sm.bold}",
+          "type": "typography"
+        }
       }
     }
   }
