@@ -300,30 +300,54 @@
       "input": {
         "small": {
           "padding-left": {
-            "value": "{space.12}",
+            "value": "{space.8}",
             "type": "spacing"
           },
           "padding-right": {
-            "value": "{space.12}",
+            "value": "{space.8}",
+            "type": "spacing"
+          },
+          "padding-top": {
+            "value": "{space.8}",
+            "type": "spacing"
+          },
+          "padding-bot": {
+            "value": "{space.8}",
             "type": "spacing"
           }
         },
         "medium": {
           "padding-left": {
-            "value": "{space.14}",
+            "value": "{space.12}",
             "type": "spacing"
           },
           "padding-right": {
-            "value": "{space.14}",
+            "value": "{space.12}",
+            "type": "spacing"
+          },
+          "padding-top": {
+            "value": "{space.12}",
+            "type": "spacing"
+          },
+          "padding-bot": {
+            "value": "{space.12}",
             "type": "spacing"
           }
         },
         "large": {
           "padding-left": {
-            "value": "{space.16}",
+            "value": "{space.14}",
             "type": "spacing"
           },
           "padding-right": {
+            "value": "{space.14}",
+            "type": "spacing"
+          },
+          "padding-top": {
+            "value": "{space.16}",
+            "type": "spacing"
+          },
+          "padding-bot": {
             "value": "{space.16}",
             "type": "spacing"
           }
