@@ -354,7 +354,7 @@
             "type": "spacing"
           }
         },
-        "input-field": {
+        "elements": {
           "space-between": {
             "value": "{space.4}",
             "type": "spacing"

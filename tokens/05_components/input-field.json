@@ -78,9 +78,9 @@
             "type": "spacing"
           }
         },
-        "input-field": {
+        "elements": {
           "space-between": {
-            "value": "{semantic.spacing.input.input-field.space-between}",
+            "value": "{semantic.spacing.input.elements.space-between}",
             "type": "spacing"
           }
         }
@@ -191,7 +191,15 @@
         }
       },
       "border-radius": {
-        "all": {
+        "small": {
+          "value": "{semantic.border-radius.input}",
+          "type": "borderRadius"
+        },
+        "medium": {
+          "value": "{semantic.border-radius.input}",
+          "type": "borderRadius"
+        },
+        "large": {
           "value": "{semantic.border-radius.input}",
           "type": "borderRadius"
         }
