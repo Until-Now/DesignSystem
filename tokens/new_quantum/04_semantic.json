@@ -10,6 +10,16 @@
           "value": "{semantic.component.sm}",
           "type": "sizing"
         }
+      },
+      "input": {
+        "small": {
+          "value": "{semantic.component.x-sm}",
+          "type": "sizing"
+        },
+        "medium": {
+          "value": "{semantic.component.sm}",
+          "type": "sizing"
+        }
       }
     },
     "spacing": {
