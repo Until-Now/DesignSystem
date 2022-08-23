@@ -221,25 +221,45 @@
       "type": {
         "input": {
           "small": {
-            "value": "{typography.sans-serif.body-md.regular}",
+            "value": "{semantic.typography.input.small.regular}",
             "type": "typography"
           },
           "medium": {
-            "value": "{typography.sans-serif.body-md.regular}",
+            "value": "{semantic.typography.input.medium.regular}",
             "type": "typography"
           },
           "large": {
-            "value": "{typography.sans-serif.body-lg.regular}",
+            "value": "{semantic.typography.input.large.regular}",
             "type": "typography"
           }
         },
         "helper": {
-          "value": "{typography.sans-serif.body-md.regular}",
-          "type": "typography"
+          "small": {
+            "value": "{semantic.typography.input.small.regular}",
+            "type": "typography"
+          },
+          "medium": {
+            "value": "{semantic.typography.input.medium.regular}",
+            "type": "typography"
+          },
+          "large": {
+            "value": "{semantic.typography.input.large.regular}",
+            "type": "typography"
+          }
         },
         "meta": {
-          "value": "{typography.sans-serif.body-md.regular}",
-          "type": "typography"
+          "small": {
+            "value": "{semantic.typography.input.small.regular}",
+            "type": "typography"
+          },
+          "medium": {
+            "value": "{semantic.typography.input.medium.regular}",
+            "type": "typography"
+          },
+          "large": {
+            "value": "{semantic.typography.input.large.regular}",
+            "type": "typography"
+          }
         },
         "assistive": {
           "value": "{typography.sans-serif.caption-sm.regular}",
@@ -250,12 +270,22 @@
           "type": "typography"
         },
         "label": {
-          "value": "{typography.sans-serif.caption-md.bold}",
-          "type": "typography"
-        },
-        "inset-label": {
-          "value": "{typography.sans-serif.caption-sm.bold}",
-          "type": "typography"
+          "x-small": {
+            "value": "{semantic.typography.input.xxx-small.bold}",
+            "type": "typography"
+          },
+          "small": {
+            "value": "{semantic.typography.input.xx-small.bold}",
+            "type": "typography"
+          },
+          "medium": {
+            "value": "{semantic.typography.input.xx-small.bold}",
+            "type": "typography"
+          },
+          "large": {
+            "value": "{semantic.typography.input.x-small.bold}",
+            "type": "typography"
+          }
         }
       }
     }

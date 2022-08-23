@@ -373,15 +373,15 @@
       },
       "type": {
         "sm": {
-          "value": "{typography.sans-serif.caption-sm.bold}",
+          "value": "{semantic.typography.action.small}",
           "type": "typography"
         },
         "md": {
-          "value": "{typography.sans-serif.caption-md.bold}",
+          "value": "{semantic.typography.action.medium}",
           "type": "typography"
         },
         "lg": {
-          "value": "{typography.sans-serif.caption-lg.bold}",
+          "value": "{semantic.typography.action.large}",
           "type": "typography"
         }
       }

@@ -1046,6 +1046,84 @@
           "type": "borderWidth"
         }
       }
+    },
+    "typography": {
+      "action": {
+        "small": {
+          "value": "{typography.sans-serif.caption-sm.bold}",
+          "type": "typography"
+        },
+        "medium": {
+          "value": "{typography.sans-serif.caption-md.bold}",
+          "type": "typography"
+        },
+        "large": {
+          "value": "{typography.sans-serif.caption-lg.bold}",
+          "type": "typography"
+        }
+      },
+      "input": {
+        "xxx-small": {
+          "regular": {
+            "value": "{typography.sans-serif.caption-sm.regular}",
+            "type": "typography"
+          },
+          "bold": {
+            "value": "{typography.sans-serif.caption-sm.bold}",
+            "type": "typography"
+          }
+        },
+        "xx-small": {
+          "regular": {
+            "value": "{typography.sans-serif.caption-md.regular}",
+            "type": "typography"
+          },
+          "bold": {
+            "value": "{typography.sans-serif.caption-md.bold}",
+            "type": "typography"
+          }
+        },
+        "x-small": {
+          "regular": {
+            "value": "{typography.sans-serif.caption-lg.regular}",
+            "type": "typography"
+          },
+          "bold": {
+            "value": "{typography.sans-serif.caption-lg.bold}",
+            "type": "typography"
+          }
+        },
+        "small": {
+          "regular": {
+            "value": "{typography.sans-serif.body-sm.regular}",
+            "type": "typography"
+          },
+          "bold": {
+            "value": "{typography.sans-serif.body-sm.bold}",
+            "type": "typography"
+          }
+        },
+        "medium": {
+          "regular": {
+            "value": "{typography.sans-serif.body-md.regular}",
+            "type": "typography"
+          },
+          "bold": {
+            "value": "{typography.sans-serif.body-md.bold}",
+            "type": "typography"
+          }
+        },
+        "large": {
+          "regular": {
+            "value": "{typography.sans-serif.body-lg.regular}",
+            "type": "typography"
+          },
+          "bold": {
+            "value": "{typography.sans-serif.body-lg.bold}",
+            "type": "typography"
+          }
+        }
+      }
     }
   }
 }
