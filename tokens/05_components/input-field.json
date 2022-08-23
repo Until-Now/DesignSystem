@@ -212,6 +212,10 @@
         "active": {
           "value": "{semantic.border-width.input.medium}",
           "type": "borderWidth"
+        },
+        "error": {
+          "value": "{semantic.border-width.input.medium}",
+          "type": "borderWidth"
         }
       },
       "type": {
