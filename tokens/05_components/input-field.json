@@ -220,8 +220,18 @@
       },
       "type": {
         "input": {
-          "value": "{typography.sans-serif.body-md.regular}",
-          "type": "typography"
+          "small": {
+            "value": "{typography.sans-serif.body-md.regular}",
+            "type": "typography"
+          },
+          "medium": {
+            "value": "{typography.sans-serif.body-md.regular}",
+            "type": "typography"
+          },
+          "large": {
+            "value": "{typography.sans-serif.body-lg.regular}",
+            "type": "typography"
+          }
         },
         "helper": {
           "value": "{typography.sans-serif.body-md.regular}",
