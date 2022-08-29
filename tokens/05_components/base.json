@@ -665,22 +665,30 @@
       }
     },
     "menu": {
-      "container": {
+      "colour": {
         "default": {
-          "value": "{system.colour.inputs.selected.default-background}",
-          "type": "color"
+          "state": {
+            "value": "{system.colour.inputs.selected.default-background}",
+            "type": "color"
+          }
         },
         "hover": {
-          "value": "{system.colour.inputs.selected.hover-background}",
-          "type": "color"
+          "state": {
+            "value": "{system.colour.inputs.selected.hover-background}",
+            "type": "color"
+          }
         },
         "press": {
-          "value": "{system.colour.inputs.selected.press-background}",
-          "type": "color"
+          "state": {
+            "value": "{system.colour.inputs.selected.press-background}",
+            "type": "color"
+          }
         },
         "disabled": {
-          "value": "{system.colour.inputs.selected.disabled-background}",
-          "type": "color"
+          "state": {
+            "value": "{system.colour.inputs.selected.disabled-background}",
+            "type": "color"
+          }
         }
       },
       "radius": {
