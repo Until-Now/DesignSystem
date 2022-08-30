@@ -80,11 +80,7 @@
             "type": "color"
           },
           "state": {
-            "value": "{system.colour.inputs.default.bg-transparent}",
-            "type": "color"
-          },
-          "outline": {
-            "value": "{system.colour.inputs.default.outline}",
+            "value": "{system.colour.inputs.default.state}",
             "type": "color"
           }
         },
@@ -94,11 +90,7 @@
             "type": "color"
           },
           "state": {
-            "value": "{system.colour.inputs.hover.bg-transparent}",
-            "type": "color"
-          },
-          "outline": {
-            "value": "{system.colour.inputs.hover.outline}",
+            "value": "{system.colour.inputs.hover.state}",
             "type": "color"
           }
         },
@@ -108,11 +100,7 @@
             "type": "color"
           },
           "state": {
-            "value": "{system.colour.inputs.press.bg-transparent}",
-            "type": "color"
-          },
-          "outline": {
-            "value": "{system.colour.inputs.press.outline}",
+            "value": "{system.colour.inputs.press.state}",
             "type": "color"
           }
         },
@@ -122,11 +110,7 @@
             "type": "color"
           },
           "state": {
-            "value": "{system.colour.inputs.disabled.bg-transparent}",
-            "type": "color"
-          },
-          "outline": {
-            "value": "{system.colour.inputs.disabled.outline}",
+            "value": "{system.colour.inputs.disabled.state}",
             "type": "color"
           }
         },

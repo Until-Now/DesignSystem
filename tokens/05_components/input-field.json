@@ -158,7 +158,7 @@
             "type": "color"
           },
           "focus-outline": {
-            "value": "{system.colour.inputs.press.focus-outline}",
+            "value": "{system.colour.inputs.press.focus}",
             "type": "color"
           }
         },
