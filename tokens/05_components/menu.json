@@ -139,98 +139,50 @@
             "type": "color"
           }
         }
-      }
-    },
-    "input-field": {
+      },
       "border-radius": {
         "small": {
-          "value": "{semantic.border-radius.input}",
-          "type": "borderRadius"
-        },
-        "medium": {
-          "value": "{semantic.border-radius.input}",
+          "value": "{border-radius.0}",
           "type": "borderRadius"
         },
         "large": {
-          "value": "{semantic.border-radius.input}",
+          "value": "{border-radius.0}",
           "type": "borderRadius"
         }
       },
-      "border-width": {
-        "default": {
-          "value": "{semantic.border-width.input.small}",
-          "type": "borderWidth"
-        },
-        "active": {
-          "value": "{semantic.border-width.input.medium}",
-          "type": "borderWidth"
-        },
-        "error": {
-          "value": "{semantic.border-width.input.medium}",
-          "type": "borderWidth"
-        }
-      },
       "type": {
-        "input": {
+        "label": {
           "small": {
-            "value": "{semantic.typography.input.small.regular}",
-            "type": "typography"
-          },
-          "medium": {
-            "value": "{semantic.typography.input.medium.regular}",
+            "value": "{semantic.typography.input.xx-small.bold}",
             "type": "typography"
           },
           "large": {
-            "value": "{semantic.typography.input.large.regular}",
+            "value": "{semantic.typography.input.x-small.bold}",
             "type": "typography"
           }
         },
-        "helper": {
+        "sub-label": {
           "small": {
-            "value": "{semantic.typography.input.small.regular}",
-            "type": "typography"
-          },
-          "medium": {
-            "value": "{semantic.typography.input.medium.regular}",
+            "value": "{semantic.typography.input.xxx-small.regular}",
             "type": "typography"
           },
           "large": {
-            "value": "{semantic.typography.input.large.regular}",
+            "value": "{semantic.typography.input.small.regular}",
             "type": "typography"
           }
         },
         "meta": {
           "small": {
-            "value": "{semantic.typography.input.small.regular}",
-            "type": "typography"
-          },
-          "medium": {
-            "value": "{semantic.typography.input.medium.regular}",
+            "value": "{semantic.typography.input.xx-small.regular}",
             "type": "typography"
           },
           "large": {
-            "value": "{semantic.typography.input.large.regular}",
+            "value": "{semantic.typography.input.x-small.regular}",
             "type": "typography"
           }
         },
-        "assistive": {
-          "value": "{typography.sans-serif.caption-sm.regular}",
-          "type": "typography"
-        },
-        "assistive-link": {
-          "value": "{typography.sans-serif.caption-sm.bold}",
-          "type": "typography"
-        },
-        "label": {
-          "x-small": {
-            "value": "{semantic.typography.input.xxx-small.bold}",
-            "type": "typography"
-          },
+        "link": {
           "small": {
-            "value": "{semantic.typography.input.xx-small.bold}",
-            "type": "typography"
-          },
-          "medium": {
             "value": "{semantic.typography.input.xx-small.bold}",
             "type": "typography"
           },

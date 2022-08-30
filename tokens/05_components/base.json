@@ -709,24 +709,24 @@
           }
         }
       },
-      "border-radius": {
-        "all": {
-          "value": "{border-radius.0}",
-          "type": "borderRadius"
-        }
-      },
       "type": {
         "label": {
-          "value": "{typography.sans-serif.body-md.regular}",
-          "type": "typography"
+          "large": {
+            "value": "{typography.sans-serif.body-md.regular}",
+            "type": "typography"
+          }
         },
         "sub-label": {
-          "value": "{typography.sans-serif.caption-md.regular}",
-          "type": "typography"
+          "large": {
+            "value": "{typography.sans-serif.caption-md.regular}",
+            "type": "typography"
+          }
         },
         "link": {
-          "value": "{typography.sans-serif.body-md.bold}",
-          "type": "typography"
+          "large": {
+            "value": "{typography.sans-serif.body-md.bold}",
+            "type": "typography"
+          }
         }
       }
     },
