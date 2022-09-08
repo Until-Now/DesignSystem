@@ -19,7 +19,7 @@
       },
       "tertiary": {
         "outline": {
-          "value": "{colour.neutral.300}",
+          "value": "{colour.neutral.150}",
           "type": "color"
         }
       }
@@ -27,14 +27,14 @@
     "bg": {
       "primary": {
         "bg-400": {
-          "value": "{colour.primary.700}",
+          "value": "{colour.primary.300}",
           "type": "color"
         }
       }
     },
     "content": {
       "accent-on-dark": {
-        "value": "{colour.primary.300}",
+        "value": "{colour.primary.150}",
         "type": "color"
       }
     },

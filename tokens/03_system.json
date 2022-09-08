@@ -203,7 +203,7 @@
   "system": {
     "primary": {
       "primary": {
-        "value": "{colour.primary.500}",
+        "value": "{colour.primary.150}",
         "type": "color"
       },
       "on-primary": {
@@ -211,11 +211,11 @@
         "type": "color"
       },
       "light": {
-        "value": "{colour.primary.200}",
+        "value": "{colour.primary.50}",
         "type": "color"
       },
       "on-light": {
-        "value": "{colour.primary.700}",
+        "value": "{colour.primary.300}",
         "type": "color"
       },
       "muted": {
@@ -223,7 +223,7 @@
         "type": "color"
       },
       "on-muted": {
-        "value": "{colour.primary.500}",
+        "value": "{colour.primary.150}",
         "type": "color"
       },
       "subtle": {
@@ -231,13 +231,13 @@
         "type": "color"
       },
       "on-subtle": {
-        "value": "{colour.primary.500}",
+        "value": "{colour.primary.150}",
         "type": "color"
       }
     },
     "secondary": {
       "default": {
-        "value": "{colour.secondary.500}",
+        "value": "{colour.secondary.300}",
         "type": "color",
         "description": "Secondary key colour"
       },
@@ -247,12 +247,12 @@
         "description": "Content on secondary"
       },
       "light": {
-        "value": "{colour.secondary.200}",
+        "value": "{colour.secondary.100}",
         "type": "color",
         "description": "Secondary support colour"
       },
       "on-light": {
-        "value": "{colour.secondary.700}",
+        "value": "{colour.secondary.500}",
         "type": "color",
         "description": "Content on secondary support"
       }
@@ -273,18 +273,18 @@
     },
     "border": {
       "default": {
-        "value": "rgba({colour.neutral.600},0.44)",
+        "value": "rgba({colour.neutral.400},0.44)",
         "type": "color",
         "description": "Component outline"
       }
     },
     "neutral": {
       "default": {
-        "value": "{colour.neutral.200}",
+        "value": "{colour.neutral.100}",
         "type": "color"
       },
       "disabled": {
-        "value": "rgba({colour.neutral.500},0.12)",
+        "value": "rgba({colour.neutral.300},0.12)",
         "type": "color",
         "description": "Disabled action background state"
       },
@@ -672,7 +672,7 @@
           },
           "state": {
             "type": "color",
-            "value": "{colour.primary.200}",
+            "value": "{colour.primary.50}",
             "description": "Input background default"
           }
         },
@@ -702,7 +702,7 @@
           },
           "state": {
             "type": "color",
-            "value": "{colour.primary.300}",
+            "value": "{colour.primary.150}",
             "description": "Input background default"
           }
         },
@@ -769,12 +769,12 @@
       "container": {
         "divider": {
           "light": {
-            "value": "{colour.neutral.200}",
+            "value": "{colour.neutral.100}",
             "type": "color",
             "description": "Primary key colour"
           },
           "dark": {
-            "value": "{colour.neutral.500}",
+            "value": "{colour.neutral.300}",
             "type": "color",
             "description": "Primary key colour"
           }

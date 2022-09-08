@@ -2,19 +2,19 @@
   "semantic": {
     "primary": {
       "primary": {
-        "value": "{colour.primary.700}",
+        "value": "{colour.primary.300}",
         "type": "color"
       },
       "on-primary": {
-        "value": "{colour.primary.300}",
+        "value": "{colour.primary.150}",
         "type": "color"
       },
       "light": {
-        "value": "{colour.primary.300}",
+        "value": "{colour.primary.150}",
         "type": "color"
       },
       "on-light": {
-        "value": "{colour.primary.700}",
+        "value": "{colour.primary.300}",
         "type": "color"
       },
       "muted": {
@@ -22,7 +22,7 @@
         "type": "color"
       },
       "on-muted": {
-        "value": "{colour.primary.700}",
+        "value": "{colour.primary.300}",
         "type": "color"
       },
       "subtle": {
@@ -30,7 +30,7 @@
         "type": "color"
       },
       "on-subtle": {
-        "value": "{colour.primary.700}",
+        "value": "{colour.primary.300}",
         "type": "color"
       }
     },
@@ -58,7 +58,7 @@
         }
       },
       "default": {
-        "value": "rgba({colour.neutral.600},0.44)",
+        "value": "rgba({colour.neutral.400},0.44)",
         "type": "color",
         "description": "Component outline"
       }
@@ -87,11 +87,11 @@
     },
     "neutral": {
       "default": {
-        "value": "{colour.neutral.200}",
+        "value": "{colour.neutral.100}",
         "type": "color"
       },
       "disabled": {
-        "value": "rgba({colour.neutral.500},0.12)",
+        "value": "rgba({colour.neutral.300},0.12)",
         "type": "color",
         "description": "Disabled action background state"
       },
@@ -102,7 +102,7 @@
     },
     "content": {
       "primary": {
-        "value": "{colour.primary.700}",
+        "value": "{colour.primary.300}",
         "type": "color"
       },
       "primary-inverse": {

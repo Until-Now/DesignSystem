@@ -2,43 +2,43 @@
   "system": {
     "primary": {
       "primary": {
-        "value": "{colour.primary.700}",
+        "value": "{colour.primary.300}",
         "type": "color"
       },
       "on-primary": {
-        "value": "{colour.primary.100}",
+        "value": "{colour.primary.50}",
         "type": "color"
       },
       "light": {
-        "value": "{colour.primary.400}",
+        "value": "{colour.primary.100}",
         "type": "color"
       },
       "on-light": {
-        "value": "{colour.primary.1000}",
+        "value": "{colour.primary.800}",
         "type": "color"
       },
       "on-muted": {
-        "value": "{colour.primary.700}",
+        "value": "{colour.primary.300}",
         "type": "color"
       },
       "on-subtle": {
-        "value": "{colour.primary.700}",
+        "value": "{colour.primary.300}",
         "type": "color"
       }
     },
     "secondary": {
       "light": {
-        "value": "{colour.primary.400}",
+        "value": "{colour.primary.100}",
         "type": "color"
       },
       "on-light": {
-        "value": "{colour.primary.1000}",
+        "value": "{colour.primary.800}",
         "type": "color"
       }
     },
     "content": {
       "primary": {
-        "value": "{colour.neutral.600}",
+        "value": "{colour.neutral.400}",
         "type": "color"
       }
     },
@@ -46,7 +46,7 @@
       "action": {
         "tertiary": {
           "outline": {
-            "value": "{colour.primary.800}",
+            "value": "{colour.primary.600}",
             "type": "color"
           }
         }

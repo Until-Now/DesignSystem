@@ -42,7 +42,7 @@
     },
     "content": {
       "accent-on-light": {
-        "value": "{colour.primary.500}",
+        "value": "{colour.primary.150}",
         "type": "color"
       },
       "on-light": {
