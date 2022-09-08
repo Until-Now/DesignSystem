@@ -667,6 +667,10 @@
                 "value": "rgba({comp.chip.colour.sentiment.info.default.content},0.12)",
                 "type": "color"
               }
+            },
+            "outline": {
+              "value": "{system.colour.status.sentiment.neutral.outline}",
+              "type": "color"
             }
           }
         },
@@ -805,7 +809,7 @@
           "type": "borderWidth"
         },
         "status": {
-          "value": "{semantic.border-width.status.medium}",
+          "value": "{semantic.border-width.status.small}",
           "type": "borderWidth"
         }
       }

@@ -1530,13 +1530,17 @@
           "neutral": {
             "default": {
               "background": {
-                "value": "{semantic.bg.primary.bg-200}",
+                "value": "{semantic.bg.neutral.bg-secondary}",
                 "type": "color"
               },
               "content": {
                 "value": "{system.primary.on-light}",
                 "type": "color"
               }
+            },
+            "outline": {
+              "value": "rgba({system.primary.on-light},{sys.opacity.border.component})",
+              "type": "color"
             }
           }
         }
