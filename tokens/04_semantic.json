@@ -452,31 +452,31 @@
       "status": {
         "small": {
           "padding-left": {
-            "value": "{space.4}",
+            "value": "{space.8}",
             "type": "spacing"
           },
           "padding-right": {
-            "value": "{space.4}",
+            "value": "{space.8}",
             "type": "spacing"
           }
         },
         "medium": {
           "padding-left": {
-            "value": "{space.4}",
+            "value": "{space.10}",
             "type": "spacing"
           },
           "padding-right": {
-            "value": "{space.4}",
+            "value": "{space.10}",
             "type": "spacing"
           }
         },
         "large": {
           "padding-left": {
-            "value": "{space.4}",
+            "value": "{space.12}",
             "type": "spacing"
           },
           "padding-right": {
-            "value": "{space.4}",
+            "value": "{space.12}",
             "type": "spacing"
           }
         },

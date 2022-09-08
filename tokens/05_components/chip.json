@@ -297,6 +297,10 @@
                 "value": "rgba({comp.chip.colour.sentiment.error.default.content},0.12)",
                 "type": "color"
               }
+            },
+            "outline": {
+              "value": "{system.colour.status.sentiment.error.outline}",
+              "type": "color"
             }
           },
           "selected": {
@@ -519,6 +523,10 @@
                 "value": "rgba({comp.chip.colour.sentiment.warning.default.content},0.12)",
                 "type": "color"
               }
+            },
+            "outline": {
+              "value": "{system.colour.status.sentiment.warning.outline}",
+              "type": "color"
             }
           },
           "success": {
@@ -563,6 +571,10 @@
                 "value": "rgba({comp.chip.colour.sentiment.success.default.content},0.12)",
                 "type": "color"
               }
+            },
+            "outline": {
+              "value": "{system.colour.status.sentiment.success.outline}",
+              "type": "color"
             }
           },
           "info": {
@@ -577,6 +589,54 @@
               },
               "state": {
                 "value": "rgba({comp.chip.colour.sentiment.info.default.content},0.00)",
+                "type": "color"
+              }
+            },
+            "hover": {
+              "bg": {
+                "value": "{system.colour.status.sentiment.info.hover.background}",
+                "type": "color"
+              },
+              "content": {
+                "value": "{system.colour.status.sentiment.info.hover.content}",
+                "type": "color"
+              },
+              "state": {
+                "value": "rgba({comp.chip.colour.sentiment.info.default.content},0.06)",
+                "type": "color"
+              }
+            },
+            "press": {
+              "bg": {
+                "value": "{system.colour.status.sentiment.info.press.background}",
+                "type": "color"
+              },
+              "content": {
+                "value": "{system.colour.status.sentiment.info.press.content}",
+                "type": "color"
+              },
+              "state": {
+                "value": "rgba({comp.chip.colour.sentiment.info.default.content},0.12)",
+                "type": "color"
+              }
+            },
+            "outline": {
+              "value": "{system.colour.status.sentiment.info.outline}",
+              "type": "color"
+            }
+          },
+          "neutral": {
+            "default": {
+              "bg": {
+                "value": "{system.colour.status.sentiment.neutral.default.background}",
+                "type": "color"
+              },
+              "content": {
+                "value": "{system.colour.status.sentiment.neutral.default.content}",
+                "type": "color"
+              },
+              "state": {
+                "value": "rgba({comp.chip.colour.sentiment.neutral.default.content},0.00)",
                 "type": "color"
               }
             },
@@ -741,6 +801,10 @@
           "type": "borderWidth"
         },
         "input": {
+          "value": "{semantic.border-width.status.medium}",
+          "type": "borderWidth"
+        },
+        "status": {
           "value": "{semantic.border-width.status.medium}",
           "type": "borderWidth"
         }
