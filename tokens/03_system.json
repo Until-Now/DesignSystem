@@ -273,7 +273,7 @@
     },
     "border": {
       "default": {
-        "value": "rgba({colour.neutral.200},0.44)",
+        "value": "rgba({colour.neutral.400},0.44)",
         "type": "color",
         "description": "Component outline"
       }
@@ -284,7 +284,7 @@
         "type": "color"
       },
       "disabled": {
-        "value": "rgba({colour.neutral.150},0.12)",
+        "value": "rgba({colour.neutral.500},0.12)",
         "type": "color",
         "description": "Disabled action background state"
       },
@@ -769,12 +769,12 @@
       "container": {
         "divider": {
           "light": {
-            "value": "{colour.neutral.50}",
+            "value": "{colour.neutral.200}",
             "type": "color",
             "description": "Primary key colour"
           },
           "dark": {
-            "value": "{colour.neutral.150}",
+            "value": "{colour.neutral.400}",
             "type": "color",
             "description": "Primary key colour"
           }
