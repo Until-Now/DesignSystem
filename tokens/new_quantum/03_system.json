@@ -46,7 +46,7 @@
       "action": {
         "tertiary": {
           "outline": {
-            "value": "{colour.primary.900}",
+            "value": "{colour.primary.800}",
             "type": "color"
           }
         }
