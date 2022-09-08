@@ -1154,12 +1154,12 @@
         "type": "color"
       },
       "_outline": {
-        "value": "rgba({colour.neutral.300},{sys.opacity.border.component})",
+        "value": "rgba({colour.neutral.150},{sys.opacity.border.component})",
         "type": "color",
         "description": "Component outline"
       },
       "_disabled": {
-        "value": "rgba({colour.neutral.300},{sys.opacity.disabled})",
+        "value": "rgba({colour.neutral.150},{sys.opacity.disabled})",
         "type": "color"
       },
       "_error": {
@@ -1186,7 +1186,7 @@
           "type": "color"
         },
         "bg-200": {
-          "value": "{colour.neutral.100}",
+          "value": "{colour.neutral.50}",
           "type": "color"
         }
       },
@@ -1300,15 +1300,15 @@
           "type": "color"
         },
         "sf-200": {
-          "value": "{colour.neutral.100}",
+          "value": "{colour.neutral.50}",
           "type": "color"
         },
         "sf-300": {
-          "value": "{colour.neutral.200}",
+          "value": "{colour.neutral.100}",
           "type": "color"
         },
         "sf-400": {
-          "value": "{colour.neutral.300}",
+          "value": "{colour.neutral.150}",
           "type": "color"
         },
         "sf-500": {
@@ -1358,7 +1358,7 @@
     "border": {
       "opaque": {
         "neutral-light": {
-          "value": "{colour.neutral.100}",
+          "value": "{colour.neutral.50}",
           "type": "color"
         },
         "primary": {
@@ -1707,7 +1707,7 @@
             "y": "1",
             "blur": "0",
             "spread": "0",
-            "color": "{colour.neutral.100}",
+            "color": "{colour.neutral.50}",
             "type": "innerShadow"
           },
           "type": "boxShadow"
@@ -1718,7 +1718,7 @@
             "y": "2",
             "blur": "0",
             "spread": "0",
-            "color": "{colour.neutral.100}",
+            "color": "{colour.neutral.50}",
             "type": "innerShadow"
           },
           "type": "boxShadow"
@@ -1731,7 +1731,7 @@
             "y": "-1",
             "blur": "0",
             "spread": "0",
-            "color": "{colour.neutral.100}",
+            "color": "{colour.neutral.50}",
             "type": "innerShadow"
           },
           "type": "boxShadow"
@@ -1742,7 +1742,7 @@
             "y": "-2",
             "blur": "0",
             "spread": "0",
-            "color": "{colour.neutral.100}",
+            "color": "{colour.neutral.50}",
             "type": "innerShadow"
           },
           "type": "boxShadow"

@@ -174,7 +174,7 @@
           "type": "color"
         },
         "secondary": {
-          "value": "{colour.neutral.300}",
+          "value": "{colour.neutral.150}",
           "type": "color",
           "description": "Secondary key colour"
         },
@@ -210,16 +210,16 @@
           "type": "color"
         },
         "neutral": {
-          "value": "{colour.neutral.100}",
+          "value": "{colour.neutral.50}",
           "type": "color"
         },
         "disabled": {
-          "value": "rgba({colour.neutral.300},0.12)",
+          "value": "rgba({colour.neutral.150},0.12)",
           "type": "color",
           "description": "Disabled action background state"
         },
         "outline": {
-          "value": "rgba({colour.neutral.400},0.44)",
+          "value": "rgba({colour.neutral.200},0.44)",
           "type": "color",
           "description": "Component outline"
         },

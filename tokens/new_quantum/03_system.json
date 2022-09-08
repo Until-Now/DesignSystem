@@ -38,7 +38,7 @@
     },
     "content": {
       "primary": {
-        "value": "{colour.neutral.400}",
+        "value": "{colour.neutral.900}",
         "type": "color"
       }
     },

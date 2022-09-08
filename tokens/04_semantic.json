@@ -821,7 +821,7 @@
           "type": "color"
         },
         "bg-tertiary": {
-          "value": "{colour.neutral.100}",
+          "value": "{colour.neutral.50}",
           "type": "color"
         }
       },
@@ -914,11 +914,11 @@
           "type": "color"
         },
         "neutral-tertiary": {
-          "value": "{colour.neutral.100}",
+          "value": "{colour.neutral.50}",
           "type": "color"
         },
         "neutral-dark": {
-          "value": "{colour.neutral.400}",
+          "value": "{colour.neutral.200}",
           "type": "color"
         },
         "disabled": {
