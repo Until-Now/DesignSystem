@@ -2,33 +2,45 @@
   "colour": {
     "primary": {
       "100": {
-        "value": "#D8F8FF",
+        "value": "#FBFEFF",
         "type": "color"
       },
       "200": {
-        "value": "#ADF0FF",
+        "value": "#DAF8FF",
         "type": "color",
         "description": "Primary support colour"
       },
       "300": {
-        "value": "#85E9FF",
+        "value": "#BCF3FF",
         "type": "color"
       },
       "400": {
-        "value": "#35BEEF",
+        "value": "#8FEBFF",
         "type": "color"
       },
       "500": {
-        "value": "#0098C8",
+        "value": "#68DEFF",
         "type": "color",
         "description": "Primary key colour"
       },
       "600": {
-        "value": "#005EA1",
+        "value": "#43CCFF",
         "type": "color"
       },
       "700": {
-        "value": "#01397A",
+        "value": "#0158A7",
+        "type": "color"
+      },
+      "800": {
+        "value": "#014790",
+        "type": "color"
+      },
+      "900": {
+        "value": "#013A7B",
+        "type": "color"
+      },
+      "1000": {
+        "value": "#012B5B",
         "type": "color"
       }
     },
