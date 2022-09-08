@@ -672,7 +672,7 @@
           },
           "state": {
             "type": "color",
-            "value": "{semantic.fg.primary.sf-100}",
+            "value": "{colour.primary.200}",
             "description": "Input background default"
           }
         },
@@ -702,7 +702,7 @@
           },
           "state": {
             "type": "color",
-            "value": "{semantic.fg.primary.sf-200}",
+            "value": "{colour.primary.300}",
             "description": "Input background default"
           }
         },
