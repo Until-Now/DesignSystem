@@ -7,8 +7,7 @@
       },
       "100": {
         "value": "#DAF8FF",
-        "type": "color",
-        "description": "Primary support colour"
+        "type": "color"
       },
       "150": {
         "value": "#C3F4FF",
@@ -20,8 +19,7 @@
       },
       "300": {
         "value": "#53D4FF",
-        "type": "color",
-        "description": "Primary key colour"
+        "type": "color"
       },
       "400": {
         "value": "#01A2FD",
@@ -45,68 +43,6 @@
       },
       "900": {
         "value": "#012148",
-        "type": "color"
-      }
-    },
-    "error": {
-      "100": {
-        "value": "#FAEAEA",
-        "type": "color",
-        "description": "Error support colour"
-      },
-      "200": {
-        "value": "#D21C1C",
-        "type": "color",
-        "description": "Error key colour"
-      },
-      "300": {
-        "value": "#970C0C",
-        "type": "color"
-      }
-    },
-    "success": {
-      "100": {
-        "value": "#EBF4EC",
-        "type": "color",
-        "description": "Success support colour"
-      },
-      "200": {
-        "value": "#28A138",
-        "type": "color",
-        "description": "Success key colour"
-      },
-      "300": {
-        "value": "#2B7336",
-        "type": "color"
-      }
-    },
-    "warning": {
-      "100": {
-        "value": "#FDF0E3",
-        "type": "color",
-        "description": "Warning support colour"
-      },
-      "200": {
-        "value": "#E98305",
-        "type": "color",
-        "description": "Warning key colour"
-      },
-      "300": {
-        "value": "#AE5700",
-        "type": "color"
-      }
-    },
-    "info": {
-      "100": {
-        "value": "#F3EAFA",
-        "type": "color"
-      },
-      "200": {
-        "value": "#6C1CD2",
-        "type": "color"
-      },
-      "300": {
-        "value": "#490C97",
         "type": "color"
       }
     },
