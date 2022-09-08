@@ -103,11 +103,11 @@
           "type": "color"
         },
         "hover": {
-          "value": "{semantic.fg.primary.sf-100}",
+          "value": "{semantic.fg.primary.tonal.normal}",
           "type": "color"
         },
         "press": {
-          "value": "{semantic.fg.primary.sf-200}",
+          "value": "{semantic.fg.primary.tonal.dark}",
           "type": "color"
         }
       }

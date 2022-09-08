@@ -773,7 +773,7 @@
         "colour": {
           "default": {
             "bg": {
-              "value": "{semantic.fg.primary.sf-200}",
+              "value": "{semantic.fg.primary.tonal.dark}",
               "type": "color"
             },
             "content": {
@@ -787,7 +787,7 @@
           },
           "hover": {
             "bg": {
-              "value": "{semantic.fg.primary.sf-300}",
+              "value": "{semantic.fg.primary.tonal.darker}",
               "type": "color"
             },
             "content": {

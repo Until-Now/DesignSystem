@@ -821,7 +821,7 @@
           "type": "color"
         },
         "bg-tertiary": {
-          "value": "{colour.neutral.50}",
+          "value": "{colour.neutral.100}",
           "type": "color"
         }
       },
@@ -831,7 +831,7 @@
           "type": "color"
         },
         "bg-200": {
-          "value": "{colour.primary.50}",
+          "value": "{colour.primary.100}",
           "type": "color"
         },
         "bg-300": {
@@ -914,11 +914,11 @@
           "type": "color"
         },
         "neutral-tertiary": {
-          "value": "{colour.neutral.50}",
+          "value": "{colour.neutral.100}",
           "type": "color"
         },
         "neutral-dark": {
-          "value": "{colour.neutral.200}",
+          "value": "{colour.neutral.900}",
           "type": "color"
         },
         "disabled": {
@@ -983,32 +983,36 @@
         }
       },
       "primary": {
-        "sf-100": {
-          "value": "{colour.primary.50}",
-          "type": "color"
+        "tonal": {
+          "normal": {
+            "value": "{colour.primary.200}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{colour.primary.300}",
+            "type": "color"
+          },
+          "darker": {
+            "value": "{colour.primary.400}",
+            "type": "color"
+          }
         },
-        "sf-200": {
-          "value": "{colour.primary.50}",
-          "type": "color"
+        "fill": {
+          "normal": {
+            "value": "{colour.primary.600}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{colour.primary.700}",
+            "type": "color"
+          },
+          "darker": {
+            "value": "{colour.primary.800}",
+            "type": "color"
+          }
         },
-        "sf-300": {
-          "value": "{colour.primary.150}",
-          "type": "color"
-        },
-        "sf-400": {
-          "value": "{colour.primary.100}",
-          "type": "color"
-        },
-        "sf-500": {
-          "value": "{colour.primary.150}",
-          "type": "color"
-        },
-        "sf-600": {
-          "value": "{colour.primary.200}",
-          "type": "color"
-        },
-        "sf-700": {
-          "value": "{colour.primary.300}",
+        "darkest": {
+          "value": "{colour.primary.900}",
           "type": "color"
         }
       },
