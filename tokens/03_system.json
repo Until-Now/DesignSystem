@@ -1020,42 +1020,6 @@
           }
         }
       },
-      "overlay": {
-        "lighter": {
-          "hover-surface-opacity": {
-            "value": "rgba({system.content.primary-inverse},0.16)",
-            "type": "color"
-          },
-          "press-surface-opacity": {
-            "value": "rgba({system.content.primary-inverse},0.32)",
-            "type": "color"
-          },
-          "disabled-surface-opacity": {
-            "value": "rgba({system.content.primary-inverse},0.00)",
-            "type": "color"
-          }
-        },
-        "sentiment": {
-          "error": {
-            "default": {
-              "value": "rgba({system.error.emphasised},0.00)",
-              "type": "color"
-            },
-            "hover": {
-              "value": "rgba({system.error.emphasised},0.08)",
-              "type": "color"
-            },
-            "press": {
-              "value": "rgba({system.error.emphasised},0.16)",
-              "type": "color"
-            },
-            "disabled": {
-              "value": "rgba({system.error.emphasised},0.00)",
-              "type": "color"
-            }
-          }
-        }
-      },
       "status": {
         "default": {
           "background": {
@@ -1551,6 +1515,36 @@
       "lighter": {
         "default-surface-opacity": {
           "value": "rgba({system.content.primary-inverse},0.00)",
+          "type": "color"
+        },
+        "hover-surface-opacity": {
+          "value": "rgba({system.content.primary-inverse},0.16)",
+          "type": "color"
+        },
+        "press-surface-opacity": {
+          "value": "rgba({system.content.primary-inverse},0.32)",
+          "type": "color"
+        },
+        "disabled-surface-opacity": {
+          "value": "rgba({system.content.primary-inverse},0.00)",
+          "type": "color"
+        }
+      },
+      "error": {
+        "default": {
+          "value": "rgba({system.error.emphasised},0.00)",
+          "type": "color"
+        },
+        "hover": {
+          "value": "rgba({system.error.emphasised},0.08)",
+          "type": "color"
+        },
+        "press": {
+          "value": "rgba({system.error.emphasised},0.16)",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "rgba({system.error.emphasised},0.00)",
           "type": "color"
         }
       }

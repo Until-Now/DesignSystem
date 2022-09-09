@@ -191,7 +191,7 @@
               },
               "state": {
                 "type": "color",
-                "value": "{system.colour.overlay.lighter.hover-surface-opacity}"
+                "value": "{system.states.lighter.hover-surface-opacity}"
               }
             },
             "press": {
@@ -205,7 +205,7 @@
               },
               "state": {
                 "type": "color",
-                "value": "{system.colour.overlay.lighter.press-surface-opacity}"
+                "value": "{system.states.lighter.press-surface-opacity}"
               }
             }
           }
@@ -755,7 +755,7 @@
               },
               "state": {
                 "type": "color",
-                "value": "{system.colour.overlay.lighter.hover-surface-opacity}"
+                "value": "{system.states.lighter.hover-surface-opacity}"
               }
             },
             "press": {
@@ -769,7 +769,7 @@
               },
               "state": {
                 "type": "color",
-                "value": "{system.colour.overlay.lighter.press-surface-opacity}"
+                "value": "{system.states.lighter.press-surface-opacity}"
               }
             }
           },
