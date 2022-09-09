@@ -45,6 +45,12 @@
             "value": "{semantic.border.radius.round}",
             "type": "borderRadius"
           }
+        },
+        "type": {
+          "label": {
+            "value": "{semantic.typography.input.xx-small.regular}",
+            "type": "typography"
+          }
         }
       },
       "radio-and-checkbox": {
@@ -76,6 +82,12 @@
               "value": "{space.12}",
               "type": "spacing"
             }
+          }
+        },
+        "type": {
+          "label": {
+            "value": "{semantic.typography.input.xx-small.regular}",
+            "type": "typography"
           }
         }
       },

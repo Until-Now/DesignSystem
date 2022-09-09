@@ -20,7 +20,7 @@
             },
             "state": {
               "type": "color",
-              "value": "{system.colour.overlay.lighter.default-surface-opacity}"
+              "value": "{system.states.lighter.default-surface-opacity}"
             }
           },
           "hover": {
@@ -56,18 +56,18 @@
           "default": {
             "state": {
               "type": "color",
-              "value": "{system.colour.overlay.darker.default-surface-opacity}"
+              "value": "{system.states.darker.default-surface-opacity}"
             }
           },
           "hover": {
             "state": {
-              "value": "{system.colour.overlay.darker.hover-surface-opacity}",
+              "value": "{system.states.darker.hover-surface-opacity}",
               "type": "color"
             }
           },
           "press": {
             "state": {
-              "value": "{system.colour.overlay.darker.press-surface-opacity}",
+              "value": "{system.states.darker.press-surface-opacity}",
               "type": "color"
             }
           }
@@ -383,19 +383,13 @@
             "value": "2",
             "type": "borderWidth"
           }
-        },
-        "type": {
-          "label": {
-            "value": "{typography.sans-serif.body-md.bold}",
-            "type": "typography"
-          }
         }
       },
       "switch": {
         "colour": {
           "default": {
             "bg": {
-              "value": "{system.colour.inputs.default.bg-neutral}",
+              "value": "{system.colour.inputs.selection.default.background}",
               "type": "color"
             },
             "toggle-icon": {
@@ -412,7 +406,7 @@
             },
             "state": {
               "type": "color",
-              "value": "{system.colour.overlay.primary-light.default}"
+              "value": "{system.states.primary-light.default}"
             }
           },
           "hover": {
@@ -434,7 +428,7 @@
             },
             "state": {
               "type": "color",
-              "value": "{system.colour.overlay.primary-light.hover}"
+              "value": "{system.states.primary-light.hover}"
             }
           },
           "press": {
@@ -456,7 +450,7 @@
             },
             "state": {
               "type": "color",
-              "value": "{system.colour.overlay.primary-light.press}"
+              "value": "{system.states.primary-light.press}"
             }
           },
           "error": {
@@ -478,7 +472,7 @@
             },
             "state": {
               "type": "color",
-              "value": "{system.colour.overlay.primary-light.default}"
+              "value": "{system.states.primary-light.default}"
             },
             "outline": {
               "value": "{system.colour.inputs.error.focus}",
@@ -504,7 +498,7 @@
             },
             "state": {
               "type": "color",
-              "value": "{system.colour.overlay.primary-light.disabled}"
+              "value": "{system.states.primary-light.disabled}"
             }
           },
           "active": {
@@ -527,7 +521,7 @@
               },
               "state": {
                 "type": "color",
-                "value": "{system.colour.overlay.darker.default-surface-opacity}"
+                "value": "{system.states.darker.default-surface-opacity}"
               }
             },
             "hover": {
@@ -549,7 +543,7 @@
               },
               "state": {
                 "type": "color",
-                "value": "{system.colour.overlay.darker.hover-surface-opacity}"
+                "value": "{system.states.darker.hover-surface-opacity}"
               }
             },
             "press": {
@@ -571,7 +565,7 @@
               },
               "state": {
                 "type": "color",
-                "value": "{system.colour.overlay.darker.press-surface-opacity}"
+                "value": "{system.states.darker.press-surface-opacity}"
               }
             },
             "error": {
@@ -593,7 +587,7 @@
               },
               "state": {
                 "type": "color",
-                "value": "{system.colour.overlay.darker.default-surface-opacity}"
+                "value": "{system.states.darker.default-surface-opacity}"
               },
               "outline": {
                 "value": "{system.colour.inputs.error.focus}",
@@ -619,7 +613,7 @@
               },
               "state": {
                 "type": "color",
-                "value": "{system.colour.overlay.darker.disabled-surface-opacity}"
+                "value": "{system.states.darker.disabled-surface-opacity}"
               }
             }
           }
@@ -628,12 +622,6 @@
           "error": {
             "value": "{border-width.2}",
             "type": "borderWidth"
-          }
-        },
-        "type": {
-          "label": {
-            "value": "{typography.sans-serif.body-md.bold}",
-            "type": "typography"
           }
         }
       },
@@ -651,7 +639,7 @@
         "container": {
           "default": {
             "bg": {
-              "value": "{system.colour.inputs.bg-accent-light}",
+              "value": "{system.colour.inputs.default.callout-bg}",
               "type": "color"
             }
           },

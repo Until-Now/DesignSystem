@@ -104,7 +104,7 @@
             },
             "state": {
               "type": "color",
-              "value": "{system.colour.overlay.darker.default-surface-opacity}"
+              "value": "{system.states.darker.default-surface-opacity}"
             }
           },
           "hover": {
@@ -118,7 +118,7 @@
             },
             "state": {
               "type": "color",
-              "value": "{system.colour.overlay.darker.hover-surface-opacity}"
+              "value": "{system.states.darker.hover-surface-opacity}"
             }
           },
           "press": {
@@ -132,7 +132,7 @@
             },
             "state": {
               "type": "color",
-              "value": "{system.colour.overlay.darker.press-surface-opacity}"
+              "value": "{system.states.darker.press-surface-opacity}"
             }
           },
           "disabled": {
@@ -146,7 +146,7 @@
             },
             "state": {
               "type": "color",
-              "value": "{system.colour.overlay.darker.disabled-surface-opacity}"
+              "value": "{system.states.darker.disabled-surface-opacity}"
             }
           }
         },
@@ -162,7 +162,7 @@
             },
             "state": {
               "type": "color",
-              "value": "{system.colour.overlay.secondary-dark.default}"
+              "value": "{system.states.secondary-dark.default}"
             }
           },
           "hover": {
@@ -176,7 +176,7 @@
             },
             "state": {
               "type": "color",
-              "value": "{system.colour.overlay.secondary-dark.hover}"
+              "value": "{system.states.secondary-dark.hover}"
             }
           },
           "press": {
@@ -190,7 +190,7 @@
             },
             "state": {
               "type": "color",
-              "value": "{system.colour.overlay.secondary-dark.press}"
+              "value": "{system.states.secondary-dark.press}"
             }
           },
           "disabled": {
@@ -204,7 +204,7 @@
             },
             "state": {
               "type": "color",
-              "value": "{system.colour.overlay.secondary-dark.disabled}"
+              "value": "{system.states.secondary-dark.disabled}"
             }
           }
         },
@@ -220,7 +220,7 @@
             },
             "state": {
               "type": "color",
-              "value": "{system.colour.overlay.primary-light.default}"
+              "value": "{system.states.primary-light.default}"
             }
           },
           "hover": {
@@ -234,7 +234,7 @@
             },
             "state": {
               "type": "color",
-              "value": "{system.colour.overlay.primary-light.hover}"
+              "value": "{system.states.primary-light.hover}"
             }
           },
           "press": {
@@ -248,7 +248,7 @@
             },
             "state": {
               "type": "color",
-              "value": "{system.colour.overlay.primary-light.press}"
+              "value": "{system.states.primary-light.press}"
             }
           },
           "disabled": {
@@ -262,7 +262,7 @@
             },
             "state": {
               "type": "color",
-              "value": "{system.colour.overlay.primary-light.disabled}"
+              "value": "{system.states.primary-light.disabled}"
             }
           },
           "outline": {
@@ -286,7 +286,7 @@
             },
             "state": {
               "type": "color",
-              "value": "{system.colour.overlay.primary-light.default}"
+              "value": "{system.states.primary-light.default}"
             }
           },
           "hover": {
@@ -300,7 +300,7 @@
             },
             "state": {
               "type": "color",
-              "value": "{system.colour.overlay.primary-light.hover}"
+              "value": "{system.states.primary-light.hover}"
             }
           },
           "press": {
@@ -314,7 +314,7 @@
             },
             "state": {
               "type": "color",
-              "value": "{system.colour.overlay.primary-light.press}"
+              "value": "{system.states.primary-light.press}"
             }
           },
           "disabled": {
@@ -328,7 +328,7 @@
             },
             "state": {
               "type": "color",
-              "value": "{system.colour.overlay.primary-light.disabled}"
+              "value": "{system.states.primary-light.disabled}"
             }
           }
         },

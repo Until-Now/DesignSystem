@@ -5,25 +5,25 @@
         "secondary": {
           "default": {
             "state": {
-              "value": "{system.colour.overlay.primary-dark.default}",
+              "value": "{system.states.primary-dark.default}",
               "type": "color"
             }
           },
           "hover": {
             "state": {
-              "value": "{system.colour.overlay.primary-dark.hover}",
+              "value": "{system.states.primary-dark.hover}",
               "type": "color"
             }
           },
           "press": {
             "state": {
-              "value": "{system.colour.overlay.primary-dark.press}",
+              "value": "{system.states.primary-dark.press}",
               "type": "color"
             }
           },
           "disabled": {
             "state": {
-              "value": "{system.colour.overlay.primary-dark.disabled}",
+              "value": "{system.states.primary-dark.disabled}",
               "type": "color"
             }
           }
