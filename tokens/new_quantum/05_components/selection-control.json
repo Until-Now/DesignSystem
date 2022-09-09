@@ -1,0 +1,18 @@
+{
+  "comp": {
+    "selection-control": {
+      "switch": {
+        "size": {
+          "width": {
+            "value": "{size.56}",
+            "type": "sizing"
+          },
+          "height": {
+            "value": "{size.32}",
+            "type": "sizing"
+          }
+        }
+      }
+    }
+  }
+}
