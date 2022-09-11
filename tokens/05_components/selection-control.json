@@ -282,6 +282,20 @@
                 "value": "{system.states.darker.disabled-surface-opacity}"
               }
             }
+          },
+          "outline": {
+            "value": "{system.colour.inputs.selection.outline}",
+            "type": "color"
+          }
+        },
+        "border-width": {
+          "default": {
+            "value": "{semantic.border.width.small}",
+            "type": "borderWidth"
+          },
+          "error": {
+            "value": "{semantic.border.width.medium}",
+            "type": "borderWidth"
           }
         }
       },

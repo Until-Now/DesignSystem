@@ -265,14 +265,6 @@
           }
         }
       },
-      "switch": {
-        "border-width": {
-          "error": {
-            "value": "{border-width.2}",
-            "type": "borderWidth"
-          }
-        }
-      },
       "border": {
         "hover": {
           "value": "{system.colour.inputs.press.focus}",

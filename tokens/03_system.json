@@ -266,6 +266,10 @@
       "primary": {
         "value": "rgba({system.primary.primary},{sys.opacity.border.component})",
         "type": "color"
+      },
+      "error": {
+        "value": "rgba({system.error.default},{sys.opacity.border.component})",
+        "type": "color"
       }
     },
     "neutral": {
@@ -792,6 +796,10 @@
               "value": "{semantic.fg.neutral.disabled}",
               "type": "color"
             }
+          },
+          "outline": {
+            "value": "{system.border.primary}",
+            "type": "color"
           }
         },
         "content": {
