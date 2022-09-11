@@ -746,16 +746,50 @@
             "type": "color",
             "value": "{system.neutral.transparent}",
             "description": "Input background default"
-          },
-          "callout-bg": {
-            "value": "{semantic.bg.neutral.bg-tertiary}",
-            "type": "color"
           }
         },
         "selection": {
+          "callout": {
+            "default": {
+              "background": {
+                "value": "{semantic.bg.neutral.bg-tertiary}",
+                "type": "color"
+              }
+            },
+            "disabled": {
+              "background": {
+                "value": "{semantic.fg.neutral.disabled}",
+                "type": "color"
+              }
+            }
+          },
           "default": {
             "background": {
               "value": "{system.neutral.default}",
+              "type": "color"
+            }
+          },
+          "hover": {
+            "background": {
+              "value": "{system.colour.inputs.selection.default.background}",
+              "type": "color"
+            }
+          },
+          "press": {
+            "background": {
+              "value": "{system.colour.inputs.selection.default.background}",
+              "type": "color"
+            }
+          },
+          "error": {
+            "background": {
+              "value": "{system.colour.inputs.selection.default.background}",
+              "type": "color"
+            }
+          },
+          "disabled": {
+            "background": {
+              "value": "{semantic.fg.neutral.disabled}",
               "type": "color"
             }
           }
@@ -796,10 +830,6 @@
             "value": "{system.colour.action.subtle.default.background}",
             "type": "color"
           },
-          "bg-neutral": {
-            "value": "{system.colour.inputs.selection.default.background}",
-            "type": "color"
-          },
           "outline": {
             "value": "{system.primary.primary}",
             "type": "color",
@@ -819,10 +849,6 @@
           },
           "bg-transparent": {
             "value": "{system.colour.action.subtle.default.background}",
-            "type": "color"
-          },
-          "bg-neutral": {
-            "value": "{system.colour.inputs.selection.default.background}",
             "type": "color"
           },
           "outline": {
@@ -851,10 +877,6 @@
             "value": "{system.colour.action.subtle.default.background}",
             "type": "color"
           },
-          "bg-neutral": {
-            "value": "{system.colour.inputs.selection.default.background}",
-            "type": "color"
-          },
           "outline": {
             "value": "{system.error.default}",
             "type": "color",
@@ -868,8 +890,7 @@
         "disabled": {
           "background": {
             "value": "{semantic.fg.neutral.disabled}",
-            "type": "color",
-            "description": "Input background error"
+            "type": "color"
           },
           "bg-transparent": {
             "value": "{system.colour.action.subtle.default.background}",
