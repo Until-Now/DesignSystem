@@ -798,7 +798,7 @@
             }
           },
           "outline": {
-            "value": "{system.border.primary}",
+            "value": "{system.border.neutral}",
             "type": "color"
           }
         },

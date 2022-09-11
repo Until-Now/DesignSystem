@@ -38,6 +38,18 @@
               "value": "{space.8}",
               "type": "spacing"
             }
+          },
+          "content": {
+            "space-between": {
+              "value": "{semantic.spacing.input.content.space-between}",
+              "type": "spacing"
+            }
+          },
+          "elements": {
+            "space-between": {
+              "value": "{semantic.spacing.input.elements.space-between}",
+              "type": "spacing"
+            }
           }
         },
         "border-radius": {
@@ -326,6 +338,18 @@
             },
             "padding-bottom": {
               "value": "{space.12}",
+              "type": "spacing"
+            }
+          },
+          "content": {
+            "space-between": {
+              "value": "{semantic.spacing.input.content.space-between}",
+              "type": "spacing"
+            }
+          },
+          "elements": {
+            "space-between": {
+              "value": "{semantic.spacing.input.elements.space-between}",
               "type": "spacing"
             }
           }
