@@ -50,6 +50,14 @@
             "type": "color"
           }
         }
+      },
+      "inputs": {
+        "default": {
+          "background": {
+            "value": "{semantic.fg.neutral.neutral-secondary}",
+            "type": "color"
+          }
+        }
       }
     }
   }

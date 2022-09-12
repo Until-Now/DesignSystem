@@ -259,7 +259,7 @@
     },
     "border": {
       "neutral": {
-        "value": "rgba({colour.neutral.400},{sys.opacity.border.component})",
+        "value": "rgba({colour.neutral.500},{sys.opacity.border.component})",
         "type": "color",
         "description": "Component outline"
       },
@@ -830,7 +830,7 @@
         },
         "hover": {
           "background": {
-            "value": "{system.colour.inputs.default.background}",
+            "value": "{semantic.fg.neutral.neutral-primary}",
             "type": "color",
             "description": "Input background hover"
           },
@@ -851,7 +851,7 @@
         },
         "press": {
           "background": {
-            "value": "{system.colour.inputs.default.background}",
+            "value": "{semantic.fg.neutral.neutral-primary}",
             "type": "color",
             "description": "Input background press"
           },
@@ -877,7 +877,7 @@
         },
         "error": {
           "background": {
-            "value": "{system.colour.inputs.default.background}",
+            "value": "{semantic.fg.neutral.neutral-primary}",
             "type": "color",
             "description": "Input background error"
           },
