@@ -4,11 +4,19 @@
       "switch": {
         "size": {
           "width": {
-            "value": "{size.56}",
+            "value": "{size.48}",
             "type": "sizing"
           },
           "height": {
-            "value": "{size.32}",
+            "value": "{size.28}",
+            "type": "sizing"
+          },
+          "toggle": {
+            "value": "{size.24}",
+            "type": "sizing"
+          },
+          "icon": {
+            "value": "{size.20}",
             "type": "sizing"
           }
         }
