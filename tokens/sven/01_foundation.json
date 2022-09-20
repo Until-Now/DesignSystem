@@ -230,11 +230,11 @@
       },
       "sentiment": {
         "error": {
-          "value": "{colour.error.200}",
+          "value": "{colour.error.500}",
           "type": "color"
         },
         "success": {
-          "value": "{colour.success.200}",
+          "value": "{colour.success.500}",
           "type": "color"
         },
         "warning": {
@@ -242,15 +242,15 @@
           "type": "color"
         },
         "info": {
-          "value": "{colour.info.200}",
+          "value": "{colour.info.600}",
           "type": "color"
         },
         "error-surface": {
-          "value": "{colour.error.100}",
+          "value": "{colour.error.150}",
           "type": "color"
         },
         "on-error-surface": {
-          "value": "{colour.error.300}",
+          "value": "{colour.error.700}",
           "type": "color"
         },
         "success-surface": {
@@ -258,7 +258,7 @@
           "type": "color"
         },
         "on-success-surface": {
-          "value": "{colour.success.300}",
+          "value": "{colour.success.600}",
           "type": "color"
         },
         "warning-surface": {
@@ -266,15 +266,15 @@
           "type": "color"
         },
         "on-warning-surface": {
-          "value": "{colour.warning.300}",
+          "value": "{colour.warning.600}",
           "type": "color"
         },
         "info-surface": {
-          "value": "{colour.info.100}",
+          "value": "{colour.info.150}",
           "type": "color"
         },
         "on-info-surface": {
-          "value": "{colour.info.300}",
+          "value": "{colour.info.700}",
           "type": "color"
         }
       },

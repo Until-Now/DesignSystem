@@ -289,25 +289,25 @@
     },
     "error": {
       "default": {
-        "value": "{colour.error.200}",
+        "value": "{colour.error.500}",
         "type": "color"
       },
       "emphasised": {
-        "value": "{colour.error.300}",
+        "value": "{colour.error.700}",
         "type": "color"
       },
       "light": {
-        "value": "{colour.error.100}",
+        "value": "{colour.error.150}",
         "type": "color"
       }
     },
     "success": {
       "default": {
-        "value": "{colour.success.200}",
+        "value": "{colour.success.500}",
         "type": "color"
       },
       "emphasised": {
-        "value": "{colour.success.300}",
+        "value": "{colour.success.600}",
         "type": "color"
       },
       "light": {
@@ -321,7 +321,7 @@
         "type": "color"
       },
       "emphasised": {
-        "value": "{colour.warning.300}",
+        "value": "{colour.warning.600}",
         "type": "color"
       },
       "light": {
@@ -331,15 +331,15 @@
     },
     "info": {
       "default": {
-        "value": "{colour.info.200}",
+        "value": "{colour.info.600}",
         "type": "color"
       },
       "emphasised": {
-        "value": "{colour.info.300}",
+        "value": "{colour.info.700}",
         "type": "color"
       },
       "light": {
-        "value": "{colour.info.100}",
+        "value": "{colour.info.150}",
         "type": "color"
       }
     },
