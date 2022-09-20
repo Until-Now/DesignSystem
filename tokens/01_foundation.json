@@ -866,6 +866,14 @@
     "caption": {
       "value": "125%",
       "type": "lineHeights"
+    },
+    "test": {
+      "value": "16",
+      "type": "lineHeights"
+    },
+    "test2": {
+      "value": "8*(roundTo({line-height.test}/8,0))",
+      "type": "lineHeights"
     }
   }
 }
