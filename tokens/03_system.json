@@ -317,15 +317,15 @@
     },
     "warning": {
       "default": {
-        "value": "{colour.warning.200}",
+        "value": "{colour.warning.500}",
         "type": "color"
       },
       "emphasised": {
-        "value": "{colour.warning.600}",
+        "value": "{colour.warning.700}",
         "type": "color"
       },
       "light": {
-        "value": "{colour.warning.100}",
+        "value": "{colour.warning.150}",
         "type": "color"
       }
     },

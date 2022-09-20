@@ -1171,7 +1171,7 @@
         "type": "color"
       },
       "_warning": {
-        "value": "{colour.warning.200}",
+        "value": "{colour.warning.500}",
         "type": "color"
       }
     },
@@ -1346,11 +1346,11 @@
       },
       "warning": {
         "sf-200": {
-          "value": "{colour.warning.100}",
+          "value": "{colour.warning.150}",
           "type": "color"
         },
         "sf-400": {
-          "value": "{colour.warning.200}",
+          "value": "{colour.warning.500}",
           "type": "color"
         }
       }

@@ -956,15 +956,15 @@
       },
       "warning": {
         "sf-100": {
-          "value": "{colour.warning.100}",
+          "value": "{colour.warning.150}",
           "type": "color"
         },
         "sf-200": {
-          "value": "{colour.warning.200}",
+          "value": "{colour.warning.500}",
           "type": "color"
         },
         "sf-300": {
-          "value": "{colour.warning.600}",
+          "value": "{colour.warning.700}",
           "type": "color"
         }
       },
