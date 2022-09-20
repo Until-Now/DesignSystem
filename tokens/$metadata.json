@@ -1,7 +1,5 @@
 {
   "tokenSetOrder": [
-    "00_headless_core",
-    "00_headless_semantic",
     "01_foundation",
     "02_typography/sans-serif",
     "02_typography/serif",
