@@ -293,15 +293,25 @@
   },
   "font-family": {
     "sans-serif": {
-      "heading": {
-        "value": "SF Pro Display",
-        "type": "fontFamilies",
-        "description": "Sans serif font family used for display text & headlines"
+      "display": {
+        "value": "Söhne Breit",
+        "type": "fontFamilies"
+      },
+      "headline": {
+        "value": "Söhne",
+        "type": "fontFamilies"
       },
       "body": {
-        "value": "SF Pro Text",
-        "type": "fontFamilies",
-        "description": "Sans serif font family for title, body, and caption"
+        "value": "Söhne",
+        "type": "fontFamilies"
+      },
+      "title": {
+        "value": "Söhne",
+        "type": "fontFamilies"
+      },
+      "caption": {
+        "value": "Söhne",
+        "type": "fontFamilies"
       }
     }
   },
@@ -341,32 +351,32 @@
   },
   "font-weight": {
     "light": {
-      "value": "Light",
+      "value": "Leicht",
       "type": "fontWeights"
     },
     "regular": {
-      "value": "Regular",
+      "value": "Buch",
       "type": "fontWeights"
     },
     "medium": {
-      "value": "Medium",
+      "value": "Kräftig",
       "type": "fontWeights"
     },
     "semibold": {
-      "value": "Semibold",
+      "value": "Halbfett",
       "type": "fontWeights"
     },
     "bold": {
-      "value": "Bold",
+      "value": "Dreiviertelfett",
       "type": "fontWeights"
     },
     "extrabold": {
-      "value": "Heavy",
+      "value": "Fett",
       "type": "fontWeights",
       "description": "e.g. 'Heavy', 'Extrabold', 'Ultrabold'"
     },
     "black": {
-      "value": "Black",
+      "value": "Extrafett",
       "type": "fontWeights"
     },
     "sans-serif": {
@@ -420,7 +430,7 @@
     "sans-serif": {
       "lg": {
         "display": {
-          "value": "92",
+          "value": "96",
           "type": "fontSizes"
         },
         "headline": {
