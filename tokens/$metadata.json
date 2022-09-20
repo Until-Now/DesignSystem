@@ -30,6 +30,7 @@
     "new_quantum/03_system",
     "new_quantum/04_semantic",
     "new_quantum/05_components/button",
-    "new_quantum/05_components/selection-control"
+    "new_quantum/05_components/selection-control",
+    "style_arcade/01_foundation"
   ]
 }
