@@ -872,7 +872,11 @@
       "type": "lineHeights"
     },
     "test2": {
-      "value": "8*(roundTo({line-height.test}/8,0))",
+      "value": "{line-height.factor}*(roundTo(({font-size.sans-serif.lg.display}*{scale.105%})/{line-height.factor},0))",
+      "type": "lineHeights"
+    },
+    "factor": {
+      "value": "8",
       "type": "lineHeights"
     }
   },
