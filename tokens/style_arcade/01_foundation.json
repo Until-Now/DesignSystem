@@ -326,7 +326,7 @@
   "font-family": {
     "sans-serif": {
       "display": {
-        "value": "Söhne Breit",
+        "value": "Söhne",
         "type": "fontFamilies"
       },
       "headline": {
@@ -348,36 +348,144 @@
     }
   },
   "letter-spacing": {
-    "0": {
-      "value": "0%",
-      "type": "letterSpacing"
-    },
-    "negative": {
-      "10": {
-        "value": "-1%",
-        "type": "letterSpacing"
+    "sans-serif": {
+      "lg": {
+        "regular": {
+          "display": {
+            "value": "{letter-spacing.20}",
+            "type": "letterSpacing"
+          },
+          "headline": {
+            "value": "{letter-spacing.20}",
+            "type": "letterSpacing"
+          },
+          "title": {
+            "value": "{letter-spacing.60}",
+            "type": "letterSpacing"
+          },
+          "body": {
+            "value": "{letter-spacing.80}",
+            "type": "letterSpacing"
+          },
+          "caption": {
+            "value": "{letter-spacing.120}",
+            "type": "letterSpacing"
+          }
+        },
+        "bold": {
+          "display": {
+            "value": "{letter-spacing.10}",
+            "type": "letterSpacing"
+          },
+          "headline": {
+            "value": "{letter-spacing.40}",
+            "type": "letterSpacing"
+          },
+          "title": {
+            "value": "{letter-spacing.80}",
+            "type": "letterSpacing"
+          },
+          "body": {
+            "value": "{letter-spacing.100}",
+            "type": "letterSpacing"
+          },
+          "caption": {
+            "value": "{letter-spacing.120}",
+            "type": "letterSpacing"
+          }
+        }
       },
-      "25": {
-        "value": "-2.5%",
-        "type": "letterSpacing"
+      "md": {
+        "regular": {
+          "display": {
+            "value": "{letter-spacing.20}",
+            "type": "letterSpacing"
+          },
+          "headline": {
+            "value": "{letter-spacing.20}",
+            "type": "letterSpacing"
+          },
+          "title": {
+            "value": "{letter-spacing.60}",
+            "type": "letterSpacing"
+          },
+          "body": {
+            "value": "{letter-spacing.80}",
+            "type": "letterSpacing"
+          },
+          "caption": {
+            "value": "{letter-spacing.120}",
+            "type": "letterSpacing"
+          }
+        },
+        "bold": {
+          "display": {
+            "value": "{letter-spacing.10}",
+            "type": "letterSpacing"
+          },
+          "headline": {
+            "value": "{letter-spacing.40}",
+            "type": "letterSpacing"
+          },
+          "title": {
+            "value": "{letter-spacing.80}",
+            "type": "letterSpacing"
+          },
+          "body": {
+            "value": "{letter-spacing.100}",
+            "type": "letterSpacing"
+          },
+          "caption": {
+            "value": "{letter-spacing.140}",
+            "type": "letterSpacing"
+          }
+        }
       },
-      "40": {
-        "value": "-4%",
-        "type": "letterSpacing"
-      }
-    },
-    "positive": {
-      "10": {
-        "value": "1%",
-        "type": "letterSpacing"
-      },
-      "25": {
-        "value": "2.5%",
-        "type": "letterSpacing"
-      },
-      "40": {
-        "value": "4%",
-        "type": "letterSpacing"
+      "sm": {
+        "regular": {
+          "display": {
+            "value": "{letter-spacing.20}",
+            "type": "letterSpacing"
+          },
+          "headline": {
+            "value": "{letter-spacing.20}",
+            "type": "letterSpacing"
+          },
+          "title": {
+            "value": "{letter-spacing.60}",
+            "type": "letterSpacing"
+          },
+          "body": {
+            "value": "{letter-spacing.80}",
+            "type": "letterSpacing"
+          },
+          "caption": {
+            "value": "{letter-spacing.140}",
+            "type": "letterSpacing"
+          }
+        },
+        "bold": {
+          "display": {
+            "value": "{letter-spacing.10}",
+            "type": "letterSpacing"
+          },
+          "headline": {
+            "value": "{letter-spacing.40}",
+            "type": "letterSpacing"
+          },
+          "title": {
+            "value": "{letter-spacing.80}",
+            "type": "letterSpacing"
+          },
+          "body": {
+            "value": "{letter-spacing.100}",
+            "type": "letterSpacing"
+          },
+          "caption": {
+            "value": "{letter-spacing.160}",
+            "type": "letterSpacing"
+          }
+        }
       }
     }
   },
@@ -436,23 +544,23 @@
       },
       "bold": {
         "display": {
-          "value": "{font-weight.bold}",
+          "value": "{font-weight.medium}",
           "type": "fontWeights"
         },
         "headline": {
-          "value": "{font-weight.bold}",
+          "value": "{font-weight.medium}",
           "type": "fontWeights"
         },
         "title": {
-          "value": "{font-weight.bold}",
+          "value": "{font-weight.medium}",
           "type": "fontWeights"
         },
         "body": {
-          "value": "{font-weight.semibold}",
+          "value": "{font-weight.medium}",
           "type": "fontWeights"
         },
         "caption": {
-          "value": "{font-weight.semibold}",
+          "value": "{font-weight.medium}",
           "type": "fontWeights"
         }
       }
