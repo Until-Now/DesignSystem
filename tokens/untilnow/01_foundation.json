@@ -1759,7 +1759,7 @@
             "fontWeight": "{font-weight.sans-serif.regular.display}",
             "lineHeight": "{line-height.display}",
             "fontSize": "{font-size.sans-serif.lg.display}",
-            "letterSpacing": "{letter-spacing.negative.10}",
+            "letterSpacing": "{letter-spacing.-100}",
             "paragraphSpacing": "0",
             "textDecoration": "none",
             "textCase": "{text-case.as-is}"
@@ -1772,7 +1772,7 @@
             "fontWeight": "{font-weight.sans-serif.bold.display}",
             "lineHeight": "{line-height.display}",
             "fontSize": "{font-size.sans-serif.lg.display}",
-            "letterSpacing": "{letter-spacing.negative.10}",
+            "letterSpacing": "{letter-spacing.-100}",
             "paragraphSpacing": "0",
             "textDecoration": "none",
             "textCase": "{text-case.as-is}"
@@ -1787,7 +1787,7 @@
             "fontWeight": "{font-weight.sans-serif.regular.display}",
             "lineHeight": "{line-height.sans-serif.md.display}",
             "fontSize": "{font-size.sans-serif.md.display}",
-            "letterSpacing": "{letter-spacing.negative.10}",
+            "letterSpacing": "{letter-spacing.-100}",
             "paragraphSpacing": "0",
             "textDecoration": "none",
             "textCase": "{text-case.as-is}"
@@ -1800,7 +1800,7 @@
             "fontWeight": "{font-weight.sans-serif.bold.display}",
             "lineHeight": "{line-height.sans-serif.md.display}",
             "fontSize": "{font-size.sans-serif.md.display}",
-            "letterSpacing": "{letter-spacing.negative.10}",
+            "letterSpacing": "{letter-spacing.-100}",
             "paragraphSpacing": "0",
             "textDecoration": "none",
             "textCase": "{text-case.as-is}"
@@ -1815,7 +1815,7 @@
             "fontWeight": "{font-weight.sans-serif.regular.display}",
             "lineHeight": "{line-height.sans-serif.sm.display}",
             "fontSize": "{font-size.sans-serif.sm.display}",
-            "letterSpacing": "{letter-spacing.negative.10}",
+            "letterSpacing": "{letter-spacing.-100}",
             "paragraphSpacing": "0",
             "textDecoration": "none",
             "textCase": "{text-case.as-is}"
@@ -1828,7 +1828,7 @@
             "fontWeight": "{font-weight.sans-serif.bold.display}",
             "lineHeight": "{line-height.sans-serif.sm.display}",
             "fontSize": "{font-size.sans-serif.sm.display}",
-            "letterSpacing": "{letter-spacing.negative.10}",
+            "letterSpacing": "{letter-spacing.-100}",
             "paragraphSpacing": "0",
             "textDecoration": "none",
             "textCase": "{text-case.as-is}"
@@ -1955,7 +1955,7 @@
             "fontWeight": "{font-weight.sans-serif.regular.title}",
             "lineHeight": "{line-height.sans-serif.md.title}",
             "fontSize": "{font-size.sans-serif.md.title}",
-            "letterSpacing": "{letter-spacing.negative.10}",
+            "letterSpacing": "{letter-spacing.-100}",
             "paragraphSpacing": "0",
             "textDecoration": "none",
             "textCase": "{text-case.as-is}"
@@ -1968,7 +1968,7 @@
             "fontWeight": "{font-weight.sans-serif.bold.title}",
             "lineHeight": "{line-height.sans-serif.md.title}",
             "fontSize": "{font-size.sans-serif.md.title}",
-            "letterSpacing": "{letter-spacing.negative.10}",
+            "letterSpacing": "{letter-spacing.-100}",
             "paragraphSpacing": "0",
             "textDecoration": "none",
             "textCase": "{text-case.as-is}"
@@ -1983,7 +1983,7 @@
             "fontWeight": "{font-weight.sans-serif.regular.title}",
             "lineHeight": "{line-height.sans-serif.sm.title}",
             "fontSize": "{font-size.sans-serif.sm.title}",
-            "letterSpacing": "{letter-spacing.negative.10}",
+            "letterSpacing": "{letter-spacing.-100}",
             "paragraphSpacing": "0",
             "textDecoration": "none",
             "textCase": "{text-case.as-is}"
@@ -1996,7 +1996,7 @@
             "fontWeight": "{font-weight.sans-serif.bold.title}",
             "lineHeight": "{line-height.sans-serif.sm.title}",
             "fontSize": "{font-size.sans-serif.sm.title}",
-            "letterSpacing": "{letter-spacing.negative.10}",
+            "letterSpacing": "{letter-spacing.-100}",
             "paragraphSpacing": "0",
             "textDecoration": "none",
             "textCase": "{text-case.as-is}"
@@ -2011,7 +2011,7 @@
             "fontWeight": "{font-weight.sans-serif.regular.body}",
             "lineHeight": "{line-height.body}",
             "fontSize": "{font-size.sans-serif.lg.body}",
-            "letterSpacing": "{letter-spacing.positive.10}",
+            "letterSpacing": "{letter-spacing.100}",
             "paragraphSpacing": "0",
             "textDecoration": "none",
             "textCase": "{text-case.as-is}"
@@ -2024,7 +2024,7 @@
             "fontWeight": "{font-weight.sans-serif.bold.body}",
             "lineHeight": "{line-height.body}",
             "fontSize": "{font-size.sans-serif.lg.body}",
-            "letterSpacing": "{letter-spacing.positive.10}",
+            "letterSpacing": "{letter-spacing.100}",
             "paragraphSpacing": "0",
             "textDecoration": "none",
             "textCase": "{text-case.as-is}"
@@ -2039,7 +2039,7 @@
             "fontWeight": "{font-weight.sans-serif.regular.body}",
             "lineHeight": "{line-height.sans-serif.md.body}",
             "fontSize": "{font-size.sans-serif.md.body}",
-            "letterSpacing": "{letter-spacing.positive.25}",
+            "letterSpacing": "{letter-spacing.25}",
             "paragraphSpacing": "0",
             "textDecoration": "none",
             "textCase": "{text-case.as-is}"
@@ -2052,7 +2052,7 @@
             "fontWeight": "{font-weight.sans-serif.bold.body}",
             "lineHeight": "{line-height.sans-serif.md.body}",
             "fontSize": "{font-size.sans-serif.md.body}",
-            "letterSpacing": "{letter-spacing.positive.25}",
+            "letterSpacing": "{letter-spacing.25}",
             "paragraphSpacing": "0",
             "textDecoration": "none",
             "textCase": "{text-case.as-is}"
@@ -2067,7 +2067,7 @@
             "fontWeight": "{font-weight.sans-serif.regular.body}",
             "lineHeight": "{line-height.sans-serif.sm.body}",
             "fontSize": "{font-size.sans-serif.sm.body}",
-            "letterSpacing": "{letter-spacing.positive.40}",
+            "letterSpacing": "{letter-spacing.150}",
             "paragraphSpacing": "0",
             "textDecoration": "none",
             "textCase": "{text-case.as-is}"
@@ -2080,7 +2080,7 @@
             "fontWeight": "{font-weight.sans-serif.bold.body}",
             "lineHeight": "{line-height.sans-serif.sm.body}",
             "fontSize": "{font-size.sans-serif.sm.body}",
-            "letterSpacing": "{letter-spacing.positive.40}",
+            "letterSpacing": "{letter-spacing.150}",
             "paragraphSpacing": "0",
             "textDecoration": "none",
             "textCase": "{text-case.as-is}"
@@ -2095,7 +2095,7 @@
             "fontWeight": "{font-weight.sans-serif.regular.caption}",
             "lineHeight": "{line-height.caption}",
             "fontSize": "{font-size.sans-serif.lg.caption}",
-            "letterSpacing": "{letter-spacing.positive.10}",
+            "letterSpacing": "{letter-spacing.100}",
             "paragraphSpacing": "0",
             "textDecoration": "none",
             "textCase": "{text-case.as-is}"
@@ -2108,7 +2108,7 @@
             "fontWeight": "{font-weight.sans-serif.bold.caption}",
             "lineHeight": "{line-height.caption}",
             "fontSize": "{font-size.sans-serif.lg.caption}",
-            "letterSpacing": "{letter-spacing.positive.10}",
+            "letterSpacing": "{letter-spacing.100}",
             "paragraphSpacing": "0",
             "textDecoration": "none",
             "textCase": "{text-case.as-is}"
@@ -2123,7 +2123,7 @@
             "fontWeight": "{font-weight.sans-serif.regular.caption}",
             "lineHeight": "{line-height.sans-serif.md.caption}",
             "fontSize": "{font-size.sans-serif.md.caption}",
-            "letterSpacing": "{letter-spacing.positive.40}",
+            "letterSpacing": "{letter-spacing.150}",
             "paragraphSpacing": "0",
             "textDecoration": "none",
             "textCase": "{text-case.as-is}"
@@ -2136,7 +2136,7 @@
             "fontWeight": "{font-weight.sans-serif.bold.caption}",
             "lineHeight": "{line-height.sans-serif.md.caption}",
             "fontSize": "{font-size.sans-serif.md.caption}",
-            "letterSpacing": "{letter-spacing.positive.40}",
+            "letterSpacing": "{letter-spacing.150}",
             "paragraphSpacing": "0",
             "textDecoration": "none",
             "textCase": "{text-case.as-is}"
@@ -2151,7 +2151,7 @@
             "fontWeight": "{font-weight.sans-serif.regular.caption}",
             "lineHeight": "{line-height.sans-serif.sm.caption}",
             "fontSize": "{font-size.sans-serif.sm.caption}",
-            "letterSpacing": "{letter-spacing.positive.40}",
+            "letterSpacing": "{letter-spacing.150}",
             "paragraphSpacing": "0",
             "textDecoration": "none",
             "textCase": "{text-case.as-is}"
@@ -2164,7 +2164,7 @@
             "fontWeight": "{font-weight.sans-serif.bold.caption}",
             "lineHeight": "{line-height.sans-serif.sm.caption}",
             "fontSize": "{font-size.sans-serif.sm.caption}",
-            "letterSpacing": "{letter-spacing.positive.40}",
+            "letterSpacing": "{letter-spacing.150}",
             "paragraphSpacing": "0",
             "textDecoration": "none",
             "textCase": "{text-case.as-is}"
@@ -2181,7 +2181,7 @@
             "fontWeight": "{font-weight.serif.regular.display}",
             "lineHeight": "{line-height.serif.lg.display}",
             "fontSize": "{font-size.serif.lg.display}",
-            "letterSpacing": "{letter-spacing.negative.10}",
+            "letterSpacing": "{letter-spacing.-100}",
             "paragraphSpacing": "0",
             "textDecoration": "none",
             "textCase": "{text-case.as-is}"
@@ -2194,7 +2194,7 @@
             "fontWeight": "{font-weight.serif.bold.display}",
             "lineHeight": "{line-height.serif.lg.display}",
             "fontSize": "{font-size.serif.lg.display}",
-            "letterSpacing": "{letter-spacing.negative.10}",
+            "letterSpacing": "{letter-spacing.-100}",
             "paragraphSpacing": "0",
             "textDecoration": "none",
             "textCase": "{text-case.as-is}"
@@ -2209,7 +2209,7 @@
             "fontWeight": "{font-weight.serif.regular.display}",
             "lineHeight": "{line-height.serif.md.display}",
             "fontSize": "{font-size.serif.md.display}",
-            "letterSpacing": "{letter-spacing.negative.10}",
+            "letterSpacing": "{letter-spacing.-100}",
             "paragraphSpacing": "0",
             "textDecoration": "none",
             "textCase": "{text-case.as-is}"
@@ -2222,7 +2222,7 @@
             "fontWeight": "{font-weight.serif.bold.display}",
             "lineHeight": "{line-height.serif.md.display}",
             "fontSize": "{font-size.serif.md.display}",
-            "letterSpacing": "{letter-spacing.negative.10}",
+            "letterSpacing": "{letter-spacing.-100}",
             "paragraphSpacing": "0",
             "textDecoration": "none",
             "textCase": "{text-case.as-is}"
@@ -2237,7 +2237,7 @@
             "fontWeight": "{font-weight.serif.regular.display}",
             "lineHeight": "{line-height.serif.sm.display}",
             "fontSize": "{font-size.serif.sm.display}",
-            "letterSpacing": "{letter-spacing.negative.10}",
+            "letterSpacing": "{letter-spacing.-100}",
             "paragraphSpacing": "0",
             "textDecoration": "none",
             "textCase": "{text-case.as-is}"
@@ -2250,7 +2250,7 @@
             "fontWeight": "{font-weight.serif.bold.display}",
             "lineHeight": "{line-height.serif.sm.display}",
             "fontSize": "{font-size.serif.sm.display}",
-            "letterSpacing": "{letter-spacing.negative.10}",
+            "letterSpacing": "{letter-spacing.-100}",
             "paragraphSpacing": "0",
             "textDecoration": "none",
             "textCase": "{text-case.as-is}"
@@ -2377,7 +2377,7 @@
             "fontWeight": "{font-weight.serif.regular.title}",
             "lineHeight": "{line-height.serif.md.title}",
             "fontSize": "{font-size.serif.md.title}",
-            "letterSpacing": "{letter-spacing.negative.10}",
+            "letterSpacing": "{letter-spacing.-100}",
             "paragraphSpacing": "0",
             "textDecoration": "none",
             "textCase": "{text-case.as-is}"
@@ -2390,7 +2390,7 @@
             "fontWeight": "{font-weight.serif.bold.title}",
             "lineHeight": "{line-height.serif.md.title}",
             "fontSize": "{font-size.serif.md.title}",
-            "letterSpacing": "{letter-spacing.negative.10}",
+            "letterSpacing": "{letter-spacing.-100}",
             "paragraphSpacing": "0",
             "textDecoration": "none",
             "textCase": "{text-case.as-is}"
@@ -2405,7 +2405,7 @@
             "fontWeight": "{font-weight.serif.regular.title}",
             "lineHeight": "{line-height.serif.sm.title}",
             "fontSize": "{font-size.serif.sm.title}",
-            "letterSpacing": "{letter-spacing.negative.10}",
+            "letterSpacing": "{letter-spacing.-100}",
             "paragraphSpacing": "0",
             "textDecoration": "none",
             "textCase": "{text-case.as-is}"
@@ -2418,7 +2418,7 @@
             "fontWeight": "{font-weight.serif.bold.title}",
             "lineHeight": "{line-height.serif.sm.title}",
             "fontSize": "{font-size.serif.sm.title}",
-            "letterSpacing": "{letter-spacing.negative.10}",
+            "letterSpacing": "{letter-spacing.-100}",
             "paragraphSpacing": "0",
             "textDecoration": "none",
             "textCase": "{text-case.as-is}"
@@ -2433,7 +2433,7 @@
             "fontWeight": "{font-weight.serif.regular.body}",
             "lineHeight": "{line-height.serif.lg.body}",
             "fontSize": "{font-size.serif.lg.body}",
-            "letterSpacing": "{letter-spacing.positive.10}",
+            "letterSpacing": "{letter-spacing.100}",
             "paragraphSpacing": "0",
             "textDecoration": "none",
             "textCase": "{text-case.as-is}"
@@ -2446,7 +2446,7 @@
             "fontWeight": "{font-weight.serif.bold.body}",
             "lineHeight": "{line-height.serif.lg.body}",
             "fontSize": "{font-size.serif.lg.body}",
-            "letterSpacing": "{letter-spacing.positive.10}",
+            "letterSpacing": "{letter-spacing.100}",
             "paragraphSpacing": "0",
             "textDecoration": "none",
             "textCase": "{text-case.as-is}"
@@ -2461,7 +2461,7 @@
             "fontWeight": "{font-weight.serif.regular.body}",
             "lineHeight": "{line-height.serif.md.body}",
             "fontSize": "{font-size.serif.md.body}",
-            "letterSpacing": "{letter-spacing.positive.25}",
+            "letterSpacing": "{letter-spacing.25}",
             "paragraphSpacing": "0",
             "textDecoration": "none",
             "textCase": "{text-case.as-is}"
@@ -2474,7 +2474,7 @@
             "fontWeight": "{font-weight.serif.bold.body}",
             "lineHeight": "{line-height.serif.md.body}",
             "fontSize": "{font-size.serif.md.body}",
-            "letterSpacing": "{letter-spacing.positive.25}",
+            "letterSpacing": "{letter-spacing.25}",
             "paragraphSpacing": "0",
             "textDecoration": "none",
             "textCase": "{text-case.as-is}"
@@ -2489,7 +2489,7 @@
             "fontWeight": "{font-weight.serif.regular.body}",
             "lineHeight": "{line-height.serif.sm.body}",
             "fontSize": "{font-size.serif.sm.body}",
-            "letterSpacing": "{letter-spacing.positive.40}",
+            "letterSpacing": "{letter-spacing.150}",
             "paragraphSpacing": "0",
             "textDecoration": "none",
             "textCase": "{text-case.as-is}"
@@ -2502,7 +2502,7 @@
             "fontWeight": "{font-weight.serif.bold.body}",
             "lineHeight": "{line-height.serif.sm.body}",
             "fontSize": "{font-size.serif.sm.body}",
-            "letterSpacing": "{letter-spacing.positive.40}",
+            "letterSpacing": "{letter-spacing.150}",
             "paragraphSpacing": "0",
             "textDecoration": "none",
             "textCase": "{text-case.as-is}"
@@ -2517,7 +2517,7 @@
             "fontWeight": "{font-weight.serif.regular.caption}",
             "lineHeight": "{line-height.serif.lg.caption}",
             "fontSize": "{font-size.serif.lg.caption}",
-            "letterSpacing": "{letter-spacing.positive.10}",
+            "letterSpacing": "{letter-spacing.100}",
             "paragraphSpacing": "0",
             "textDecoration": "none",
             "textCase": "{text-case.as-is}"
@@ -2530,7 +2530,7 @@
             "fontWeight": "{font-weight.serif.bold.caption}",
             "lineHeight": "{line-height.serif.lg.caption}",
             "fontSize": "{font-size.serif.lg.caption}",
-            "letterSpacing": "{letter-spacing.positive.10}",
+            "letterSpacing": "{letter-spacing.100}",
             "paragraphSpacing": "0",
             "textDecoration": "none",
             "textCase": "{text-case.as-is}"
@@ -2545,7 +2545,7 @@
             "fontWeight": "{font-weight.serif.regular.caption}",
             "lineHeight": "{line-height.serif.md.caption}",
             "fontSize": "{font-size.serif.md.caption}",
-            "letterSpacing": "{letter-spacing.positive.40}",
+            "letterSpacing": "{letter-spacing.150}",
             "paragraphSpacing": "0",
             "textDecoration": "none",
             "textCase": "{text-case.as-is}"
@@ -2558,7 +2558,7 @@
             "fontWeight": "{font-weight.serif.bold.caption}",
             "lineHeight": "{line-height.serif.md.caption}",
             "fontSize": "{font-size.serif.md.caption}",
-            "letterSpacing": "{letter-spacing.positive.40}",
+            "letterSpacing": "{letter-spacing.150}",
             "paragraphSpacing": "0",
             "textDecoration": "none",
             "textCase": "{text-case.as-is}"
@@ -2573,7 +2573,7 @@
             "fontWeight": "{font-weight.serif.regular.caption}",
             "lineHeight": "{line-height.serif.sm.caption}",
             "fontSize": "{font-size.serif.sm.caption}",
-            "letterSpacing": "{letter-spacing.positive.40}",
+            "letterSpacing": "{letter-spacing.150}",
             "paragraphSpacing": "0",
             "textDecoration": "none",
             "textCase": "{text-case.as-is}"
@@ -2586,7 +2586,7 @@
             "fontWeight": "{font-weight.serif.bold.caption}",
             "lineHeight": "{line-height.serif.sm.caption}",
             "fontSize": "{font-size.serif.sm.caption}",
-            "letterSpacing": "{letter-spacing.positive.40}",
+            "letterSpacing": "{letter-spacing.150}",
             "paragraphSpacing": "0",
             "textDecoration": "none",
             "textCase": "{text-case.as-is}"
