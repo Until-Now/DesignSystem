@@ -853,34 +853,34 @@
     "content": {
       "on-light": {
         "strong": {
-          "value": "rgba({system.content.primary},{sys.opacity.content.solid})",
+          "value": "rgba({system.content.primary},{semantic.opacity.content.solid})",
           "type": "color",
           "description": "High emphasis, dark"
         },
         "mid": {
-          "value": "rgba({system.content.primary},{sys.opacity.content.md})",
+          "value": "rgba({system.content.primary},{semantic.opacity.content.md})",
           "type": "color",
           "description": "md emphasis, dark"
         },
         "soft": {
-          "value": "rgba({system.content.primary},{sys.opacity.content.soft})",
+          "value": "rgba({system.content.primary},{semantic.opacity.content.soft})",
           "type": "color",
           "description": "Low emphasis, dark"
         }
       },
       "on-dark": {
         "strong": {
-          "value": "rgba({system.content.primary-inverse},{sys.opacity.content.solid})",
+          "value": "rgba({system.content.primary-inverse},{semantic.opacity.content.solid})",
           "type": "color",
           "description": "High emphasis, light"
         },
         "mid": {
-          "value": "rgba({system.content.primary-inverse},{sys.opacity.content.md})",
+          "value": "rgba({system.content.primary-inverse},{semantic.opacity.content.md})",
           "type": "color",
           "description": "md emphasis, light"
         },
         "soft": {
-          "value": "rgba({system.content.primary-inverse},{sys.opacity.content.soft})",
+          "value": "rgba({system.content.primary-inverse},{semantic.opacity.content.soft})",
           "type": "color",
           "description": "Low emphasis, light"
         }

@@ -122,7 +122,7 @@
           "y": "0",
           "blur": "2",
           "spread": "0",
-          "color": "rgba({colour.grayscale.black},{sys.opacity.elevation.drop-shadow-1})",
+          "color": "rgba({colour.grayscale.black},{semantic.opacity.elevation.drop-shadow-1})",
           "type": "dropShadow"
         },
         {
@@ -130,7 +130,7 @@
           "y": "2",
           "blur": "6",
           "spread": "2",
-          "color": "rgba({colour.grayscale.black},{sys.opacity.elevation.drop-shadow-2})",
+          "color": "rgba({colour.grayscale.black},{semantic.opacity.elevation.drop-shadow-2})",
           "type": "dropShadow"
         }
       ],
@@ -143,7 +143,7 @@
           "y": "2",
           "blur": "4",
           "spread": "0",
-          "color": "rgba({colour.grayscale.black},{sys.opacity.elevation.drop-shadow-1})",
+          "color": "rgba({colour.grayscale.black},{semantic.opacity.elevation.drop-shadow-1})",
           "type": "dropShadow"
         },
         {
@@ -151,7 +151,7 @@
           "y": "4",
           "blur": "8",
           "spread": "3",
-          "color": "rgba({colour.grayscale.black},{sys.opacity.elevation.drop-shadow-2})",
+          "color": "rgba({colour.grayscale.black},{semantic.opacity.elevation.drop-shadow-2})",
           "type": "dropShadow"
         }
       ],
@@ -164,7 +164,7 @@
           "y": "4",
           "blur": "8",
           "spread": "0",
-          "color": "rgba({colour.grayscale.black},{sys.opacity.elevation.drop-shadow-1})",
+          "color": "rgba({colour.grayscale.black},{semantic.opacity.elevation.drop-shadow-1})",
           "type": "dropShadow"
         },
         {
@@ -172,7 +172,7 @@
           "y": "8",
           "blur": "12",
           "spread": "4",
-          "color": "rgba({colour.grayscale.black},{sys.opacity.elevation.drop-shadow-2})",
+          "color": "rgba({colour.grayscale.black},{semantic.opacity.elevation.drop-shadow-2})",
           "type": "dropShadow"
         }
       ],
@@ -185,7 +185,7 @@
           "y": "6",
           "blur": "16",
           "spread": "0",
-          "color": "rgba({colour.grayscale.black},{sys.opacity.elevation.drop-shadow-1})",
+          "color": "rgba({colour.grayscale.black},{semantic.opacity.elevation.drop-shadow-1})",
           "type": "dropShadow"
         },
         {
@@ -193,7 +193,7 @@
           "y": "14",
           "blur": "24",
           "spread": "5",
-          "color": "rgba({colour.grayscale.black},{sys.opacity.elevation.drop-shadow-2})",
+          "color": "rgba({colour.grayscale.black},{semantic.opacity.elevation.drop-shadow-2})",
           "type": "dropShadow"
         }
       ],
@@ -203,7 +203,7 @@
   "system": {
     "primary": {
       "primary": {
-        "value": "{colour.primary.150}",
+        "value": "{colour.primary.600}",
         "type": "color"
       },
       "on-primary": {
@@ -211,11 +211,11 @@
         "type": "color"
       },
       "light": {
-        "value": "{colour.primary.50}",
+        "value": "{colour.primary.200}",
         "type": "color"
       },
       "on-light": {
-        "value": "{colour.primary.300}",
+        "value": "{colour.primary.900}",
         "type": "color"
       },
       "muted": {
@@ -223,7 +223,7 @@
         "type": "color"
       },
       "on-muted": {
-        "value": "{colour.primary.150}",
+        "value": "{colour.primary.600}",
         "type": "color"
       },
       "subtle": {
@@ -231,7 +231,7 @@
         "type": "color"
       },
       "on-subtle": {
-        "value": "{colour.primary.150}",
+        "value": "{colour.primary.600}",
         "type": "color"
       }
     },
@@ -259,16 +259,16 @@
     },
     "border": {
       "neutral": {
-        "value": "rgba({colour.neutral.500},{sys.opacity.border.component})",
+        "value": "rgba({colour.neutral.500},{semantic.opacity.border.component})",
         "type": "color",
         "description": "Component outline"
       },
       "primary": {
-        "value": "rgba({system.primary.primary},{sys.opacity.border.component})",
+        "value": "rgba({system.primary.primary},{semantic.opacity.border.component})",
         "type": "color"
       },
       "error": {
-        "value": "rgba({system.error.default},{sys.opacity.border.component})",
+        "value": "rgba({system.error.default},{semantic.opacity.border.component})",
         "type": "color"
       }
     },
@@ -317,7 +317,7 @@
     },
     "warning": {
       "default": {
-        "value": "{colour.warning.500}",
+        "value": "{colour.warning.400}",
         "type": "color"
       },
       "emphasised": {
@@ -325,7 +325,7 @@
         "type": "color"
       },
       "light": {
-        "value": "{colour.warning.150}",
+        "value": "{colour.warning.100}",
         "type": "color"
       }
     },
@@ -556,12 +556,12 @@
             "type": "color"
           },
           "content": {
-            "value": "rgba({system.content.primary},{sys.opacity.content.soft})",
+            "value": "rgba({system.content.primary},{semantic.opacity.content.soft})",
             "type": "color",
             "description": "Icons and text on disabled action"
           },
           "split": {
-            "value": "rgba({system.content.primary},{sys.opacity.content.soft})",
+            "value": "rgba({system.content.primary},{semantic.opacity.content.soft})",
             "type": "color",
             "description": "Icons and text on disabled action"
           }
@@ -865,7 +865,7 @@
             "description": "Input stroke/fill press"
           },
           "focus": {
-            "value": "rgba({system.colour.action.primary.default.background},{sys.opacity.border.soft})",
+            "value": "rgba({system.colour.action.primary.default.background},{semantic.opacity.border.soft})",
             "type": "color",
             "description": "Primary key colour"
           },
@@ -891,7 +891,7 @@
             "description": "Input stroke/fill error"
           },
           "focus": {
-            "value": "rgba({system.error.default},{sys.opacity.border.soft})",
+            "value": "rgba({system.error.default},{semantic.opacity.border.soft})",
             "type": "color"
           }
         },
@@ -1317,7 +1317,7 @@
               }
             },
             "outline": {
-              "value": "rgba({system.error.emphasised},{sys.opacity.border.component})",
+              "value": "rgba({system.error.emphasised},{semantic.opacity.border.component})",
               "type": "color"
             }
           },
@@ -1353,7 +1353,7 @@
               }
             },
             "outline": {
-              "value": "rgba({system.warning.emphasised},{sys.opacity.border.component})",
+              "value": "rgba({system.warning.emphasised},{semantic.opacity.border.component})",
               "type": "color"
             }
           },
@@ -1389,7 +1389,7 @@
               }
             },
             "outline": {
-              "value": "rgba({system.success.emphasised},{sys.opacity.border.component})",
+              "value": "rgba({system.success.emphasised},{semantic.opacity.border.component})",
               "type": "color"
             }
           },
@@ -1425,7 +1425,7 @@
               }
             },
             "outline": {
-              "value": "rgba({system.info.emphasised},{sys.opacity.border.component})",
+              "value": "rgba({system.info.emphasised},{semantic.opacity.border.component})",
               "type": "color"
             }
           },
@@ -1571,7 +1571,7 @@
               }
             },
             "outline": {
-              "value": "rgba({system.primary.on-light},{sys.opacity.border.component})",
+              "value": "rgba({system.primary.on-light},{semantic.opacity.border.component})",
               "type": "color"
             }
           }
@@ -1579,7 +1579,7 @@
       }
     }
   },
-  "sys": {
+  "semantic": {
     "opacity": {
       "content": {
         "soft": {
@@ -1601,12 +1601,11 @@
           "type": "opacity"
         }
       },
-      "state": {
+      "states": {
         "colour": {
           "default": {
             "value": "{opacity.0}",
-            "type": "opacity",
-            "description": "Used for md to low emphasis components"
+            "type": "opacity"
           },
           "hover": {
             "value": "{opacity.8}",
