@@ -48,47 +48,47 @@
     },
     "secondary": {
       "50": {
-        "value": "#F2F2FF",
+        "value": "#FBFBFB",
         "type": "color"
       },
       "100": {
-        "value": "#E0E1FA",
+        "value": "#F2F2F4",
         "type": "color"
       },
       "150": {
-        "value": "#C3C5DD",
+        "value": "#EBECEF",
         "type": "color"
       },
       "200": {
-        "value": "#8B8DAA",
+        "value": "#DEDFE4",
         "type": "color"
       },
       "300": {
-        "value": "#646779",
+        "value": "#C3C5CE",
         "type": "color"
       },
       "400": {
-        "value": "#3F4256",
+        "value": "#989BAA",
         "type": "color"
       },
       "500": {
-        "value": "#171A2C",
+        "value": "#72758A",
         "type": "color"
       },
       "600": {
-        "value": "#000",
+        "value": "#555767",
         "type": "color"
       },
       "700": {
-        "value": "#00",
+        "value": "#3E404B",
         "type": "color"
       },
       "800": {
-        "value": "#000",
+        "value": "#2D2E37",
         "type": "color"
       },
       "900": {
-        "value": "#00",
+        "value": "#212127",
         "type": "color"
       }
     },
@@ -370,12 +370,12 @@
         "type": "fontFamilies",
         "description": "Serif font family used for display text & headlines"
       },
-      "title": {
-        "value": "SF Pro Text",
-        "type": "fontFamilies"
-      },
       "headline": {
         "value": "SF Pro Display",
+        "type": "fontFamilies"
+      },
+      "title": {
+        "value": "SF Pro Text",
         "type": "fontFamilies"
       },
       "body": {
@@ -476,6 +476,22 @@
     },
     "200": {
       "value": "2%",
+      "type": "letterSpacing"
+    },
+    "-10": {
+      "value": "-0.1%",
+      "type": "letterSpacing"
+    },
+    "-20": {
+      "value": "-0.2%",
+      "type": "letterSpacing"
+    },
+    "-30": {
+      "value": "-0.3%",
+      "type": "letterSpacing"
+    },
+    "-40": {
+      "value": "-0.4%",
       "type": "letterSpacing"
     },
     "-50": {
@@ -769,22 +785,6 @@
           }
         }
       }
-    },
-    "-10": {
-      "value": "-0.1%",
-      "type": "letterSpacing"
-    },
-    "-20": {
-      "value": "-0.2%",
-      "type": "letterSpacing"
-    },
-    "-30": {
-      "value": "-0.3%",
-      "type": "letterSpacing"
-    },
-    "-40": {
-      "value": "-0.4%",
-      "type": "letterSpacing"
     }
   },
   "text-case": {
@@ -1059,37 +1059,163 @@
     }
   },
   "line-height": {
-    "display": {
-      "value": "105%",
-      "type": "lineHeights"
+    "scale": {
+      "display": {
+        "value": "{scale.105%}",
+        "type": "lineHeights"
+      },
+      "headline": {
+        "value": "{scale.110%}",
+        "type": "lineHeights"
+      },
+      "title": {
+        "value": "{scale.130%}",
+        "type": "lineHeights"
+      },
+      "body": {
+        "value": "{scale.150%}",
+        "type": "lineHeights"
+      },
+      "caption": {
+        "value": "{scale.125%}",
+        "type": "lineHeights"
+      }
     },
-    "headline": {
-      "value": "110%",
-      "type": "lineHeights"
+    "sans-serif": {
+      "lg": {
+        "display": {
+          "value": "105%",
+          "type": "lineHeights"
+        },
+        "headline": {
+          "value": "110%",
+          "type": "lineHeights"
+        },
+        "title": {
+          "value": "130%",
+          "type": "lineHeights"
+        },
+        "body": {
+          "value": "150%",
+          "type": "lineHeights"
+        },
+        "caption": {
+          "value": "125%",
+          "type": "lineHeights"
+        }
+      },
+      "md": {
+        "display": {
+          "value": "105%",
+          "type": "lineHeights"
+        },
+        "headline": {
+          "value": "110%",
+          "type": "lineHeights"
+        },
+        "title": {
+          "value": "130%",
+          "type": "lineHeights"
+        },
+        "body": {
+          "value": "150%",
+          "type": "lineHeights"
+        },
+        "caption": {
+          "value": "125%",
+          "type": "lineHeights"
+        }
+      },
+      "sm": {
+        "display": {
+          "value": "105%",
+          "type": "lineHeights"
+        },
+        "headline": {
+          "value": "110%",
+          "type": "lineHeights"
+        },
+        "title": {
+          "value": "130%",
+          "type": "lineHeights"
+        },
+        "body": {
+          "value": "150%",
+          "type": "lineHeights"
+        },
+        "caption": {
+          "value": "125%",
+          "type": "lineHeights"
+        }
+      }
     },
-    "title": {
-      "value": "130%",
-      "type": "lineHeights"
-    },
-    "body": {
-      "value": "150%",
-      "type": "lineHeights"
-    },
-    "caption": {
-      "value": "125%",
-      "type": "lineHeights"
-    },
-    "test": {
-      "value": "16",
-      "type": "lineHeights"
-    },
-    "test2": {
-      "value": "{line-height.factor}*(roundTo(({font-size.sans-serif.lg.display}*{scale.105%})/{line-height.factor},0))",
-      "type": "lineHeights"
-    },
-    "factor": {
-      "value": "8",
-      "type": "lineHeights"
+    "serif": {
+      "lg": {
+        "display": {
+          "value": "105%",
+          "type": "lineHeights"
+        },
+        "headline": {
+          "value": "110%",
+          "type": "lineHeights"
+        },
+        "title": {
+          "value": "130%",
+          "type": "lineHeights"
+        },
+        "body": {
+          "value": "150%",
+          "type": "lineHeights"
+        },
+        "caption": {
+          "value": "125%",
+          "type": "lineHeights"
+        }
+      },
+      "md": {
+        "display": {
+          "value": "105%",
+          "type": "lineHeights"
+        },
+        "headline": {
+          "value": "110%",
+          "type": "lineHeights"
+        },
+        "title": {
+          "value": "130%",
+          "type": "lineHeights"
+        },
+        "body": {
+          "value": "150%",
+          "type": "lineHeights"
+        },
+        "caption": {
+          "value": "125%",
+          "type": "lineHeights"
+        }
+      },
+      "sm": {
+        "display": {
+          "value": "105%",
+          "type": "lineHeights"
+        },
+        "headline": {
+          "value": "110%",
+          "type": "lineHeights"
+        },
+        "title": {
+          "value": "130%",
+          "type": "lineHeights"
+        },
+        "body": {
+          "value": "150%",
+          "type": "lineHeights"
+        },
+        "caption": {
+          "value": "125%",
+          "type": "lineHeights"
+        }
+      }
     }
   },
   "scale": {
@@ -1151,6 +1277,20 @@
     },
     "150%": {
       "value": "1.50",
+      "type": "other"
+    }
+  },
+  "factor": {
+    "2": {
+      "value": "2",
+      "type": "other"
+    },
+    "4": {
+      "value": "4",
+      "type": "other"
+    },
+    "8": {
+      "value": "8",
       "type": "other"
     }
   }
