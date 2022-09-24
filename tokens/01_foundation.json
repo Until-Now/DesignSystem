@@ -1079,72 +1079,76 @@
       "caption": {
         "value": "{scale.125%}",
         "type": "lineHeights"
+      },
+      "factor": {
+        "value": "{factor.4}",
+        "type": "lineHeights"
       }
     },
     "sans-serif": {
       "lg": {
         "display": {
-          "value": "105%",
+          "value": "ceil(roundTo({font-size.sans-serif.lg.display}*{line-height.scale.display},0)/{line-height.scale.factor})*{line-height.scale.factor}",
           "type": "lineHeights"
         },
         "headline": {
-          "value": "110%",
+          "value": "ceil(roundTo({font-size.sans-serif.lg.headline}*{line-height.scale.headline},0)/{line-height.scale.factor})*{line-height.scale.factor}",
           "type": "lineHeights"
         },
         "title": {
-          "value": "130%",
+          "value": "ceil(roundTo({font-size.sans-serif.lg.title}*{line-height.scale.title},0)/{line-height.scale.factor})*{line-height.scale.factor}",
           "type": "lineHeights"
         },
         "body": {
-          "value": "150%",
+          "value": "ceil(roundTo({font-size.sans-serif.lg.body}*{line-height.scale.body},0)/{line-height.scale.factor})*{line-height.scale.factor}",
           "type": "lineHeights"
         },
         "caption": {
-          "value": "125%",
+          "value": "ceil(roundTo({font-size.sans-serif.lg.caption}*{line-height.scale.caption},0)/{line-height.scale.factor})*{line-height.scale.factor}",
           "type": "lineHeights"
         }
       },
       "md": {
         "display": {
-          "value": "105%",
+          "value": "ceil(roundTo({font-size.sans-serif.md.display}*{line-height.scale.display},0)/{line-height.scale.factor})*{line-height.scale.factor}",
           "type": "lineHeights"
         },
         "headline": {
-          "value": "110%",
+          "value": "ceil(roundTo({font-size.sans-serif.md.headline}*{line-height.scale.headline},0)/{line-height.scale.factor})*{line-height.scale.factor}",
           "type": "lineHeights"
         },
         "title": {
-          "value": "130%",
+          "value": "ceil(roundTo({font-size.sans-serif.md.title}*{line-height.scale.title},0)/{line-height.scale.factor})*{line-height.scale.factor}",
           "type": "lineHeights"
         },
         "body": {
-          "value": "150%",
+          "value": "ceil(roundTo({font-size.sans-serif.md.body}*{line-height.scale.body},0)/{line-height.scale.factor})*{line-height.scale.factor}",
           "type": "lineHeights"
         },
         "caption": {
-          "value": "125%",
+          "value": "ceil(roundTo({font-size.sans-serif.md.caption}*{line-height.scale.caption},0)/{line-height.scale.factor})*{line-height.scale.factor}",
           "type": "lineHeights"
         }
       },
       "sm": {
         "display": {
-          "value": "105%",
+          "value": "ceil(roundTo({font-size.sans-serif.sm.display}*{line-height.scale.display},0)/{line-height.scale.factor})*{line-height.scale.factor}",
           "type": "lineHeights"
         },
         "headline": {
-          "value": "110%",
+          "value": "ceil(roundTo({font-size.sans-serif.sm.headline}*{line-height.scale.headline},0)/{line-height.scale.factor})*{line-height.scale.factor}",
           "type": "lineHeights"
         },
         "title": {
-          "value": "130%",
+          "value": "ceil(roundTo({font-size.sans-serif.sm.title}*{line-height.scale.title},0)/{line-height.scale.factor})*{line-height.scale.factor}",
           "type": "lineHeights"
         },
         "body": {
-          "value": "150%",
+          "value": "ceil(roundTo({font-size.sans-serif.sm.body}*{line-height.scale.body},0)/{line-height.scale.factor})*{line-height.scale.factor}",
           "type": "lineHeights"
         },
         "caption": {
-          "value": "125%",
+          "value": "ceil(roundTo({font-size.sans-serif.sm.caption}*{line-height.scale.caption},0)/{line-height.scale.factor})*{line-height.scale.factor}",
           "type": "lineHeights"
         }
       }
@@ -1152,67 +1156,67 @@
     "serif": {
       "lg": {
         "display": {
-          "value": "105%",
+          "value": "ceil(roundTo({font-size.serif.lg.display}*{line-height.scale.display},0)/{line-height.scale.factor})*{line-height.scale.factor}",
           "type": "lineHeights"
         },
         "headline": {
-          "value": "110%",
+          "value": "ceil(roundTo({font-size.serif.lg.headline}*{line-height.scale.headline},0)/{line-height.scale.factor})*{line-height.scale.factor}",
           "type": "lineHeights"
         },
         "title": {
-          "value": "130%",
+          "value": "ceil(roundTo({font-size.serif.lg.title}*{line-height.scale.title},0)/{line-height.scale.factor})*{line-height.scale.factor}",
           "type": "lineHeights"
         },
         "body": {
-          "value": "150%",
+          "value": "ceil(roundTo({font-size.serif.lg.body}*{line-height.scale.body},0)/{line-height.scale.factor})*{line-height.scale.factor}",
           "type": "lineHeights"
         },
         "caption": {
-          "value": "125%",
+          "value": "ceil(roundTo({font-size.serif.lg.caption}*{line-height.scale.caption},0)/{line-height.scale.factor})*{line-height.scale.factor}",
           "type": "lineHeights"
         }
       },
       "md": {
         "display": {
-          "value": "105%",
+          "value": "ceil(roundTo({font-size.serif.md.display}*{line-height.scale.display},0)/{line-height.scale.factor})*{line-height.scale.factor}",
           "type": "lineHeights"
         },
         "headline": {
-          "value": "110%",
+          "value": "ceil(roundTo({font-size.serif.md.headline}*{line-height.scale.headline},0)/{line-height.scale.factor})*{line-height.scale.factor}",
           "type": "lineHeights"
         },
         "title": {
-          "value": "130%",
+          "value": "ceil(roundTo({font-size.serif.md.title}*{line-height.scale.title},0)/{line-height.scale.factor})*{line-height.scale.factor}",
           "type": "lineHeights"
         },
         "body": {
-          "value": "150%",
+          "value": "ceil(roundTo({font-size.serif.md.body}*{line-height.scale.body},0)/{line-height.scale.factor})*{line-height.scale.factor}",
           "type": "lineHeights"
         },
         "caption": {
-          "value": "125%",
+          "value": "ceil(roundTo({font-size.serif.md.caption}*{line-height.scale.caption},0)/{line-height.scale.factor})*{line-height.scale.factor}",
           "type": "lineHeights"
         }
       },
       "sm": {
         "display": {
-          "value": "105%",
+          "value": "ceil(roundTo({font-size.serif.sm.display}*{line-height.scale.display},0)/{line-height.scale.factor})*{line-height.scale.factor}",
           "type": "lineHeights"
         },
         "headline": {
-          "value": "110%",
+          "value": "ceil(roundTo({font-size.serif.sm.headline}*{line-height.scale.headline},0)/{line-height.scale.factor})*{line-height.scale.factor}",
           "type": "lineHeights"
         },
         "title": {
-          "value": "130%",
+          "value": "ceil(roundTo({font-size.serif.sm.title}*{line-height.scale.title},0)/{line-height.scale.factor})*{line-height.scale.factor}",
           "type": "lineHeights"
         },
         "body": {
-          "value": "150%",
+          "value": "ceil(roundTo({font-size.serif.sm.body}*{line-height.scale.body},0)/{line-height.scale.factor})*{line-height.scale.factor}",
           "type": "lineHeights"
         },
         "caption": {
-          "value": "125%",
+          "value": "ceil(roundTo({font-size.serif.sm.caption}*{line-height.scale.caption},0)/{line-height.scale.factor})*{line-height.scale.factor}",
           "type": "lineHeights"
         }
       }
