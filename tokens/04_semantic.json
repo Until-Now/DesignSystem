@@ -858,7 +858,7 @@
           "description": "High emphasis, dark"
         },
         "mid": {
-          "value": "rgba({system.content.primary},{semantic.opacity.content.md})",
+          "value": "rgba({system.content.primary},{semantic.opacity.content.mid})",
           "type": "color",
           "description": "md emphasis, dark"
         },
@@ -875,7 +875,7 @@
           "description": "High emphasis, light"
         },
         "mid": {
-          "value": "rgba({system.content.primary-inverse},{semantic.opacity.content.md})",
+          "value": "rgba({system.content.primary-inverse},{semantic.opacity.content.mid})",
           "type": "color",
           "description": "md emphasis, light"
         },

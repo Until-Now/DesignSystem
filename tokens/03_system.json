@@ -1587,10 +1587,10 @@
           "type": "opacity",
           "description": "Low emphasis"
         },
-        "md": {
+        "mid": {
           "value": "{opacity.67}",
           "type": "opacity",
-          "description": "md emphasis"
+          "description": "medium emphasis"
         },
         "strong": {
           "value": "{opacity.90}",
