@@ -42,19 +42,19 @@
       "accent": {
         "primary-light": {
           "default": {
-            "value": "rgba({system.primary.on-primary},0.00)",
+            "value": "rgba({system.primary.on-normal},0.00)",
             "type": "color"
           },
           "hover": {
-            "value": "rgba({system.primary.on-primary},0.12)",
+            "value": "rgba({system.primary.on-normal},0.12)",
             "type": "color"
           },
           "press": {
-            "value": "rgba({system.primary.on-primary},0.24)",
+            "value": "rgba({system.primary.on-normal},0.24)",
             "type": "color"
           },
           "disabled": {
-            "value": "rgba({system.primary.on-primary},0.00)",
+            "value": "rgba({system.primary.on-normal},0.00)",
             "type": "color"
           }
         }

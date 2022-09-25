@@ -36,6 +36,10 @@
       "value": "24%",
       "type": "opacity"
     },
+    "25": {
+      "value": "25%",
+      "type": "opacity"
+    },
     "28": {
       "value": "28%",
       "type": "opacity"
@@ -202,11 +206,11 @@
   },
   "system": {
     "primary": {
-      "primary": {
+      "normal": {
         "value": "{colour.primary.600}",
         "type": "color"
       },
-      "on-primary": {
+      "on-normal": {
         "value": "{colour.grayscale.white}",
         "type": "color"
       },
@@ -236,12 +240,12 @@
       }
     },
     "secondary": {
-      "default": {
-        "value": "{colour.secondary.300}",
+      "normal": {
+        "value": "{colour.secondary.600}",
         "type": "color",
         "description": "Secondary key colour"
       },
-      "on-secondary": {
+      "on-normal": {
         "value": "{colour.grayscale.white}",
         "type": "color",
         "description": "Content on secondary"
@@ -252,19 +256,19 @@
         "description": "Secondary support colour"
       },
       "on-light": {
-        "value": "{colour.secondary.500}",
+        "value": "{colour.secondary.900}",
         "type": "color",
         "description": "Content on secondary support"
       }
     },
-    "border": {
+    "outline": {
       "neutral": {
         "value": "rgba({colour.neutral.500},{semantic.opacity.border.component})",
         "type": "color",
         "description": "Component outline"
       },
       "primary": {
-        "value": "rgba({system.primary.primary},{semantic.opacity.border.component})",
+        "value": "rgba({system.primary.normal},{semantic.opacity.border.component})",
         "type": "color"
       },
       "error": {
@@ -288,58 +292,58 @@
       }
     },
     "error": {
-      "default": {
-        "value": "{colour.error.500}",
+      "light": {
+        "value": "{colour.error.150}",
         "type": "color"
       },
-      "emphasised": {
+      "on-light": {
         "value": "{colour.error.700}",
         "type": "color"
       },
-      "light": {
-        "value": "{colour.error.150}",
+      "default": {
+        "value": "{colour.error.500}",
         "type": "color"
       }
     },
     "success": {
-      "default": {
-        "value": "{colour.success.500}",
+      "light": {
+        "value": "{colour.success.100}",
         "type": "color"
       },
-      "emphasised": {
+      "on-light": {
         "value": "{colour.success.600}",
         "type": "color"
       },
-      "light": {
-        "value": "{colour.success.100}",
+      "default": {
+        "value": "{colour.success.500}",
         "type": "color"
       }
     },
     "warning": {
-      "default": {
-        "value": "{colour.warning.400}",
+      "light": {
+        "value": "{colour.warning.100}",
         "type": "color"
       },
-      "emphasised": {
+      "on-light": {
         "value": "{colour.warning.700}",
         "type": "color"
       },
-      "light": {
-        "value": "{colour.warning.100}",
+      "default": {
+        "value": "{colour.warning.400}",
         "type": "color"
       }
     },
     "info": {
-      "default": {
-        "value": "{colour.info.600}",
+      "light": {
+        "value": "{colour.info.150}",
         "type": "color"
       },
-      "emphasised": {
+      "on-light": {
         "value": "{colour.info.700}",
         "type": "color"
       },
-      "light": {
-        "value": "{colour.info.150}",
+      "default": {
+        "value": "{colour.info.600}",
         "type": "color"
       }
     },
@@ -353,44 +357,44 @@
         "type": "color"
       },
       "text-link": {
-        "value": "{system.primary.primary}",
+        "value": "{system.primary.normal}",
         "type": "color"
       }
     },
     "states": {
       "primary-light": {
         "default": {
-          "value": "rgba({system.primary.primary},0.00)",
+          "value": "rgba({system.primary.normal},0.00)",
           "type": "color"
         },
         "hover": {
-          "value": "rgba({system.primary.primary},0.08)",
+          "value": "rgba({system.primary.normal},0.08)",
           "type": "color"
         },
         "press": {
-          "value": "rgba({system.primary.primary},0.16)",
+          "value": "rgba({system.primary.normal},0.16)",
           "type": "color"
         },
         "disabled": {
-          "value": "rgba({system.primary.primary},0.00)",
+          "value": "rgba({system.primary.normal},0.00)",
           "type": "color"
         }
       },
       "secondary-light": {
         "default": {
-          "value": "rgba({system.secondary.default},0.00)",
+          "value": "rgba({system.secondary.normal},0.00)",
           "type": "color"
         },
         "hover": {
-          "value": "rgba({system.secondary.default},0.08)",
+          "value": "rgba({system.secondary.normal},0.08)",
           "type": "color"
         },
         "press": {
-          "value": "rgba({system.secondary.default},0.16)",
+          "value": "rgba({system.secondary.normal},0.16)",
           "type": "color"
         },
         "disabled": {
-          "value": "rgba({system.secondary.default},0.00)",
+          "value": "rgba({system.secondary.normal},0.00)",
           "type": "color"
         }
       },
@@ -468,19 +472,19 @@
       },
       "error": {
         "default": {
-          "value": "rgba({system.error.emphasised},0.00)",
+          "value": "rgba({system.error.on-light},0.00)",
           "type": "color"
         },
         "hover": {
-          "value": "rgba({system.error.emphasised},0.08)",
+          "value": "rgba({system.error.on-light},0.08)",
           "type": "color"
         },
         "press": {
-          "value": "rgba({system.error.emphasised},0.16)",
+          "value": "rgba({system.error.on-light},0.16)",
           "type": "color"
         },
         "disabled": {
-          "value": "rgba({system.error.emphasised},0.00)",
+          "value": "rgba({system.error.on-light},0.00)",
           "type": "color"
         }
       }
@@ -490,17 +494,17 @@
         "primary": {
           "default": {
             "background": {
-              "value": "{system.primary.primary}",
+              "value": "{system.primary.normal}",
               "type": "color",
               "description": "Primary action background default state"
             },
             "content": {
-              "value": "{system.primary.on-primary}",
+              "value": "{system.primary.on-normal}",
               "type": "color",
               "description": "Icons and text on primary action default"
             },
             "split": {
-              "value": "{system.primary.on-primary}",
+              "value": "{system.primary.on-normal}",
               "type": "color",
               "description": "Icons and text on primary action default"
             }
@@ -672,7 +676,7 @@
             }
           },
           "outline": {
-            "value": "{system.border.primary}",
+            "value": "{system.outline.primary}",
             "type": "color"
           }
         },
@@ -742,7 +746,7 @@
             "type": "color"
           },
           "outline": {
-            "value": "{system.border.neutral}",
+            "value": "{system.outline.neutral}",
             "type": "color",
             "description": "Input stroke/fill default"
           },
@@ -798,7 +802,7 @@
             }
           },
           "outline": {
-            "value": "{system.border.neutral}",
+            "value": "{system.outline.neutral}",
             "type": "color"
           }
         },
@@ -839,7 +843,7 @@
             "type": "color"
           },
           "outline": {
-            "value": "{system.primary.primary}",
+            "value": "{system.primary.normal}",
             "type": "color",
             "description": "Input stroke/fill hover"
           },
@@ -860,7 +864,7 @@
             "type": "color"
           },
           "outline": {
-            "value": "{system.primary.primary}",
+            "value": "{system.primary.normal}",
             "type": "color",
             "description": "Input stroke/fill press"
           },
@@ -954,7 +958,7 @@
             "type": "color"
           },
           "content": {
-            "value": "{system.error.emphasised}",
+            "value": "{system.error.on-light}",
             "type": "color"
           }
         },
@@ -1026,7 +1030,7 @@
             "type": "color"
           },
           "content": {
-            "value": "{system.warning.emphasised}",
+            "value": "{system.warning.on-light}",
             "type": "color"
           }
         },
@@ -1040,7 +1044,7 @@
             "type": "color"
           },
           "content": {
-            "value": "{system.success.emphasised}",
+            "value": "{system.success.on-light}",
             "type": "color"
           }
         },
@@ -1054,7 +1058,7 @@
             "type": "color"
           },
           "content": {
-            "value": "{system.info.emphasised}",
+            "value": "{system.info.on-light}",
             "type": "color"
           }
         },
@@ -1148,11 +1152,11 @@
           "active": {
             "default": {
               "divider": {
-                "value": "{system.primary.primary}",
+                "value": "{system.primary.normal}",
                 "type": "color"
               },
               "content": {
-                "value": "{system.primary.primary}",
+                "value": "{system.primary.normal}",
                 "type": "color"
               },
               "background": {
@@ -1167,7 +1171,7 @@
               "type": "color"
             },
             "content": {
-              "value": "{system.primary.primary}",
+              "value": "{system.primary.normal}",
               "type": "color"
             },
             "background": {
@@ -1188,7 +1192,7 @@
             "type": "color"
           },
           "outline": {
-            "value": "{system.border.neutral}",
+            "value": "{system.outline.neutral}",
             "type": "color"
           }
         },
@@ -1202,7 +1206,7 @@
             "type": "color"
           },
           "outline": {
-            "value": "{system.border.neutral}",
+            "value": "{system.outline.neutral}",
             "type": "color"
           }
         },
@@ -1216,7 +1220,7 @@
             "type": "color"
           },
           "outline": {
-            "value": "{system.border.neutral}",
+            "value": "{system.outline.neutral}",
             "type": "color"
           }
         },
@@ -1227,7 +1231,7 @@
               "type": "color"
             },
             "content": {
-              "value": "{system.primary.on-primary}",
+              "value": "{system.primary.on-normal}",
               "type": "color"
             }
           },
@@ -1237,7 +1241,7 @@
               "type": "color"
             },
             "content": {
-              "value": "{system.primary.on-primary}",
+              "value": "{system.primary.on-normal}",
               "type": "color"
             }
           },
@@ -1247,7 +1251,7 @@
               "type": "color"
             },
             "content": {
-              "value": "{system.primary.on-primary}",
+              "value": "{system.primary.on-normal}",
               "type": "color"
             }
           }
@@ -1292,7 +1296,7 @@
                 "type": "color"
               },
               "content": {
-                "value": "{system.error.emphasised}",
+                "value": "{system.error.on-light}",
                 "type": "color"
               }
             },
@@ -1302,7 +1306,7 @@
                 "type": "color"
               },
               "content": {
-                "value": "{system.error.emphasised}",
+                "value": "{system.error.on-light}",
                 "type": "color"
               }
             },
@@ -1312,12 +1316,12 @@
                 "type": "color"
               },
               "content": {
-                "value": "{system.error.emphasised}",
+                "value": "{system.error.on-light}",
                 "type": "color"
               }
             },
             "outline": {
-              "value": "rgba({system.error.emphasised},{semantic.opacity.border.component})",
+              "value": "rgba({system.error.on-light},{semantic.opacity.border.component})",
               "type": "color"
             }
           },
@@ -1328,7 +1332,7 @@
                 "type": "color"
               },
               "content": {
-                "value": "{system.warning.emphasised}",
+                "value": "{system.warning.on-light}",
                 "type": "color"
               }
             },
@@ -1338,7 +1342,7 @@
                 "type": "color"
               },
               "content": {
-                "value": "{system.warning.emphasised}",
+                "value": "{system.warning.on-light}",
                 "type": "color"
               }
             },
@@ -1348,12 +1352,12 @@
                 "type": "color"
               },
               "content": {
-                "value": "{system.warning.emphasised}",
+                "value": "{system.warning.on-light}",
                 "type": "color"
               }
             },
             "outline": {
-              "value": "rgba({system.warning.emphasised},{semantic.opacity.border.component})",
+              "value": "rgba({system.warning.on-light},{semantic.opacity.border.component})",
               "type": "color"
             }
           },
@@ -1364,7 +1368,7 @@
                 "type": "color"
               },
               "content": {
-                "value": "{system.success.emphasised}",
+                "value": "{system.success.on-light}",
                 "type": "color"
               }
             },
@@ -1374,7 +1378,7 @@
                 "type": "color"
               },
               "content": {
-                "value": "{system.success.emphasised}",
+                "value": "{system.success.on-light}",
                 "type": "color"
               }
             },
@@ -1384,12 +1388,12 @@
                 "type": "color"
               },
               "content": {
-                "value": "{system.success.emphasised}",
+                "value": "{system.success.on-light}",
                 "type": "color"
               }
             },
             "outline": {
-              "value": "rgba({system.success.emphasised},{semantic.opacity.border.component})",
+              "value": "rgba({system.success.on-light},{semantic.opacity.border.component})",
               "type": "color"
             }
           },
@@ -1400,7 +1404,7 @@
                 "type": "color"
               },
               "content": {
-                "value": "{system.info.emphasised}",
+                "value": "{system.info.on-light}",
                 "type": "color"
               }
             },
@@ -1410,7 +1414,7 @@
                 "type": "color"
               },
               "content": {
-                "value": "{system.info.emphasised}",
+                "value": "{system.info.on-light}",
                 "type": "color"
               }
             },
@@ -1420,12 +1424,12 @@
                 "type": "color"
               },
               "content": {
-                "value": "{system.info.emphasised}",
+                "value": "{system.info.on-light}",
                 "type": "color"
               }
             },
             "outline": {
-              "value": "rgba({system.info.emphasised},{semantic.opacity.border.component})",
+              "value": "rgba({system.info.on-light},{semantic.opacity.border.component})",
               "type": "color"
             }
           },
@@ -1577,6 +1581,21 @@
           }
         }
       }
+    },
+    "scrim": {
+      "default": {
+        "value": "{colour.neutral.50}",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "rgba({colour.neutral.500},0.12)",
+        "type": "color",
+        "description": "Disabled action background state"
+      },
+      "transparent": {
+        "value": "{colour.grayscale.transparent}",
+        "type": "color"
+      }
     }
   },
   "semantic": {
@@ -1658,6 +1677,18 @@
         "drop-shadow-2": {
           "value": "{opacity.24}",
           "type": "opacity"
+        }
+      },
+      "bg": {
+        "overlay": {
+          "strong": {
+            "value": "{opacity.50}",
+            "type": "opacity"
+          },
+          "light": {
+            "value": "{opacity.25}",
+            "type": "opacity"
+          }
         }
       }
     }

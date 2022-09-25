@@ -62,7 +62,7 @@
         "type": "color"
       },
       "accent-on-dark": {
-        "value": "{system.primary.on-primary}",
+        "value": "{system.primary.on-normal}",
         "type": "color"
       }
     }
