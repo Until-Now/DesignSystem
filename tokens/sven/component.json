@@ -19,25 +19,25 @@
         "primary": {
           "default": {
             "state": {
-              "value": "{system.state-surface.primary-light.default}",
+              "value": "{system.state-surface.primary.primary.default}",
               "type": "color"
             }
           },
           "hover": {
             "state": {
-              "value": "{system.state-surface.primary-light.hover}",
+              "value": "{system.state-surface.primary.primary.hover}",
               "type": "color"
             }
           },
           "press": {
             "state": {
-              "value": "{system.state-surface.primary-light.press}",
+              "value": "{system.state-surface.primary.primary.press}",
               "type": "color"
             }
           },
           "disabled": {
             "state": {
-              "value": "{system.state-surface.primary-light.disabled}",
+              "value": "{system.state-surface.primary.primary.disabled}",
               "type": "color"
             }
           }
@@ -45,25 +45,25 @@
         "secondary": {
           "default": {
             "state": {
-              "value": "{system.state-surface.primary-dark.default}",
+              "value": "{system.state-surface.primary.tonal.default}",
               "type": "color"
             }
           },
           "hover": {
             "state": {
-              "value": "{system.state-surface.primary-dark.hover}",
+              "value": "{system.state-surface.primary.tonal.hover}",
               "type": "color"
             }
           },
           "press": {
             "state": {
-              "value": "{system.state-surface.primary-dark.press}",
+              "value": "{system.state-surface.primary.tonal.press}",
               "type": "color"
             }
           },
           "disabled": {
             "state": {
-              "value": "{system.state-surface.primary-dark.disabled}",
+              "value": "{system.state-surface.primary.tonal.disabled}",
               "type": "color"
             }
           }
@@ -71,25 +71,25 @@
         "tertiary": {
           "default": {
             "state": {
-              "value": "{system.state-surface.primary-dark.default}",
+              "value": "{system.state-surface.primary.tonal.default}",
               "type": "color"
             }
           },
           "hover": {
             "state": {
-              "value": "{system.state-surface.primary-dark.hover}",
+              "value": "{system.state-surface.primary.tonal.hover}",
               "type": "color"
             }
           },
           "press": {
             "state": {
-              "value": "{system.state-surface.primary-dark.press}",
+              "value": "{system.state-surface.primary.tonal.press}",
               "type": "color"
             }
           },
           "disabled": {
             "state": {
-              "value": "{system.state-surface.primary-dark.disabled}",
+              "value": "{system.state-surface.primary.tonal.disabled}",
               "type": "color"
             }
           }
@@ -97,25 +97,25 @@
         "subtle": {
           "default": {
             "state": {
-              "value": "{system.state-surface.primary-dark.default}",
+              "value": "{system.state-surface.primary.tonal.default}",
               "type": "color"
             }
           },
           "hover": {
             "state": {
-              "value": "{system.state-surface.primary-dark.hover}",
+              "value": "{system.state-surface.primary.tonal.hover}",
               "type": "color"
             }
           },
           "press": {
             "state": {
-              "value": "{system.state-surface.primary-dark.press}",
+              "value": "{system.state-surface.primary.tonal.press}",
               "type": "color"
             }
           },
           "disabled": {
             "state": {
-              "value": "{system.state-surface.primary-dark.disabled}",
+              "value": "{system.state-surface.primary.tonal.disabled}",
               "type": "color"
             }
           }
@@ -190,19 +190,19 @@
           "active": {
             "default": {
               "state": {
-                "value": "{system.state-surface.primary-light.default}",
+                "value": "{system.state-surface.primary.primary.default}",
                 "type": "color"
               }
             },
             "hover": {
               "state": {
-                "value": "{system.state-surface.primary-light.hover}",
+                "value": "{system.state-surface.primary.primary.hover}",
                 "type": "color"
               }
             },
             "press": {
               "state": {
-                "value": "{system.state-surface.primary-light.press}",
+                "value": "{system.state-surface.primary.primary.press}",
                 "type": "color"
               }
             }
@@ -277,25 +277,25 @@
         "colour": {
           "default": {
             "state": {
-              "value": "{system.state-surface.primary-dark.default}",
+              "value": "{system.state-surface.primary.tonal.default}",
               "type": "color"
             }
           },
           "hover": {
             "state": {
-              "value": "{system.state-surface.primary-dark.hover}",
+              "value": "{system.state-surface.primary.tonal.hover}",
               "type": "color"
             }
           },
           "press": {
             "state": {
-              "value": "{system.state-surface.primary-dark.press}",
+              "value": "{system.state-surface.primary.tonal.press}",
               "type": "color"
             }
           },
           "error": {
             "state": {
-              "value": "{system.state-surface.primary-dark.default}",
+              "value": "{system.state-surface.primary.tonal.default}",
               "type": "color"
             },
             "outline": {
@@ -305,7 +305,7 @@
           },
           "disabled": {
             "state": {
-              "value": "{system.state-surface.primary-dark.disabled}",
+              "value": "{system.state-surface.primary.tonal.disabled}",
               "type": "color"
             }
           },

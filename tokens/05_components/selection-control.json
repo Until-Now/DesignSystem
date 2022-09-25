@@ -84,7 +84,7 @@
             },
             "state": {
               "type": "color",
-              "value": "{system.state-surface.primary-light.default}"
+              "value": "{system.state-surface.primary.primary.default}"
             }
           },
           "hover": {
@@ -106,7 +106,7 @@
             },
             "state": {
               "type": "color",
-              "value": "{system.state-surface.primary-light.hover}"
+              "value": "{system.state-surface.primary.primary.hover}"
             }
           },
           "press": {
@@ -128,7 +128,7 @@
             },
             "state": {
               "type": "color",
-              "value": "{system.state-surface.primary-light.press}"
+              "value": "{system.state-surface.primary.primary.press}"
             }
           },
           "error": {
@@ -150,7 +150,7 @@
             },
             "state": {
               "type": "color",
-              "value": "{system.state-surface.primary-light.default}"
+              "value": "{system.state-surface.primary.primary.default}"
             },
             "outline": {
               "value": "{system.colour.inputs.error.focus}",
@@ -176,7 +176,7 @@
             },
             "state": {
               "type": "color",
-              "value": "{system.state-surface.primary-light.disabled}"
+              "value": "{system.state-surface.primary.primary.disabled}"
             }
           },
           "active": {

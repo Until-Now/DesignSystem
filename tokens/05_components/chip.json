@@ -126,7 +126,7 @@
             },
             "state": {
               "type": "color",
-              "value": "{system.state-surface.secondary-light.default}"
+              "value": "{system.state-surface.secondary.secondary.default}"
             }
           },
           "hover": {
@@ -144,7 +144,7 @@
             },
             "state": {
               "type": "color",
-              "value": "{system.state-surface.secondary-light.hover}"
+              "value": "{system.state-surface.secondary.secondary.hover}"
             }
           },
           "press": {
@@ -162,7 +162,7 @@
             },
             "state": {
               "type": "color",
-              "value": "{system.state-surface.secondary-light.press}"
+              "value": "{system.state-surface.secondary.secondary.press}"
             }
           },
           "active": {
@@ -222,7 +222,7 @@
             },
             "state": {
               "type": "color",
-              "value": "{system.state-surface.secondary-dark.default}"
+              "value": "{system.state-surface.secondary.tonal.default}"
             }
           },
           "hover": {
@@ -236,7 +236,7 @@
             },
             "state": {
               "type": "color",
-              "value": "{system.state-surface.secondary-dark.hover}"
+              "value": "{system.state-surface.secondary.tonal.hover}"
             }
           },
           "press": {
@@ -250,7 +250,7 @@
             },
             "state": {
               "type": "color",
-              "value": "{system.state-surface.secondary-dark.press}"
+              "value": "{system.state-surface.secondary.tonal.press}"
             }
           }
         },
@@ -690,7 +690,7 @@
             },
             "state": {
               "type": "color",
-              "value": "{system.state-surface.secondary-light.default}"
+              "value": "{system.state-surface.secondary.secondary.default}"
             }
           },
           "hover": {
@@ -708,7 +708,7 @@
             },
             "state": {
               "type": "color",
-              "value": "{system.state-surface.secondary-light.hover}"
+              "value": "{system.state-surface.secondary.secondary.hover}"
             }
           },
           "press": {
@@ -726,7 +726,7 @@
             },
             "state": {
               "type": "color",
-              "value": "{system.state-surface.secondary-light.press}"
+              "value": "{system.state-surface.secondary.secondary.press}"
             }
           },
           "active": {

@@ -248,7 +248,7 @@
         }
       },
       "elevation": {
-        "value": "{elevation.200}",
+        "value": "{elevation.300}",
         "type": "boxShadow"
       }
     },
@@ -494,13 +494,13 @@
       "effects": {
         "tag": {
           "elevation": {
-            "value": "{elevation.100}",
+            "value": "{elevation.200}",
             "type": "boxShadow"
           }
         },
         "thumb": {
           "elevation": {
-            "value": "{elevation.100}",
+            "value": "{elevation.200}",
             "type": "boxShadow"
           }
         }
