@@ -19,25 +19,25 @@
         "primary": {
           "default": {
             "state": {
-              "value": "{system.states.primary-light.default}",
+              "value": "{system.state-surface.primary-light.default}",
               "type": "color"
             }
           },
           "hover": {
             "state": {
-              "value": "{system.states.primary-light.hover}",
+              "value": "{system.state-surface.primary-light.hover}",
               "type": "color"
             }
           },
           "press": {
             "state": {
-              "value": "{system.states.primary-light.press}",
+              "value": "{system.state-surface.primary-light.press}",
               "type": "color"
             }
           },
           "disabled": {
             "state": {
-              "value": "{system.states.primary-light.disabled}",
+              "value": "{system.state-surface.primary-light.disabled}",
               "type": "color"
             }
           }
@@ -45,25 +45,25 @@
         "secondary": {
           "default": {
             "state": {
-              "value": "{system.states.primary-dark.default}",
+              "value": "{system.state-surface.primary-dark.default}",
               "type": "color"
             }
           },
           "hover": {
             "state": {
-              "value": "{system.states.primary-dark.hover}",
+              "value": "{system.state-surface.primary-dark.hover}",
               "type": "color"
             }
           },
           "press": {
             "state": {
-              "value": "{system.states.primary-dark.press}",
+              "value": "{system.state-surface.primary-dark.press}",
               "type": "color"
             }
           },
           "disabled": {
             "state": {
-              "value": "{system.states.primary-dark.disabled}",
+              "value": "{system.state-surface.primary-dark.disabled}",
               "type": "color"
             }
           }
@@ -134,7 +134,7 @@
           "active": {
             "default": {
               "state": {
-                "value": "{system.states.primary-light.default}",
+                "value": "{system.state-surface.primary-light.default}",
                 "type": "color"
               },
               "toggle-icon": {
@@ -144,7 +144,7 @@
             },
             "hover": {
               "state": {
-                "value": "{system.states.primary-light.hover}",
+                "value": "{system.state-surface.primary-light.hover}",
                 "type": "color"
               },
               "toggle-icon": {
@@ -154,7 +154,7 @@
             },
             "press": {
               "state": {
-                "value": "{system.states.primary-light.press}",
+                "value": "{system.state-surface.primary-light.press}",
                 "type": "color"
               },
               "toggle-icon": {
@@ -164,7 +164,7 @@
             },
             "error": {
               "state": {
-                "value": "{system.states.primary-light.default}",
+                "value": "{system.state-surface.primary-light.default}",
                 "type": "color"
               },
               "toggle-icon": {
@@ -174,7 +174,7 @@
             },
             "disabled": {
               "state": {
-                "value": "{system.states.primary-light.disabled}",
+                "value": "{system.state-surface.primary-light.disabled}",
                 "type": "color"
               },
               "toggle-icon": {
@@ -185,31 +185,31 @@
           },
           "default": {
             "state": {
-              "value": "{system.states.darker.default-surface-opacity}",
+              "value": "{system.state-surface.darker.default-surface-opacity}",
               "type": "color"
             }
           },
           "hover": {
             "state": {
-              "value": "{system.states.darker.hover-surface-opacity}",
+              "value": "{system.state-surface.darker.hover-surface-opacity}",
               "type": "color"
             }
           },
           "press": {
             "state": {
-              "value": "{system.states.darker.press-surface-opacity}",
+              "value": "{system.state-surface.darker.press-surface-opacity}",
               "type": "color"
             }
           },
           "error": {
             "state": {
-              "value": "{system.states.darker.default-surface-opacity}",
+              "value": "{system.state-surface.darker.default-surface-opacity}",
               "type": "color"
             }
           },
           "disabled": {
             "state": {
-              "value": "{system.states.darker.disabled-surface-opacity}",
+              "value": "{system.state-surface.darker.disabled-surface-opacity}",
               "type": "color"
             }
           }

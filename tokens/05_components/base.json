@@ -20,7 +20,7 @@
             },
             "state": {
               "type": "color",
-              "value": "{system.states.lighter.default-surface-opacity}"
+              "value": "{system.state-surface.lighter.default-surface-opacity}"
             }
           },
           "hover": {
@@ -34,7 +34,7 @@
             },
             "state": {
               "type": "color",
-              "value": "{system.states.lighter.hover-surface-opacity}"
+              "value": "{system.state-surface.lighter.hover-surface-opacity}"
             }
           },
           "press": {
@@ -48,7 +48,7 @@
             },
             "state": {
               "type": "color",
-              "value": "{system.states.lighter.press-surface-opacity}"
+              "value": "{system.state-surface.lighter.press-surface-opacity}"
             }
           }
         },
@@ -56,18 +56,18 @@
           "default": {
             "state": {
               "type": "color",
-              "value": "{system.states.darker.default-surface-opacity}"
+              "value": "{system.state-surface.darker.default-surface-opacity}"
             }
           },
           "hover": {
             "state": {
-              "value": "{system.states.darker.hover-surface-opacity}",
+              "value": "{system.state-surface.darker.hover-surface-opacity}",
               "type": "color"
             }
           },
           "press": {
             "state": {
-              "value": "{system.states.darker.press-surface-opacity}",
+              "value": "{system.state-surface.darker.press-surface-opacity}",
               "type": "color"
             }
           }

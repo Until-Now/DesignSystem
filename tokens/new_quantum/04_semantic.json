@@ -58,11 +58,11 @@
     },
     "content": {
       "accent-on-light": {
-        "value": "{system.primary.on-light}",
+        "value": "{system.primary.on-tonal}",
         "type": "color"
       },
       "accent-on-dark": {
-        "value": "{system.primary.on-normal}",
+        "value": "{system.primary.on-primary}",
         "type": "color"
       }
     }

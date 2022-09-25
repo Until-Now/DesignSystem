@@ -870,17 +870,17 @@
       },
       "on-dark": {
         "strong": {
-          "value": "rgba({system.content.primary-inverse},{semantic.opacity.content.solid})",
+          "value": "rgba({system.content.inverse-primary},{semantic.opacity.content.solid})",
           "type": "color",
           "description": "High emphasis, light"
         },
         "mid": {
-          "value": "rgba({system.content.primary-inverse},{semantic.opacity.content.mid})",
+          "value": "rgba({system.content.inverse-primary},{semantic.opacity.content.mid})",
           "type": "color",
           "description": "md emphasis, light"
         },
         "soft": {
-          "value": "rgba({system.content.primary-inverse},{semantic.opacity.content.soft})",
+          "value": "rgba({system.content.inverse-primary},{semantic.opacity.content.soft})",
           "type": "color",
           "description": "Low emphasis, light"
         }
@@ -890,7 +890,7 @@
         "type": "color"
       },
       "accent-on-light": {
-        "value": "{system.primary.normal}",
+        "value": "{system.primary.primary}",
         "type": "color",
         "description": "High emphasis"
       },
