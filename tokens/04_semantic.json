@@ -851,19 +851,19 @@
       },
       "status": {
         "error": {
-          "value": "{system.error.light}",
+          "value": "{system.error.background}",
           "type": "color"
         },
         "success": {
-          "value": "{system.success.light}",
+          "value": "{system.success.background}",
           "type": "color"
         },
         "warning": {
-          "value": "{system.warning.light}",
+          "value": "{system.warning.background}",
           "type": "color"
         },
         "info": {
-          "value": "{system.info.light}",
+          "value": "{system.info.background}",
           "type": "color"
         }
       }
@@ -913,7 +913,7 @@
         "description": "High emphasis"
       },
       "error": {
-        "value": "{system.error.default}",
+        "value": "{system.error.error}",
         "type": "color"
       },
       "text-link": {

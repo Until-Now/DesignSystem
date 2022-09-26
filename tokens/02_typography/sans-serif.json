@@ -160,8 +160,8 @@
             "fontFamily": "{font-family.sans-serif.headline}",
             "fontWeight": "{font-weight.sans-serif.bold.headline}",
             "lineHeight": "{line-height.sans-serif.sm.headline}",
-            "fontSize": "{letter-spacing.sans-serif.sm.bold.headline}",
-            "letterSpacing": "{letter-spacing.0}",
+            "fontSize": "{font-size.sans-serif.sm.headline}",
+            "letterSpacing": "{letter-spacing.sans-serif.sm.bold.headline}",
             "paragraphSpacing": "0",
             "textDecoration": "none",
             "textCase": "{text-case.as-is}"

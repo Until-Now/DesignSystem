@@ -185,31 +185,31 @@
           },
           "default": {
             "state": {
-              "value": "{system.state-surface.darker.default-surface-opacity}",
+              "value": "{system.state-surface.neutral.darker.default-surface-opacity}",
               "type": "color"
             }
           },
           "hover": {
             "state": {
-              "value": "{system.state-surface.darker.hover-surface-opacity}",
+              "value": "{system.state-surface.neutral.darker.hover-surface-opacity}",
               "type": "color"
             }
           },
           "press": {
             "state": {
-              "value": "{system.state-surface.darker.press-surface-opacity}",
+              "value": "{system.state-surface.neutral.darker.press-surface-opacity}",
               "type": "color"
             }
           },
           "error": {
             "state": {
-              "value": "{system.state-surface.darker.default-surface-opacity}",
+              "value": "{system.state-surface.neutral.darker.default-surface-opacity}",
               "type": "color"
             }
           },
           "disabled": {
             "state": {
-              "value": "{system.state-surface.darker.disabled-surface-opacity}",
+              "value": "{system.state-surface.neutral.darker.disabled-surface-opacity}",
               "type": "color"
             }
           }
