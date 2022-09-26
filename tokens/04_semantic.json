@@ -813,15 +813,15 @@
     "bg": {
       "neutral": {
         "bg-primary": {
-          "value": "{colour.grayscale.white}",
+          "value": "{system.neutral.background}",
           "type": "color"
         },
         "bg-secondary": {
-          "value": "{colour.neutral.50}",
+          "value": "{system.neutral.background-variant-1}",
           "type": "color"
         },
         "bg-tertiary": {
-          "value": "{colour.neutral.100}",
+          "value": "{system.neutral.background-variant-2}",
           "type": "color"
         }
       },
@@ -846,6 +846,24 @@
         },
         "light": {
           "value": "rgba({colour.grayscale.black},0.1)",
+          "type": "color"
+        }
+      },
+      "status": {
+        "error": {
+          "value": "{system.error.light}",
+          "type": "color"
+        },
+        "success": {
+          "value": "{system.success.light}",
+          "type": "color"
+        },
+        "warning": {
+          "value": "{system.warning.light}",
+          "type": "color"
+        },
+        "info": {
+          "value": "{system.info.light}",
           "type": "color"
         }
       }
@@ -927,10 +945,6 @@
         }
       },
       "error": {
-        "sf-100": {
-          "value": "{colour.error.150}",
-          "type": "color"
-        },
         "sf-200": {
           "value": "{colour.error.500}",
           "type": "color"
@@ -941,10 +955,6 @@
         }
       },
       "success": {
-        "sf-100": {
-          "value": "{colour.success.100}",
-          "type": "color"
-        },
         "sf-200": {
           "value": "{colour.success.500}",
           "type": "color"
@@ -955,10 +965,6 @@
         }
       },
       "warning": {
-        "sf-100": {
-          "value": "{colour.warning.150}",
-          "type": "color"
-        },
         "sf-200": {
           "value": "{colour.warning.500}",
           "type": "color"
@@ -969,10 +975,6 @@
         }
       },
       "info": {
-        "sf-100": {
-          "value": "{colour.info.150}",
-          "type": "color"
-        },
         "sf-200": {
           "value": "{colour.info.600}",
           "type": "color"

@@ -178,11 +178,11 @@
         "value": "{colour.grayscale.white}",
         "type": "color"
       },
-      "background-variant-light": {
+      "background-variant-1": {
         "value": "{colour.neutral.50}",
         "type": "color"
       },
-      "background-variant-dark": {
+      "background-variant-2": {
         "value": "{colour.neutral.100}",
         "type": "color"
       },

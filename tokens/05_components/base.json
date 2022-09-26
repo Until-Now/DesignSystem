@@ -347,7 +347,7 @@
           },
           "error": {
             "bg": {
-              "value": "{semantic.fg.error.sf-100}",
+              "value": "{semantic.bg.status.error}",
               "type": "color"
             },
             "content": {
