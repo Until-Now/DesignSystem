@@ -231,19 +231,19 @@
             "info": {
               "default": {
                 "content": {
-                  "value": "{system.colour.status.status.info.default.content}",
+                  "value": "{system.colour.status.muted.info.default.content}",
                   "type": "color"
                 }
               },
               "hover": {
                 "content": {
-                  "value": "{system.colour.status.status.info.hover.content}",
+                  "value": "{system.colour.status.muted.info.hover.content}",
                   "type": "color"
                 }
               },
               "press": {
                 "content": {
-                  "value": "{system.colour.status.status.info.press.content}",
+                  "value": "{system.colour.status.muted.info.press.content}",
                   "type": "color"
                 }
               }
