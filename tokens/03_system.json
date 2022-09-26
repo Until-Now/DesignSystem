@@ -206,7 +206,7 @@
     },
     "outline": {
       "neutral": {
-        "value": "rgba({colour.neutral.500},{semantic.opacity.border.component})",
+        "value": "rgba({colour.neutral.600},{semantic.opacity.border.component})",
         "type": "color",
         "description": "Component outline"
       },
@@ -214,12 +214,40 @@
         "value": "{colour.neutral.150}",
         "type": "color"
       },
+      "disabled": {
+        "value": "rgba({colour.neutral.500},{semantic.opacity.disabled})",
+        "type": "color"
+      },
       "primary": {
         "value": "rgba({system.primary.primary},{semantic.opacity.border.component})",
         "type": "color"
       },
+      "tonal-primary": {
+        "value": "rgba({system.primary.on-tonal},{semantic.opacity.border.component})",
+        "type": "color"
+      },
+      "tonal-secondary": {
+        "value": "rgba({system.secondary.on-tonal},{semantic.opacity.border.component})",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "rgba({system.secondary.secondary},{semantic.opacity.border.component})",
+        "type": "color"
+      },
       "error": {
-        "value": "rgba({system.error.error},{semantic.opacity.border.component})",
+        "value": "rgba({system.error.on-background},{semantic.opacity.border.component})",
+        "type": "color"
+      },
+      "success": {
+        "value": "rgba({system.success.on-background},{semantic.opacity.border.component})",
+        "type": "color"
+      },
+      "warning": {
+        "value": "rgba({system.warning.on-background},{semantic.opacity.border.component})",
+        "type": "color"
+      },
+      "info": {
+        "value": "rgba({system.info.on-background},{semantic.opacity.border.component})",
         "type": "color"
       }
     },
@@ -241,7 +269,7 @@
         "type": "color"
       },
       "disabled": {
-        "value": "rgba({colour.neutral.500},0.12)",
+        "value": "rgba({colour.neutral.500},{semantic.opacity.disabled})",
         "type": "color",
         "description": "Disabled action background state"
       },
@@ -324,19 +352,19 @@
       "primary": {
         "primary": {
           "default": {
-            "value": "rgba({system.primary.primary},0.00)",
+            "value": "rgba({system.content.primary},0.00)",
             "type": "color"
           },
           "hover": {
-            "value": "rgba({system.primary.primary},0.08)",
+            "value": "rgba({system.content.primary},0.16)",
             "type": "color"
           },
           "press": {
-            "value": "rgba({system.primary.primary},0.16)",
+            "value": "rgba({system.content.primary},0.32)",
             "type": "color"
           },
           "disabled": {
-            "value": "rgba({system.primary.primary},0.00)",
+            "value": "rgba({system.content.primary},0.00)",
             "type": "color"
           }
         },
@@ -471,37 +499,37 @@
       },
       "neutral": {
         "darker": {
-          "default-surface-opacity": {
+          "default": {
             "value": "rgba({system.content.primary},0.00)",
             "type": "color"
           },
-          "hover-surface-opacity": {
+          "hover": {
             "value": "rgba({system.content.primary},0.16)",
             "type": "color"
           },
-          "press-surface-opacity": {
+          "press": {
             "value": "rgba({system.content.primary},0.32)",
             "type": "color"
           },
-          "disabled-surface-opacity": {
+          "disabled": {
             "value": "rgba({system.content.primary},0.00)",
             "type": "color"
           }
         },
         "lighter": {
-          "default-surface-opacity": {
+          "default": {
             "value": "rgba({system.content.inverse-primary},0.00)",
             "type": "color"
           },
-          "hover-surface-opacity": {
+          "hover": {
             "value": "rgba({system.content.inverse-primary},0.16)",
             "type": "color"
           },
-          "press-surface-opacity": {
+          "press": {
             "value": "rgba({system.content.inverse-primary},0.32)",
             "type": "color"
           },
-          "disabled-surface-opacity": {
+          "disabled": {
             "value": "rgba({system.content.inverse-primary},0.00)",
             "type": "color"
           }
@@ -546,67 +574,74 @@
               "value": "{system.primary.on-primary}",
               "type": "color",
               "description": "Icons and text on primary action default"
+            },
+            "state": {
+              "value": "{system.state-surface.primary.primary.default}",
+              "type": "color"
             }
           },
           "hover": {
             "background": {
-              "value": "{system.colour.action.primary.default.background}",
+              "value": "{system.primary.primary}",
               "type": "color",
               "description": "Primary action background hover state"
             },
             "content": {
-              "value": "{system.colour.action.primary.default.content}",
+              "value": "{system.primary.on-primary}",
               "type": "color",
               "description": "Icons and text on primary action hover"
             },
             "split": {
-              "value": "{system.colour.action.primary.default.content}",
+              "value": "{system.primary.on-primary}",
               "type": "color",
-              "description": "Icons and text on primary action hover"
+              "description": "Split on primary action hover"
+            },
+            "state": {
+              "value": "{system.state-surface.primary.primary.hover}",
+              "type": "color"
             }
           },
           "press": {
             "background": {
-              "value": "{system.colour.action.primary.default.background}",
+              "value": "{system.primary.primary}",
               "type": "color",
               "description": "Primary action background press state"
             },
             "content": {
-              "value": "{system.colour.action.primary.default.content}",
+              "value": "{system.primary.on-primary}",
               "type": "color",
               "description": "Icons and text on primary action press"
             },
             "split": {
-              "value": "{system.colour.action.primary.default.content}",
+              "value": "{system.primary.on-primary}",
               "type": "color",
-              "description": "Icons and text on primary action press"
+              "description": "Split on primary action press"
+            },
+            "state": {
+              "value": "{system.state-surface.primary.primary.press}",
+              "type": "color"
             }
-          }
-        },
-        "disabled": {
-          "background": {
-            "value": "{system.neutral.disabled}",
-            "type": "color",
-            "description": "Disabled action background state"
           },
-          "outline": {
-            "value": "{system.neutral.disabled}",
-            "type": "color",
-            "description": "Disabled action background state"
-          },
-          "background-transparent": {
-            "value": "{system.neutral.transparent}",
-            "type": "color"
-          },
-          "content": {
-            "value": "rgba({system.content.primary},{semantic.opacity.content.soft})",
-            "type": "color",
-            "description": "Icons and text on disabled action"
-          },
-          "split": {
-            "value": "rgba({system.content.primary},{semantic.opacity.content.soft})",
-            "type": "color",
-            "description": "Icons and text on disabled action"
+          "disabled": {
+            "background": {
+              "value": "{system.neutral.disabled}",
+              "type": "color",
+              "description": "Disabled action background state"
+            },
+            "content": {
+              "value": "{semantic.content.on-light.soft}",
+              "type": "color",
+              "description": "Icons and text on disabled action"
+            },
+            "split": {
+              "value": "{semantic.content.on-light.soft}",
+              "type": "color",
+              "description": "Split on disabled action"
+            },
+            "state": {
+              "value": "{system.state-surface.primary.primary.disabled}",
+              "type": "color"
+            }
           }
         },
         "secondary": {
@@ -624,41 +659,74 @@
             "split": {
               "value": "{system.secondary.on-tonal}",
               "type": "color",
-              "description": "Icons and text on secondary action default"
+              "description": "Split on secondary action default"
+            },
+            "state": {
+              "value": "{system.state-surface.secondary.tonal.default}",
+              "type": "color"
             }
           },
           "hover": {
             "background": {
-              "value": "{system.colour.action.secondary.default.background}",
+              "value": "{system.secondary.tonal}",
               "type": "color",
               "description": "Secondary action background hover state"
             },
             "content": {
-              "value": "{system.colour.action.secondary.default.content}",
+              "value": "{system.secondary.on-tonal}",
               "type": "color",
               "description": "Icons and text on secondary action hover"
             },
             "split": {
               "value": "{system.colour.action.secondary.default.content}",
               "type": "color",
-              "description": "Icons and text on secondary action hover"
+              "description": "Split on secondary action hover"
+            },
+            "state": {
+              "value": "{system.state-surface.secondary.tonal.hover}",
+              "type": "color"
             }
           },
           "press": {
             "background": {
-              "value": "{system.colour.action.secondary.default.background}",
+              "value": "{system.secondary.tonal}",
               "type": "color",
               "description": "Secondary action background press state"
             },
             "content": {
-              "value": "{system.colour.action.secondary.default.content}",
+              "value": "{system.secondary.on-tonal}",
               "type": "color",
               "description": "Icons and text on secondary action press"
             },
             "split": {
-              "value": "{system.colour.action.secondary.default.content}",
+              "value": "{system.secondary.on-tonal}",
               "type": "color",
-              "description": "Icons and text on secondary action press"
+              "description": "Split on secondary action press"
+            },
+            "state": {
+              "value": "{system.state-surface.secondary.tonal.press}",
+              "type": "color"
+            }
+          },
+          "disabled": {
+            "background": {
+              "value": "{system.neutral.disabled}",
+              "type": "color",
+              "description": "Disabled action background state"
+            },
+            "content": {
+              "value": "{semantic.content.on-light.soft}",
+              "type": "color",
+              "description": "Icons and text on disabled action"
+            },
+            "split": {
+              "value": "{semantic.content.on-light.soft}",
+              "type": "color",
+              "description": "Split on disabled action"
+            },
+            "state": {
+              "value": "{system.state-surface.secondary.tonal.disabled}",
+              "type": "color"
             }
           }
         },
@@ -677,46 +745,83 @@
             "split": {
               "value": "{system.primary.on-muted}",
               "type": "color",
-              "description": "Icons and text on tertiary action default"
+              "description": "Split on tertiary action default"
+            },
+            "state": {
+              "value": "{system.state-surface.primary.muted.default}",
+              "type": "color"
             }
           },
           "hover": {
             "background": {
-              "value": "{system.colour.action.tertiary.default.background}",
+              "value": "{system.primary.muted}",
               "type": "color",
               "description": "Tertiary action background hover state"
             },
             "content": {
-              "value": "{system.colour.action.tertiary.default.content}",
+              "value": "{system.primary.on-muted}",
               "type": "color",
               "description": "Icons and text on tertiary action hover"
             },
             "split": {
-              "value": "{system.colour.action.tertiary.default.content}",
+              "value": "{system.primary.on-muted}",
               "type": "color",
-              "description": "Icons and text on tertiary action hover"
+              "description": "Split on tertiary action hover"
+            },
+            "state": {
+              "value": "{system.state-surface.primary.muted.hover}",
+              "type": "color"
             }
           },
           "press": {
             "background": {
-              "value": "{system.colour.action.tertiary.default.background}",
+              "value": "{system.primary.muted}",
               "type": "color",
               "description": "Tertiary action background press state"
             },
             "content": {
-              "value": "{system.colour.action.tertiary.default.content}",
+              "value": "{system.primary.on-muted}",
               "type": "color",
               "description": "Icons and text on tertiary action press"
             },
             "split": {
-              "value": "{system.colour.action.tertiary.default.content}",
+              "value": "{system.primary.on-muted}",
               "type": "color",
-              "description": "Icons and text on tertiary action press"
+              "description": "Split on tertiary action press"
+            },
+            "state": {
+              "value": "{system.state-surface.primary.muted.press}",
+              "type": "color"
+            }
+          },
+          "disabled": {
+            "background": {
+              "value": "{system.neutral.transparent}",
+              "type": "color"
+            },
+            "content": {
+              "value": "{semantic.content.on-light.soft}",
+              "type": "color",
+              "description": "Icons and text on disabled action"
+            },
+            "split": {
+              "value": "{semantic.content.on-light.soft}",
+              "type": "color",
+              "description": "Split on disabled action"
+            },
+            "state": {
+              "value": "{system.state-surface.primary.muted.disabled}",
+              "type": "color"
             }
           },
           "outline": {
             "value": "{system.outline.primary}",
             "type": "color"
+          },
+          "disabled-outline": {
+            "value": "{system.outline.disabled}",
+            "type": "color",
+            "description": "Disabled action outline"
           }
         },
         "subtle": {
@@ -734,41 +839,73 @@
             "split": {
               "value": "{system.primary.on-subtle}",
               "type": "color",
-              "description": "Icons and text on subtle action default"
+              "description": "Split on subtle action default"
+            },
+            "state": {
+              "value": "{system.state-surface.primary.subtle.default}",
+              "type": "color"
             }
           },
           "hover": {
             "background": {
-              "value": "{system.colour.action.subtle.default.background}",
+              "value": "{system.primary.subtle}",
               "type": "color",
               "description": "Subtle action background hover state"
             },
             "content": {
-              "value": "{system.colour.action.subtle.default.content}",
+              "value": "{system.primary.on-subtle}",
               "type": "color",
               "description": "Icons and text on subtle action hover"
             },
             "split": {
-              "value": "{system.colour.action.subtle.default.content}",
+              "value": "{system.primary.on-subtle}",
               "type": "color",
-              "description": "Icons and text on subtle action hover"
+              "description": "Split on subtle action hover"
+            },
+            "state": {
+              "value": "{system.state-surface.primary.subtle.hover}",
+              "type": "color"
             }
           },
           "press": {
             "background": {
-              "value": "{system.colour.action.subtle.default.background}",
+              "value": "{system.primary.subtle}",
               "type": "color",
               "description": "Subtle action background press state"
             },
             "content": {
-              "value": "{system.colour.action.subtle.default.content}",
+              "value": "{system.primary.on-subtle}",
               "type": "color",
               "description": "Icons and text on subtle action press"
             },
             "split": {
-              "value": "{system.colour.action.subtle.default.content}",
+              "value": "{system.primary.on-subtle}",
               "type": "color",
-              "description": "Icons and text on subtle action press"
+              "description": "Split on subtle action press"
+            },
+            "state": {
+              "value": "{system.state-surface.primary.subtle.press}",
+              "type": "color"
+            }
+          },
+          "disabled": {
+            "background": {
+              "value": "{system.neutral.transparent}",
+              "type": "color"
+            },
+            "content": {
+              "value": "{semantic.content.on-light.soft}",
+              "type": "color",
+              "description": "Icons and text on disabled action"
+            },
+            "split": {
+              "value": "{semantic.content.on-light.soft}",
+              "type": "color",
+              "description": "Split on disabled action"
+            },
+            "state": {
+              "value": "{system.state-surface.primary.subtle.disabled}",
+              "type": "color"
             }
           }
         }
@@ -776,12 +913,12 @@
       "inputs": {
         "default": {
           "background": {
-            "value": "{semantic.fg.neutral.neutral-primary}",
+            "value": "{system.neutral.background}",
             "type": "color",
             "description": "Input background default"
           },
           "bg-transparent": {
-            "value": "{system.colour.action.subtle.default.background}",
+            "value": "{system.neutral.transparent}",
             "type": "color"
           },
           "outline": {
@@ -873,12 +1010,12 @@
         },
         "hover": {
           "background": {
-            "value": "{semantic.fg.neutral.neutral-primary}",
+            "value": "{system.neutral.background}",
             "type": "color",
             "description": "Input background hover"
           },
           "bg-transparent": {
-            "value": "{system.colour.action.subtle.default.background}",
+            "value": "{system.neutral.transparent}",
             "type": "color"
           },
           "outline": {
@@ -888,13 +1025,13 @@
           },
           "state": {
             "type": "color",
-            "value": "{colour.primary.50}",
+            "value": "{system.primary.background-variant-1}",
             "description": "Input background default"
           }
         },
         "press": {
           "background": {
-            "value": "{semantic.fg.neutral.neutral-primary}",
+            "value": "{system.neutral.background}",
             "type": "color",
             "description": "Input background press"
           },
@@ -914,18 +1051,18 @@
           },
           "state": {
             "type": "color",
-            "value": "{colour.primary.150}",
+            "value": "{system.primary.background-variant-2}",
             "description": "Input background default"
           }
         },
         "error": {
           "background": {
-            "value": "{semantic.fg.neutral.neutral-primary}",
+            "value": "{system.neutral.background}",
             "type": "color",
             "description": "Input background error"
           },
           "bg-transparent": {
-            "value": "{system.colour.action.subtle.default.background}",
+            "value": "{system.neutral.transparent}",
             "type": "color"
           },
           "outline": {
@@ -934,21 +1071,21 @@
             "description": "Input stroke/fill error"
           },
           "focus": {
-            "value": "rgba({system.error.error},{semantic.opacity.border.soft})",
+            "value": "{system.outline.error}",
             "type": "color"
           }
         },
         "disabled": {
           "background": {
-            "value": "{semantic.fg.neutral.disabled}",
+            "value": "{system.neutral.disabled}",
             "type": "color"
           },
           "bg-transparent": {
-            "value": "{system.colour.action.subtle.default.background}",
+            "value": "{system.neutral.transparent}",
             "type": "color"
           },
           "outline": {
-            "value": "{semantic.fg.neutral.disabled}",
+            "value": "{system.outline.disabled}",
             "type": "color",
             "description": "Input stroke/fill disabled"
           },
@@ -976,11 +1113,11 @@
       "container": {
         "divider": {
           "light": {
-            "value": "{colour.neutral.200}",
+            "value": "{system.outline.neutral-variant}",
             "type": "color"
           },
           "dark": {
-            "value": "{colour.neutral.400}",
+            "value": "{system.outline.neutral}",
             "type": "color"
           }
         }
@@ -1154,7 +1291,7 @@
         "avatar": {
           "default": {
             "background": {
-              "value": "{semantic.fg.secondary.sf-400}",
+              "value": "{system.secondary.secondary}",
               "type": "color"
             },
             "content": {
@@ -1164,27 +1301,27 @@
           },
           "hover": {
             "background": {
-              "value": "{system.colour.navigation.avatar.default.background}",
+              "value": "{system.secondary.secondary}",
               "type": "color"
             },
             "content": {
-              "value": "{system.colour.navigation.avatar.default.content}",
+              "value": "{semantic.content.on-dark.strong}",
               "type": "color"
             }
           },
           "press": {
             "background": {
-              "value": "{system.colour.navigation.avatar.default.background}",
+              "value": "{system.secondary.secondary}",
               "type": "color"
             },
             "content": {
-              "value": "{system.colour.navigation.avatar.default.content}",
+              "value": "{semantic.content.on-dark.strong}",
               "type": "color"
             }
           }
         },
         "notification": {
-          "value": "{system.info.info}",
+          "value": "{system.error.error}",
           "type": "color"
         },
         "tab": {
@@ -1201,12 +1338,16 @@
               "background": {
                 "value": "{system.neutral.transparent}",
                 "type": "color"
+              },
+              "state": {
+                "value": "{system.state-surface.primary.muted.default}",
+                "type": "color"
               }
             }
           },
           "default": {
             "divider": {
-              "value": "{semantic.fg.neutral.neutral-tertiary}",
+              "value": "{system.outline.neutral}",
               "type": "color"
             },
             "content": {
@@ -1327,7 +1468,7 @@
             }
           }
         },
-        "sentiment": {
+        "status": {
           "error": {
             "default": {
               "background": {
@@ -1360,7 +1501,7 @@
               }
             },
             "outline": {
-              "value": "rgba({system.error.on-background},{semantic.opacity.border.component})",
+              "value": "{system.outline.error}",
               "type": "color"
             }
           },
@@ -1396,7 +1537,7 @@
               }
             },
             "outline": {
-              "value": "rgba({system.warning.on-background},{semantic.opacity.border.component})",
+              "value": "{system.outline.warning}",
               "type": "color"
             }
           },
@@ -1432,7 +1573,7 @@
               }
             },
             "outline": {
-              "value": "rgba({system.success.on-background},{semantic.opacity.border.component})",
+              "value": "{system.outline.success}",
               "type": "color"
             }
           },
@@ -1468,7 +1609,7 @@
               }
             },
             "outline": {
-              "value": "rgba({system.info.on-background},{semantic.opacity.border.component})",
+              "value": "{system.outline.info}",
               "type": "color"
             }
           },
@@ -1614,7 +1755,7 @@
               }
             },
             "outline": {
-              "value": "rgba({system.primary.on-tonal},{semantic.opacity.border.component})",
+              "value": "{system.outline.tonal-primary}",
               "type": "color"
             }
           }

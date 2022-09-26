@@ -940,7 +940,7 @@
           "type": "color"
         },
         "disabled": {
-          "value": "{system.colour.action.disabled.background}",
+          "value": "{system.colour.action.primary.disabled.background}",
           "type": "color"
         }
       },

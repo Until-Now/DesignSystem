@@ -199,7 +199,7 @@
               },
               "state": {
                 "type": "color",
-                "value": "{system.state-surface.neutral.darker.default-surface-opacity}"
+                "value": "{system.state-surface.neutral.darker.default}"
               }
             },
             "hover": {
@@ -221,7 +221,7 @@
               },
               "state": {
                 "type": "color",
-                "value": "{system.state-surface.neutral.darker.hover-surface-opacity}"
+                "value": "{system.state-surface.neutral.darker.hover}"
               }
             },
             "press": {
@@ -243,7 +243,7 @@
               },
               "state": {
                 "type": "color",
-                "value": "{system.state-surface.neutral.darker.press-surface-opacity}"
+                "value": "{system.state-surface.neutral.darker.press}"
               }
             },
             "error": {
@@ -265,7 +265,7 @@
               },
               "state": {
                 "type": "color",
-                "value": "{system.state-surface.neutral.darker.default-surface-opacity}"
+                "value": "{system.state-surface.neutral.darker.default}"
               },
               "outline": {
                 "value": "{system.colour.inputs.error.focus}",
@@ -291,7 +291,7 @@
               },
               "state": {
                 "type": "color",
-                "value": "{system.state-surface.neutral.darker.disabled-surface-opacity}"
+                "value": "{system.state-surface.neutral.darker.disabled}"
               }
             }
           },
