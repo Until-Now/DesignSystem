@@ -113,15 +113,15 @@
         "action": {
           "default": {
             "bg": {
-              "value": "{system.colour.status.default.background}",
+              "value": "{system.colour.status.muted.primary.default.background}",
               "type": "color"
             },
             "content": {
-              "value": "{system.colour.status.default.content}",
+              "value": "{system.colour.status.muted.primary.default.content}",
               "type": "color"
             },
             "outline": {
-              "value": "{system.colour.status.default.outline}",
+              "value": "{system.colour.status.muted.primary.default.outline}",
               "type": "color"
             },
             "state": {
@@ -131,15 +131,15 @@
           },
           "hover": {
             "bg": {
-              "value": "{system.colour.status.hover.background}",
+              "value": "{system.colour.status.muted.primary.hover.background}",
               "type": "color"
             },
             "content": {
-              "value": "{system.colour.status.hover.content}",
+              "value": "{system.colour.status.muted.primary.hover.content}",
               "type": "color"
             },
             "outline": {
-              "value": "{system.colour.status.hover.outline}",
+              "value": "{system.colour.status.muted.primary.hover.outline}",
               "type": "color"
             },
             "state": {
@@ -149,15 +149,15 @@
           },
           "press": {
             "bg": {
-              "value": "{system.colour.status.press.background}",
+              "value": "{system.colour.status.muted.primary.press.background}",
               "type": "color"
             },
             "content": {
-              "value": "{system.colour.status.press.content}",
+              "value": "{system.colour.status.muted.primary.press.content}",
               "type": "color"
             },
             "outline": {
-              "value": "{system.colour.status.default.outline}",
+              "value": "{system.colour.status.muted.primary.default.outline}",
               "type": "color"
             },
             "state": {
@@ -625,7 +625,7 @@
               }
             },
             "outline": {
-              "value": "{system.colour.status.muted.neutral.outline}",
+              "value": "{system.colour.status.muted.primary.default.outline}",
               "type": "color"
             }
           }
@@ -633,15 +633,15 @@
         "input": {
           "default": {
             "bg": {
-              "value": "{system.colour.status.default.background}",
+              "value": "{system.colour.status.muted.primary.default.background}",
               "type": "color"
             },
             "content": {
-              "value": "{system.colour.status.default.content}",
+              "value": "{system.colour.status.muted.primary.default.content}",
               "type": "color"
             },
             "outline": {
-              "value": "{system.colour.status.default.outline}",
+              "value": "{system.colour.status.muted.primary.default.outline}",
               "type": "color"
             },
             "state": {
@@ -651,15 +651,15 @@
           },
           "hover": {
             "bg": {
-              "value": "{system.colour.status.hover.background}",
+              "value": "{system.colour.status.muted.primary.hover.background}",
               "type": "color"
             },
             "content": {
-              "value": "{system.colour.status.hover.content}",
+              "value": "{system.colour.status.muted.primary.hover.content}",
               "type": "color"
             },
             "outline": {
-              "value": "{system.colour.status.hover.outline}",
+              "value": "{system.colour.status.muted.primary.hover.outline}",
               "type": "color"
             },
             "state": {
@@ -669,15 +669,15 @@
           },
           "press": {
             "bg": {
-              "value": "{system.colour.status.press.background}",
+              "value": "{system.colour.status.muted.primary.press.background}",
               "type": "color"
             },
             "content": {
-              "value": "{system.colour.status.press.content}",
+              "value": "{system.colour.status.muted.primary.press.content}",
               "type": "color"
             },
             "outline": {
-              "value": "{system.colour.status.default.outline}",
+              "value": "{system.colour.status.muted.primary.default.outline}",
               "type": "color"
             },
             "state": {

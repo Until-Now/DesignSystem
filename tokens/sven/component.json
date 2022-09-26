@@ -212,11 +212,11 @@
           "rating": {
             "default": {
               "bg": {
-                "value": "{system.colour.status.default.background}",
+                "value": "{system.colour.status.muted.primary.default.background}",
                 "type": "color"
               },
               "content": {
-                "value": "{system.colour.status.default.content}",
+                "value": "{system.colour.status.muted.primary.default.content}",
                 "type": "color"
               },
               "rating": {
