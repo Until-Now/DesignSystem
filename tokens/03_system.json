@@ -1590,6 +1590,10 @@
               "state": {
                 "value": "{system.state-surface.status.error.default}",
                 "type": "color"
+              },
+              "outline": {
+                "value": "{system.outline.error}",
+                "type": "color"
               }
             },
             "hover": {
@@ -1603,6 +1607,10 @@
               },
               "state": {
                 "value": "{system.state-surface.status.error.hover}",
+                "type": "color"
+              },
+              "outline": {
+                "value": "{system.outline.error}",
                 "type": "color"
               }
             },
@@ -1618,11 +1626,11 @@
               "state": {
                 "value": "{system.state-surface.status.error.press}",
                 "type": "color"
+              },
+              "outline": {
+                "value": "{system.outline.error}",
+                "type": "color"
               }
-            },
-            "outline": {
-              "value": "{system.outline.error}",
-              "type": "color"
             }
           },
           "warning": {
@@ -1638,6 +1646,10 @@
               "state": {
                 "value": "{system.state-surface.status.warning.default}",
                 "type": "color"
+              },
+              "outline": {
+                "value": "{system.outline.warning}",
+                "type": "color"
               }
             },
             "hover": {
@@ -1651,6 +1663,10 @@
               },
               "state": {
                 "value": "{system.state-surface.status.warning.hover}",
+                "type": "color"
+              },
+              "outline": {
+                "value": "{system.outline.warning}",
                 "type": "color"
               }
             },
@@ -1666,11 +1682,11 @@
               "state": {
                 "value": "{system.state-surface.status.warning.press}",
                 "type": "color"
+              },
+              "outline": {
+                "value": "{system.outline.warning}",
+                "type": "color"
               }
-            },
-            "outline": {
-              "value": "{system.outline.warning}",
-              "type": "color"
             }
           },
           "success": {
@@ -1686,6 +1702,10 @@
               "state": {
                 "value": "{system.state-surface.status.success.default}",
                 "type": "color"
+              },
+              "outline": {
+                "value": "{system.outline.success}",
+                "type": "color"
               }
             },
             "hover": {
@@ -1699,6 +1719,10 @@
               },
               "state": {
                 "value": "{system.state-surface.status.success.hover}",
+                "type": "color"
+              },
+              "outline": {
+                "value": "{system.outline.success}",
                 "type": "color"
               }
             },
@@ -1714,11 +1738,11 @@
               "state": {
                 "value": "{system.state-surface.status.success.press}",
                 "type": "color"
+              },
+              "outline": {
+                "value": "{system.outline.success}",
+                "type": "color"
               }
-            },
-            "outline": {
-              "value": "{system.outline.success}",
-              "type": "color"
             }
           },
           "info": {
@@ -1734,6 +1758,10 @@
               "state": {
                 "value": "{system.state-surface.status.info.default}",
                 "type": "color"
+              },
+              "outline": {
+                "value": "{system.outline.info}",
+                "type": "color"
               }
             },
             "hover": {
@@ -1747,6 +1775,10 @@
               },
               "state": {
                 "value": "{system.state-surface.status.info.hover}",
+                "type": "color"
+              },
+              "outline": {
+                "value": "{system.outline.info}",
                 "type": "color"
               }
             },
@@ -1762,11 +1794,11 @@
               "state": {
                 "value": "{system.state-surface.status.info.press}",
                 "type": "color"
+              },
+              "outline": {
+                "value": "{system.outline.info}",
+                "type": "color"
               }
-            },
-            "outline": {
-              "value": "{system.outline.info}",
-              "type": "color"
             }
           }
         },

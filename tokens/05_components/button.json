@@ -221,6 +221,10 @@
             "state": {
               "type": "color",
               "value": "{system.colour.action.tertiary.default.state}"
+            },
+            "outline": {
+              "value": "{system.colour.action.tertiary.default.outline}",
+              "type": "color"
             }
           },
           "hover": {
@@ -235,6 +239,10 @@
             "state": {
               "type": "color",
               "value": "{system.colour.action.tertiary.hover.state}"
+            },
+            "outline": {
+              "value": "{system.colour.action.tertiary.hover.outline}",
+              "type": "color"
             }
           },
           "press": {
@@ -249,6 +257,10 @@
             "state": {
               "type": "color",
               "value": "{system.colour.action.tertiary.press.state}"
+            },
+            "outline": {
+              "value": "{system.colour.action.tertiary.press.outline}",
+              "type": "color"
             }
           },
           "disabled": {
@@ -263,15 +275,11 @@
             "state": {
               "type": "color",
               "value": "{system.colour.action.tertiary.disabled.state}"
+            },
+            "outline": {
+              "value": "{system.colour.action.tertiary.disabled.outline}",
+              "type": "color"
             }
-          },
-          "outline": {
-            "value": "{system.colour.action.tertiary.default.outline}",
-            "type": "color"
-          },
-          "outline-disabled": {
-            "value": "{system.colour.action.tertiary.disabled.outline}",
-            "type": "color"
           }
         },
         "subtle": {

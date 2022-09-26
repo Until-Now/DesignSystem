@@ -224,6 +224,10 @@
               "state": {
                 "value": "rgba({comp.chip.colour.sentiment.error.default.content},0.00)",
                 "type": "color"
+              },
+              "outline": {
+                "value": "{system.colour.status.muted.error.default.outline}",
+                "type": "color"
               }
             },
             "hover": {
@@ -237,6 +241,10 @@
               },
               "state": {
                 "value": "rgba({comp.chip.colour.sentiment.error.default.content},0.06)",
+                "type": "color"
+              },
+              "outline": {
+                "value": "{system.colour.status.muted.error.hover.outline}",
                 "type": "color"
               }
             },
@@ -252,11 +260,11 @@
               "state": {
                 "value": "rgba({comp.chip.colour.sentiment.error.default.content},0.12)",
                 "type": "color"
+              },
+              "outline": {
+                "value": "{system.colour.status.muted.error.press.outline}",
+                "type": "color"
               }
-            },
-            "outline": {
-              "value": "{system.colour.status.muted.error.outline}",
-              "type": "color"
             }
           },
           "selected": {
@@ -481,7 +489,7 @@
               }
             },
             "outline": {
-              "value": "{system.colour.status.muted.warning.outline}",
+              "value": "{system.colour.status.muted.warning.default.outline}",
               "type": "color"
             }
           },
@@ -529,7 +537,7 @@
               }
             },
             "outline": {
-              "value": "{system.colour.status.muted.success.outline}",
+              "value": "{system.colour.status.muted.success.default.outline}",
               "type": "color"
             }
           },
@@ -577,7 +585,7 @@
               }
             },
             "outline": {
-              "value": "{system.colour.status.muted.info.outline}",
+              "value": "{system.colour.status.muted.info.default.outline}",
               "type": "color"
             }
           },
