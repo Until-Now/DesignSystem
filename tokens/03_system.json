@@ -1752,6 +1752,10 @@
               "content": {
                 "value": "{system.success.on-background}",
                 "type": "color"
+              },
+              "state": {
+                "value": "{system.state-surface.status.success.default}",
+                "type": "color"
               }
             },
             "hover": {
@@ -1762,6 +1766,10 @@
               "content": {
                 "value": "{system.success.on-background}",
                 "type": "color"
+              },
+              "state": {
+                "value": "{system.state-surface.status.success.hover}",
+                "type": "color"
               }
             },
             "press": {
@@ -1771,6 +1779,10 @@
               },
               "content": {
                 "value": "{system.success.on-background}",
+                "type": "color"
+              },
+              "state": {
+                "value": "{system.state-surface.status.success.press}",
                 "type": "color"
               }
             },
@@ -1788,6 +1800,10 @@
               "content": {
                 "value": "{system.info.on-background}",
                 "type": "color"
+              },
+              "state": {
+                "value": "{system.state-surface.status.info.default}",
+                "type": "color"
               }
             },
             "hover": {
@@ -1798,6 +1814,10 @@
               "content": {
                 "value": "{system.info.on-background}",
                 "type": "color"
+              },
+              "state": {
+                "value": "{system.state-surface.status.info.hover}",
+                "type": "color"
               }
             },
             "press": {
@@ -1807,6 +1827,10 @@
               },
               "content": {
                 "value": "{system.info.on-background}",
+                "type": "color"
+              },
+              "state": {
+                "value": "{system.state-surface.status.info.press}",
                 "type": "color"
               }
             },
@@ -1825,6 +1849,10 @@
                 "content": {
                   "value": "{system.content.inverse-primary}",
                   "type": "color"
+                },
+                "state": {
+                  "value": "{system.state-surface.neutral.darker.default}",
+                  "type": "color"
                 }
               },
               "hover": {
@@ -1835,6 +1863,10 @@
                 "content": {
                   "value": "{system.content.inverse-primary}",
                   "type": "color"
+                },
+                "state": {
+                  "value": "{system.state-surface.neutral.darker.hover}",
+                  "type": "color"
                 }
               },
               "press": {
@@ -1844,6 +1876,10 @@
                 },
                 "content": {
                   "value": "{system.content.inverse-primary}",
+                  "type": "color"
+                },
+                "state": {
+                  "value": "{system.state-surface.neutral.darker.press}",
                   "type": "color"
                 }
               }
@@ -1857,6 +1893,10 @@
                 "content": {
                   "value": "{system.content.inverse-primary}",
                   "type": "color"
+                },
+                "state": {
+                  "value": "{system.state-surface.neutral.darker.default}",
+                  "type": "color"
                 }
               },
               "hover": {
@@ -1867,6 +1907,10 @@
                 "content": {
                   "value": "{system.content.inverse-primary}",
                   "type": "color"
+                },
+                "state": {
+                  "value": "{system.state-surface.neutral.darker.hover}",
+                  "type": "color"
                 }
               },
               "press": {
@@ -1876,6 +1920,10 @@
                 },
                 "content": {
                   "value": "{system.content.inverse-primary}",
+                  "type": "color"
+                },
+                "state": {
+                  "value": "{system.state-surface.neutral.darker.press}",
                   "type": "color"
                 }
               }
@@ -1889,6 +1937,10 @@
                 "content": {
                   "value": "{system.content.inverse-primary}",
                   "type": "color"
+                },
+                "state": {
+                  "value": "{system.state-surface.neutral.darker.default}",
+                  "type": "color"
                 }
               },
               "hover": {
@@ -1899,6 +1951,10 @@
                 "content": {
                   "value": "{system.content.inverse-primary}",
                   "type": "color"
+                },
+                "state": {
+                  "value": "{system.state-surface.neutral.darker.hover}",
+                  "type": "color"
                 }
               },
               "press": {
@@ -1908,6 +1964,10 @@
                 },
                 "content": {
                   "value": "{system.content.inverse-primary}",
+                  "type": "color"
+                },
+                "state": {
+                  "value": "{system.state-surface.neutral.darker.press}",
                   "type": "color"
                 }
               }
@@ -1921,6 +1981,10 @@
                 "content": {
                   "value": "{system.content.inverse-primary}",
                   "type": "color"
+                },
+                "state": {
+                  "value": "{system.state-surface.neutral.darker.default}",
+                  "type": "color"
                 }
               },
               "hover": {
@@ -1931,6 +1995,10 @@
                 "content": {
                   "value": "{system.content.inverse-primary}",
                   "type": "color"
+                },
+                "state": {
+                  "value": "{system.state-surface.neutral.darker.hover}",
+                  "type": "color"
                 }
               },
               "press": {
@@ -1940,6 +2008,10 @@
                 },
                 "content": {
                   "value": "{system.content.inverse-primary}",
+                  "type": "color"
+                },
+                "state": {
+                  "value": "{system.state-surface.neutral.darker.press}",
                   "type": "color"
                 }
               }
