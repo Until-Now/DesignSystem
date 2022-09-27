@@ -1,0 +1,60 @@
+{
+  "semantic": {
+    "size": {
+      "action": {
+        "small": {
+          "value": "{semantic.component.x-sm}",
+          "type": "sizing"
+        },
+        "medium": {
+          "value": "{semantic.component.sm}",
+          "type": "sizing"
+        }
+      },
+      "input": {
+        "small": {
+          "value": "{semantic.component.x-sm}",
+          "type": "sizing"
+        },
+        "medium": {
+          "value": "{semantic.component.sm}",
+          "type": "sizing"
+        }
+      }
+    },
+    "spacing": {
+      "action": {
+        "small": {
+          "padding-left": {
+            "value": "{space.8}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{space.8}",
+            "type": "spacing"
+          }
+        },
+        "medium": {
+          "padding-left": {
+            "value": "{space.12}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{space.12}",
+            "type": "spacing"
+          }
+        },
+        "large": {
+          "padding-left": {
+            "value": "{space.16}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{space.16}",
+            "type": "spacing"
+          }
+        }
+      }
+    }
+  }
+}

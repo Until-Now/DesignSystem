@@ -262,37 +262,37 @@
       "primary": {
         "primary": {
           "default": {
-            "value": "rgba({system.content.primary},0.00)",
+            "value": "rgba({system.primary.background-variant-1},0.00)",
             "type": "color"
           },
           "hover": {
-            "value": "rgba({system.content.primary},0.16)",
+            "value": "rgba({system.primary.background-variant-1},0.16)",
             "type": "color"
           },
           "press": {
-            "value": "rgba({system.content.primary},0.32)",
+            "value": "rgba({system.primary.background-variant-1},0.32)",
             "type": "color"
           },
           "disabled": {
-            "value": "rgba({system.content.primary},0.00)",
+            "value": "rgba({system.primary.background-variant-1},0.00)",
             "type": "color"
           }
         },
         "tonal": {
           "default": {
-            "value": "rgba({system.primary.on-tonal},0.00)",
+            "value": "rgba({system.secondary.on-muted},0.00)",
             "type": "color"
           },
           "hover": {
-            "value": "rgba({system.primary.on-tonal},0.08)",
+            "value": "rgba({system.secondary.on-muted},0.08)",
             "type": "color"
           },
           "press": {
-            "value": "rgba({system.primary.on-tonal},0.16)",
+            "value": "rgba({system.secondary.on-muted},0.16)",
             "type": "color"
           },
           "disabled": {
-            "value": "rgba({system.primary.on-tonal},0.00)",
+            "value": "rgba({system.secondary.on-muted},0.00)",
             "type": "color"
           }
         },
