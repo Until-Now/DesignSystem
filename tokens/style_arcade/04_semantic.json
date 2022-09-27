@@ -55,6 +55,12 @@
           }
         }
       }
+    },
+    "border-radius": {
+      "action": {
+        "value": "{border-radius.4}",
+        "type": "borderRadius"
+      }
     }
   }
 }
