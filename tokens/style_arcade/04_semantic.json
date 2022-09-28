@@ -69,6 +69,12 @@
         "value": "{border-radius.4}",
         "type": "borderRadius"
       }
+    },
+    "text-and-icons": {
+      "accent-on-dark": {
+        "value": "{system.secondary.inverse-secondary}",
+        "type": "color"
+      }
     }
   }
 }

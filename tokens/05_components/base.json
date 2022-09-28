@@ -138,7 +138,7 @@
             "type": "color"
           },
           "button-content": {
-            "value": "{semantic.content.accent-on-dark}",
+            "value": "{semantic.text-and-icons.accent-on-dark}",
             "type": "color"
           },
           "divider": {
@@ -319,7 +319,7 @@
         "colour": {
           "default": {
             "bg": {
-              "value": "{semantic.fg.primary.tonal.dark}",
+              "value": "{semantic.fg.accent.tonal.dark}",
               "type": "color"
             },
             "content": {
@@ -333,7 +333,7 @@
           },
           "hover": {
             "bg": {
-              "value": "{semantic.fg.primary.tonal.darker}",
+              "value": "{semantic.fg.accent.tonal.darker}",
               "type": "color"
             },
             "content": {

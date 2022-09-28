@@ -66,7 +66,7 @@
         "type": "color"
       },
       "tonal": {
-        "value": "{colour.secondary.100}",
+        "value": "{colour.secondary.200}",
         "type": "color",
         "description": "Secondary support colour"
       },
@@ -118,38 +118,6 @@
       },
       "disabled": {
         "value": "rgba({colour.neutral.500},{semantic.opacity.disabled})",
-        "type": "color"
-      },
-      "primary": {
-        "value": "rgba({system.primary.primary},{semantic.opacity.border.component})",
-        "type": "color"
-      },
-      "tonal-primary": {
-        "value": "rgba({system.primary.on-tonal},{semantic.opacity.border.component})",
-        "type": "color"
-      },
-      "tonal-secondary": {
-        "value": "rgba({system.secondary.on-tonal},{semantic.opacity.border.component})",
-        "type": "color"
-      },
-      "secondary": {
-        "value": "rgba({system.secondary.secondary},{semantic.opacity.border.component})",
-        "type": "color"
-      },
-      "error": {
-        "value": "rgba({system.error.on-background},{semantic.opacity.border.component})",
-        "type": "color"
-      },
-      "success": {
-        "value": "rgba({system.success.on-background},{semantic.opacity.border.component})",
-        "type": "color"
-      },
-      "warning": {
-        "value": "rgba({system.warning.on-background},{semantic.opacity.border.component})",
-        "type": "color"
-      },
-      "info": {
-        "value": "rgba({system.info.on-background},{semantic.opacity.border.component})",
         "type": "color"
       }
     },

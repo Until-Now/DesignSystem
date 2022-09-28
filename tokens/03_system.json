@@ -164,7 +164,7 @@
         "type": "color"
       },
       "tonal": {
-        "value": "{colour.secondary.100}",
+        "value": "{colour.secondary.200}",
         "type": "color",
         "description": "Secondary support colour"
       },
@@ -691,12 +691,12 @@
               "description": "Disabled action background state"
             },
             "content": {
-              "value": "{semantic.content.on-light.soft}",
+              "value": "{semantic.text-and-icons.on-light.soft}",
               "type": "color",
               "description": "Icons and text on disabled action"
             },
             "split": {
-              "value": "{semantic.content.on-light.soft}",
+              "value": "{semantic.text-and-icons.on-light.soft}",
               "type": "color",
               "description": "Split on disabled action"
             },
@@ -777,12 +777,12 @@
               "description": "Disabled action background state"
             },
             "content": {
-              "value": "{semantic.content.on-light.soft}",
+              "value": "{semantic.text-and-icons.on-light.soft}",
               "type": "color",
               "description": "Icons and text on disabled action"
             },
             "split": {
-              "value": "{semantic.content.on-light.soft}",
+              "value": "{semantic.text-and-icons.on-light.soft}",
               "type": "color",
               "description": "Split on disabled action"
             },
@@ -874,12 +874,12 @@
               "type": "color"
             },
             "content": {
-              "value": "{semantic.content.on-light.soft}",
+              "value": "{semantic.text-and-icons.on-light.soft}",
               "type": "color",
               "description": "Icons and text on disabled action"
             },
             "split": {
-              "value": "{semantic.content.on-light.soft}",
+              "value": "{semantic.text-and-icons.on-light.soft}",
               "type": "color",
               "description": "Split on disabled action"
             },
@@ -964,12 +964,12 @@
               "type": "color"
             },
             "content": {
-              "value": "{semantic.content.on-light.soft}",
+              "value": "{semantic.text-and-icons.on-light.soft}",
               "type": "color",
               "description": "Icons and text on disabled action"
             },
             "split": {
-              "value": "{semantic.content.on-light.soft}",
+              "value": "{semantic.text-and-icons.on-light.soft}",
               "type": "color",
               "description": "Split on disabled action"
             },
@@ -1006,13 +1006,13 @@
           "callout": {
             "default": {
               "background": {
-                "value": "{semantic.bg.neutral.secondary}",
+                "value": "{semantic.bg.alternate}",
                 "type": "color"
               }
             },
             "disabled": {
               "background": {
-                "value": "{semantic.bg.neutral.disabled}",
+                "value": "{semantic.bg.disabled}",
                 "type": "color"
               }
             }
@@ -1043,7 +1043,7 @@
           },
           "disabled": {
             "background": {
-              "value": "{semantic.bg.neutral.disabled}",
+              "value": "{semantic.bg.disabled}",
               "type": "color"
             }
           },
@@ -1054,19 +1054,19 @@
         },
         "content": {
           "strong": {
-            "value": "{semantic.content.on-light.strong}",
+            "value": "{semantic.text-and-icons.on-light.strong}",
             "type": "color"
           },
           "mid": {
-            "value": "{semantic.content.on-light.mid}",
+            "value": "{semantic.text-and-icons.on-light.mid}",
             "type": "color"
           },
           "soft": {
-            "value": "{semantic.content.on-light.soft}",
+            "value": "{semantic.text-and-icons.on-light.soft}",
             "type": "color"
           },
           "disabled": {
-            "value": "{semantic.content.on-light.soft}",
+            "value": "{semantic.text-and-icons.on-light.soft}",
             "type": "color"
           },
           "accent-on-light": {
@@ -1171,11 +1171,11 @@
             "type": "color"
           },
           "foreground": {
-            "value": "{semantic.fg.primary.fill.dark}",
+            "value": "{semantic.fg.accent.fill.dark}",
             "type": "color"
           },
           "foreground-accent": {
-            "value": "{semantic.fg.primary.tonal.dark}",
+            "value": "{semantic.fg.accent.tonal.dark}",
             "type": "color"
           }
         }
@@ -1329,29 +1329,29 @@
         "content": {
           "on-light": {
             "strong": {
-              "value": "{semantic.content.on-light.strong}",
+              "value": "{semantic.text-and-icons.on-light.strong}",
               "type": "color"
             },
             "mid": {
-              "value": "{semantic.content.on-light.mid}",
+              "value": "{semantic.text-and-icons.on-light.mid}",
               "type": "color"
             },
             "soft": {
-              "value": "{semantic.content.on-light.soft}",
+              "value": "{semantic.text-and-icons.on-light.soft}",
               "type": "color"
             }
           },
           "on-dark": {
             "strong": {
-              "value": "{semantic.content.on-dark.strong}",
+              "value": "{semantic.text-and-icons.on-dark.strong}",
               "type": "color"
             },
             "mid": {
-              "value": "{semantic.content.on-dark.mid}",
+              "value": "{semantic.text-and-icons.on-dark.mid}",
               "type": "color"
             },
             "soft": {
-              "value": "{semantic.content.on-dark.soft}",
+              "value": "{semantic.text-and-icons.on-dark.soft}",
               "type": "color"
             }
           }
@@ -1365,7 +1365,7 @@
               "type": "color"
             },
             "content": {
-              "value": "{semantic.content.on-dark.strong}",
+              "value": "{semantic.text-and-icons.on-dark.strong}",
               "type": "color"
             },
             "state": {
@@ -1379,7 +1379,7 @@
               "type": "color"
             },
             "content": {
-              "value": "{semantic.content.on-dark.strong}",
+              "value": "{semantic.text-and-icons.on-dark.strong}",
               "type": "color"
             },
             "state": {
@@ -1393,7 +1393,7 @@
               "type": "color"
             },
             "content": {
-              "value": "{semantic.content.on-dark.strong}",
+              "value": "{semantic.text-and-icons.on-dark.strong}",
               "type": "color"
             },
             "state": {

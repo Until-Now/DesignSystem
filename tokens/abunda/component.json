@@ -83,7 +83,7 @@
       },
       "content": {
         "link": {
-          "value": "{semantic.content.accent-on-light}",
+          "value": "{semantic.text-and-icons.accent-on-light}",
           "type": "color"
         }
       }
@@ -103,11 +103,11 @@
           "type": "color"
         },
         "hover": {
-          "value": "{semantic.fg.primary.tonal.normal}",
+          "value": "{semantic.fg.accent.tonal.normal}",
           "type": "color"
         },
         "press": {
-          "value": "{semantic.fg.primary.tonal.dark}",
+          "value": "{semantic.fg.accent.tonal.dark}",
           "type": "color"
         }
       }
@@ -235,20 +235,20 @@
     "chart": {
       "content": {
         "label": {
-          "value": "{semantic.content.on-light.strong}",
+          "value": "{semantic.text-and-icons.on-light.strong}",
           "type": "color"
         },
         "legend": {
-          "value": "{semantic.content.on-light.strong}",
+          "value": "{semantic.text-and-icons.on-light.strong}",
           "type": "color"
         },
         "title": {
-          "value": "{semantic.content.on-light.strong}",
+          "value": "{semantic.text-and-icons.on-light.strong}",
           "type": "color"
         }
       },
       "graph-frame": {
-        "value": "{semantic.bg.neutral.disabled}",
+        "value": "{semantic.bg.disabled}",
         "type": "color"
       },
       "data": {
@@ -303,19 +303,19 @@
         "generic": {
           "default": {
             "content-secondary": {
-              "value": "{semantic.content.on-dark.mid}",
+              "value": "{semantic.text-and-icons.on-dark.mid}",
               "type": "color"
             }
           },
           "hover": {
             "content-secondary": {
-              "value": "{semantic.content.on-dark.mid}",
+              "value": "{semantic.text-and-icons.on-dark.mid}",
               "type": "color"
             }
           },
           "press": {
             "content-secondary": {
-              "value": "{semantic.content.on-dark.mid}",
+              "value": "{semantic.text-and-icons.on-dark.mid}",
               "type": "color"
             }
           }

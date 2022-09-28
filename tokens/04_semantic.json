@@ -811,65 +811,47 @@
       }
     },
     "bg": {
-      "neutral": {
-        "primary": {
-          "value": "{system.neutral.background}",
-          "type": "color"
-        },
-        "secondary": {
-          "value": "{system.neutral.background-variant-2}",
-          "type": "color"
-        },
-        "subtle": {
-          "value": "{system.neutral.background-variant-1}",
-          "type": "color"
-        },
-        "inverse-primary": {
-          "value": "{system.neutral.inverse-background}",
-          "type": "color"
-        },
-        "disabled": {
-          "value": "{system.neutral.disabled}",
-          "type": "color"
-        }
+      "main": {
+        "value": "{system.neutral.background}",
+        "type": "color"
+      },
+      "alternate": {
+        "value": "{system.neutral.background-variant-2}",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "{system.neutral.background-variant-1}",
+        "type": "color"
+      },
+      "inverted": {
+        "value": "{system.neutral.inverse-background}",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "{system.neutral.disabled}",
+        "type": "color"
       },
       "accent": {
-        "primary": {
-          "light": {
-            "value": "{colour.primary.50}",
-            "type": "color"
-          },
-          "normal": {
-            "value": "{colour.primary.100}",
-            "type": "color"
-          },
-          "dark": {
-            "value": "{colour.primary.150}",
-            "type": "color"
-          }
+        "light": {
+          "value": "{system.secondary.background-variant-1}",
+          "type": "color"
         },
-        "secondary": {
-          "light": {
-            "value": "{colour.secondary.100}",
-            "type": "color"
-          },
-          "normal": {
-            "value": "{colour.secondary.150}",
-            "type": "color"
-          },
-          "dark": {
-            "value": "{colour.secondary.200}",
-            "type": "color"
-          }
+        "normal": {
+          "value": "{system.secondary.background-variant-2}",
+          "type": "color"
+        },
+        "dark": {
+          "value": "{system.secondary.tonal}",
+          "type": "color"
         }
       },
       "scrim": {
         "dark": {
-          "value": "rgba({colour.grayscale.black},0.5)",
+          "value": "rgba({system.scrim},0.5)",
           "type": "color"
         },
         "light": {
-          "value": "rgba({colour.grayscale.black},0.1)",
+          "value": "rgba({system.scrim},0.25)",
           "type": "color"
         }
       },
@@ -892,7 +874,7 @@
         }
       }
     },
-    "content": {
+    "text-and-icons": {
       "on-light": {
         "strong": {
           "value": "rgba({system.content.primary},{semantic.opacity.content.solid})",
@@ -948,7 +930,7 @@
     "fg": {
       "error": {
         "sf-200": {
-          "value": "{colour.error.500}",
+          "value": "{system.error.error}",
           "type": "color"
         },
         "sf-300": {
@@ -958,7 +940,7 @@
       },
       "success": {
         "sf-200": {
-          "value": "{colour.success.500}",
+          "value": "{system.success.success}",
           "type": "color"
         },
         "sf-300": {
@@ -968,7 +950,7 @@
       },
       "warning": {
         "sf-200": {
-          "value": "{colour.warning.500}",
+          "value": "{system.warning.warning}",
           "type": "color"
         },
         "sf-300": {
@@ -978,7 +960,7 @@
       },
       "info": {
         "sf-200": {
-          "value": "{colour.info.600}",
+          "value": "{system.info.info}",
           "type": "color"
         },
         "sf-300": {
@@ -986,7 +968,7 @@
           "type": "color"
         }
       },
-      "primary": {
+      "accent": {
         "tonal": {
           "normal": {
             "value": "{colour.primary.200}",
@@ -1013,11 +995,11 @@
           "darker": {
             "value": "{colour.primary.800}",
             "type": "color"
+          },
+          "darkest": {
+            "value": "{colour.primary.900}",
+            "type": "color"
           }
-        },
-        "darkest": {
-          "value": "{colour.primary.900}",
-          "type": "color"
         }
       }
     },
@@ -1125,6 +1107,12 @@
             "type": "typography"
           }
         }
+      }
+    },
+    "outline": {
+      "light": {
+        "value": "{system.outline.neutral-variant}",
+        "type": "color"
       }
     }
   },
