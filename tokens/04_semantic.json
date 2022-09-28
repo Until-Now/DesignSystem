@@ -812,16 +812,24 @@
     },
     "bg": {
       "neutral": {
-        "bg-primary": {
+        "primary": {
           "value": "{system.neutral.background}",
           "type": "color"
         },
-        "bg-secondary": {
+        "secondary": {
+          "value": "{system.neutral.background-variant-2}",
+          "type": "color"
+        },
+        "subtle": {
           "value": "{system.neutral.background-variant-1}",
           "type": "color"
         },
-        "bg-tertiary": {
-          "value": "{system.neutral.background-variant-2}",
+        "inverse-primary": {
+          "value": "{system.neutral.inverse-background}",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "{system.neutral.disabled}",
           "type": "color"
         }
       },
@@ -855,7 +863,7 @@
           }
         }
       },
-      "overlay": {
+      "scrim": {
         "dark": {
           "value": "rgba({colour.grayscale.black},0.5)",
           "type": "color"
@@ -920,7 +928,7 @@
         }
       },
       "accent-on-dark": {
-        "value": "{colour.primary.50}",
+        "value": "{system.primary.inverse-primary}",
         "type": "color"
       },
       "accent-on-light": {
@@ -938,28 +946,6 @@
       }
     },
     "fg": {
-      "neutral": {
-        "neutral-primary": {
-          "value": "{colour.grayscale.white}",
-          "type": "color"
-        },
-        "neutral-secondary": {
-          "value": "{colour.neutral.50}",
-          "type": "color"
-        },
-        "neutral-tertiary": {
-          "value": "{colour.neutral.100}",
-          "type": "color"
-        },
-        "neutral-dark": {
-          "value": "{colour.neutral.900}",
-          "type": "color"
-        },
-        "disabled": {
-          "value": "{system.colour.action.primary.disabled.background}",
-          "type": "color"
-        }
-      },
       "error": {
         "sf-200": {
           "value": "{colour.error.500}",

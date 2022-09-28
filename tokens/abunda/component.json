@@ -248,7 +248,7 @@
         }
       },
       "graph-frame": {
-        "value": "{semantic.fg.neutral.disabled}",
+        "value": "{semantic.bg.neutral.disabled}",
         "type": "color"
       },
       "data": {

@@ -1006,13 +1006,13 @@
           "callout": {
             "default": {
               "background": {
-                "value": "{semantic.bg.neutral.bg-tertiary}",
+                "value": "{semantic.bg.neutral.secondary}",
                 "type": "color"
               }
             },
             "disabled": {
               "background": {
-                "value": "{semantic.fg.neutral.disabled}",
+                "value": "{semantic.bg.neutral.disabled}",
                 "type": "color"
               }
             }
@@ -1043,7 +1043,7 @@
           },
           "disabled": {
             "background": {
-              "value": "{semantic.fg.neutral.disabled}",
+              "value": "{semantic.bg.neutral.disabled}",
               "type": "color"
             }
           },
