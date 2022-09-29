@@ -1081,74 +1081,80 @@
         "type": "lineHeights"
       },
       "factor": {
-        "value": "{factor.4}",
-        "type": "lineHeights"
+        "small": {
+          "value": "{factor.4}",
+          "type": "lineHeights"
+        },
+        "large": {
+          "value": "{factor.8}",
+          "type": "lineHeights"
+        }
       }
     },
     "sans-serif": {
       "lg": {
         "display": {
-          "value": "ceil(roundTo({font-size.sans-serif.lg.display}*{line-height.scale.display},0)/{line-height.scale.factor})*{line-height.scale.factor}",
+          "value": "ceil(roundTo({font-size.sans-serif.lg.display}*{line-height.scale.display},0)/{line-height.scale.factor.small})*{line-height.scale.factor.small}",
           "type": "lineHeights"
         },
         "headline": {
-          "value": "ceil(roundTo({font-size.sans-serif.lg.headline}*{line-height.scale.headline},0)/{line-height.scale.factor})*{line-height.scale.factor}",
+          "value": "ceil(roundTo({font-size.sans-serif.lg.headline}*{line-height.scale.headline},0)/{line-height.scale.factor.small})*{line-height.scale.factor.small}",
           "type": "lineHeights"
         },
         "title": {
-          "value": "ceil(roundTo({font-size.sans-serif.lg.title}*{line-height.scale.title},0)/{line-height.scale.factor})*{line-height.scale.factor}",
+          "value": "ceil(roundTo({font-size.sans-serif.lg.title}*{line-height.scale.title},0)/{line-height.scale.factor.small})*{line-height.scale.factor.small}",
           "type": "lineHeights"
         },
         "body": {
-          "value": "ceil(roundTo({font-size.sans-serif.lg.body}*{line-height.scale.body},0)/{line-height.scale.factor})*{line-height.scale.factor}",
+          "value": "ceil(roundTo({font-size.sans-serif.lg.body}*{line-height.scale.body},0)/{line-height.scale.factor.small})*{line-height.scale.factor.small}",
           "type": "lineHeights"
         },
         "caption": {
-          "value": "ceil(roundTo({font-size.sans-serif.lg.caption}*{line-height.scale.caption},0)/{line-height.scale.factor})*{line-height.scale.factor}",
+          "value": "ceil(roundTo({font-size.sans-serif.lg.caption}*{line-height.scale.caption},0)/{line-height.scale.factor.large})*{line-height.scale.factor.large}",
           "type": "lineHeights"
         }
       },
       "md": {
         "display": {
-          "value": "ceil(roundTo({font-size.sans-serif.md.display}*{line-height.scale.display},0)/{line-height.scale.factor})*{line-height.scale.factor}",
+          "value": "ceil(roundTo({font-size.sans-serif.md.display}*{line-height.scale.display},0)/{line-height.scale.factor.small})*{line-height.scale.factor.small}",
           "type": "lineHeights"
         },
         "headline": {
-          "value": "ceil(roundTo({font-size.sans-serif.md.headline}*{line-height.scale.headline},0)/{line-height.scale.factor})*{line-height.scale.factor}",
+          "value": "ceil(roundTo({font-size.sans-serif.md.headline}*{line-height.scale.headline},0)/{line-height.scale.factor.small})*{line-height.scale.factor.small}",
           "type": "lineHeights"
         },
         "title": {
-          "value": "ceil(roundTo({font-size.sans-serif.md.title}*{line-height.scale.title},0)/{line-height.scale.factor})*{line-height.scale.factor}",
+          "value": "ceil(roundTo({font-size.sans-serif.md.title}*{line-height.scale.title},0)/{line-height.scale.factor.small})*{line-height.scale.factor.small}",
           "type": "lineHeights"
         },
         "body": {
-          "value": "ceil(roundTo({font-size.sans-serif.md.body}*{line-height.scale.body},0)/{line-height.scale.factor})*{line-height.scale.factor}",
+          "value": "ceil(roundTo({font-size.sans-serif.md.body}*{line-height.scale.body},0)/{line-height.scale.factor.small})*{line-height.scale.factor.small}",
           "type": "lineHeights"
         },
         "caption": {
-          "value": "ceil(roundTo({font-size.sans-serif.md.caption}*{line-height.scale.caption},0)/{line-height.scale.factor})*{line-height.scale.factor}",
+          "value": "ceil(roundTo({font-size.sans-serif.md.caption}*{line-height.scale.caption},0)/{line-height.scale.factor.large})*{line-height.scale.factor.large}",
           "type": "lineHeights"
         }
       },
       "sm": {
         "display": {
-          "value": "ceil(roundTo({font-size.sans-serif.sm.display}*{line-height.scale.display},0)/{line-height.scale.factor})*{line-height.scale.factor}",
+          "value": "ceil(roundTo({font-size.sans-serif.sm.display}*{line-height.scale.display},0)/{line-height.scale.factor.small})*{line-height.scale.factor.small}",
           "type": "lineHeights"
         },
         "headline": {
-          "value": "ceil(roundTo({font-size.sans-serif.sm.headline}*{line-height.scale.headline},0)/{line-height.scale.factor})*{line-height.scale.factor}",
+          "value": "ceil(roundTo({font-size.sans-serif.sm.headline}*{line-height.scale.headline},0)/{line-height.scale.factor.small})*{line-height.scale.factor.small}",
           "type": "lineHeights"
         },
         "title": {
-          "value": "ceil(roundTo({font-size.sans-serif.sm.title}*{line-height.scale.title},0)/{line-height.scale.factor})*{line-height.scale.factor}",
+          "value": "ceil(roundTo({font-size.sans-serif.sm.title}*{line-height.scale.title},0)/{line-height.scale.factor.small})*{line-height.scale.factor.small}",
           "type": "lineHeights"
         },
         "body": {
-          "value": "ceil(roundTo({font-size.sans-serif.sm.body}*{line-height.scale.body},0)/{line-height.scale.factor})*{line-height.scale.factor}",
+          "value": "ceil(roundTo({font-size.sans-serif.sm.body}*{line-height.scale.body},0)/{line-height.scale.factor.small})*{line-height.scale.factor.small}",
           "type": "lineHeights"
         },
         "caption": {
-          "value": "ceil(roundTo({font-size.sans-serif.sm.caption}*{line-height.scale.caption},0)/{line-height.scale.factor})*{line-height.scale.factor}",
+          "value": "ceil(roundTo({font-size.sans-serif.sm.caption}*{line-height.scale.caption},0)/{line-height.scale.factor.small})*{line-height.scale.factor.small}",
           "type": "lineHeights"
         }
       }
@@ -1156,67 +1162,67 @@
     "serif": {
       "lg": {
         "display": {
-          "value": "ceil(roundTo({font-size.serif.lg.display}*{line-height.scale.display},0)/{line-height.scale.factor})*{line-height.scale.factor}",
+          "value": "ceil(roundTo({font-size.serif.lg.display}*{line-height.scale.display},0)/{line-height.scale.factor.small})*{line-height.scale.factor.small}",
           "type": "lineHeights"
         },
         "headline": {
-          "value": "ceil(roundTo({font-size.serif.lg.headline}*{line-height.scale.headline},0)/{line-height.scale.factor})*{line-height.scale.factor}",
+          "value": "ceil(roundTo({font-size.serif.lg.headline}*{line-height.scale.headline},0)/{line-height.scale.factor.small})*{line-height.scale.factor.small}",
           "type": "lineHeights"
         },
         "title": {
-          "value": "ceil(roundTo({font-size.serif.lg.title}*{line-height.scale.title},0)/{line-height.scale.factor})*{line-height.scale.factor}",
+          "value": "ceil(roundTo({font-size.serif.lg.title}*{line-height.scale.title},0)/{line-height.scale.factor.small})*{line-height.scale.factor.small}",
           "type": "lineHeights"
         },
         "body": {
-          "value": "ceil(roundTo({font-size.serif.lg.body}*{line-height.scale.body},0)/{line-height.scale.factor})*{line-height.scale.factor}",
+          "value": "ceil(roundTo({font-size.serif.lg.body}*{line-height.scale.body},0)/{line-height.scale.factor.small})*{line-height.scale.factor.small}",
           "type": "lineHeights"
         },
         "caption": {
-          "value": "ceil(roundTo({font-size.serif.lg.caption}*{line-height.scale.caption},0)/{line-height.scale.factor})*{line-height.scale.factor}",
+          "value": "ceil(roundTo({font-size.serif.lg.caption}*{line-height.scale.caption},0)/{line-height.scale.factor.large})*{line-height.scale.factor.large}",
           "type": "lineHeights"
         }
       },
       "md": {
         "display": {
-          "value": "ceil(roundTo({font-size.serif.md.display}*{line-height.scale.display},0)/{line-height.scale.factor})*{line-height.scale.factor}",
+          "value": "ceil(roundTo({font-size.serif.md.display}*{line-height.scale.display},0)/{line-height.scale.factor.small})*{line-height.scale.factor.small}",
           "type": "lineHeights"
         },
         "headline": {
-          "value": "ceil(roundTo({font-size.serif.md.headline}*{line-height.scale.headline},0)/{line-height.scale.factor})*{line-height.scale.factor}",
+          "value": "ceil(roundTo({font-size.serif.md.headline}*{line-height.scale.headline},0)/{line-height.scale.factor.small})*{line-height.scale.factor.small}",
           "type": "lineHeights"
         },
         "title": {
-          "value": "ceil(roundTo({font-size.serif.md.title}*{line-height.scale.title},0)/{line-height.scale.factor})*{line-height.scale.factor}",
+          "value": "ceil(roundTo({font-size.serif.md.title}*{line-height.scale.title},0)/{line-height.scale.factor.small})*{line-height.scale.factor.small}",
           "type": "lineHeights"
         },
         "body": {
-          "value": "ceil(roundTo({font-size.serif.md.body}*{line-height.scale.body},0)/{line-height.scale.factor})*{line-height.scale.factor}",
+          "value": "ceil(roundTo({font-size.serif.md.body}*{line-height.scale.body},0)/{line-height.scale.factor.small})*{line-height.scale.factor.small}",
           "type": "lineHeights"
         },
         "caption": {
-          "value": "ceil(roundTo({font-size.serif.md.caption}*{line-height.scale.caption},0)/{line-height.scale.factor})*{line-height.scale.factor}",
+          "value": "ceil(roundTo({font-size.serif.md.caption}*{line-height.scale.caption},0)/{line-height.scale.factor.large})*{line-height.scale.factor.large}",
           "type": "lineHeights"
         }
       },
       "sm": {
         "display": {
-          "value": "ceil(roundTo({font-size.serif.sm.display}*{line-height.scale.display},0)/{line-height.scale.factor})*{line-height.scale.factor}",
+          "value": "ceil(roundTo({font-size.serif.sm.display}*{line-height.scale.display},0)/{line-height.scale.factor.small})*{line-height.scale.factor.small}",
           "type": "lineHeights"
         },
         "headline": {
-          "value": "ceil(roundTo({font-size.serif.sm.headline}*{line-height.scale.headline},0)/{line-height.scale.factor})*{line-height.scale.factor}",
+          "value": "ceil(roundTo({font-size.serif.sm.headline}*{line-height.scale.headline},0)/{line-height.scale.factor.small})*{line-height.scale.factor.small}",
           "type": "lineHeights"
         },
         "title": {
-          "value": "ceil(roundTo({font-size.serif.sm.title}*{line-height.scale.title},0)/{line-height.scale.factor})*{line-height.scale.factor}",
+          "value": "ceil(roundTo({font-size.serif.sm.title}*{line-height.scale.title},0)/{line-height.scale.factor.small})*{line-height.scale.factor.small}",
           "type": "lineHeights"
         },
         "body": {
-          "value": "ceil(roundTo({font-size.serif.sm.body}*{line-height.scale.body},0)/{line-height.scale.factor})*{line-height.scale.factor}",
+          "value": "ceil(roundTo({font-size.serif.sm.body}*{line-height.scale.body},0)/{line-height.scale.factor.small})*{line-height.scale.factor.small}",
           "type": "lineHeights"
         },
         "caption": {
-          "value": "ceil(roundTo({font-size.serif.sm.caption}*{line-height.scale.caption},0)/{line-height.scale.factor})*{line-height.scale.factor}",
+          "value": "ceil(roundTo({font-size.serif.sm.caption}*{line-height.scale.caption},0)/{line-height.scale.factor.small})*{line-height.scale.factor.small}",
           "type": "lineHeights"
         }
       }

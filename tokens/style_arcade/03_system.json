@@ -378,6 +378,20 @@
             }
           }
         }
+      },
+      "inputs": {
+        "hover": {
+          "state": {
+            "value": "{system.secondary.background-variant-1}",
+            "type": "color"
+          }
+        },
+        "press": {
+          "state": {
+            "value": "{system.secondary.background-variant-2}",
+            "type": "color"
+          }
+        }
       }
     }
   }
