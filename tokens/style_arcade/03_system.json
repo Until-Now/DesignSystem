@@ -340,6 +340,42 @@
               "value": "{system.state-surface.primary.tonal.default}",
               "type": "color"
             }
+          },
+          "hover": {
+            "background": {
+              "value": "{system.primary.tonal}",
+              "type": "color"
+            },
+            "content": {
+              "value": "{system.primary.on-tonal}",
+              "type": "color"
+            },
+            "split": {
+              "value": "{system.primary.on-tonal}",
+              "type": "color"
+            },
+            "state": {
+              "value": "{system.state-surface.primary.tonal.hover}",
+              "type": "color"
+            }
+          },
+          "press": {
+            "background": {
+              "value": "{system.primary.tonal}",
+              "type": "color"
+            },
+            "content": {
+              "value": "{system.primary.on-tonal}",
+              "type": "color"
+            },
+            "split": {
+              "value": "{system.primary.on-tonal}",
+              "type": "color"
+            },
+            "state": {
+              "value": "{system.state-surface.primary.tonal.press}",
+              "type": "color"
+            }
           }
         }
       }
