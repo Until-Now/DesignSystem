@@ -928,43 +928,37 @@
       }
     },
     "fg": {
-      "error": {
-        "sf-200": {
+      "status": {
+        "error-normal": {
           "value": "{system.error.error}",
           "type": "color"
         },
-        "sf-300": {
-          "value": "{colour.error.700}",
+        "error-dark": {
+          "value": "{system.error.on-background}",
           "type": "color"
-        }
-      },
-      "success": {
-        "sf-200": {
+        },
+        "success-normal": {
           "value": "{system.success.success}",
           "type": "color"
         },
-        "sf-300": {
-          "value": "{colour.success.600}",
+        "success-dark": {
+          "value": "{system.success.on-background}",
           "type": "color"
-        }
-      },
-      "warning": {
-        "sf-200": {
+        },
+        "warning-normal": {
           "value": "{system.warning.warning}",
           "type": "color"
         },
-        "sf-300": {
-          "value": "{colour.warning.700}",
+        "warning-dark": {
+          "value": "{system.warning.on-background}",
           "type": "color"
-        }
-      },
-      "info": {
-        "sf-200": {
+        },
+        "info-normal": {
           "value": "{system.info.info}",
           "type": "color"
         },
-        "sf-300": {
-          "value": "{colour.info.700}",
+        "info-dark": {
+          "value": "{system.info.on-background}",
           "type": "color"
         }
       },
@@ -1112,6 +1106,10 @@
     "outline": {
       "light": {
         "value": "{system.outline.neutral-variant}",
+        "type": "color"
+      },
+      "dark": {
+        "value": "{system.outline.neutral}",
         "type": "color"
       }
     }
