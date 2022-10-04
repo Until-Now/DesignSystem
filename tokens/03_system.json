@@ -1006,13 +1006,13 @@
           "callout": {
             "default": {
               "background": {
-                "value": "{semantic.bg.alternate}",
+                "value": "{system.secondary.background-variant-2}",
                 "type": "color"
               }
             },
             "disabled": {
               "background": {
-                "value": "{semantic.bg.disabled}",
+                "value": "{system.neutral.disabled}",
                 "type": "color"
               }
             }
@@ -2141,6 +2141,10 @@
     },
     "12": {
       "value": "12",
+      "type": "sizing"
+    },
+    "14": {
+      "value": "14",
       "type": "sizing"
     },
     "16": {

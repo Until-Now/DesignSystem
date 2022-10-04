@@ -31,11 +31,11 @@
               "type": "spacing"
             },
             "padding-top": {
-              "value": "{space.8}",
+              "value": "{semantic.spacing.input.small.padding-top}",
               "type": "spacing"
             },
             "padding-bottom": {
-              "value": "{space.8}",
+              "value": "{semantic.spacing.input.small.padding-bot}",
               "type": "spacing"
             }
           },
@@ -351,11 +351,11 @@
               "type": "spacing"
             },
             "padding-top": {
-              "value": "{space.12}",
+              "value": "{semantic.spacing.input.medium.padding-top}",
               "type": "spacing"
             },
             "padding-bottom": {
-              "value": "{space.12}",
+              "value": "{semantic.spacing.input.medium.padding-bot}",
               "type": "spacing"
             }
           },

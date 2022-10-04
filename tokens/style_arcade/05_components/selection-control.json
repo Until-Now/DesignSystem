@@ -1,0 +1,66 @@
+{
+  "comp": {
+    "selection-control": {
+      "switch": {
+        "spacing": {
+          "callout": {
+            "padding-top": {
+              "value": "{semantic.spacing.input.medium.padding-top}",
+              "type": "spacing"
+            },
+            "padding-bottom": {
+              "value": "{semantic.spacing.input.medium.padding-bot}",
+              "type": "spacing"
+            }
+          }
+        }
+      },
+      "radio-and-checkbox": {
+        "colour": {
+          "active": {
+            "default": {
+              "bg": {
+                "value": "{system.primary.on-tonal}",
+                "type": "color"
+              },
+              "control": {
+                "value": "{system.primary.tonal}",
+                "type": "color"
+              }
+            },
+            "hover": {
+              "bg": {
+                "value": "{system.primary.on-tonal}",
+                "type": "color"
+              },
+              "control": {
+                "value": "{system.primary.tonal}",
+                "type": "color"
+              }
+            },
+            "error": {
+              "bg": {
+                "value": "{system.primary.on-tonal}",
+                "type": "color"
+              },
+              "control": {
+                "value": "{system.primary.tonal}",
+                "type": "color"
+              }
+            },
+            "disabled": {
+              "bg": {
+                "value": "{system.primary.tonal}",
+                "type": "color"
+              },
+              "control": {
+                "value": "{system.primary.tonal}",
+                "type": "color"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
