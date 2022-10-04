@@ -99,6 +99,36 @@
             "value": "{size.28}",
             "type": "sizing"
           }
+        },
+        "switch": {
+          "track": {
+            "height": {
+              "value": "{size.32}",
+              "type": "sizing"
+            },
+            "width": {
+              "value": "{size.44}",
+              "type": "sizing"
+            }
+          },
+          "handle": {
+            "value": "{size.28}",
+            "type": "sizing"
+          },
+          "icon": {
+            "value": "{size.20}",
+            "type": "sizing"
+          }
+        },
+        "radio-and-checkbox": {
+          "toggle": {
+            "value": "{size.20}",
+            "type": "sizing"
+          },
+          "icon": {
+            "value": "{size.24}",
+            "type": "sizing"
+          }
         }
       },
       "feedback": {

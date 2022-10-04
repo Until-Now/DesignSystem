@@ -19,6 +19,22 @@
         "medium": {
           "value": "{semantic.component.sm}",
           "type": "sizing"
+        },
+        "switch": {
+          "track": {
+            "height": {
+              "value": "{size.28}",
+              "type": "sizing"
+            },
+            "width": {
+              "value": "{size.48}",
+              "type": "sizing"
+            }
+          },
+          "handle": {
+            "value": "{size.24}",
+            "type": "sizing"
+          }
         }
       }
     },

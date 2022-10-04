@@ -4,19 +4,19 @@
       "switch": {
         "size": {
           "width": {
-            "value": "{size.44}",
+            "value": "{semantic.size.input.switch.track.width}",
             "type": "sizing"
           },
           "height": {
-            "value": "{size.32}",
+            "value": "{semantic.size.input.switch.track.height}",
             "type": "sizing"
           },
           "toggle": {
-            "value": "{size.28}",
+            "value": "{semantic.size.input.switch.handle}",
             "type": "sizing"
           },
           "icon": {
-            "value": "{size.20}",
+            "value": "{semantic.size.input.switch.icon}",
             "type": "sizing"
           }
         },
@@ -309,16 +309,34 @@
             "value": "{semantic.border.width.medium}",
             "type": "borderWidth"
           }
+        },
+        "text": {
+          "padding-left": {
+            "value": "{semantic.spacing.input.text.padding-left}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{semantic.spacing.input.text.padding-right}",
+            "type": "spacing"
+          },
+          "padding-top": {
+            "value": "{semantic.spacing.input.text.padding-top}",
+            "type": "spacing"
+          },
+          "padding-bot": {
+            "value": "{semantic.spacing.input.text.padding-bot}",
+            "type": "spacing"
+          }
         }
       },
       "radio-and-checkbox": {
         "size": {
           "control": {
-            "value": "{size.20}",
+            "value": "{semantic.size.input.radio-and-checkbox.toggle}",
             "type": "sizing"
           },
           "icon": {
-            "value": "{size.24}",
+            "value": "{semantic.size.input.radio-and-checkbox.icon}",
             "type": "sizing"
           }
         },
@@ -350,6 +368,24 @@
           "elements": {
             "space-between": {
               "value": "{semantic.spacing.input.elements.space-between}",
+              "type": "spacing"
+            }
+          },
+          "text": {
+            "padding-left": {
+              "value": "{semantic.spacing.input.text.padding-left}",
+              "type": "spacing"
+            },
+            "padding-right": {
+              "value": "{semantic.spacing.input.text.padding-right}",
+              "type": "spacing"
+            },
+            "padding-top": {
+              "value": "{semantic.spacing.input.text.padding-top}",
+              "type": "spacing"
+            },
+            "padding-bot": {
+              "value": "{semantic.spacing.input.text.padding-bot}",
               "type": "spacing"
             }
           }
