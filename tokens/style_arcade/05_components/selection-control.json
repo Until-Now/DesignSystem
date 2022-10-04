@@ -47,16 +47,6 @@
                 "value": "{system.primary.tonal}",
                 "type": "color"
               }
-            },
-            "disabled": {
-              "bg": {
-                "value": "{system.primary.tonal}",
-                "type": "color"
-              },
-              "control": {
-                "value": "{system.primary.tonal}",
-                "type": "color"
-              }
             }
           }
         }

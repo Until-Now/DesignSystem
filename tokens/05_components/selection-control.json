@@ -85,6 +85,10 @@
             "state": {
               "type": "color",
               "value": "{system.state-surface.primary.primary.default}"
+            },
+            "outline": {
+              "value": "{system.colour.inputs.selection.outline}",
+              "type": "color"
             }
           },
           "hover": {
@@ -107,6 +111,10 @@
             "state": {
               "type": "color",
               "value": "{system.state-surface.primary.primary.hover}"
+            },
+            "outline": {
+              "value": "{system.colour.inputs.selection.outline}",
+              "type": "color"
             }
           },
           "press": {
@@ -129,6 +137,10 @@
             "state": {
               "type": "color",
               "value": "{system.state-surface.primary.primary.press}"
+            },
+            "outline": {
+              "value": "{system.colour.inputs.selection.outline}",
+              "type": "color"
             }
           },
           "error": {
@@ -294,10 +306,6 @@
                 "value": "{system.state-surface.neutral.darker.disabled}"
               }
             }
-          },
-          "outline": {
-            "value": "{system.colour.inputs.selection.outline}",
-            "type": "color"
           }
         },
         "border-width": {
@@ -326,6 +334,12 @@
           "padding-bot": {
             "value": "{semantic.spacing.input.text.padding-bot}",
             "type": "spacing"
+          }
+        },
+        "toggle": {
+          "elevation": {
+            "value": "{elevation.100}",
+            "type": "boxShadow"
           }
         }
       },
