@@ -75,6 +75,14 @@
         "value": "{system.secondary.inverse-secondary}",
         "type": "color"
       }
+    },
+    "component": {
+      "text": {
+        "padding-top": {
+          "value": "{space.1}",
+          "type": "spacing"
+        }
+      }
     }
   }
 }

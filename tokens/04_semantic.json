@@ -24,6 +24,24 @@
       "x-lg": {
         "value": "{size.64}",
         "type": "sizing"
+      },
+      "text": {
+        "padding-left": {
+          "value": "{space.4}",
+          "type": "spacing"
+        },
+        "padding-right": {
+          "value": "{space.4}",
+          "type": "spacing"
+        },
+        "padding-top": {
+          "value": "{space.0}",
+          "type": "spacing"
+        },
+        "padding-bot": {
+          "value": "{space.0}",
+          "type": "spacing"
+        }
       }
     },
     "size": {
@@ -284,11 +302,19 @@
         },
         "text": {
           "padding-left": {
-            "value": "{space.4}",
+            "value": "{semantic.component.text.padding-left}",
             "type": "spacing"
           },
           "padding-right": {
-            "value": "{space.4}",
+            "value": "{semantic.component.text.padding-right}",
+            "type": "spacing"
+          },
+          "padding-top": {
+            "value": "{semantic.component.text.padding-top}",
+            "type": "spacing"
+          },
+          "padding-bot": {
+            "value": "{semantic.component.text.padding-bot}",
             "type": "spacing"
           }
         },
@@ -354,11 +380,19 @@
         },
         "text": {
           "padding-left": {
-            "value": "{space.4}",
+            "value": "{semantic.component.text.padding-left}",
             "type": "spacing"
           },
           "padding-right": {
-            "value": "{space.4}",
+            "value": "{semantic.component.text.padding-right}",
+            "type": "spacing"
+          },
+          "padding-top": {
+            "value": "{semantic.component.text.padding-top}",
+            "type": "spacing"
+          },
+          "padding-bot": {
+            "value": "{semantic.component.text.padding-bot}",
             "type": "spacing"
           }
         },
@@ -482,11 +516,19 @@
         },
         "text": {
           "padding-left": {
-            "value": "{space.4}",
+            "value": "{semantic.component.text.padding-left}",
             "type": "spacing"
           },
           "padding-right": {
-            "value": "{space.4}",
+            "value": "{semantic.component.text.padding-right}",
+            "type": "spacing"
+          },
+          "padding-top": {
+            "value": "{semantic.component.text.padding-top}",
+            "type": "spacing"
+          },
+          "padding-bot": {
+            "value": "{semantic.component.text.padding-bot}",
             "type": "spacing"
           }
         },
