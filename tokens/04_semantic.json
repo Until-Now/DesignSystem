@@ -1215,7 +1215,7 @@
           "blur": "10",
           "spread": "0",
           "color": "rgba({system.shadow},0.04)",
-          "type": "innerShadow"
+          "type": "dropShadow"
         }
       ],
       "type": "boxShadow"

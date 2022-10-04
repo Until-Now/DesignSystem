@@ -326,23 +326,23 @@
   "font-family": {
     "sans-serif": {
       "display": {
-        "value": "Graphik",
+        "value": "Object Sans",
         "type": "fontFamilies"
       },
       "headline": {
-        "value": "Graphik",
-        "type": "fontFamilies"
-      },
-      "body": {
-        "value": "Graphik",
+        "value": "Object Sans",
         "type": "fontFamilies"
       },
       "title": {
-        "value": "Graphik",
+        "value": "Object Sans",
+        "type": "fontFamilies"
+      },
+      "body": {
+        "value": "Object Sans",
         "type": "fontFamilies"
       },
       "caption": {
-        "value": "Graphik",
+        "value": "Object Sans",
         "type": "fontFamilies"
       }
     }
