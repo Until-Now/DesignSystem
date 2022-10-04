@@ -62,6 +62,26 @@
             "type": "spacing"
           }
         }
+      },
+      "input": {
+        "small": {
+          "padding-top": {
+            "value": "{space.7}",
+            "type": "spacing"
+          }
+        },
+        "medium": {
+          "padding-top": {
+            "value": "{space.11}",
+            "type": "spacing"
+          }
+        },
+        "large": {
+          "padding-top": {
+            "value": "{space.15}",
+            "type": "spacing"
+          }
+        }
       }
     },
     "border-radius": {

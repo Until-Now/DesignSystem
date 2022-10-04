@@ -58,6 +58,14 @@
           "padding-right": {
             "value": "{semantic.spacing.input.text.padding-right}",
             "type": "spacing"
+          },
+          "padding-top": {
+            "value": "{semantic.spacing.input.text.padding-top}",
+            "type": "spacing"
+          },
+          "padding-bot": {
+            "value": "{semantic.spacing.input.text.padding-bot}",
+            "type": "spacing"
           }
         },
         "content": {
