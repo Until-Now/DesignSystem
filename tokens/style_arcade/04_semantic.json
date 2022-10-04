@@ -66,19 +66,19 @@
       "input": {
         "small": {
           "padding-top": {
-            "value": "{space.7}",
+            "value": "{space.6}",
             "type": "spacing"
           }
         },
         "medium": {
           "padding-top": {
-            "value": "{space.11}",
+            "value": "{space.10}",
             "type": "spacing"
           }
         },
         "large": {
           "padding-top": {
-            "value": "{space.15}",
+            "value": "{space.14}",
             "type": "spacing"
           }
         }
@@ -99,7 +99,7 @@
     "component": {
       "text": {
         "padding-top": {
-          "value": "{space.1}",
+          "value": "{space.2}",
           "type": "spacing"
         }
       }
