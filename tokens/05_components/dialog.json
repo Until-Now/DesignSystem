@@ -56,6 +56,10 @@
           "space-between": {
             "value": "{semantic.spacing.feedback.ui-dialog.content-spacing.body}",
             "type": "spacing"
+          },
+          "space-between-fixed": {
+            "value": "{semantic.spacing.feedback.ui-dialog.content-spacing.body-fixed}",
+            "type": "spacing"
           }
         },
         "content": {
@@ -69,23 +73,37 @@
         "background": {
           "value": "{system.neutral.background}",
           "type": "color"
+        },
+        "text": {
+          "strong": {
+            "value": "{semantic.text-and-icons.on-light.strong}",
+            "type": "color"
+          },
+          "mid": {
+            "value": "{semantic.text-and-icons.on-light.mid}",
+            "type": "color"
+          },
+          "soft": {
+            "value": "{semantic.text-and-icons.on-light.soft}",
+            "type": "color"
+          }
         }
       },
       "border-radius": {
         "top-left": {
-          "value": "{border-radius.8}",
+          "value": "{semantic.border-radius.ui-dialog}",
           "type": "borderRadius"
         },
         "top-right": {
-          "value": "{border-radius.8}",
+          "value": "{semantic.border-radius.ui-dialog}",
           "type": "borderRadius"
         },
         "bottom-left": {
-          "value": "{border-radius.8}",
+          "value": "{semantic.border-radius.ui-dialog}",
           "type": "borderRadius"
         },
         "bottom-right": {
-          "value": "{border-radius.8}",
+          "value": "{semantic.border-radius.ui-dialog}",
           "type": "borderRadius"
         }
       },

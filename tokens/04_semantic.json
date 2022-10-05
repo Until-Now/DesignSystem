@@ -506,6 +506,10 @@
               "value": "{space.40}",
               "type": "spacing"
             },
+            "body-fixed": {
+              "value": "Auto",
+              "type": "spacing"
+            },
             "text": {
               "value": "{space.16}",
               "type": "spacing"
@@ -870,23 +874,23 @@
     },
     "border-radius": {
       "action": {
-        "value": "{border-radius.8}",
+        "value": "{semantic.border.radius.large}",
         "type": "borderRadius"
       },
       "input": {
-        "value": "{border-radius.4}",
+        "value": "{semantic.border.radius.medium}",
         "type": "borderRadius"
       },
       "status": {
-        "value": "{border-radius.100}",
+        "value": "{semantic.border.radius.round}",
         "type": "borderRadius"
       },
       "feedback": {
-        "value": "{border-radius.8}",
+        "value": "{semantic.border.radius.large}",
         "type": "borderRadius"
       },
       "ui-dialog": {
-        "value": "{border-radius.16}",
+        "value": "{semantic.border.radius.x-large}",
         "type": "borderRadius"
       }
     },
