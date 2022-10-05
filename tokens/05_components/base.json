@@ -178,32 +178,6 @@
         }
       }
     },
-    "dialog": {
-      "colour": {
-        "bg": {
-          "value": "{system.colour.feedback.neutral.background}",
-          "type": "color"
-        }
-      },
-      "border-radius": {
-        "top-left": {
-          "value": "{border-radius.8}",
-          "type": "borderRadius"
-        },
-        "top-right": {
-          "value": "{border-radius.8}",
-          "type": "borderRadius"
-        },
-        "bot-left": {
-          "value": "{border-radius.8}",
-          "type": "borderRadius"
-        },
-        "bot-right": {
-          "value": "{border-radius.8}",
-          "type": "borderRadius"
-        }
-      }
-    },
     "chip": {
       "type": {
         "sm": {

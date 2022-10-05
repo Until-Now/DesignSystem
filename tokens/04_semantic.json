@@ -502,12 +502,20 @@
             "type": "spacing"
           },
           "content-spacing": {
-            "padding-top": {
+            "body": {
+              "value": "{space.40}",
+              "type": "spacing"
+            },
+            "text": {
+              "value": "{space.16}",
+              "type": "spacing"
+            },
+            "buttons-primary": {
               "value": "{space.8}",
               "type": "spacing"
             },
-            "padding-bottom": {
-              "value": "{space.8}",
+            "buttons-secondary": {
+              "value": "{space.16}",
               "type": "spacing"
             }
           }

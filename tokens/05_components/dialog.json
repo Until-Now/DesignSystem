@@ -26,59 +26,73 @@
         }
       },
       "spacing": {
-        "header": {
-          "padding-left": {
+        "cta": {
+          "space-between-main": {
             "type": "spacing",
-            "value": "{semantic.spacing.feedback.ui-dialog.padding-left}"
+            "value": "{semantic.spacing.feedback.ui-dialog.content-spacing.buttons-primary}"
           },
-          "padding-right": {
+          "space-between-secondary": {
             "type": "spacing",
-            "value": "{semantic.spacing.feedback.ui-dialog.padding-right}"
-          },
-          "padding-top": {
-            "type": "spacing",
-            "value": "{semantic.spacing.feedback.ui-dialog.padding-top}"
-          },
-          "padding-bottom": {
-            "type": "spacing",
-            "value": "{semantic.spacing.feedback.ui-dialog.content-spacing.padding-bottom}"
+            "value": "{semantic.spacing.feedback.ui-dialog.content-spacing.buttons-secondary}"
           }
         },
         "body": {
           "padding-left": {
-            "type": "spacing",
-            "value": "{semantic.spacing.feedback.ui-dialog.padding-left}"
+            "value": "{semantic.spacing.feedback.ui-dialog.padding-left}",
+            "type": "spacing"
           },
           "padding-right": {
-            "type": "spacing",
-            "value": "{semantic.spacing.feedback.ui-dialog.padding-right}"
+            "value": "{semantic.spacing.feedback.ui-dialog.padding-right}",
+            "type": "spacing"
           },
           "padding-top": {
-            "type": "spacing",
-            "value": "{semantic.spacing.feedback.ui-dialog.content-spacing.padding-top}"
+            "value": "{semantic.spacing.feedback.ui-dialog.padding-top}",
+            "type": "spacing"
           },
           "padding-bottom": {
-            "type": "spacing",
-            "value": "{semantic.spacing.feedback.ui-dialog.content-spacing.padding-bottom}"
+            "value": "{semantic.spacing.feedback.ui-dialog.padding-bottom}",
+            "type": "spacing"
+          },
+          "space-between": {
+            "value": "{semantic.spacing.feedback.ui-dialog.content-spacing.body}",
+            "type": "spacing"
           }
         },
-        "footer": {
-          "padding-left": {
-            "type": "spacing",
-            "value": "{semantic.spacing.feedback.ui-dialog.padding-left}"
-          },
-          "padding-right": {
-            "type": "spacing",
-            "value": "{semantic.spacing.feedback.ui-dialog.padding-right}"
-          },
-          "padding-top": {
-            "type": "spacing",
-            "value": "{semantic.spacing.feedback.ui-dialog.content-spacing.padding-top}"
-          },
-          "padding-bottom": {
-            "type": "spacing",
-            "value": "{semantic.spacing.feedback.ui-dialog.padding-bottom}"
+        "content": {
+          "space-between": {
+            "value": "{semantic.spacing.feedback.ui-dialog.content-spacing.text}",
+            "type": "spacing"
           }
+        }
+      },
+      "colour": {
+        "background": {
+          "value": "{system.neutral.background}",
+          "type": "color"
+        }
+      },
+      "border-radius": {
+        "top-left": {
+          "value": "{border-radius.8}",
+          "type": "borderRadius"
+        },
+        "top-right": {
+          "value": "{border-radius.8}",
+          "type": "borderRadius"
+        },
+        "bottom-left": {
+          "value": "{border-radius.8}",
+          "type": "borderRadius"
+        },
+        "bottom-right": {
+          "value": "{border-radius.8}",
+          "type": "borderRadius"
+        }
+      },
+      "elevation": {
+        "body": {
+          "value": "{elevation.500}",
+          "type": "boxShadow"
         }
       }
     }

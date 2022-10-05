@@ -336,8 +336,8 @@
             "type": "spacing"
           }
         },
-        "toggle": {
-          "elevation": {
+        "elevation": {
+          "toggle": {
             "value": "{elevation.100}",
             "type": "boxShadow"
           }
