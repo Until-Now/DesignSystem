@@ -112,6 +112,16 @@
           "value": "{elevation.500}",
           "type": "boxShadow"
         }
+      },
+      "type": {
+        "title": {
+          "value": "{semantic.typography.feedback.ui-dialog.title}",
+          "type": "typography"
+        },
+        "body": {
+          "value": "{semantic.typography.feedback.ui-dialog.body}",
+          "type": "typography"
+        }
       }
     }
   }

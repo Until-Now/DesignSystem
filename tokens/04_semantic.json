@@ -1185,6 +1185,18 @@
             "type": "typography"
           }
         }
+      },
+      "feedback": {
+        "ui-dialog": {
+          "title": {
+            "value": "{typography.sans-serif.title-lg.bold}",
+            "type": "typography"
+          },
+          "body": {
+            "value": "{typography.sans-serif.body-md.regular}",
+            "type": "typography"
+          }
+        }
       }
     },
     "outline": {
