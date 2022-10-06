@@ -326,23 +326,23 @@
   "font-family": {
     "sans-serif": {
       "display": {
-        "value": "Object Sans",
+        "value": "Poppins",
         "type": "fontFamilies"
       },
       "headline": {
-        "value": "Object Sans",
+        "value": "Poppins",
         "type": "fontFamilies"
       },
       "title": {
-        "value": "Object Sans",
+        "value": "Poppins",
         "type": "fontFamilies"
       },
       "body": {
-        "value": "Object Sans",
+        "value": "Poppins",
         "type": "fontFamilies"
       },
       "caption": {
-        "value": "Object Sans",
+        "value": "Poppins",
         "type": "fontFamilies"
       }
     }
@@ -503,7 +503,7 @@
       "type": "fontWeights"
     },
     "semibold": {
-      "value": "Semibold",
+      "value": "SemiBold",
       "type": "fontWeights"
     },
     "bold": {
@@ -511,12 +511,12 @@
       "type": "fontWeights"
     },
     "extrabold": {
-      "value": "Black",
+      "value": "ExtraBold",
       "type": "fontWeights",
       "description": "e.g. 'Heavy', 'Extrabold', 'Ultrabold'"
     },
     "black": {
-      "value": "Super",
+      "value": "Black",
       "type": "fontWeights"
     },
     "sans-serif": {
@@ -544,23 +544,23 @@
       },
       "bold": {
         "display": {
-          "value": "{font-weight.medium}",
+          "value": "{font-weight.semibold}",
           "type": "fontWeights"
         },
         "headline": {
-          "value": "{font-weight.medium}",
+          "value": "{font-weight.semibold}",
           "type": "fontWeights"
         },
         "title": {
-          "value": "{font-weight.medium}",
+          "value": "{font-weight.semibold}",
           "type": "fontWeights"
         },
         "body": {
-          "value": "{font-weight.medium}",
+          "value": "{font-weight.semibold}",
           "type": "fontWeights"
         },
         "caption": {
-          "value": "{font-weight.medium}",
+          "value": "{font-weight.semibold}",
           "type": "fontWeights"
         }
       }
