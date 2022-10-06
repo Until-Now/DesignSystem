@@ -1,0 +1,14 @@
+{
+  "comp": {
+    "date-picker": {
+      "colour": {
+        "default": {
+          "background": {
+            "value": "{system.colour.action.tertiary.default.background}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  }
+}

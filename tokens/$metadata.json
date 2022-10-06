@@ -9,6 +9,7 @@
     "05_components/base",
     "05_components/button",
     "05_components/chip",
+    "05_components/date-picker",
     "05_components/dialog",
     "05_components/divider",
     "05_components/input-field",
