@@ -83,26 +83,6 @@
           }
         }
       },
-      "input": {
-        "small": {
-          "padding-top": {
-            "value": "{space.6}",
-            "type": "spacing"
-          }
-        },
-        "medium": {
-          "padding-top": {
-            "value": "{space.10}",
-            "type": "spacing"
-          }
-        },
-        "large": {
-          "padding-top": {
-            "value": "{space.14}",
-            "type": "spacing"
-          }
-        }
-      },
       "feedback": {
         "ui-dialog": {
           "padding-left": {
@@ -138,14 +118,6 @@
       "accent-on-dark": {
         "value": "{system.secondary.inverse-secondary}",
         "type": "color"
-      }
-    },
-    "component": {
-      "text": {
-        "padding-top": {
-          "value": "{space.2}",
-          "type": "spacing"
-        }
       }
     }
   }
