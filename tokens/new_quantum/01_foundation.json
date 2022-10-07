@@ -48,47 +48,47 @@
     },
     "neutral": {
       "50": {
-        "value": "#FCFDFE",
+        "value": "#FBFBFB",
         "type": "color"
       },
       "100": {
-        "value": "#F1F3FA",
+        "value": "#F3F3F3",
         "type": "color"
       },
       "150": {
-        "value": "#E8EBF6",
+        "value": "#EBEBEB",
         "type": "color"
       },
       "200": {
-        "value": "#DCDFF2",
+        "value": "#DFDFDF",
         "type": "color"
       },
       "300": {
-        "value": "#BDC4E6",
+        "value": "#C6C6C6",
         "type": "color"
       },
       "400": {
-        "value": "#929AC0",
+        "value": "#9C9C9C",
         "type": "color"
       },
       "500": {
-        "value": "#6D749B",
+        "value": "#767676",
         "type": "color"
       },
       "600": {
-        "value": "#4F567D",
+        "value": "#585858",
         "type": "color"
       },
       "700": {
-        "value": "#373E65",
+        "value": "#404040",
         "type": "color"
       },
       "800": {
-        "value": "#252C54",
+        "value": "#2F2F2F",
         "type": "color"
       },
       "900": {
-        "value": "#171E46",
+        "value": "#1C1C1C",
         "type": "color"
       }
     }
@@ -96,56 +96,56 @@
   "font-family": {
     "sans-serif": {
       "display": {
-        "value": "Lato",
+        "value": "Söhne",
         "type": "fontFamilies"
       },
       "headline": {
-        "value": "Lato",
+        "value": "Söhne",
         "type": "fontFamilies"
       },
       "title": {
-        "value": "Lato",
+        "value": "Söhne",
         "type": "fontFamilies"
       },
       "body": {
-        "value": "Lato",
+        "value": "Söhne",
         "type": "fontFamilies",
         "description": "Sans serif font family for title, body, and caption"
       },
       "caption": {
-        "value": "Lato",
+        "value": "Söhne",
         "type": "fontFamilies"
       }
     }
   },
   "font-weight": {
     "light": {
-      "value": "Light",
+      "value": "Leicht",
       "type": "fontWeights"
     },
     "regular": {
-      "value": "Regular",
+      "value": "Buch",
       "type": "fontWeights"
     },
     "medium": {
-      "value": "Medium",
+      "value": "Kräftig",
       "type": "fontWeights"
     },
     "semibold": {
-      "value": "SemiBold",
+      "value": "Halbfett",
       "type": "fontWeights"
     },
     "bold": {
-      "value": "Bold",
+      "value": "Dreiviertelfett",
       "type": "fontWeights"
     },
     "extrabold": {
-      "value": "ExtraBold",
+      "value": "Fett",
       "type": "fontWeights",
       "description": "e.g. 'Heavy', 'Extrabold', 'Ultrabold'"
     },
     "black": {
-      "value": "Black",
+      "value": "Extrafett",
       "type": "fontWeights"
     },
     "sans-serif": {
@@ -173,15 +173,15 @@
       },
       "bold": {
         "display": {
-          "value": "{font-weight.bold}",
+          "value": "{font-weight.semibold}",
           "type": "fontWeights"
         },
         "headline": {
-          "value": "{font-weight.bold}",
+          "value": "{font-weight.semibold}",
           "type": "fontWeights"
         },
         "title": {
-          "value": "{font-weight.bold}",
+          "value": "{font-weight.semibold}",
           "type": "fontWeights"
         },
         "body": {
