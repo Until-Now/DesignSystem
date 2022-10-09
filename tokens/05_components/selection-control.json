@@ -165,7 +165,7 @@
               "value": "{system.state-surface.primary.primary.default}"
             },
             "outline": {
-              "value": "{system.colour.inputs.error.focus}",
+              "value": "{system.colour.inputs.error.outline}",
               "type": "color"
             }
           },
@@ -280,7 +280,7 @@
                 "value": "{system.state-surface.neutral.darker.default}"
               },
               "outline": {
-                "value": "{system.colour.inputs.error.focus}",
+                "value": "{system.colour.inputs.error.outline}",
                 "type": "color"
               }
             },
@@ -468,7 +468,7 @@
                 "type": "color"
               },
               "outline": {
-                "value": "{system.colour.inputs.error.focus}",
+                "value": "{system.colour.inputs.error.outline}",
                 "type": "color"
               }
             },

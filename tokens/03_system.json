@@ -709,7 +709,7 @@
         "secondary": {
           "default": {
             "background": {
-              "value": "{system.secondary.tonal}",
+              "value": "{system.primary.tonal}",
               "type": "color",
               "description": "Secondary action background default state"
             },
@@ -730,7 +730,7 @@
           },
           "hover": {
             "background": {
-              "value": "{system.secondary.tonal}",
+              "value": "{system.primary.tonal}",
               "type": "color",
               "description": "Secondary action background hover state"
             },
@@ -751,7 +751,7 @@
           },
           "press": {
             "background": {
-              "value": "{system.secondary.tonal}",
+              "value": "{system.primary.tonal}",
               "type": "color",
               "description": "Secondary action background press state"
             },
@@ -1006,7 +1006,7 @@
           "callout": {
             "default": {
               "background": {
-                "value": "{system.secondary.background-variant-2}",
+                "value": "{system.primary.background-variant-1}",
                 "type": "color"
               }
             },
