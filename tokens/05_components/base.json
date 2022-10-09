@@ -226,30 +226,6 @@
         "type": "boxShadow"
       }
     },
-    "selection-control": {
-      "radio-and-checkbox": {
-        "border-width": {
-          "hover": {
-            "value": "2",
-            "type": "borderWidth"
-          },
-          "error": {
-            "value": "2",
-            "type": "borderWidth"
-          }
-        }
-      },
-      "border": {
-        "hover": {
-          "value": "{system.colour.inputs.press.focus}",
-          "type": "color"
-        },
-        "error": {
-          "value": "{system.colour.inputs.error.focus}",
-          "type": "color"
-        }
-      }
-    },
     "card": {
       "border-radius": {
         "top-left": {
