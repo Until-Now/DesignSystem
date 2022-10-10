@@ -192,15 +192,15 @@
         },
         "tonal": {
           "default": {
-            "value": "rgba({system.secondary.on-muted},0.00)",
+            "value": "rgba({system.primary.on-tonal},0.00)",
             "type": "color"
           },
           "hover": {
-            "value": "rgba({system.secondary.on-muted},0.08)",
+            "value": "rgba({system.primary.on-tonal},0.08)",
             "type": "color"
           },
           "press": {
-            "value": "rgba({system.secondary.on-muted},0.16)",
+            "value": "rgba({system.primary.on-tonal},0.12)",
             "type": "color"
           },
           "disabled": {
