@@ -31,30 +31,30 @@
         "switch": {
           "track": {
             "width": {
-              "value": "{size.36}",
+              "value": "{size.32}",
               "type": "sizing"
             },
             "height": {
-              "value": "{size.24}",
+              "value": "{size.20}",
               "type": "sizing"
             }
           },
           "handle": {
-            "value": "{size.20}",
+            "value": "{size.16}",
             "type": "sizing"
           },
           "icon": {
-            "value": "{size.16}",
+            "value": "{size.14}",
             "type": "sizing"
           }
         },
         "radio-and-checkbox": {
           "toggle": {
-            "value": "{size.16}",
+            "value": "{size.15}",
             "type": "sizing"
           },
           "icon": {
-            "value": "{size.20}",
+            "value": "{size.18}",
             "type": "sizing"
           }
         }
