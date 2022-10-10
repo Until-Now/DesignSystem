@@ -47,6 +47,16 @@
             "value": "{size.16}",
             "type": "sizing"
           }
+        },
+        "radio-and-checkbox": {
+          "toggle": {
+            "value": "{size.16}",
+            "type": "sizing"
+          },
+          "icon": {
+            "value": "{size.20}",
+            "type": "sizing"
+          }
         }
       }
     },
