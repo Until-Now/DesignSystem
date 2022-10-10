@@ -119,6 +119,14 @@
         "value": "{system.secondary.inverse-secondary}",
         "type": "color"
       }
+    },
+    "bg": {
+      "accent": {
+        "dark": {
+          "value": "#CFC7C1",
+          "type": "color"
+        }
+      }
     }
   }
 }
