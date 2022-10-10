@@ -13,6 +13,12 @@
               "type": "spacing"
             }
           }
+        },
+        "type": {
+          "label": {
+            "value": "{semantic.typography.input.xxx-small.regular}",
+            "type": "typography"
+          }
         }
       },
       "radio-and-checkbox": {
@@ -48,6 +54,12 @@
                 "type": "color"
               }
             }
+          }
+        },
+        "type": {
+          "label": {
+            "value": "{semantic.typography.input.xxx-small.regular}",
+            "type": "typography"
           }
         }
       }
