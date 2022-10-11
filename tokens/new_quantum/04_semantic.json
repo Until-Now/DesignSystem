@@ -41,16 +41,20 @@
         "switch": {
           "track": {
             "height": {
-              "value": "{size.28}",
+              "value": "{size.24}",
               "type": "sizing"
             },
             "width": {
-              "value": "{size.48}",
+              "value": "{size.40}",
               "type": "sizing"
             }
           },
           "handle": {
-            "value": "{size.24}",
+            "value": "{size.20}",
+            "type": "sizing"
+          },
+          "icon": {
+            "value": "{size.16}",
             "type": "sizing"
           }
         }
