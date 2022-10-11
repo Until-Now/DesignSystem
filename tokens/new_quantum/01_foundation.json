@@ -96,55 +96,55 @@
   "font-family": {
     "sans-serif": {
       "display": {
-        "value": "Söhne",
+        "value": "Graphik",
         "type": "fontFamilies"
       },
       "headline": {
-        "value": "Söhne",
+        "value": "Graphik",
         "type": "fontFamilies"
       },
       "title": {
-        "value": "Söhne",
+        "value": "Graphik",
         "type": "fontFamilies"
       },
       "body": {
-        "value": "Söhne",
+        "value": "Graphik",
         "type": "fontFamilies"
       },
       "caption": {
-        "value": "Söhne",
+        "value": "Graphik",
         "type": "fontFamilies"
       }
     }
   },
   "font-weight": {
     "light": {
-      "value": "Leicht",
+      "value": "Light",
       "type": "fontWeights"
     },
     "regular": {
-      "value": "Buch",
+      "value": "Regular",
       "type": "fontWeights"
     },
     "medium": {
-      "value": "Kräftig",
+      "value": "Medium",
       "type": "fontWeights"
     },
     "semibold": {
-      "value": "Halbfett",
+      "value": "Semibold",
       "type": "fontWeights"
     },
     "bold": {
-      "value": "Dreiviertelfett",
+      "value": "Bold",
       "type": "fontWeights"
     },
     "extrabold": {
-      "value": "Fett",
+      "value": "Black",
       "type": "fontWeights",
       "description": "e.g. 'Heavy', 'Extrabold', 'Ultrabold'"
     },
     "black": {
-      "value": "Extrafett",
+      "value": "Super",
       "type": "fontWeights"
     },
     "sans-serif": {
