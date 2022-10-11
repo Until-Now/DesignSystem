@@ -13,6 +13,20 @@
         "large": {
           "value": "{semantic.component.md}",
           "type": "sizing"
+        },
+        "content": {
+          "small": {
+            "value": "{size.18}",
+            "type": "sizing"
+          },
+          "medium": {
+            "value": "{size.22}",
+            "type": "sizing"
+          },
+          "large": {
+            "value": "{size.26}",
+            "type": "sizing"
+          }
         }
       },
       "input": {

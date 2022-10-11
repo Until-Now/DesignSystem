@@ -9,6 +9,20 @@
         "medium": {
           "value": "{semantic.component.sm}",
           "type": "sizing"
+        },
+        "large": {
+          "value": "{semantic.component.md}",
+          "type": "sizing"
+        },
+        "content": {
+          "small": {
+            "value": "{size.20}",
+            "type": "sizing"
+          },
+          "large": {
+            "value": "{size.26}",
+            "type": "sizing"
+          }
         }
       },
       "input": {
@@ -18,6 +32,10 @@
         },
         "medium": {
           "value": "{semantic.component.sm}",
+          "type": "sizing"
+        },
+        "large": {
+          "value": "{semantic.component.md}",
           "type": "sizing"
         },
         "switch": {
