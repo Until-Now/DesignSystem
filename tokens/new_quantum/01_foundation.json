@@ -109,8 +109,7 @@
       },
       "body": {
         "value": "Söhne",
-        "type": "fontFamilies",
-        "description": "Sans serif font family for title, body, and caption"
+        "type": "fontFamilies"
       },
       "caption": {
         "value": "Söhne",
