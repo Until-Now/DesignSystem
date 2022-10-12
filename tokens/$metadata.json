@@ -27,6 +27,7 @@
     "new_quantum/01_foundation",
     "new_quantum/03_system",
     "new_quantum/04_semantic",
+    "new_quantum/05_components/chip",
     "style_arcade/01_foundation",
     "style_arcade/03_system",
     "style_arcade/04_semantic",

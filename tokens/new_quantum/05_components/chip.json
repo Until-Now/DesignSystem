@@ -1,0 +1,34 @@
+{
+  "comp": {
+    "chip": {
+      "size": {
+        "height": {
+          "sm": {
+            "value": "{semantic.size.status.height.x-small}",
+            "type": "sizing"
+          },
+          "md": {
+            "value": "{semantic.size.status.height.small}",
+            "type": "sizing"
+          }
+        },
+        "content": {
+          "sm": {
+            "value": "{size.16}",
+            "type": "sizing"
+          },
+          "md": {
+            "value": "{size.22}",
+            "type": "sizing"
+          }
+        }
+      },
+      "spacing": {
+        "space-between": {
+          "value": "{space.0}",
+          "type": "spacing"
+        }
+      }
+    }
+  }
+}
