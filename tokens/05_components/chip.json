@@ -4,7 +4,7 @@
       "size": {
         "height": {
           "sm": {
-            "value": "{semantic.component.xx-sm}",
+            "value": "{semantic.component.2x-sm}",
             "type": "sizing"
           },
           "md": {
@@ -18,15 +18,15 @@
         },
         "content": {
           "sm": {
-            "value": "{semantic.size.status.small.content}",
+            "value": "{semantic.size.status.content.small}",
             "type": "sizing"
           },
           "md": {
-            "value": "{semantic.size.status.medium.content}",
+            "value": "{semantic.size.status.content.medium}",
             "type": "sizing"
           },
           "lg": {
-            "value": "{semantic.size.status.large.content}",
+            "value": "{semantic.size.status.content.large}",
             "type": "sizing"
           }
         }

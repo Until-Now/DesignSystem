@@ -1,7 +1,15 @@
 {
   "semantic": {
     "component": {
-      "xx-sm": {
+      "4x-sm": {
+        "value": "{size.16}",
+        "type": "sizing"
+      },
+      "3x-sm": {
+        "value": "{size.20}",
+        "type": "sizing"
+      },
+      "2x-sm": {
         "value": "{size.24}",
         "type": "sizing"
       },
@@ -252,32 +260,38 @@
         }
       },
       "status": {
-        "small": {
-          "height": {
-            "value": "{semantic.component.xx-sm}",
+        "height": {
+          "2x-small": {
+            "value": "{semantic.component.4x-sm}",
             "type": "sizing"
           },
-          "content": {
-            "value": "{size.20}",
+          "x-small": {
+            "value": "{semantic.component.3x-sm}",
             "type": "sizing"
-          }
-        },
-        "medium": {
-          "height": {
+          },
+          "small": {
+            "value": "{semantic.component.2x-sm}",
+            "type": "sizing"
+          },
+          "medium": {
             "value": "{semantic.component.x-sm}",
             "type": "sizing"
           },
-          "content": {
-            "value": "{size.22}",
+          "large": {
+            "value": "{semantic.component.sm}",
             "type": "sizing"
           }
         },
-        "large": {
-          "height": {
-            "value": "{semantic.component.sm}",
+        "content": {
+          "small": {
+            "value": "{size.20}",
             "type": "sizing"
           },
-          "content": {
+          "medium": {
+            "value": "{size.22}",
+            "type": "sizing"
+          },
+          "large": {
             "value": "{size.24}",
             "type": "sizing"
           }
