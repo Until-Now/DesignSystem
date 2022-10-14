@@ -31,6 +31,10 @@
             "value": "{size.24}",
             "type": "sizing"
           }
+        },
+        "footer-height": {
+          "value": "{size.48}",
+          "type": "sizing"
         }
       },
       "spacing": {
@@ -63,6 +67,16 @@
           },
           "space-between": {
             "value": "{semantic.spacing.patterns.x-sm.space-between}",
+            "type": "spacing"
+          }
+        },
+        "generic-cell": {
+          "padding-left": {
+            "value": "{semantic.spacing.patterns.md.padding-left}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{semantic.spacing.patterns.md.padding-right}",
             "type": "spacing"
           }
         }
