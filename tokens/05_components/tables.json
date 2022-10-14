@@ -1,0 +1,72 @@
+{
+  "comp": {
+    "table": {
+      "size": {
+        "cell-height": {
+          "small": {
+            "value": "{size.40}",
+            "type": "sizing"
+          },
+          "large": {
+            "value": "{size.56}",
+            "type": "sizing"
+          }
+        },
+        "row-height": {
+          "small": {
+            "value": "{size.40}",
+            "type": "sizing"
+          },
+          "large": {
+            "value": "{size.56}",
+            "type": "sizing"
+          }
+        },
+        "icons": {
+          "small": {
+            "value": "{size.20}",
+            "type": "sizing"
+          },
+          "large": {
+            "value": "{size.24}",
+            "type": "sizing"
+          }
+        }
+      },
+      "spacing": {
+        "text": {
+          "padding-left": {
+            "value": "{semantic.component.text.padding-left}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{semantic.component.text.padding-right}",
+            "type": "spacing"
+          },
+          "padding-top": {
+            "value": "{semantic.component.text.padding-top}",
+            "type": "spacing"
+          },
+          "padding-bot": {
+            "value": "{semantic.component.text.padding-bot}",
+            "type": "spacing"
+          }
+        },
+        "text-cell": {
+          "padding-left": {
+            "value": "{semantic.spacing.patterns.sm.padding-left}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{semantic.spacing.patterns.sm.padding-right}",
+            "type": "spacing"
+          },
+          "space-between": {
+            "value": "{semantic.spacing.patterns.x-sm.space-between}",
+            "type": "spacing"
+          }
+        }
+      }
+    }
+  }
+}
