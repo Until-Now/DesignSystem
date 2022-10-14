@@ -80,6 +80,80 @@
             "type": "spacing"
           }
         }
+      },
+      "colour": {
+        "row": {
+          "default": {
+            "background": {
+              "value": "{system.colour.patterns.background.default}",
+              "type": "color"
+            },
+            "background-alt": {
+              "value": "{system.colour.patterns.background.subtle}",
+              "type": "color"
+            },
+            "state": {
+              "value": "{system.colour.patterns.state.default}",
+              "type": "color"
+            },
+            "content": {
+              "value": "{system.colour.patterns.content.default}",
+              "type": "color"
+            },
+            "outline": {
+              "value": "{system.colour.container.divider.light}",
+              "type": "color"
+            }
+          },
+          "hover": {
+            "background": {
+              "value": "{system.colour.patterns.background.default}",
+              "type": "color"
+            },
+            "background-alt": {
+              "value": "{system.colour.patterns.background.subtle}",
+              "type": "color"
+            },
+            "state": {
+              "value": "{system.colour.patterns.state.hover}",
+              "type": "color"
+            },
+            "content": {
+              "value": "{system.colour.patterns.content.default}",
+              "type": "color"
+            },
+            "outline": {
+              "value": "{system.colour.container.divider.light}",
+              "type": "color"
+            }
+          },
+          "press": {
+            "background": {
+              "value": "{system.colour.patterns.background.default}",
+              "type": "color"
+            },
+            "background-alt": {
+              "value": "{system.colour.patterns.background.subtle}",
+              "type": "color"
+            },
+            "state": {
+              "value": "{system.colour.patterns.state.press}",
+              "type": "color"
+            },
+            "content": {
+              "value": "{system.colour.patterns.content.default}",
+              "type": "color"
+            },
+            "outline": {
+              "value": "{system.colour.container.divider.light}",
+              "type": "color"
+            }
+          }
+        },
+        "background": {
+          "value": "{system.colour.patterns.background.default}",
+          "type": "color"
+        }
       }
     }
   }
