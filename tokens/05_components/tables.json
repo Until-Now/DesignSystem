@@ -99,10 +99,6 @@
             "content": {
               "value": "{system.colour.patterns.content.default}",
               "type": "color"
-            },
-            "outline": {
-              "value": "{system.colour.container.divider.light}",
-              "type": "color"
             }
           },
           "hover": {
@@ -120,10 +116,6 @@
             },
             "content": {
               "value": "{system.colour.patterns.content.default}",
-              "type": "color"
-            },
-            "outline": {
-              "value": "{system.colour.container.divider.light}",
               "type": "color"
             }
           },
@@ -143,16 +135,8 @@
             "content": {
               "value": "{system.colour.patterns.content.default}",
               "type": "color"
-            },
-            "outline": {
-              "value": "{system.colour.container.divider.light}",
-              "type": "color"
             }
           }
-        },
-        "background": {
-          "value": "{system.colour.patterns.background.default}",
-          "type": "color"
         }
       }
     }
