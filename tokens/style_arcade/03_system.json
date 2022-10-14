@@ -149,11 +149,11 @@
       }
     },
     "content": {
-      "primary": {
+      "default": {
         "value": "{colour.primary.900}",
         "type": "color"
       },
-      "inverse-primary": {
+      "inverse-default": {
         "value": "{colour.grayscale.white}",
         "type": "color"
       },

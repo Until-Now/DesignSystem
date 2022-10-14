@@ -626,7 +626,7 @@
         }
       },
       "patterns": {
-        "xxx-sm": {
+        "3x-sm": {
           "padding-left": {
             "value": "{space.2}",
             "type": "spacing"
@@ -648,7 +648,7 @@
             "type": "spacing"
           }
         },
-        "xx-sm": {
+        "2x-sm": {
           "padding-left": {
             "value": "{space.4}",
             "type": "spacing"
@@ -780,7 +780,7 @@
             "type": "spacing"
           }
         },
-        "xx-lg": {
+        "2x-lg": {
           "padding-left": {
             "value": "{space.40}",
             "type": "spacing"
@@ -802,7 +802,7 @@
             "type": "spacing"
           }
         },
-        "xxx-lg": {
+        "3x-lg": {
           "padding-left": {
             "value": "{space.48}",
             "type": "spacing"
@@ -824,7 +824,7 @@
             "type": "spacing"
           }
         },
-        "xxxx-lg": {
+        "4x-lg": {
           "padding-left": {
             "value": "{space.64}",
             "type": "spacing"
@@ -955,19 +955,19 @@
       },
       "status": {
         "error": {
-          "value": "{system.error.background}",
+          "value": "{system.error.muted}",
           "type": "color"
         },
         "success": {
-          "value": "{system.success.background}",
+          "value": "{system.success.muted}",
           "type": "color"
         },
         "warning": {
-          "value": "{system.warning.background}",
+          "value": "{system.warning.muted}",
           "type": "color"
         },
         "info": {
-          "value": "{system.info.background}",
+          "value": "{system.info.muted}",
           "type": "color"
         }
       }
@@ -975,34 +975,34 @@
     "text-and-icons": {
       "on-light": {
         "strong": {
-          "value": "rgba({system.content.primary},{semantic.opacity.content.solid})",
+          "value": "{system.content.primary.default}",
           "type": "color",
           "description": "High emphasis, dark"
         },
         "mid": {
-          "value": "rgba({system.content.primary},{semantic.opacity.content.mid})",
+          "value": "{system.content.primary.muted}",
           "type": "color",
           "description": "md emphasis, dark"
         },
         "soft": {
-          "value": "rgba({system.content.primary},{semantic.opacity.content.soft})",
+          "value": "{system.content.primary.subtle}",
           "type": "color",
           "description": "Low emphasis, dark"
         }
       },
       "on-dark": {
         "strong": {
-          "value": "rgba({system.content.inverse-primary},{semantic.opacity.content.solid})",
+          "value": "{system.content.inverse-primary.default}",
           "type": "color",
           "description": "High emphasis, light"
         },
         "mid": {
-          "value": "rgba({system.content.inverse-primary},{semantic.opacity.content.mid})",
+          "value": "{system.content.inverse-primary.muted}",
           "type": "color",
           "description": "md emphasis, light"
         },
         "soft": {
-          "value": "rgba({system.content.inverse-primary},{semantic.opacity.content.soft})",
+          "value": "{system.content.inverse-primary.subtle}",
           "type": "color",
           "description": "Low emphasis, light"
         }
@@ -1017,7 +1017,7 @@
         "description": "High emphasis"
       },
       "error": {
-        "value": "{system.error.error}",
+        "value": "{system.error.default}",
         "type": "color"
       },
       "text-link": {
@@ -1028,35 +1028,35 @@
     "fg": {
       "status": {
         "error-normal": {
-          "value": "{system.error.error}",
+          "value": "{system.error.default}",
           "type": "color"
         },
         "error-dark": {
-          "value": "{system.error.on-background}",
+          "value": "{system.error.on-muted}",
           "type": "color"
         },
         "success-normal": {
-          "value": "{system.success.success}",
+          "value": "{system.success.default}",
           "type": "color"
         },
         "success-dark": {
-          "value": "{system.success.on-background}",
+          "value": "{system.success.on-muted}",
           "type": "color"
         },
         "warning-normal": {
-          "value": "{system.warning.warning}",
+          "value": "{system.warning.default}",
           "type": "color"
         },
         "warning-dark": {
-          "value": "{system.warning.on-background}",
+          "value": "{system.warning.on-muted}",
           "type": "color"
         },
         "info-normal": {
-          "value": "{system.info.info}",
+          "value": "{system.info.default}",
           "type": "color"
         },
         "info-dark": {
-          "value": "{system.info.on-background}",
+          "value": "{system.info.on-muted}",
           "type": "color"
         }
       },

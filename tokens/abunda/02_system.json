@@ -47,7 +47,7 @@
       },
       "on-light": {
         "soft": {
-          "value": "rgba({system.content.primary},0.40)",
+          "value": "rgba({system.content.default},0.40)",
           "type": "color"
         }
       }
