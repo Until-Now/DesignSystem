@@ -103,6 +103,10 @@
             "content": {
               "value": "{system.colour.patterns.content.default}",
               "type": "color"
+            },
+            "divider": {
+              "value": "{system.colour.patterns.background.outline}",
+              "type": "color"
             }
           },
           "hover": {
@@ -120,6 +124,10 @@
             },
             "content": {
               "value": "{system.colour.patterns.content.default}",
+              "type": "color"
+            },
+            "divider": {
+              "value": "{system.colour.patterns.background.outline}",
               "type": "color"
             }
           },
@@ -139,6 +147,10 @@
             "content": {
               "value": "{system.colour.patterns.content.default}",
               "type": "color"
+            },
+            "divider": {
+              "value": "{system.colour.patterns.background.outline}",
+              "type": "color"
             }
           },
           "selected": {
@@ -154,6 +166,10 @@
               "content": {
                 "value": "{system.colour.patterns.content.default}",
                 "type": "color"
+              },
+              "divider": {
+                "value": "{system.colour.patterns.background.outline}",
+                "type": "color"
               }
             },
             "hover": {
@@ -167,6 +183,10 @@
               },
               "content": {
                 "value": "{system.colour.patterns.content.default}",
+                "type": "color"
+              },
+              "divider": {
+                "value": "{system.colour.patterns.background.outline}",
                 "type": "color"
               }
             },
@@ -182,6 +202,10 @@
               "content": {
                 "value": "{system.colour.patterns.content.default}",
                 "type": "color"
+              },
+              "divider": {
+                "value": "{system.colour.patterns.background.outline}",
+                "type": "color"
               }
             }
           }
@@ -190,7 +214,23 @@
           "background": {
             "value": "{system.colour.patterns.background.default}",
             "type": "color"
+          },
+          "outline": {
+            "value": "{system.colour.patterns.background.outline}",
+            "type": "color"
           }
+        }
+      },
+      "border-radius": {
+        "all": {
+          "value": "{semantic.border.radius.medium}",
+          "type": "borderRadius"
+        }
+      },
+      "border-width": {
+        "default": {
+          "value": "{semantic.border.width.small}",
+          "type": "borderWidth"
         }
       }
     }
