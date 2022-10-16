@@ -310,6 +310,22 @@
           "value": "{size.4}",
           "type": "sizing"
         }
+      },
+      "tables": {
+        "cell-height": {
+          "small": {
+            "value": "{size.40}",
+            "type": "sizing"
+          },
+          "medium": {
+            "value": "{size.48}",
+            "type": "sizing"
+          },
+          "large": {
+            "value": "{size.56}",
+            "type": "sizing"
+          }
+        }
       }
     },
     "spacing": {

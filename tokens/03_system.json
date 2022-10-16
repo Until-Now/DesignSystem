@@ -2078,6 +2078,14 @@
           "inverse-default": {
             "value": "{system.neutral.inverse-background}",
             "type": "color"
+          },
+          "active": {
+            "value": "{system.primary.background-variant-2}",
+            "type": "color"
+          },
+          "outline": {
+            "value": "{system.outline.neutral-variant}",
+            "type": "color"
           }
         },
         "state": {
