@@ -108,23 +108,23 @@
     "sans-serif": {
       "bold": {
         "display": {
-          "value": "{font-weight.extrabold}",
+          "value": "{fontWeight.800}",
           "type": "fontWeights"
         },
         "headline": {
-          "value": "{font-weight.extrabold}",
+          "value": "{fontWeight.800}",
           "type": "fontWeights"
         },
         "title": {
-          "value": "{font-weight.extrabold}",
+          "value": "{fontWeight.800}",
           "type": "fontWeights"
         },
         "body": {
-          "value": "{font-weight.extrabold}",
+          "value": "{fontWeight.800}",
           "type": "fontWeights"
         },
         "caption": {
-          "value": "{font-weight.extrabold}",
+          "value": "{fontWeight.800}",
           "type": "fontWeights"
         }
       }
@@ -132,23 +132,23 @@
     "serif": {
       "bold": {
         "display": {
-          "value": "{font-weight.medium}",
+          "value": "{fontWeight.500}",
           "type": "fontWeights"
         },
         "headline": {
-          "value": "{font-weight.medium}",
+          "value": "{fontWeight.500}",
           "type": "fontWeights"
         },
         "title": {
-          "value": "{font-weight.medium}",
+          "value": "{fontWeight.500}",
           "type": "fontWeights"
         },
         "body": {
-          "value": "{font-weight.medium}",
+          "value": "{fontWeight.500}",
           "type": "fontWeights"
         },
         "caption": {
-          "value": "{font-weight.medium}",
+          "value": "{fontWeight.500}",
           "type": "fontWeights"
         }
       }

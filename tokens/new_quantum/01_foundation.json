@@ -150,45 +150,45 @@
     "sans-serif": {
       "regular": {
         "display": {
-          "value": "{font-weight.regular}",
+          "value": "{fontWeight.400}",
           "type": "fontWeights"
         },
         "headline": {
-          "value": "{font-weight.regular}",
+          "value": "{fontWeight.400}",
           "type": "fontWeights"
         },
         "title": {
-          "value": "{font-weight.regular}",
+          "value": "{fontWeight.400}",
           "type": "fontWeights"
         },
         "body": {
-          "value": "{font-weight.regular}",
+          "value": "{fontWeight.400}",
           "type": "fontWeights"
         },
         "caption": {
-          "value": "{font-weight.regular}",
+          "value": "{fontWeight.400}",
           "type": "fontWeights"
         }
       },
       "bold": {
         "display": {
-          "value": "{font-weight.semibold}",
+          "value": "{fontWeight.600}",
           "type": "fontWeights"
         },
         "headline": {
-          "value": "{font-weight.semibold}",
+          "value": "{fontWeight.600}",
           "type": "fontWeights"
         },
         "title": {
-          "value": "{font-weight.semibold}",
+          "value": "{fontWeight.600}",
           "type": "fontWeights"
         },
         "body": {
-          "value": "{font-weight.semibold}",
+          "value": "{fontWeight.600}",
           "type": "fontWeights"
         },
         "caption": {
-          "value": "{font-weight.semibold}",
+          "value": "{fontWeight.600}",
           "type": "fontWeights"
         }
       }
@@ -298,50 +298,50 @@
       }
     }
   },
-  "letter-spacing": {
+  "letterSpacing": {
     "sans-serif": {
       "lg": {
         "regular": {
           "display": {
-            "value": "{letter-spacing.-100}",
+            "value": "{letterSpacing.-100}",
             "type": "letterSpacing"
           },
           "headline": {
-            "value": "{letter-spacing.0}",
+            "value": "{letterSpacing.0}",
             "type": "letterSpacing"
           },
           "title": {
-            "value": "{letter-spacing.0}",
+            "value": "{letterSpacing.0}",
             "type": "letterSpacing"
           },
           "body": {
-            "value": "{letter-spacing.100}",
+            "value": "{letterSpacing.100}",
             "type": "letterSpacing"
           },
           "caption": {
-            "value": "{letter-spacing.150}",
+            "value": "{letterSpacing.150}",
             "type": "letterSpacing"
           }
         },
         "bold": {
           "display": {
-            "value": "{letter-spacing.-100}",
+            "value": "{letterSpacing.-100}",
             "type": "letterSpacing"
           },
           "headline": {
-            "value": "{letter-spacing.0}",
+            "value": "{letterSpacing.0}",
             "type": "letterSpacing"
           },
           "title": {
-            "value": "{letter-spacing.0}",
+            "value": "{letterSpacing.0}",
             "type": "letterSpacing"
           },
           "body": {
-            "value": "{letter-spacing.100}",
+            "value": "{letterSpacing.100}",
             "type": "letterSpacing"
           },
           "caption": {
-            "value": "{letter-spacing.150}",
+            "value": "{letterSpacing.150}",
             "type": "letterSpacing"
           }
         }
@@ -349,45 +349,45 @@
       "md": {
         "regular": {
           "display": {
-            "value": "{letter-spacing.-100}",
+            "value": "{letterSpacing.-100}",
             "type": "letterSpacing"
           },
           "headline": {
-            "value": "{letter-spacing.0}",
+            "value": "{letterSpacing.0}",
             "type": "letterSpacing"
           },
           "title": {
-            "value": "{letter-spacing.-100}",
+            "value": "{letterSpacing.-100}",
             "type": "letterSpacing"
           },
           "body": {
-            "value": "{letter-spacing.100}",
+            "value": "{letterSpacing.100}",
             "type": "letterSpacing"
           },
           "caption": {
-            "value": "{letter-spacing.150}",
+            "value": "{letterSpacing.150}",
             "type": "letterSpacing"
           }
         },
         "bold": {
           "display": {
-            "value": "{letter-spacing.-100}",
+            "value": "{letterSpacing.-100}",
             "type": "letterSpacing"
           },
           "headline": {
-            "value": "{letter-spacing.0}",
+            "value": "{letterSpacing.0}",
             "type": "letterSpacing"
           },
           "title": {
-            "value": "{letter-spacing.-100}",
+            "value": "{letterSpacing.-100}",
             "type": "letterSpacing"
           },
           "body": {
-            "value": "{letter-spacing.100}",
+            "value": "{letterSpacing.100}",
             "type": "letterSpacing"
           },
           "caption": {
-            "value": "{letter-spacing.150}",
+            "value": "{letterSpacing.150}",
             "type": "letterSpacing"
           }
         }
@@ -395,45 +395,45 @@
       "sm": {
         "regular": {
           "display": {
-            "value": "{letter-spacing.-100}",
+            "value": "{letterSpacing.-100}",
             "type": "letterSpacing"
           },
           "headline": {
-            "value": "{letter-spacing.0}",
+            "value": "{letterSpacing.0}",
             "type": "letterSpacing"
           },
           "title": {
-            "value": "{letter-spacing.-100}",
+            "value": "{letterSpacing.-100}",
             "type": "letterSpacing"
           },
           "body": {
-            "value": "{letter-spacing.150}",
+            "value": "{letterSpacing.150}",
             "type": "letterSpacing"
           },
           "caption": {
-            "value": "{letter-spacing.150}",
+            "value": "{letterSpacing.150}",
             "type": "letterSpacing"
           }
         },
         "bold": {
           "display": {
-            "value": "{letter-spacing.-100}",
+            "value": "{letterSpacing.-100}",
             "type": "letterSpacing"
           },
           "headline": {
-            "value": "{letter-spacing.0}",
+            "value": "{letterSpacing.0}",
             "type": "letterSpacing"
           },
           "title": {
-            "value": "{letter-spacing.-100}",
+            "value": "{letterSpacing.-100}",
             "type": "letterSpacing"
           },
           "body": {
-            "value": "{letter-spacing.150}",
+            "value": "{letterSpacing.150}",
             "type": "letterSpacing"
           },
           "caption": {
-            "value": "{letter-spacing.150}",
+            "value": "{letterSpacing.150}",
             "type": "letterSpacing"
           }
         }

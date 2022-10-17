@@ -1,0 +1,28 @@
+{
+  "fontFamily": {
+    "brand": {
+      "heading": {
+        "value": "Bianco Serif",
+        "type": "fontFamilies",
+        "description": "Serif family used for Display, and Headline"
+      },
+      "body": {
+        "value": "Bianco Serif",
+        "type": "fontFamilies",
+        "description": "Serif family used for Title, Body, and Caption"
+      }
+    },
+    "product": {
+      "heading": {
+        "value": "SF Pro Display",
+        "type": "fontFamilies",
+        "description": "Sans serif family used for Display, and Headline"
+      },
+      "body": {
+        "value": "SF Pro Text",
+        "type": "fontFamilies",
+        "description": "Sans serif family used for Title, Body, and Caption"
+      }
+    }
+  }
+}
