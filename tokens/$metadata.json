@@ -1,6 +1,16 @@
 {
   "tokenSetOrder": [
-    "01_foundation",
+    "01_foundation/colour",
+    "01_foundation/typography/font-family",
+    "01_foundation/typography/font-size",
+    "01_foundation/typography/font-weight",
+    "01_foundation/typography/line-height",
+    "01_foundation/typography/letter-spacing",
+    "01_foundation/typography/paragraph-spacing",
+    "01_foundation/typography/text-case",
+    "01_foundation/dimensions",
+    "01_foundation/effects",
+    "01_foundation/opacity",
     "02_typography/sans-serif",
     "02_typography/serif",
     "03_system",
