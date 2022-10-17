@@ -1,1 +1,62 @@
-{}
+{
+  "font-family": {
+    "sans-serif": {
+      "display": {
+        "value": "SF Pro Display",
+        "type": "fontFamilies",
+        "description": "Sans serif font family used for display text & headlines"
+      },
+      "headline": {
+        "value": "SF Pro Display",
+        "type": "fontFamilies"
+      },
+      "title": {
+        "value": "SF Pro Text",
+        "type": "fontFamilies"
+      },
+      "body": {
+        "value": "SF Pro Text",
+        "type": "fontFamilies",
+        "description": "Sans serif font family for title, body, and caption"
+      },
+      "caption": {
+        "value": "SF Pro Text",
+        "type": "fontFamilies"
+      }
+    },
+    "serif": {
+      "display": {
+        "value": "Bianco Serif",
+        "type": "fontFamilies",
+        "description": "Serif font family used for display text & headlines"
+      },
+      "headline": {
+        "value": "SF Pro Display",
+        "type": "fontFamilies"
+      },
+      "title": {
+        "value": "SF Pro Text",
+        "type": "fontFamilies"
+      },
+      "body": {
+        "value": "Bianco Serif",
+        "type": "fontFamilies",
+        "description": "Serif font family used for title, body, and caption"
+      },
+      "caption": {
+        "value": "SF Pro Text",
+        "type": "fontFamilies"
+      }
+    },
+    "brand": {
+      "heading": {
+        "value": "Bianco Serif",
+        "type": "fontFamilies"
+      },
+      "body": {
+        "value": "Bianco Serif",
+        "type": "fontFamilies"
+      }
+    }
+  }
+}

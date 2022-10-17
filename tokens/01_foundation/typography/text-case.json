@@ -1,1 +1,12 @@
-{}
+{
+  "text-case": {
+    "as-is": {
+      "value": "none",
+      "type": "textCase"
+    },
+    "all-caps": {
+      "value": "capitalize",
+      "type": "textCase"
+    }
+  }
+}

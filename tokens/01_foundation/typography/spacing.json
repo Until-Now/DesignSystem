@@ -116,5 +116,11 @@
       "value": "2%",
       "type": "letterSpacing"
     }
+  },
+  "paragraph-spacing": {
+    "default": {
+      "value": "0",
+      "type": "paragraphSpacing"
+    }
   }
 }
