@@ -107,6 +107,10 @@
             "divider": {
               "value": "{system.colour.patterns.background.outline}",
               "type": "color"
+            },
+            "link": {
+              "value": "{system.colour.patterns.content.text-link}",
+              "type": "color"
             }
           },
           "hover": {
@@ -213,6 +217,20 @@
         "container": {
           "background": {
             "value": "{system.colour.patterns.background.default}",
+            "type": "color"
+          },
+          "outline": {
+            "value": "{system.colour.patterns.background.outline}",
+            "type": "color"
+          }
+        },
+        "footer": {
+          "content-mid": {
+            "value": "{system.colour.patterns.content.muted}",
+            "type": "color"
+          },
+          "content-strong": {
+            "value": "{system.colour.patterns.content.default}",
             "type": "color"
           },
           "outline": {

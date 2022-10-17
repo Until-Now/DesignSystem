@@ -2114,6 +2114,10 @@
           "inverse-default": {
             "value": "{system.content.inverse-primary.default}",
             "type": "color"
+          },
+          "text-link": {
+            "value": "{system.content.text-link}",
+            "type": "color"
           }
         }
       }
