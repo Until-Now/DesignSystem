@@ -288,7 +288,7 @@
       },
       "factor": {
         "small": {
-          "value": "{factor.4}",
+          "value": "{lineHeightFactor}",
           "type": "lineHeights"
         },
         "large": {

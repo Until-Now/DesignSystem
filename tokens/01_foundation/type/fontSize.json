@@ -9,15 +9,15 @@
       "type": "fontSizes"
     },
     "2xs": {
-      "value": "floor(roundTo({fontSize.xs}/{fontSize.scale},0)/{factor})*{factor}",
+      "value": "floor(roundTo({fontSize.xs}/{fontSize.scale},0)/{fontSizeFactor})*{fontSizeFactor}",
       "type": "fontSizes"
     },
     "xs": {
-      "value": "floor(roundTo({fontSize.sm}/{fontSize.scale},0)/{factor})*{factor}",
+      "value": "floor(roundTo({fontSize.sm}/{fontSize.scale},0)/{fontSizeFactor})*{fontSizeFactor}",
       "type": "fontSizes"
     },
     "sm": {
-      "value": "floor(roundTo({fontSize.base}/{fontSize.scale},0)/{factor})*{factor}",
+      "value": "floor(roundTo({fontSize.base}/{fontSize.scale},0)/{fontSizeFactor})*{fontSizeFactor}",
       "type": "fontSizes"
     },
     "md": {
@@ -25,71 +25,71 @@
       "type": "fontSizes"
     },
     "lg": {
-      "value": "ceil(roundTo({fontSize.base}*{fontSize.scale},0)/{factor})*{factor}",
+      "value": "ceil(roundTo({fontSize.base}*{fontSize.scale},0)/{fontSizeFactor})*{fontSizeFactor}",
       "type": "fontSizes"
     },
     "xl": {
-      "value": "ceil(roundTo({fontSize.lg}*{fontSize.scale},0)/{factor})*{factor}",
+      "value": "ceil(roundTo({fontSize.lg}*{fontSize.scale},0)/{fontSizeFactor})*{fontSizeFactor}",
       "type": "fontSizes"
     },
     "2xl": {
-      "value": "ceil(roundTo({fontSize.xl}*{fontSize.scale},0)/{factor})*{factor}",
+      "value": "ceil(roundTo({fontSize.xl}*{fontSize.scale},0)/{fontSizeFactor})*{fontSizeFactor}",
       "type": "fontSizes"
     },
     "3xl": {
-      "value": "ceil(roundTo({fontSize.2xl}*{fontSize.scale},0)/{factor})*{factor}",
+      "value": "ceil(roundTo({fontSize.2xl}*{fontSize.scale},0)/{fontSizeFactor})*{fontSizeFactor}",
       "type": "fontSizes"
     },
     "4xl": {
-      "value": "ceil(roundTo({fontSize.3xl}*{fontSize.scale},0)/{factor})*{factor}",
+      "value": "ceil(roundTo({fontSize.3xl}*{fontSize.scale},0)/{fontSizeFactor})*{fontSizeFactor}",
       "type": "fontSizes"
     },
     "5xl": {
-      "value": "ceil(roundTo({fontSize.4xl}*{fontSize.scale},0)/{factor})*{factor}",
+      "value": "ceil(roundTo({fontSize.4xl}*{fontSize.scale},0)/{fontSizeFactor})*{fontSizeFactor}",
       "type": "fontSizes"
     },
     "6xl": {
-      "value": "ceil(roundTo({fontSize.5xl}*{fontSize.scale},0)/{factor})*{factor}",
+      "value": "ceil(roundTo({fontSize.5xl}*{fontSize.scale},0)/{fontSizeFactor})*{fontSizeFactor}",
       "type": "fontSizes"
     },
     "7xl": {
-      "value": "ceil(roundTo({fontSize.6xl}*{fontSize.scale},0)/{factor})*{factor}",
+      "value": "ceil(roundTo({fontSize.6xl}*{fontSize.scale},0)/{fontSizeFactor})*{fontSizeFactor}",
       "type": "fontSizes"
     },
     "8xl": {
-      "value": "ceil(roundTo({fontSize.7xl}*{fontSize.scale},0)/{factor})*{factor}",
+      "value": "ceil(roundTo({fontSize.7xl}*{fontSize.scale},0)/{fontSizeFactor})*{fontSizeFactor}",
       "type": "fontSizes"
     },
     "9xl": {
-      "value": "ceil(roundTo({fontSize.8xl}*{fontSize.scale},0)/{factor})*{factor}",
+      "value": "ceil(roundTo({fontSize.8xl}*{fontSize.scale},0)/{fontSizeFactor})*{fontSizeFactor}",
       "type": "fontSizes"
     },
     "10xl": {
-      "value": "ceil(roundTo({fontSize.9xl}*{fontSize.scale},0)/{factor})*{factor}",
+      "value": "ceil(roundTo({fontSize.9xl}*{fontSize.scale},0)/{fontSizeFactor})*{fontSizeFactor}",
       "type": "fontSizes"
     },
     "11xl": {
-      "value": "ceil(roundTo({fontSize.10xl}*{fontSize.scale},0)/{factor})*{factor}",
+      "value": "ceil(roundTo({fontSize.10xl}*{fontSize.scale},0)/{fontSizeFactor})*{fontSizeFactor}",
       "type": "fontSizes"
     },
     "12xl": {
-      "value": "ceil(roundTo({fontSize.11xl}*{fontSize.scale},0)/{factor})*{factor}",
+      "value": "ceil(roundTo({fontSize.11xl}*{fontSize.scale},0)/{fontSizeFactor})*{fontSizeFactor}",
       "type": "fontSizes"
     },
     "13xl": {
-      "value": "ceil(roundTo({fontSize.12xl}*{fontSize.scale},0)/{factor})*{factor}",
+      "value": "ceil(roundTo({fontSize.12xl}*{fontSize.scale},0)/{fontSizeFactor})*{fontSizeFactor}",
       "type": "fontSizes"
     },
     "14xl": {
-      "value": "ceil(roundTo({fontSize.13xl}*{fontSize.scale},0)/{factor})*{factor}",
+      "value": "ceil(roundTo({fontSize.13xl}*{fontSize.scale},0)/{fontSizeFactor})*{fontSizeFactor}",
       "type": "fontSizes"
     },
     "15xl": {
-      "value": "ceil(roundTo({fontSize.14xl}*{fontSize.scale},0)/{factor})*{factor}",
+      "value": "ceil(roundTo({fontSize.14xl}*{fontSize.scale},0)/{fontSizeFactor})*{fontSizeFactor}",
       "type": "fontSizes"
     }
   },
-  "factor": {
+  "fontSizeFactor": {
     "value": "4",
     "type": "other"
   }

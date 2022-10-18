@@ -424,13 +424,110 @@
     }
   },
   "semantic": {
-    "H1": {
-      "regular": {
+    "R1": {
+      "standard": {
         "value": {
           "fontFamily": "{fontFamily.product.heading}",
           "fontWeight": "{fontWeight.400}",
-          "lineHeight": "{lineHeight.13xl}",
-          "fontSize": "{fontSize.13xl}",
+          "lineHeight": "{lineHeight.7xl}",
+          "fontSize": "{fontSize.9xl}",
+          "letterSpacing": "{letterSpacing.-50}",
+          "paragraphSpacing": "{paragraph-spacing.default}",
+          "textDecoration": "{textDecoration.default}",
+          "textCase": "{textCase.as-is}"
+        },
+        "type": "typography"
+      },
+      "emphasis": {
+        "value": {
+          "fontFamily": "{fontFamily.product.heading}",
+          "fontWeight": "{fontWeight.600}",
+          "lineHeight": "{lineHeight.7xl}",
+          "fontSize": "{fontSize.9xl}",
+          "letterSpacing": "{letterSpacing.-50}",
+          "paragraphSpacing": "{paragraph-spacing.default}",
+          "textDecoration": "{textDecoration.default}",
+          "textCase": "{textCase.as-is}"
+        },
+        "type": "typography"
+      }
+    },
+    "R2": {
+      "standard": {
+        "value": {
+          "fontFamily": "{fontFamily.product.heading}",
+          "fontWeight": "{fontWeight.400}",
+          "lineHeight": "{lineHeight.11xl}",
+          "fontSize": "{fontSize.11xl}",
+          "letterSpacing": "{letterSpacing.-50}",
+          "paragraphSpacing": "{paragraph-spacing.default}",
+          "textDecoration": "{textDecoration.default}",
+          "textCase": "{textCase.as-is}"
+        },
+        "type": "typography"
+      },
+      "emphasis": {
+        "value": {
+          "fontFamily": "{fontFamily.product.heading}",
+          "fontWeight": "{fontWeight.600}",
+          "lineHeight": "{lineHeight.11xl}",
+          "fontSize": "{fontSize.11xl}",
+          "letterSpacing": "{letterSpacing.-50}",
+          "paragraphSpacing": "{paragraph-spacing.default}",
+          "textDecoration": "{textDecoration.default}",
+          "textCase": "{textCase.as-is}"
+        },
+        "type": "typography"
+      }
+    },
+    "R3": {
+      "standard": {
+        "value": {
+          "fontFamily": "{fontFamily.product.heading}",
+          "fontWeight": "{fontWeight.400}",
+          "lineHeight": "{lineHeight.10xl}",
+          "fontSize": "{fontSize.10xl}",
+          "letterSpacing": "{letterSpacing.-50}",
+          "paragraphSpacing": "{paragraph-spacing.default}",
+          "textDecoration": "{textDecoration.default}",
+          "textCase": "{textCase.as-is}"
+        },
+        "type": "typography"
+      },
+      "emphasis": {
+        "value": {
+          "fontFamily": "{fontFamily.product.heading}",
+          "fontWeight": "{fontWeight.600}",
+          "lineHeight": "{lineHeight.10xl}",
+          "fontSize": "{fontSize.10xl}",
+          "letterSpacing": "{letterSpacing.-50}",
+          "paragraphSpacing": "{paragraph-spacing.default}",
+          "textDecoration": "{textDecoration.default}",
+          "textCase": "{textCase.as-is}"
+        },
+        "type": "typography"
+      }
+    },
+    "H1": {
+      "standard": {
+        "value": {
+          "fontFamily": "{fontFamily.product.heading}",
+          "fontWeight": "{fontWeight.400}",
+          "lineHeight": "{lineHeight.7xl}",
+          "fontSize": "{fontSize.9xl}",
+          "letterSpacing": "{letterSpacing.-50}",
+          "paragraphSpacing": "{paragraph-spacing.default}",
+          "textDecoration": "{textDecoration.default}",
+          "textCase": "{textCase.as-is}"
+        },
+        "type": "typography"
+      },
+      "emphasis": {
+        "value": {
+          "fontFamily": "{fontFamily.product.heading}",
+          "fontWeight": "{fontWeight.600}",
+          "lineHeight": "{lineHeight.7xl}",
+          "fontSize": "{fontSize.9xl}",
           "letterSpacing": "{letterSpacing.-50}",
           "paragraphSpacing": "{paragraph-spacing.default}",
           "textDecoration": "{textDecoration.default}",
