@@ -70,7 +70,7 @@
             "type": "spacing"
           },
           "space-between": {
-            "value": "{semantic.spacing.patterns.x-sm.space-between}",
+            "value": "{semantic.spacing.patterns.xs.space-between}",
             "type": "spacing"
           }
         },

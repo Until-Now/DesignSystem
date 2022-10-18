@@ -89,7 +89,7 @@
       },
       "border-width": {
         "active": {
-          "value": "{border-width.2}",
+          "value": "{borderWidth.2}",
           "type": "borderWidth"
         }
       },

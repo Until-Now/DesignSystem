@@ -271,11 +271,11 @@
       },
       "border-width": {
         "graph-frame": {
-          "value": "{border-width.1}",
+          "value": "{borderWidth.1}",
           "type": "borderWidth"
         },
         "line-chart-data": {
-          "value": "{border-width.2}",
+          "value": "{borderWidth.2}",
           "type": "borderWidth"
         }
       },

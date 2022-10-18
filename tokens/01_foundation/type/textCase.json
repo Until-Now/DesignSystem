@@ -8,5 +8,11 @@
       "value": "capitalize",
       "type": "textCase"
     }
+  },
+  "textDecoration": {
+    "default": {
+      "value": "none",
+      "type": "textDecoration"
+    }
   }
 }

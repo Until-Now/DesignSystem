@@ -386,34 +386,6 @@
     }
   },
   "fontWeight": {
-    "300": {
-      "value": "Light",
-      "type": "fontWeights"
-    },
-    "400": {
-      "value": "Regular",
-      "type": "fontWeights"
-    },
-    "500": {
-      "value": "Medium",
-      "type": "fontWeights"
-    },
-    "600": {
-      "value": "Semibold",
-      "type": "fontWeights"
-    },
-    "700": {
-      "value": "Bold",
-      "type": "fontWeights"
-    },
-    "800": {
-      "value": "Heavy",
-      "type": "fontWeights"
-    },
-    "900": {
-      "value": "Black",
-      "type": "fontWeights"
-    },
     "sans-serif": {
       "regular": {
         "display": {
@@ -645,7 +617,7 @@
       }
     }
   },
-  "line-height": {
+  "lineHeight": {
     "scale": {
       "display": {
         "value": "{scale.105%}",
@@ -681,67 +653,67 @@
     "sans-serif": {
       "lg": {
         "display": {
-          "value": "ceil(roundTo({fontSize.sans-serif.lg.display}*{line-height.scale.display},0)/{line-height.scale.factor.small})*{line-height.scale.factor.small}",
+          "value": "ceil(roundTo({fontSize.sans-serif.lg.display}*{lineHeight.scale.display},0)/{lineHeight.scale.factor.small})*{lineHeight.scale.factor.small}",
           "type": "lineHeights"
         },
         "headline": {
-          "value": "ceil(roundTo({fontSize.sans-serif.lg.headline}*{line-height.scale.headline},0)/{line-height.scale.factor.small})*{line-height.scale.factor.small}",
+          "value": "ceil(roundTo({fontSize.sans-serif.lg.headline}*{lineHeight.scale.headline},0)/{lineHeight.scale.factor.small})*{lineHeight.scale.factor.small}",
           "type": "lineHeights"
         },
         "title": {
-          "value": "ceil(roundTo({fontSize.sans-serif.lg.title}*{line-height.scale.title},0)/{line-height.scale.factor.small})*{line-height.scale.factor.small}",
+          "value": "ceil(roundTo({fontSize.sans-serif.lg.title}*{lineHeight.scale.title},0)/{lineHeight.scale.factor.small})*{lineHeight.scale.factor.small}",
           "type": "lineHeights"
         },
         "body": {
-          "value": "ceil(roundTo({fontSize.sans-serif.lg.body}*{line-height.scale.body},0)/{line-height.scale.factor.small})*{line-height.scale.factor.small}",
+          "value": "ceil(roundTo({fontSize.sans-serif.lg.body}*{lineHeight.scale.body},0)/{lineHeight.scale.factor.small})*{lineHeight.scale.factor.small}",
           "type": "lineHeights"
         },
         "caption": {
-          "value": "ceil(roundTo({fontSize.sans-serif.lg.caption}*{line-height.scale.caption},0)/{line-height.scale.factor.large})*{line-height.scale.factor.large}",
+          "value": "ceil(roundTo({fontSize.sans-serif.lg.caption}*{lineHeight.scale.caption},0)/{lineHeight.scale.factor.large})*{lineHeight.scale.factor.large}",
           "type": "lineHeights"
         }
       },
       "md": {
         "display": {
-          "value": "ceil(roundTo({fontSize.sans-serif.md.display}*{line-height.scale.display},0)/{line-height.scale.factor.small})*{line-height.scale.factor.small}",
+          "value": "ceil(roundTo({fontSize.sans-serif.md.display}*{lineHeight.scale.display},0)/{lineHeight.scale.factor.small})*{lineHeight.scale.factor.small}",
           "type": "lineHeights"
         },
         "headline": {
-          "value": "ceil(roundTo({fontSize.sans-serif.md.headline}*{line-height.scale.headline},0)/{line-height.scale.factor.small})*{line-height.scale.factor.small}",
+          "value": "ceil(roundTo({fontSize.sans-serif.md.headline}*{lineHeight.scale.headline},0)/{lineHeight.scale.factor.small})*{lineHeight.scale.factor.small}",
           "type": "lineHeights"
         },
         "title": {
-          "value": "ceil(roundTo({fontSize.sans-serif.md.title}*{line-height.scale.title},0)/{line-height.scale.factor.small})*{line-height.scale.factor.small}",
+          "value": "ceil(roundTo({fontSize.sans-serif.md.title}*{lineHeight.scale.title},0)/{lineHeight.scale.factor.small})*{lineHeight.scale.factor.small}",
           "type": "lineHeights"
         },
         "body": {
-          "value": "ceil(roundTo({fontSize.sans-serif.md.body}*{line-height.scale.body},0)/{line-height.scale.factor.small})*{line-height.scale.factor.small}",
+          "value": "ceil(roundTo({fontSize.sans-serif.md.body}*{lineHeight.scale.body},0)/{lineHeight.scale.factor.small})*{lineHeight.scale.factor.small}",
           "type": "lineHeights"
         },
         "caption": {
-          "value": "ceil(roundTo({fontSize.sans-serif.md.caption}*{line-height.scale.caption},0)/{line-height.scale.factor.large})*{line-height.scale.factor.large}",
+          "value": "ceil(roundTo({fontSize.sans-serif.md.caption}*{lineHeight.scale.caption},0)/{lineHeight.scale.factor.large})*{lineHeight.scale.factor.large}",
           "type": "lineHeights"
         }
       },
       "sm": {
         "display": {
-          "value": "ceil(roundTo({fontSize.sans-serif.sm.display}*{line-height.scale.display},0)/{line-height.scale.factor.small})*{line-height.scale.factor.small}",
+          "value": "ceil(roundTo({fontSize.sans-serif.sm.display}*{lineHeight.scale.display},0)/{lineHeight.scale.factor.small})*{lineHeight.scale.factor.small}",
           "type": "lineHeights"
         },
         "headline": {
-          "value": "ceil(roundTo({fontSize.sans-serif.sm.headline}*{line-height.scale.headline},0)/{line-height.scale.factor.small})*{line-height.scale.factor.small}",
+          "value": "ceil(roundTo({fontSize.sans-serif.sm.headline}*{lineHeight.scale.headline},0)/{lineHeight.scale.factor.small})*{lineHeight.scale.factor.small}",
           "type": "lineHeights"
         },
         "title": {
-          "value": "ceil(roundTo({fontSize.sans-serif.sm.title}*{line-height.scale.title},0)/{line-height.scale.factor.small})*{line-height.scale.factor.small}",
+          "value": "ceil(roundTo({fontSize.sans-serif.sm.title}*{lineHeight.scale.title},0)/{lineHeight.scale.factor.small})*{lineHeight.scale.factor.small}",
           "type": "lineHeights"
         },
         "body": {
-          "value": "ceil(roundTo({fontSize.sans-serif.sm.body}*{line-height.scale.body},0)/{line-height.scale.factor.small})*{line-height.scale.factor.small}",
+          "value": "ceil(roundTo({fontSize.sans-serif.sm.body}*{lineHeight.scale.body},0)/{lineHeight.scale.factor.small})*{lineHeight.scale.factor.small}",
           "type": "lineHeights"
         },
         "caption": {
-          "value": "ceil(roundTo({fontSize.sans-serif.sm.caption}*{line-height.scale.caption},0)/{line-height.scale.factor.small})*{line-height.scale.factor.small}",
+          "value": "ceil(roundTo({fontSize.sans-serif.sm.caption}*{lineHeight.scale.caption},0)/{lineHeight.scale.factor.small})*{lineHeight.scale.factor.small}",
           "type": "lineHeights"
         }
       }
@@ -749,67 +721,67 @@
     "serif": {
       "lg": {
         "display": {
-          "value": "ceil(roundTo({fontSize.serif.lg.display}*{line-height.scale.display},0)/{line-height.scale.factor.small})*{line-height.scale.factor.small}",
+          "value": "ceil(roundTo({fontSize.serif.lg.display}*{lineHeight.scale.display},0)/{lineHeight.scale.factor.small})*{lineHeight.scale.factor.small}",
           "type": "lineHeights"
         },
         "headline": {
-          "value": "ceil(roundTo({fontSize.serif.lg.headline}*{line-height.scale.headline},0)/{line-height.scale.factor.small})*{line-height.scale.factor.small}",
+          "value": "ceil(roundTo({fontSize.serif.lg.headline}*{lineHeight.scale.headline},0)/{lineHeight.scale.factor.small})*{lineHeight.scale.factor.small}",
           "type": "lineHeights"
         },
         "title": {
-          "value": "ceil(roundTo({fontSize.serif.lg.title}*{line-height.scale.title},0)/{line-height.scale.factor.small})*{line-height.scale.factor.small}",
+          "value": "ceil(roundTo({fontSize.serif.lg.title}*{lineHeight.scale.title},0)/{lineHeight.scale.factor.small})*{lineHeight.scale.factor.small}",
           "type": "lineHeights"
         },
         "body": {
-          "value": "ceil(roundTo({fontSize.serif.lg.body}*{line-height.scale.body},0)/{line-height.scale.factor.small})*{line-height.scale.factor.small}",
+          "value": "ceil(roundTo({fontSize.serif.lg.body}*{lineHeight.scale.body},0)/{lineHeight.scale.factor.small})*{lineHeight.scale.factor.small}",
           "type": "lineHeights"
         },
         "caption": {
-          "value": "ceil(roundTo({fontSize.serif.lg.caption}*{line-height.scale.caption},0)/{line-height.scale.factor.large})*{line-height.scale.factor.large}",
+          "value": "ceil(roundTo({fontSize.serif.lg.caption}*{lineHeight.scale.caption},0)/{lineHeight.scale.factor.large})*{lineHeight.scale.factor.large}",
           "type": "lineHeights"
         }
       },
       "md": {
         "display": {
-          "value": "ceil(roundTo({fontSize.serif.md.display}*{line-height.scale.display},0)/{line-height.scale.factor.small})*{line-height.scale.factor.small}",
+          "value": "ceil(roundTo({fontSize.serif.md.display}*{lineHeight.scale.display},0)/{lineHeight.scale.factor.small})*{lineHeight.scale.factor.small}",
           "type": "lineHeights"
         },
         "headline": {
-          "value": "ceil(roundTo({fontSize.serif.md.headline}*{line-height.scale.headline},0)/{line-height.scale.factor.small})*{line-height.scale.factor.small}",
+          "value": "ceil(roundTo({fontSize.serif.md.headline}*{lineHeight.scale.headline},0)/{lineHeight.scale.factor.small})*{lineHeight.scale.factor.small}",
           "type": "lineHeights"
         },
         "title": {
-          "value": "ceil(roundTo({fontSize.serif.md.title}*{line-height.scale.title},0)/{line-height.scale.factor.small})*{line-height.scale.factor.small}",
+          "value": "ceil(roundTo({fontSize.serif.md.title}*{lineHeight.scale.title},0)/{lineHeight.scale.factor.small})*{lineHeight.scale.factor.small}",
           "type": "lineHeights"
         },
         "body": {
-          "value": "ceil(roundTo({fontSize.serif.md.body}*{line-height.scale.body},0)/{line-height.scale.factor.small})*{line-height.scale.factor.small}",
+          "value": "ceil(roundTo({fontSize.serif.md.body}*{lineHeight.scale.body},0)/{lineHeight.scale.factor.small})*{lineHeight.scale.factor.small}",
           "type": "lineHeights"
         },
         "caption": {
-          "value": "ceil(roundTo({fontSize.serif.md.caption}*{line-height.scale.caption},0)/{line-height.scale.factor.large})*{line-height.scale.factor.large}",
+          "value": "ceil(roundTo({fontSize.serif.md.caption}*{lineHeight.scale.caption},0)/{lineHeight.scale.factor.large})*{lineHeight.scale.factor.large}",
           "type": "lineHeights"
         }
       },
       "sm": {
         "display": {
-          "value": "ceil(roundTo({fontSize.serif.sm.display}*{line-height.scale.display},0)/{line-height.scale.factor.small})*{line-height.scale.factor.small}",
+          "value": "ceil(roundTo({fontSize.serif.sm.display}*{lineHeight.scale.display},0)/{lineHeight.scale.factor.small})*{lineHeight.scale.factor.small}",
           "type": "lineHeights"
         },
         "headline": {
-          "value": "ceil(roundTo({fontSize.serif.sm.headline}*{line-height.scale.headline},0)/{line-height.scale.factor.small})*{line-height.scale.factor.small}",
+          "value": "ceil(roundTo({fontSize.serif.sm.headline}*{lineHeight.scale.headline},0)/{lineHeight.scale.factor.small})*{lineHeight.scale.factor.small}",
           "type": "lineHeights"
         },
         "title": {
-          "value": "ceil(roundTo({fontSize.serif.sm.title}*{line-height.scale.title},0)/{line-height.scale.factor.small})*{line-height.scale.factor.small}",
+          "value": "ceil(roundTo({fontSize.serif.sm.title}*{lineHeight.scale.title},0)/{lineHeight.scale.factor.small})*{lineHeight.scale.factor.small}",
           "type": "lineHeights"
         },
         "body": {
-          "value": "ceil(roundTo({fontSize.serif.sm.body}*{line-height.scale.body},0)/{line-height.scale.factor.small})*{line-height.scale.factor.small}",
+          "value": "ceil(roundTo({fontSize.serif.sm.body}*{lineHeight.scale.body},0)/{lineHeight.scale.factor.small})*{lineHeight.scale.factor.small}",
           "type": "lineHeights"
         },
         "caption": {
-          "value": "ceil(roundTo({fontSize.serif.sm.caption}*{line-height.scale.caption},0)/{line-height.scale.factor.small})*{line-height.scale.factor.small}",
+          "value": "ceil(roundTo({fontSize.serif.sm.caption}*{lineHeight.scale.caption},0)/{lineHeight.scale.factor.small})*{lineHeight.scale.factor.small}",
           "type": "lineHeights"
         }
       }

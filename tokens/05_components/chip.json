@@ -4,11 +4,11 @@
       "size": {
         "height": {
           "sm": {
-            "value": "{semantic.component.2x-sm}",
+            "value": "{semantic.component.2xs}",
             "type": "sizing"
           },
           "md": {
-            "value": "{semantic.component.x-sm}",
+            "value": "{semantic.component.xs}",
             "type": "sizing"
           },
           "lg": {

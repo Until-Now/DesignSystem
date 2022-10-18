@@ -1,19 +1,19 @@
 {
   "semantic": {
     "component": {
-      "4x-sm": {
+      "4xs": {
         "value": "{size.16}",
         "type": "sizing"
       },
-      "3x-sm": {
+      "3xs": {
         "value": "{size.20}",
         "type": "sizing"
       },
-      "2x-sm": {
+      "2xs": {
         "value": "{size.24}",
         "type": "sizing"
       },
-      "x-sm": {
+      "xs": {
         "value": "{size.32}",
         "type": "sizing"
       },
@@ -29,7 +29,7 @@
         "value": "{size.56}",
         "type": "sizing"
       },
-      "x-lg": {
+      "xl": {
         "value": "{size.64}",
         "type": "sizing"
       },
@@ -262,19 +262,19 @@
       "status": {
         "height": {
           "2x-small": {
-            "value": "{semantic.component.4x-sm}",
+            "value": "{semantic.component.4xs}",
             "type": "sizing"
           },
           "x-small": {
-            "value": "{semantic.component.3x-sm}",
+            "value": "{semantic.component.3xs}",
             "type": "sizing"
           },
           "small": {
-            "value": "{semantic.component.2x-sm}",
+            "value": "{semantic.component.2xs}",
             "type": "sizing"
           },
           "medium": {
-            "value": "{semantic.component.x-sm}",
+            "value": "{semantic.component.xs}",
             "type": "sizing"
           },
           "large": {
@@ -642,7 +642,7 @@
         }
       },
       "patterns": {
-        "3x-sm": {
+        "3xs": {
           "padding-left": {
             "value": "{space.2}",
             "type": "spacing"
@@ -664,7 +664,7 @@
             "type": "spacing"
           }
         },
-        "2x-sm": {
+        "2xs": {
           "padding-left": {
             "value": "{space.4}",
             "type": "spacing"
@@ -686,7 +686,7 @@
             "type": "spacing"
           }
         },
-        "x-sm": {
+        "xs": {
           "padding-left": {
             "value": "{space.8}",
             "type": "spacing"
@@ -774,7 +774,7 @@
             "type": "spacing"
           }
         },
-        "x-lg": {
+        "xl": {
           "padding-left": {
             "value": "{space.32}",
             "type": "spacing"
@@ -796,7 +796,7 @@
             "type": "spacing"
           }
         },
-        "2x-lg": {
+        "2xl": {
           "padding-left": {
             "value": "{space.40}",
             "type": "spacing"
@@ -818,7 +818,7 @@
             "type": "spacing"
           }
         },
-        "3x-lg": {
+        "3xl": {
           "padding-left": {
             "value": "{space.48}",
             "type": "spacing"
@@ -840,7 +840,7 @@
             "type": "spacing"
           }
         },
-        "4x-lg": {
+        "4xl": {
           "padding-left": {
             "value": "{space.64}",
             "type": "spacing"
@@ -889,15 +889,15 @@
       },
       "width": {
         "small": {
-          "value": "{border-width.1}",
+          "value": "{borderWidth.1}",
           "type": "borderWidth"
         },
         "medium": {
-          "value": "{border-width.2}",
+          "value": "{borderWidth.2}",
           "type": "borderWidth"
         },
         "large": {
-          "value": "{border-width.4}",
+          "value": "{borderWidth.4}",
           "type": "borderWidth"
         }
       }
@@ -1114,27 +1114,27 @@
     "border-width": {
       "action": {
         "small": {
-          "value": "{border-width.1}",
+          "value": "{borderWidth.1}",
           "type": "borderWidth"
         }
       },
       "input": {
         "small": {
-          "value": "{border-width.1}",
+          "value": "{borderWidth.1}",
           "type": "borderWidth"
         },
         "medium": {
-          "value": "{border-width.2}",
+          "value": "{borderWidth.2}",
           "type": "borderWidth"
         }
       },
       "status": {
         "small": {
-          "value": "{border-width.1}",
+          "value": "{borderWidth.1}",
           "type": "borderWidth"
         },
         "medium": {
-          "value": "{border-width.2}",
+          "value": "{borderWidth.2}",
           "type": "borderWidth"
         }
       }

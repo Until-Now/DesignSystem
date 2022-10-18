@@ -5,7 +5,7 @@
       "type": "fontSizes"
     },
     "scale": {
-      "value": "1.15",
+      "value": "1.125",
       "type": "fontSizes"
     },
     "2xs": {
@@ -74,6 +74,18 @@
     },
     "12xl": {
       "value": "ceil(roundTo({fontSize.11xl}*{fontSize.scale},0)/{factor})*{factor}",
+      "type": "fontSizes"
+    },
+    "13xl": {
+      "value": "ceil(roundTo({fontSize.12xl}*{fontSize.scale},0)/{factor})*{factor}",
+      "type": "fontSizes"
+    },
+    "14xl": {
+      "value": "ceil(roundTo({fontSize.13xl}*{fontSize.scale},0)/{factor})*{factor}",
+      "type": "fontSizes"
+    },
+    "15xl": {
+      "value": "ceil(roundTo({fontSize.14xl}*{fontSize.scale},0)/{factor})*{factor}",
       "type": "fontSizes"
     }
   },

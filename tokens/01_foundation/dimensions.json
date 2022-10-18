@@ -343,7 +343,7 @@
       "type": "spacing"
     }
   },
-  "border-width": {
+  "borderWidth": {
     "1": {
       "value": "1",
       "type": "borderWidth"
