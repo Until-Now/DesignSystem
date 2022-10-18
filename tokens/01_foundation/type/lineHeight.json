@@ -1,15 +1,15 @@
 {
   "lineHeight": {
     "rubric": {
-      "value": "1.05",
-      "type": "lineHeights"
-    },
-    "heading": {
       "value": "1.1",
       "type": "lineHeights"
     },
+    "heading": {
+      "value": "1.125",
+      "type": "lineHeights"
+    },
     "title": {
-      "value": "1.3",
+      "value": "1.25",
       "type": "lineHeights"
     },
     "body": {
