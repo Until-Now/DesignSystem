@@ -1,11 +1,11 @@
 {
   "fontSize": {
     "base": {
-      "value": "14",
+      "value": "16",
       "type": "fontSizes"
     },
     "scale": {
-      "value": "1.125",
+      "value": "1.15",
       "type": "fontSizes"
     },
     "2xs": {
@@ -90,7 +90,7 @@
     }
   },
   "fontSizeFactor": {
-    "value": "4",
+    "value": "2",
     "type": "other"
   }
 }
