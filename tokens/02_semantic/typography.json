@@ -1107,32 +1107,6 @@
             "textCase": "{textCase.as-is}"
           },
           "type": "typography"
-        },
-        "3xsStandard": {
-          "value": {
-            "fontFamily": "{fontFamily.product.body}",
-            "fontWeight": "{fontWeight.400}",
-            "lineHeight": "ceil(roundTo({fontSize.3xs}*{lineHeight.paragraph},0) /{lineHeightFactor})*{lineHeightFactor}",
-            "fontSize": "{fontSize.3xs}",
-            "letterSpacing": "{letterSpacing.-50}",
-            "paragraphSpacing": "{paragraph-spacing.default}",
-            "textDecoration": "{textDecoration.default}",
-            "textCase": "{textCase.as-is}"
-          },
-          "type": "typography"
-        },
-        "3xsEmphasis": {
-          "value": {
-            "fontFamily": "{fontFamily.product.body}",
-            "fontWeight": "{fontWeight.600}",
-            "lineHeight": "ceil(roundTo({fontSize.3xs}*{lineHeight.paragraph},0) /{lineHeightFactor})*{lineHeightFactor}",
-            "fontSize": "{fontSize.3xs}",
-            "letterSpacing": "{letterSpacing.-50}",
-            "paragraphSpacing": "{paragraph-spacing.default}",
-            "textDecoration": "{textDecoration.default}",
-            "textCase": "{textCase.as-is}"
-          },
-          "type": "typography"
         }
       },
       "caption": {
@@ -1283,12 +1257,12 @@
         }
       },
       "action": {
-        "sm": {
+        "lg": {
           "value": {
             "fontFamily": "{fontFamily.product.body}",
             "fontWeight": "{fontWeight.600}",
             "lineHeight": "24",
-            "fontSize": "{fontSize.sm}",
+            "fontSize": "{fontSize.lg}",
             "letterSpacing": "{letterSpacing.0}",
             "paragraphSpacing": "{paragraph-spacing.default}",
             "textDecoration": "{textDecoration.default}",
@@ -1309,12 +1283,12 @@
           },
           "type": "typography"
         },
-        "lg": {
+        "sm": {
           "value": {
             "fontFamily": "{fontFamily.product.body}",
             "fontWeight": "{fontWeight.600}",
             "lineHeight": "24",
-            "fontSize": "{fontSize.lg}",
+            "fontSize": "{fontSize.sm}",
             "letterSpacing": "{letterSpacing.0}",
             "paragraphSpacing": "{paragraph-spacing.default}",
             "textDecoration": "{textDecoration.default}",
@@ -1324,36 +1298,12 @@
         }
       },
       "input": {
-        "3xsStandard": {
-          "value": "{semantic.typography.caption.mdStandard}",
+        "lgStandard": {
+          "value": "{semantic.typography.paragraph.lgStandard}",
           "type": "typography"
         },
-        "3xsEmphasis": {
-          "value": "{semantic.typography.caption.mdEmphasis}",
-          "type": "typography"
-        },
-        "2xsStandard": {
-          "value": "{semantic.typography.caption.lgStandard}",
-          "type": "typography"
-        },
-        "2xsEmphasis": {
-          "value": "{semantic.typography.caption.lgEmphasis}",
-          "type": "typography"
-        },
-        "xsStandard": {
-          "value": "{semantic.typography.caption.xlStandard}",
-          "type": "typography"
-        },
-        "xsEmphasis": {
-          "value": "{semantic.typography.caption.xlEmphasis}",
-          "type": "typography"
-        },
-        "smStandard": {
-          "value": "{semantic.typography.paragraph.smStandard}",
-          "type": "typography"
-        },
-        "smEmphasis": {
-          "value": "{semantic.typography.paragraph.smEmphasis}",
+        "lgEmphasis": {
+          "value": "{semantic.typography.paragraph.lgEmphasis}",
           "type": "typography"
         },
         "mdStandard": {
@@ -1364,21 +1314,127 @@
           "value": "{semantic.typography.paragraph.mdEmphasis}",
           "type": "typography"
         },
-        "lgStandard": {
-          "value": "{semantic.typography.paragraph.lgStandard}",
+        "smStandard": {
+          "value": "{semantic.typography.paragraph.smStandard}",
           "type": "typography"
         },
-        "lgEmphasis": {
-          "value": "{semantic.typography.paragraph.lgEmphasis}",
+        "smEmphasis": {
+          "value": "{semantic.typography.paragraph.smEmphasis}",
+          "type": "typography"
+        },
+        "xsStandard": {
+          "value": "{semantic.typography.caption.xlStandard}",
+          "type": "typography"
+        },
+        "xsEmphasis": {
+          "value": "{semantic.typography.caption.xlEmphasis}",
+          "type": "typography"
+        },
+        "2xsStandard": {
+          "value": "{semantic.typography.caption.lgStandard}",
+          "type": "typography"
+        },
+        "2xsEmphasis": {
+          "value": "{semantic.typography.caption.lgEmphasis}",
+          "type": "typography"
+        },
+        "3xsStandard": {
+          "value": "{semantic.typography.caption.mdStandard}",
+          "type": "typography"
+        },
+        "3xsEmphasis": {
+          "value": "{semantic.typography.caption.mdEmphasis}",
           "type": "typography"
         }
       },
       "feedback": {
-        "ui-dialog": {
-          "title": {
-            "value": "{semantic.typography.title.mdEmphasis}",
-            "type": "typography"
-          }
+        "xl": {
+          "value": "{semantic.typography.title.xlEmphasis}",
+          "type": "typography"
+        },
+        "lgStandard": {
+          "value": "{semantic.typography.paragraph.mdStandard}",
+          "type": "typography"
+        },
+        "lgEmphasis": {
+          "value": "{semantic.typography.paragraph.mdEmphasis}",
+          "type": "typography"
+        },
+        "mdStandard": {
+          "value": "{semantic.typography.paragraph.smStandard}",
+          "type": "typography"
+        },
+        "mdEmphasis": {
+          "value": "{semantic.typography.paragraph.smEmphasis}",
+          "type": "typography"
+        },
+        "smStandard": {
+          "value": "{semantic.typography.paragraph.xsStandard}",
+          "type": "typography"
+        },
+        "smEmphasis": {
+          "value": "{semantic.typography.paragraph.xsEmphasis}",
+          "type": "typography"
+        }
+      },
+      "status": {
+        "lgStandard": {
+          "value": "{semantic.typography.paragraph.mdStandard}",
+          "type": "typography"
+        },
+        "lgEmphasis": {
+          "value": "{semantic.typography.paragraph.mdEmphasis}",
+          "type": "typography"
+        },
+        "mdStandard": {
+          "value": "{semantic.typography.paragraph.smStandard}",
+          "type": "typography"
+        },
+        "mdEmphasis": {
+          "value": "{semantic.typography.paragraph.smEmphasis}",
+          "type": "typography"
+        },
+        "smStandard": {
+          "value": "{semantic.typography.paragraph.xsStandard}",
+          "type": "typography"
+        },
+        "smEmphasis": {
+          "value": "{semantic.typography.paragraph.xsEmphasis}",
+          "type": "typography"
+        },
+        "overline": {
+          "value": "{semantic.typography.special.overline}",
+          "type": "typography"
+        }
+      },
+      "navigation": {
+        "xl": {
+          "value": "{semantic.typography.title.xlEmphasis}",
+          "type": "typography"
+        },
+        "lgStandard": {
+          "value": "{semantic.typography.paragraph.mdStandard}",
+          "type": "typography"
+        },
+        "lgEmphasis": {
+          "value": "{semantic.typography.paragraph.mdEmphasis}",
+          "type": "typography"
+        },
+        "mdStandard": {
+          "value": "{semantic.typography.paragraph.smStandard}",
+          "type": "typography"
+        },
+        "mdEmphasis": {
+          "value": "{semantic.typography.paragraph.smEmphasis}",
+          "type": "typography"
+        },
+        "smStandard": {
+          "value": "{semantic.typography.paragraph.xsStandard}",
+          "type": "typography"
+        },
+        "smEmphasis": {
+          "value": "{semantic.typography.paragraph.xsEmphasis}",
+          "type": "typography"
         }
       }
     }

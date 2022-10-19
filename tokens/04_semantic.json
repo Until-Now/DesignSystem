@@ -1,28 +1,6 @@
 {
   "semantic": {
     "border": {
-      "radius": {
-        "small": {
-          "value": "{border-radius.2}",
-          "type": "borderRadius"
-        },
-        "medium": {
-          "value": "{border-radius.4}",
-          "type": "borderRadius"
-        },
-        "large": {
-          "value": "{border-radius.8}",
-          "type": "borderRadius"
-        },
-        "x-large": {
-          "value": "{border-radius.16}",
-          "type": "borderRadius"
-        },
-        "round": {
-          "value": "{border-radius.100}",
-          "type": "borderRadius"
-        }
-      },
       "width": {
         "small": {
           "value": "{borderWidth.1}",
@@ -36,28 +14,6 @@
           "value": "{borderWidth.4}",
           "type": "borderWidth"
         }
-      }
-    },
-    "border-radius": {
-      "action": {
-        "value": "{semantic.border.radius.large}",
-        "type": "borderRadius"
-      },
-      "input": {
-        "value": "{semantic.border.radius.medium}",
-        "type": "borderRadius"
-      },
-      "status": {
-        "value": "{semantic.border.radius.round}",
-        "type": "borderRadius"
-      },
-      "feedback": {
-        "value": "{semantic.border.radius.large}",
-        "type": "borderRadius"
-      },
-      "ui-dialog": {
-        "value": "{semantic.border.radius.x-large}",
-        "type": "borderRadius"
       }
     },
     "bg": {

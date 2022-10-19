@@ -2974,6 +2974,52 @@
           }
         }
       }
+    },
+    "border": {
+      "radius": {
+        "sm": {
+          "value": "{border-radius.2}",
+          "type": "borderRadius"
+        },
+        "md": {
+          "value": "{border-radius.4}",
+          "type": "borderRadius"
+        },
+        "lg": {
+          "value": "{border-radius.8}",
+          "type": "borderRadius"
+        },
+        "xl": {
+          "value": "{border-radius.16}",
+          "type": "borderRadius"
+        },
+        "round": {
+          "value": "{border-radius.100}",
+          "type": "borderRadius"
+        }
+      }
+    },
+    "borderRadius": {
+      "action": {
+        "value": "{semantic.border.radius.lg}",
+        "type": "borderRadius"
+      },
+      "input": {
+        "value": "{semantic.border.radius.md}",
+        "type": "borderRadius"
+      },
+      "status": {
+        "value": "{semantic.border.radius.round}",
+        "type": "borderRadius"
+      },
+      "feedback": {
+        "value": "{semantic.border.radius.lg}",
+        "type": "borderRadius"
+      },
+      "ui-dialog": {
+        "value": "{semantic.border.radius.xl}",
+        "type": "borderRadius"
+      }
     }
   }
 }

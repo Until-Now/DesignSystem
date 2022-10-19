@@ -230,15 +230,15 @@
       },
       "border-radius": {
         "small": {
-          "value": "{semantic.border-radius.input}",
+          "value": "{semantic.borderRadius.input}",
           "type": "borderRadius"
         },
         "medium": {
-          "value": "{semantic.border-radius.input}",
+          "value": "{semantic.borderRadius.input}",
           "type": "borderRadius"
         },
         "large": {
-          "value": "{semantic.border-radius.input}",
+          "value": "{semantic.borderRadius.input}",
           "type": "borderRadius"
         }
       },

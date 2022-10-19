@@ -534,7 +534,7 @@
       "checkbox": {
         "border-radius": {
           "all": {
-            "value": "{semantic.border.radius.small}",
+            "value": "{semantic.border.radius.sm}",
             "type": "borderRadius"
           }
         }
@@ -542,7 +542,7 @@
       "call-out": {
         "border-radius": {
           "all": {
-            "value": "{semantic.border-radius.input}",
+            "value": "{semantic.borderRadius.input}",
             "type": "borderRadius"
           }
         },

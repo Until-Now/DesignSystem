@@ -375,15 +375,15 @@
       },
       "border-radius": {
         "sm": {
-          "value": "{semantic.border-radius.action}",
+          "value": "{semantic.borderRadius.action}",
           "type": "borderRadius"
         },
         "md": {
-          "value": "{semantic.border-radius.action}",
+          "value": "{semantic.borderRadius.action}",
           "type": "borderRadius"
         },
         "lg": {
-          "value": "{semantic.border-radius.action}",
+          "value": "{semantic.borderRadius.action}",
           "type": "borderRadius"
         }
       },

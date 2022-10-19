@@ -759,7 +759,7 @@
       },
       "border-radius": {
         "all": {
-          "value": "{semantic.border-radius.status}",
+          "value": "{semantic.borderRadius.status}",
           "type": "borderRadius"
         }
       },

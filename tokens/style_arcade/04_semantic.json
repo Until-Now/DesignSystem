@@ -130,11 +130,11 @@
     },
     "border-radius": {
       "action": {
-        "value": "{semantic.border.radius.medium}",
+        "value": "{semantic.border.radius.md}",
         "type": "borderRadius"
       },
       "ui-dialog": {
-        "value": "{semantic.border.radius.medium}",
+        "value": "{semantic.border.radius.md}",
         "type": "borderRadius"
       }
     },

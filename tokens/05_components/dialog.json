@@ -91,19 +91,19 @@
       },
       "border-radius": {
         "top-left": {
-          "value": "{semantic.border-radius.ui-dialog}",
+          "value": "{semantic.borderRadius.ui-dialog}",
           "type": "borderRadius"
         },
         "top-right": {
-          "value": "{semantic.border-radius.ui-dialog}",
+          "value": "{semantic.borderRadius.ui-dialog}",
           "type": "borderRadius"
         },
         "bottom-left": {
-          "value": "{semantic.border-radius.ui-dialog}",
+          "value": "{semantic.borderRadius.ui-dialog}",
           "type": "borderRadius"
         },
         "bottom-right": {
-          "value": "{semantic.border-radius.ui-dialog}",
+          "value": "{semantic.borderRadius.ui-dialog}",
           "type": "borderRadius"
         }
       },
@@ -115,7 +115,7 @@
       },
       "type": {
         "title": {
-          "value": "{semantic.typography.feedback.ui-dialog.title}",
+          "value": "{semantic.typography.feedback.xl}",
           "type": "typography"
         },
         "body": {
