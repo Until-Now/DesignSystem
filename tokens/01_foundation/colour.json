@@ -633,7 +633,7 @@
           "type": "lineHeights"
         },
         "body": {
-          "value": "ceil(roundTo({fontSize.sans-serif.lg.body}*{lineHeight.body},0)/{lineHeight.scale.factor.small})*{lineHeight.scale.factor.small}",
+          "value": "ceil(roundTo({fontSize.sans-serif.lg.body}*{lineHeight.paragraph},0)/{lineHeight.scale.factor.small})*{lineHeight.scale.factor.small}",
           "type": "lineHeights"
         },
         "caption": {
@@ -655,7 +655,7 @@
           "type": "lineHeights"
         },
         "body": {
-          "value": "ceil(roundTo({fontSize.sans-serif.md.body}*{lineHeight.body},0)/{lineHeight.scale.factor.small})*{lineHeight.scale.factor.small}",
+          "value": "ceil(roundTo({fontSize.sans-serif.md.body}*{lineHeight.paragraph},0)/{lineHeight.scale.factor.small})*{lineHeight.scale.factor.small}",
           "type": "lineHeights"
         },
         "caption": {
@@ -677,7 +677,7 @@
           "type": "lineHeights"
         },
         "body": {
-          "value": "ceil(roundTo({fontSize.sans-serif.sm.body}*{lineHeight.body},0)/{lineHeight.scale.factor.small})*{lineHeight.scale.factor.small}",
+          "value": "ceil(roundTo({fontSize.sans-serif.sm.body}*{lineHeight.paragraph},0)/{lineHeight.scale.factor.small})*{lineHeight.scale.factor.small}",
           "type": "lineHeights"
         },
         "caption": {
@@ -701,7 +701,7 @@
           "type": "lineHeights"
         },
         "body": {
-          "value": "ceil(roundTo({fontSize.serif.lg.body}*{lineHeight.body},0)/{lineHeight.scale.factor.small})*{lineHeight.scale.factor.small}",
+          "value": "ceil(roundTo({fontSize.serif.lg.body}*{lineHeight.paragraph},0)/{lineHeight.scale.factor.small})*{lineHeight.scale.factor.small}",
           "type": "lineHeights"
         },
         "caption": {
@@ -723,7 +723,7 @@
           "type": "lineHeights"
         },
         "body": {
-          "value": "ceil(roundTo({fontSize.serif.md.body}*{lineHeight.body},0)/{lineHeight.scale.factor.small})*{lineHeight.scale.factor.small}",
+          "value": "ceil(roundTo({fontSize.serif.md.body}*{lineHeight.paragraph},0)/{lineHeight.scale.factor.small})*{lineHeight.scale.factor.small}",
           "type": "lineHeights"
         },
         "caption": {
@@ -745,7 +745,7 @@
           "type": "lineHeights"
         },
         "body": {
-          "value": "ceil(roundTo({fontSize.serif.sm.body}*{lineHeight.body},0)/{lineHeight.scale.factor.small})*{lineHeight.scale.factor.small}",
+          "value": "ceil(roundTo({fontSize.serif.sm.body}*{lineHeight.paragraph},0)/{lineHeight.scale.factor.small})*{lineHeight.scale.factor.small}",
           "type": "lineHeights"
         },
         "caption": {

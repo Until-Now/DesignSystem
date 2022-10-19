@@ -818,8 +818,8 @@
         "type": "typography"
       }
     },
-    "T1": {
-      "standard": {
+    "title": {
+      "xlStandard": {
         "value": {
           "fontFamily": "{fontFamily.product.body}",
           "fontWeight": "{fontWeight.400}",
@@ -832,7 +832,7 @@
         },
         "type": "typography"
       },
-      "emphasis": {
+      "xlEmphasis": {
         "value": {
           "fontFamily": "{fontFamily.product.body}",
           "fontWeight": "{fontWeight.600}",
@@ -844,10 +844,21 @@
           "textCase": "{textCase.as-is}"
         },
         "type": "typography"
-      }
-    },
-    "T2": {
-      "standard": {
+      },
+      "xlBrand": {
+        "value": {
+          "fontFamily": "{fontFamily.brand.body}",
+          "fontWeight": "{fontWeight.500}",
+          "lineHeight": "ceil(roundTo({fontSize.3xl}*{lineHeight.title},0) /{lineHeightFactor})*{lineHeightFactor}",
+          "fontSize": "{fontSize.3xl}",
+          "letterSpacing": "{letterSpacing.-50}",
+          "paragraphSpacing": "{paragraph-spacing.default}",
+          "textDecoration": "{textDecoration.default}",
+          "textCase": "{textCase.as-is}"
+        },
+        "type": "typography"
+      },
+      "lgStandard": {
         "value": {
           "fontFamily": "{fontFamily.product.body}",
           "fontWeight": "{fontWeight.400}",
@@ -860,7 +871,7 @@
         },
         "type": "typography"
       },
-      "emphasis": {
+      "lgEmphasis": {
         "value": {
           "fontFamily": "{fontFamily.product.body}",
           "fontWeight": "{fontWeight.600}",
@@ -872,10 +883,21 @@
           "textCase": "{textCase.as-is}"
         },
         "type": "typography"
-      }
-    },
-    "T3": {
-      "standard": {
+      },
+      "lgBrand": {
+        "value": {
+          "fontFamily": "{fontFamily.brand.body}",
+          "fontWeight": "{fontWeight.500}",
+          "lineHeight": "ceil(roundTo({fontSize.2xl}*{lineHeight.title},0) /{lineHeightFactor})*{lineHeightFactor}",
+          "fontSize": "{fontSize.2xl}",
+          "letterSpacing": "{letterSpacing.-50}",
+          "paragraphSpacing": "{paragraph-spacing.default}",
+          "textDecoration": "{textDecoration.default}",
+          "textCase": "{textCase.as-is}"
+        },
+        "type": "typography"
+      },
+      "mdStandard": {
         "value": {
           "fontFamily": "{fontFamily.product.body}",
           "fontWeight": "{fontWeight.400}",
@@ -888,7 +910,7 @@
         },
         "type": "typography"
       },
-      "emphasis": {
+      "mdEmphasis": {
         "value": {
           "fontFamily": "{fontFamily.product.body}",
           "fontWeight": "{fontWeight.600}",
@@ -900,10 +922,21 @@
           "textCase": "{textCase.as-is}"
         },
         "type": "typography"
-      }
-    },
-    "T4": {
-      "standard": {
+      },
+      "mdBrand": {
+        "value": {
+          "fontFamily": "{fontFamily.brand.body}",
+          "fontWeight": "{fontWeight.500}",
+          "lineHeight": "ceil(roundTo({fontSize.xl}*{lineHeight.title},0) /{lineHeightFactor})*{lineHeightFactor}",
+          "fontSize": "{fontSize.xl}",
+          "letterSpacing": "{letterSpacing.-50}",
+          "paragraphSpacing": "{paragraph-spacing.default}",
+          "textDecoration": "{textDecoration.default}",
+          "textCase": "{textCase.as-is}"
+        },
+        "type": "typography"
+      },
+      "smStandard": {
         "value": {
           "fontFamily": "{fontFamily.product.body}",
           "fontWeight": "{fontWeight.400}",
@@ -916,7 +949,7 @@
         },
         "type": "typography"
       },
-      "emphasis": {
+      "smEmphasis": {
         "value": {
           "fontFamily": "{fontFamily.product.body}",
           "fontWeight": "{fontWeight.600}",
@@ -928,27 +961,12 @@
           "textCase": "{textCase.as-is}"
         },
         "type": "typography"
-      }
-    },
-    "P1": {
-      "standard": {
-        "value": {
-          "fontFamily": "{fontFamily.product.body}",
-          "fontWeight": "{fontWeight.400}",
-          "lineHeight": "ceil(roundTo({fontSize.lg}*{lineHeight.body},0) /{lineHeightFactor})*{lineHeightFactor}",
-          "fontSize": "{fontSize.lg}",
-          "letterSpacing": "{letterSpacing.-50}",
-          "paragraphSpacing": "{paragraph-spacing.default}",
-          "textDecoration": "{textDecoration.default}",
-          "textCase": "{textCase.as-is}"
-        },
-        "type": "typography"
       },
-      "emphasis": {
+      "smBrand": {
         "value": {
-          "fontFamily": "{fontFamily.product.body}",
-          "fontWeight": "{fontWeight.600}",
-          "lineHeight": "ceil(roundTo({fontSize.lg}*{lineHeight.body},0) /{lineHeightFactor})*{lineHeightFactor}",
+          "fontFamily": "{fontFamily.brand.body}",
+          "fontWeight": "{fontWeight.500}",
+          "lineHeight": "ceil(roundTo({fontSize.lg}*{lineHeight.title},0) /{lineHeightFactor})*{lineHeightFactor}",
           "fontSize": "{fontSize.lg}",
           "letterSpacing": "{letterSpacing.-50}",
           "paragraphSpacing": "{paragraph-spacing.default}",
@@ -958,12 +976,38 @@
         "type": "typography"
       }
     },
-    "P2": {
-      "standard": {
+    "paragraph": {
+      "lgStandard": {
         "value": {
           "fontFamily": "{fontFamily.product.body}",
           "fontWeight": "{fontWeight.400}",
-          "lineHeight": "ceil(roundTo({fontSize.md}*{lineHeight.body},0) /{lineHeightFactor})*{lineHeightFactor}",
+          "lineHeight": "ceil(roundTo({fontSize.lg}*{lineHeight.paragraph},0) /{lineHeightFactor})*{lineHeightFactor}",
+          "fontSize": "{fontSize.lg}",
+          "letterSpacing": "{letterSpacing.-50}",
+          "paragraphSpacing": "{paragraph-spacing.default}",
+          "textDecoration": "{textDecoration.default}",
+          "textCase": "{textCase.as-is}"
+        },
+        "type": "typography"
+      },
+      "lgEmphasis": {
+        "value": {
+          "fontFamily": "{fontFamily.product.body}",
+          "fontWeight": "{fontWeight.600}",
+          "lineHeight": "ceil(roundTo({fontSize.lg}*{lineHeight.paragraph},0) /{lineHeightFactor})*{lineHeightFactor}",
+          "fontSize": "{fontSize.lg}",
+          "letterSpacing": "{letterSpacing.-50}",
+          "paragraphSpacing": "{paragraph-spacing.default}",
+          "textDecoration": "{textDecoration.default}",
+          "textCase": "{textCase.as-is}"
+        },
+        "type": "typography"
+      },
+      "mdStandard": {
+        "value": {
+          "fontFamily": "{fontFamily.product.body}",
+          "fontWeight": "{fontWeight.400}",
+          "lineHeight": "ceil(roundTo({fontSize.md}*{lineHeight.paragraph},0) /{lineHeightFactor})*{lineHeightFactor}",
           "fontSize": "{fontSize.md}",
           "letterSpacing": "{letterSpacing.-50}",
           "paragraphSpacing": "{paragraph-spacing.default}",
@@ -972,11 +1016,11 @@
         },
         "type": "typography"
       },
-      "emphasis": {
+      "mdEmphasis": {
         "value": {
           "fontFamily": "{fontFamily.product.body}",
           "fontWeight": "{fontWeight.600}",
-          "lineHeight": "ceil(roundTo({fontSize.md}*{lineHeight.body},0) /{lineHeightFactor})*{lineHeightFactor}",
+          "lineHeight": "ceil(roundTo({fontSize.md}*{lineHeight.paragraph},0) /{lineHeightFactor})*{lineHeightFactor}",
           "fontSize": "{fontSize.md}",
           "letterSpacing": "{letterSpacing.-50}",
           "paragraphSpacing": "{paragraph-spacing.default}",
@@ -984,14 +1028,12 @@
           "textCase": "{textCase.as-is}"
         },
         "type": "typography"
-      }
-    },
-    "P3": {
-      "standard": {
+      },
+      "smStandard": {
         "value": {
           "fontFamily": "{fontFamily.product.body}",
           "fontWeight": "{fontWeight.400}",
-          "lineHeight": "ceil(roundTo({fontSize.sm}*{lineHeight.body},0) /{lineHeightFactor})*{lineHeightFactor}",
+          "lineHeight": "ceil(roundTo({fontSize.sm}*{lineHeight.paragraph},0) /{lineHeightFactor})*{lineHeightFactor}",
           "fontSize": "{fontSize.sm}",
           "letterSpacing": "{letterSpacing.-50}",
           "paragraphSpacing": "{paragraph-spacing.default}",
@@ -1000,11 +1042,11 @@
         },
         "type": "typography"
       },
-      "emphasis": {
+      "smEmphasis": {
         "value": {
           "fontFamily": "{fontFamily.product.body}",
           "fontWeight": "{fontWeight.600}",
-          "lineHeight": "ceil(roundTo({fontSize.sm}*{lineHeight.body},0) /{lineHeightFactor})*{lineHeightFactor}",
+          "lineHeight": "ceil(roundTo({fontSize.sm}*{lineHeight.paragraph},0) /{lineHeightFactor})*{lineHeightFactor}",
           "fontSize": "{fontSize.sm}",
           "letterSpacing": "{letterSpacing.-50}",
           "paragraphSpacing": "{paragraph-spacing.default}",
@@ -1012,14 +1054,12 @@
           "textCase": "{textCase.as-is}"
         },
         "type": "typography"
-      }
-    },
-    "P4": {
-      "standard": {
+      },
+      "xsStandard": {
         "value": {
           "fontFamily": "{fontFamily.product.body}",
           "fontWeight": "{fontWeight.400}",
-          "lineHeight": "ceil(roundTo({fontSize.xs}*{lineHeight.body},0) /{lineHeightFactor})*{lineHeightFactor}",
+          "lineHeight": "ceil(roundTo({fontSize.xs}*{lineHeight.paragraph},0) /{lineHeightFactor})*{lineHeightFactor}",
           "fontSize": "{fontSize.xs}",
           "letterSpacing": "{letterSpacing.-50}",
           "paragraphSpacing": "{paragraph-spacing.default}",
@@ -1028,11 +1068,11 @@
         },
         "type": "typography"
       },
-      "emphasis": {
+      "xsEmphasis": {
         "value": {
           "fontFamily": "{fontFamily.product.body}",
           "fontWeight": "{fontWeight.600}",
-          "lineHeight": "ceil(roundTo({fontSize.xs}*{lineHeight.body},0) /{lineHeightFactor})*{lineHeightFactor}",
+          "lineHeight": "ceil(roundTo({fontSize.xs}*{lineHeight.paragraph},0) /{lineHeightFactor})*{lineHeightFactor}",
           "fontSize": "{fontSize.xs}",
           "letterSpacing": "{letterSpacing.-50}",
           "paragraphSpacing": "{paragraph-spacing.default}",
@@ -1040,14 +1080,12 @@
           "textCase": "{textCase.as-is}"
         },
         "type": "typography"
-      }
-    },
-    "P5": {
-      "standard": {
+      },
+      "2xsStandard": {
         "value": {
           "fontFamily": "{fontFamily.product.body}",
           "fontWeight": "{fontWeight.400}",
-          "lineHeight": "ceil(roundTo({fontSize.2xs}*{lineHeight.body},0) /{lineHeightFactor})*{lineHeightFactor}",
+          "lineHeight": "ceil(roundTo({fontSize.2xs}*{lineHeight.paragraph},0) /{lineHeightFactor})*{lineHeightFactor}",
           "fontSize": "{fontSize.2xs}",
           "letterSpacing": "{letterSpacing.-50}",
           "paragraphSpacing": "{paragraph-spacing.default}",
@@ -1056,11 +1094,11 @@
         },
         "type": "typography"
       },
-      "emphasis": {
+      "2xsEmphasis": {
         "value": {
           "fontFamily": "{fontFamily.product.body}",
           "fontWeight": "{fontWeight.600}",
-          "lineHeight": "ceil(roundTo({fontSize.2xs}*{lineHeight.body},0) /{lineHeightFactor})*{lineHeightFactor}",
+          "lineHeight": "ceil(roundTo({fontSize.2xs}*{lineHeight.paragraph},0) /{lineHeightFactor})*{lineHeightFactor}",
           "fontSize": "{fontSize.2xs}",
           "letterSpacing": "{letterSpacing.-50}",
           "paragraphSpacing": "{paragraph-spacing.default}",
@@ -1070,8 +1108,8 @@
         "type": "typography"
       }
     },
-    "C1": {
-      "standard": {
+    "caption": {
+      "xlStandard": {
         "value": {
           "fontFamily": "{fontFamily.product.body}",
           "fontWeight": "{fontWeight.400}",
@@ -1084,7 +1122,7 @@
         },
         "type": "typography"
       },
-      "emphasis": {
+      "xlEmphasis": {
         "value": {
           "fontFamily": "{fontFamily.product.body}",
           "fontWeight": "{fontWeight.600}",
@@ -1096,10 +1134,8 @@
           "textCase": "{textCase.as-is}"
         },
         "type": "typography"
-      }
-    },
-    "C2": {
-      "standard": {
+      },
+      "lgStandard": {
         "value": {
           "fontFamily": "{fontFamily.product.body}",
           "fontWeight": "{fontWeight.400}",
@@ -1112,7 +1148,7 @@
         },
         "type": "typography"
       },
-      "emphasis": {
+      "lgEmphasis": {
         "value": {
           "fontFamily": "{fontFamily.product.body}",
           "fontWeight": "{fontWeight.600}",
@@ -1124,10 +1160,8 @@
           "textCase": "{textCase.as-is}"
         },
         "type": "typography"
-      }
-    },
-    "C3": {
-      "standard": {
+      },
+      "mdStandard": {
         "value": {
           "fontFamily": "{fontFamily.product.body}",
           "fontWeight": "{fontWeight.400}",
@@ -1140,7 +1174,7 @@
         },
         "type": "typography"
       },
-      "emphasis": {
+      "mdEmphasis": {
         "value": {
           "fontFamily": "{fontFamily.product.body}",
           "fontWeight": "{fontWeight.600}",
@@ -1152,10 +1186,8 @@
           "textCase": "{textCase.as-is}"
         },
         "type": "typography"
-      }
-    },
-    "C4": {
-      "standard": {
+      },
+      "smStandard": {
         "value": {
           "fontFamily": "{fontFamily.product.body}",
           "fontWeight": "{fontWeight.400}",
@@ -1168,7 +1200,7 @@
         },
         "type": "typography"
       },
-      "emphasis": {
+      "smEmphasis": {
         "value": {
           "fontFamily": "{fontFamily.product.body}",
           "fontWeight": "{fontWeight.600}",
