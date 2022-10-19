@@ -16,7 +16,7 @@
         },
         "type": {
           "label": {
-            "value": "{semantic.typography.input.xxx-small.regular}",
+            "value": "{semantic.typography.input.3xsStandard}",
             "type": "typography"
           }
         }
@@ -58,7 +58,7 @@
         },
         "type": {
           "label": {
-            "value": "{semantic.typography.input.xxx-small.regular}",
+            "value": "{semantic.typography.input.3xsStandard}",
             "type": "typography"
           }
         }
