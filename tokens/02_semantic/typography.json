@@ -1213,6 +1213,21 @@
         },
         "type": "typography"
       }
+    },
+    "special": {
+      "overline": {
+        "value": {
+          "fontFamily": "{fontFamily.product.body}",
+          "fontWeight": "{fontWeight.800}",
+          "lineHeight": "ceil(roundTo({fontSize.xs}*{lineHeight.caption},0) /{lineHeightFactor})*{lineHeightFactor}",
+          "fontSize": "{fontSize.xs}",
+          "letterSpacing": "{letterSpacing.10}",
+          "paragraphSpacing": "{paragraph-spacing.default}",
+          "textDecoration": "{textDecoration.default}",
+          "textCase": "{textCase.all-caps}"
+        },
+        "type": "typography"
+      }
     }
   }
 }

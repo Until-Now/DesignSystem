@@ -5,7 +5,7 @@
       "type": "textCase"
     },
     "all-caps": {
-      "value": "capitalize",
+      "value": "uppercase",
       "type": "textCase"
     }
   },
