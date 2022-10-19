@@ -1372,6 +1372,14 @@
           "value": "{semantic.typography.paragraph.lgEmphasis}",
           "type": "typography"
         }
+      },
+      "feedback": {
+        "ui-dialog": {
+          "title": {
+            "value": "{semantic.typography.title.mdEmphasis}",
+            "type": "typography"
+          }
+        }
       }
     }
   }
