@@ -389,15 +389,15 @@
       },
       "type": {
         "sm": {
-          "value": "{semantic.typography.action.small}",
+          "value": "{semantic.typography.action.sm}",
           "type": "typography"
         },
         "md": {
-          "value": "{semantic.typography.action.medium}",
+          "value": "{semantic.typography.action.md}",
           "type": "typography"
         },
         "lg": {
-          "value": "{semantic.typography.action.large}",
+          "value": "{semantic.typography.action.lg}",
           "type": "typography"
         }
       }

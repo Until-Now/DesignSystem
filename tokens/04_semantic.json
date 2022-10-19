@@ -1140,20 +1140,6 @@
       }
     },
     "typography": {
-      "action": {
-        "small": {
-          "value": "{typography.sans-serif.caption-sm.bold}",
-          "type": "typography"
-        },
-        "medium": {
-          "value": "{typography.sans-serif.caption-md.bold}",
-          "type": "typography"
-        },
-        "large": {
-          "value": "{typography.sans-serif.caption-lg.bold}",
-          "type": "typography"
-        }
-      },
       "input": {
         "xxx-small": {
           "regular": {
