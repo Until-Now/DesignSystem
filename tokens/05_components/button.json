@@ -369,7 +369,7 @@
       },
       "border-width": {
         "outline": {
-          "value": "{semantic.border-width.action.small}",
+          "value": "{semantic.borderWidth.action.small}",
           "type": "borderWidth"
         }
       },

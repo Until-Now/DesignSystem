@@ -765,15 +765,15 @@
       },
       "border-width": {
         "action": {
-          "value": "{semantic.border-width.status.small}",
+          "value": "{semantic.borderWidth.status.small}",
           "type": "borderWidth"
         },
         "input": {
-          "value": "{semantic.border-width.status.medium}",
+          "value": "{semantic.borderWidth.status.medium}",
           "type": "borderWidth"
         },
         "status": {
-          "value": "{semantic.border-width.status.small}",
+          "value": "{semantic.borderWidth.status.small}",
           "type": "borderWidth"
         }
       }

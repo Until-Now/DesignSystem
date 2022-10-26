@@ -76,15 +76,15 @@
         },
         "text": {
           "strong": {
-            "value": "{semantic.text-and-icons.on-light.strong}",
+            "value": "{styles.text-and-icons.on-light.strong}",
             "type": "color"
           },
           "mid": {
-            "value": "{semantic.text-and-icons.on-light.mid}",
+            "value": "{styles.text-and-icons.on-light.mid}",
             "type": "color"
           },
           "soft": {
-            "value": "{semantic.text-and-icons.on-light.soft}",
+            "value": "{styles.text-and-icons.on-light.soft}",
             "type": "color"
           }
         }

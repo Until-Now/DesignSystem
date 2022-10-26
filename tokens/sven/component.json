@@ -143,11 +143,11 @@
           "type": "color"
         },
         "hover": {
-          "value": "{semantic.fg.accent.tonal.normal}",
+          "value": "{styles.fg.accent.tonal.normal}",
           "type": "color"
         },
         "press": {
-          "value": "{semantic.fg.accent.tonal.dark}",
+          "value": "{styles.fg.accent.tonal.dark}",
           "type": "color"
         }
       },
@@ -379,7 +379,7 @@
         "container": {
           "default": {
             "bg": {
-              "value": "{semantic.fg.accent.tonal.normal}",
+              "value": "{styles.fg.accent.tonal.normal}",
               "type": "color"
             }
           }

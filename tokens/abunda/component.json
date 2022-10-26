@@ -83,7 +83,7 @@
       },
       "content": {
         "link": {
-          "value": "{semantic.text-and-icons.accent-on-light}",
+          "value": "{styles.text-and-icons.accent-on-light}",
           "type": "color"
         }
       }
@@ -103,11 +103,11 @@
           "type": "color"
         },
         "hover": {
-          "value": "{semantic.fg.accent.tonal.normal}",
+          "value": "{styles.fg.accent.tonal.normal}",
           "type": "color"
         },
         "press": {
-          "value": "{semantic.fg.accent.tonal.dark}",
+          "value": "{styles.fg.accent.tonal.dark}",
           "type": "color"
         }
       }
@@ -235,20 +235,20 @@
     "chart": {
       "content": {
         "label": {
-          "value": "{semantic.text-and-icons.on-light.strong}",
+          "value": "{styles.text-and-icons.on-light.strong}",
           "type": "color"
         },
         "legend": {
-          "value": "{semantic.text-and-icons.on-light.strong}",
+          "value": "{styles.text-and-icons.on-light.strong}",
           "type": "color"
         },
         "title": {
-          "value": "{semantic.text-and-icons.on-light.strong}",
+          "value": "{styles.text-and-icons.on-light.strong}",
           "type": "color"
         }
       },
       "graph-frame": {
-        "value": "{semantic.bg.disabled}",
+        "value": "{styles.bg.disabled}",
         "type": "color"
       },
       "data": {
@@ -303,19 +303,19 @@
         "generic": {
           "default": {
             "content-secondary": {
-              "value": "{semantic.text-and-icons.on-dark.mid}",
+              "value": "{styles.text-and-icons.on-dark.mid}",
               "type": "color"
             }
           },
           "hover": {
             "content-secondary": {
-              "value": "{semantic.text-and-icons.on-dark.mid}",
+              "value": "{styles.text-and-icons.on-dark.mid}",
               "type": "color"
             }
           },
           "press": {
             "content-secondary": {
-              "value": "{semantic.text-and-icons.on-dark.mid}",
+              "value": "{styles.text-and-icons.on-dark.mid}",
               "type": "color"
             }
           }

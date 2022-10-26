@@ -244,15 +244,15 @@
       },
       "border-width": {
         "default": {
-          "value": "{semantic.border-width.input.small}",
+          "value": "{semantic.borderWidth.input.small}",
           "type": "borderWidth"
         },
         "active": {
-          "value": "{semantic.border-width.input.medium}",
+          "value": "{semantic.borderWidth.input.medium}",
           "type": "borderWidth"
         },
         "error": {
-          "value": "{semantic.border-width.input.medium}",
+          "value": "{semantic.borderWidth.input.medium}",
           "type": "borderWidth"
         }
       },

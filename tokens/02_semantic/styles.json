@@ -1,21 +1,5 @@
 {
-  "semantic": {
-    "border": {
-      "width": {
-        "small": {
-          "value": "{borderWidth.1}",
-          "type": "borderWidth"
-        },
-        "medium": {
-          "value": "{borderWidth.2}",
-          "type": "borderWidth"
-        },
-        "large": {
-          "value": "{borderWidth.4}",
-          "type": "borderWidth"
-        }
-      }
-    },
+  "styles": {
     "bg": {
       "main": {
         "value": "{system.neutral.background}",
@@ -203,34 +187,18 @@
         }
       }
     },
-    "border-width": {
-      "action": {
-        "small": {
-          "value": "{borderWidth.1}",
-          "type": "borderWidth"
-        }
+    "outline": {
+      "light": {
+        "value": "{system.outline.neutral-variant}",
+        "type": "color"
       },
-      "input": {
-        "small": {
-          "value": "{borderWidth.1}",
-          "type": "borderWidth"
-        },
-        "medium": {
-          "value": "{borderWidth.2}",
-          "type": "borderWidth"
-        }
-      },
-      "status": {
-        "small": {
-          "value": "{borderWidth.1}",
-          "type": "borderWidth"
-        },
-        "medium": {
-          "value": "{borderWidth.2}",
-          "type": "borderWidth"
-        }
+      "dark": {
+        "value": "{system.outline.neutral}",
+        "type": "color"
       }
-    },
+    }
+  },
+  "semantic": {
     "typography": {
       "feedback": {
         "ui-dialog": {
@@ -243,16 +211,6 @@
             "type": "typography"
           }
         }
-      }
-    },
-    "outline": {
-      "light": {
-        "value": "{system.outline.neutral-variant}",
-        "type": "color"
-      },
-      "dark": {
-        "value": "{system.outline.neutral}",
-        "type": "color"
       }
     }
   },
