@@ -1687,6 +1687,112 @@
       }
     },
     "lineHeight": {
+      "typography": {
+        "rubric": {
+          "xl": {
+            "value": "ceil(roundTo({semantic.fontSize.typography.rubric.xl}*{lineHeight.rubric},0) /{lineHeightFactor})*{lineHeightFactor}",
+            "type": "lineHeights"
+          },
+          "lg": {
+            "value": "ceil(roundTo({semantic.fontSize.typography.rubric.lg}*{lineHeight.rubric},0) /{lineHeightFactor})*{lineHeightFactor}",
+            "type": "lineHeights"
+          },
+          "md": {
+            "value": "ceil(roundTo({semantic.fontSize.typography.rubric.md}*{lineHeight.rubric},0) /{lineHeightFactor})*{lineHeightFactor}",
+            "type": "lineHeights"
+          },
+          "sm": {
+            "value": "ceil(roundTo({semantic.fontSize.typography.rubric.sm}*{lineHeight.rubric},0) /{lineHeightFactor})*{lineHeightFactor}",
+            "type": "lineHeights"
+          }
+        },
+        "heading": {
+          "xl": {
+            "value": "ceil(roundTo({semantic.fontSize.typography.rubric.xl}*{lineHeight.rubric},0) /{lineHeightFactor})*{lineHeightFactor}",
+            "type": "lineHeights"
+          },
+          "lg": {
+            "value": "ceil(roundTo({semantic.fontSize.typography.rubric.lg}*{lineHeight.rubric},0) /{lineHeightFactor})*{lineHeightFactor}",
+            "type": "lineHeights"
+          },
+          "md": {
+            "value": "ceil(roundTo({semantic.fontSize.typography.rubric.md}*{lineHeight.rubric},0) /{lineHeightFactor})*{lineHeightFactor}",
+            "type": "lineHeights"
+          },
+          "sm": {
+            "value": "ceil(roundTo({semantic.fontSize.typography.rubric.sm}*{lineHeight.rubric},0) /{lineHeightFactor})*{lineHeightFactor}",
+            "type": "lineHeights"
+          }
+        },
+        "title": {
+          "xl": {
+            "value": "ceil(roundTo({semantic.fontSize.typography.rubric.xl}*{lineHeight.rubric},0) /{lineHeightFactor})*{lineHeightFactor}",
+            "type": "lineHeights"
+          },
+          "lg": {
+            "value": "ceil(roundTo({semantic.fontSize.typography.rubric.lg}*{lineHeight.rubric},0) /{lineHeightFactor})*{lineHeightFactor}",
+            "type": "lineHeights"
+          },
+          "md": {
+            "value": "ceil(roundTo({semantic.fontSize.typography.rubric.md}*{lineHeight.rubric},0) /{lineHeightFactor})*{lineHeightFactor}",
+            "type": "lineHeights"
+          },
+          "sm": {
+            "value": "ceil(roundTo({semantic.fontSize.typography.rubric.sm}*{lineHeight.rubric},0) /{lineHeightFactor})*{lineHeightFactor}",
+            "type": "lineHeights"
+          }
+        },
+        "paragraph": {
+          "xl": {
+            "value": "ceil(roundTo({semantic.fontSize.typography.rubric.xl}*{lineHeight.rubric},0) /{lineHeightFactor})*{lineHeightFactor}",
+            "type": "lineHeights"
+          },
+          "lg": {
+            "value": "ceil(roundTo({semantic.fontSize.typography.rubric.lg}*{lineHeight.rubric},0) /{lineHeightFactor})*{lineHeightFactor}",
+            "type": "lineHeights"
+          },
+          "md": {
+            "value": "ceil(roundTo({semantic.fontSize.typography.rubric.md}*{lineHeight.rubric},0) /{lineHeightFactor})*{lineHeightFactor}",
+            "type": "lineHeights"
+          },
+          "sm": {
+            "value": "ceil(roundTo({semantic.fontSize.typography.rubric.sm}*{lineHeight.rubric},0) /{lineHeightFactor})*{lineHeightFactor}",
+            "type": "lineHeights"
+          },
+          "xs": {
+            "value": "ceil(roundTo({semantic.fontSize.typography.rubric.sm}*{lineHeight.rubric},0) /{lineHeightFactor})*{lineHeightFactor}",
+            "type": "lineHeights"
+          }
+        },
+        "detail": {
+          "xl": {
+            "value": "ceil(roundTo({semantic.fontSize.typography.rubric.xl}*{lineHeight.rubric},0) /{lineHeightFactor})*{lineHeightFactor}",
+            "type": "lineHeights"
+          },
+          "lg": {
+            "value": "ceil(roundTo({semantic.fontSize.typography.rubric.lg}*{lineHeight.rubric},0) /{lineHeightFactor})*{lineHeightFactor}",
+            "type": "lineHeights"
+          },
+          "md": {
+            "value": "ceil(roundTo({semantic.fontSize.typography.rubric.md}*{lineHeight.rubric},0) /{lineHeightFactor})*{lineHeightFactor}",
+            "type": "lineHeights"
+          },
+          "sm": {
+            "value": "ceil(roundTo({semantic.fontSize.typography.rubric.sm}*{lineHeight.rubric},0) /{lineHeightFactor})*{lineHeightFactor}",
+            "type": "lineHeights"
+          },
+          "xs": {
+            "value": "ceil(roundTo({semantic.fontSize.typography.rubric.sm}*{lineHeight.rubric},0) /{lineHeightFactor})*{lineHeightFactor}",
+            "type": "lineHeights"
+          }
+        },
+        "special": {
+          "overline": {
+            "value": "20",
+            "type": "lineHeights"
+          }
+        }
+      },
       "action": {
         "lg": {
           "value": "24",
