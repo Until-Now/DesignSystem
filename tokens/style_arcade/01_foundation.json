@@ -635,5 +635,11 @@
         }
       }
     }
+  },
+  "fontSize": {
+    "base": {
+      "value": "13",
+      "type": "fontSizes"
+    }
   }
 }

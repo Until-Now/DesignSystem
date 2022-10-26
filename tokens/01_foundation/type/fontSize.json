@@ -9,19 +9,19 @@
       "type": "fontSizes"
     },
     "3xs": {
-      "value": "floor(roundTo({fontSize.2xs}/{fontSize.scale},0)/{fontSizeFactor.sm})*{fontSizeFactor.sm}",
+      "value": "roundTo(floor(roundTo({fontSize.2xs}/{fontSize.scale},0)/{fontSizeFactor.sm})*{fontSizeFactor.sm},0)",
       "type": "fontSizes"
     },
     "2xs": {
-      "value": "floor(roundTo({fontSize.xs}/{fontSize.scale},0)/{fontSizeFactor.sm})*{fontSizeFactor.sm}",
+      "value": "roundTo(floor(roundTo({fontSize.xs}/{fontSize.scale},0)/{fontSizeFactor.sm})*{fontSizeFactor.sm},0)",
       "type": "fontSizes"
     },
     "xs": {
-      "value": "floor(roundTo({fontSize.sm}/{fontSize.scale},0)/{fontSizeFactor.sm})*{fontSizeFactor.sm}",
+      "value": "roundTo(floor(roundTo({fontSize.sm}/{fontSize.scale},0)/{fontSizeFactor.sm})*{fontSizeFactor.sm},0)",
       "type": "fontSizes"
     },
     "sm": {
-      "value": "floor(roundTo({fontSize.base}/{fontSize.scale},0)/{fontSizeFactor.sm})*{fontSizeFactor.sm}",
+      "value": "roundTo(floor(roundTo({fontSize.base}/{fontSize.scale},0)/{fontSizeFactor.sm})*{fontSizeFactor.sm},0)",
       "type": "fontSizes"
     },
     "md": {
@@ -29,19 +29,19 @@
       "type": "fontSizes"
     },
     "lg": {
-      "value": "ceil(roundTo({fontSize.base}*{fontSize.scale},0)/{fontSizeFactor.sm})*{fontSizeFactor.sm}",
+      "value": "roundTo(ceil(roundTo({fontSize.base}*{fontSize.scale},0)/{fontSizeFactor.sm})*{fontSizeFactor.sm},0)",
       "type": "fontSizes"
     },
     "xl": {
-      "value": "ceil(roundTo({fontSize.lg}*{fontSize.scale},0)/{fontSizeFactor.sm})*{fontSizeFactor.sm}",
+      "value": "roundTo(ceil(roundTo({fontSize.lg}*{fontSize.scale},0)/{fontSizeFactor.sm})*{fontSizeFactor.sm},0)",
       "type": "fontSizes"
     },
     "2xl": {
-      "value": "ceil(roundTo({fontSize.xl}*{fontSize.scale},0)/{fontSizeFactor.sm})*{fontSizeFactor.sm}",
+      "value": "roundTo(ceil(roundTo({fontSize.xl}*{fontSize.scale},0)/{fontSizeFactor.sm})*{fontSizeFactor.sm},0)",
       "type": "fontSizes"
     },
     "3xl": {
-      "value": "ceil(roundTo({fontSize.2xl}*{fontSize.scale},0)/{fontSizeFactor.sm})*{fontSizeFactor.sm}",
+      "value": "roundTo(ceil(roundTo({fontSize.2xl}*{fontSize.scale},0)/{fontSizeFactor.sm})*{fontSizeFactor.sm},0)",
       "type": "fontSizes"
     },
     "4xl": {

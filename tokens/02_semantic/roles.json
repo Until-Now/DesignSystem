@@ -3092,6 +3092,22 @@
           "type": "fontWeights"
         }
       }
+    },
+    "fontSize": {
+      "rubric": {
+        "lg": {
+          "value": "{fontSize.13xl}",
+          "type": "fontSizes"
+        },
+        "md": {
+          "value": "{fontSize.11xl}",
+          "type": "fontSizes"
+        },
+        "sm": {
+          "value": "{fontSize.10xl}",
+          "type": "fontSizes"
+        }
+      }
     }
   }
 }
