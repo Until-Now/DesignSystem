@@ -15,7 +15,6 @@
       "01_foundation/opacity": "source",
       "02_semantic/roles": "source",
       "02_semantic/typography": "source",
-      "02_typography/serif": "disabled",
       "05_components/avatar": "disabled",
       "05_components/base": "disabled",
       "05_components/button": "disabled",
@@ -44,7 +43,7 @@
       "style_arcade/03_system": "disabled",
       "style_arcade/04_semantic": "disabled",
       "style_arcade/05_components/selection-control": "disabled",
-      "02_semantic/styles": "disabled"
+      "02_semantic/styles": "enabled"
     },
     "$figmaStyleReferences": {}
   }
