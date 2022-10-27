@@ -4,7 +4,7 @@
       "colour": {
         "default": {
           "background": {
-            "value": "{system.colour.action.tertiary.default.background}",
+            "value": "{semantic.colour.action.tertiary.default.background}",
             "type": "color"
           }
         }

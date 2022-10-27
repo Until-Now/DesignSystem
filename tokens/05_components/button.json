@@ -103,189 +103,189 @@
         "primary": {
           "default": {
             "bg": {
-              "value": "{system.colour.action.primary.default.background}",
+              "value": "{semantic.colour.action.primary.default.background}",
               "type": "color"
             },
             "content": {
-              "value": "{system.colour.action.primary.default.content}",
+              "value": "{semantic.colour.action.primary.default.content}",
               "type": "color"
             },
             "state": {
               "type": "color",
-              "value": "{system.colour.action.primary.default.state}"
+              "value": "{semantic.colour.action.primary.default.state}"
             }
           },
           "hover": {
             "bg": {
-              "value": "{system.colour.action.primary.hover.background}",
+              "value": "{semantic.colour.action.primary.hover.background}",
               "type": "color"
             },
             "content": {
-              "value": "{system.colour.action.primary.hover.content}",
+              "value": "{semantic.colour.action.primary.hover.content}",
               "type": "color"
             },
             "state": {
               "type": "color",
-              "value": "{system.colour.action.primary.hover.state}"
+              "value": "{semantic.colour.action.primary.hover.state}"
             }
           },
           "press": {
             "bg": {
-              "value": "{system.colour.action.primary.press.background}",
+              "value": "{semantic.colour.action.primary.press.background}",
               "type": "color"
             },
             "content": {
-              "value": "{system.colour.action.primary.press.content}",
+              "value": "{semantic.colour.action.primary.press.content}",
               "type": "color"
             },
             "state": {
               "type": "color",
-              "value": "{system.colour.action.primary.press.state}"
+              "value": "{semantic.colour.action.primary.press.state}"
             }
           },
           "disabled": {
             "bg": {
-              "value": "{system.colour.action.primary.disabled.background}",
+              "value": "{semantic.colour.action.primary.disabled.background}",
               "type": "color"
             },
             "content": {
-              "value": "{system.colour.action.primary.disabled.content}",
+              "value": "{semantic.colour.action.primary.disabled.content}",
               "type": "color"
             },
             "state": {
               "type": "color",
-              "value": "{system.colour.action.primary.disabled.state}"
+              "value": "{semantic.colour.action.primary.disabled.state}"
             }
           }
         },
         "secondary": {
           "default": {
             "bg": {
-              "value": "{system.colour.action.secondary.default.background}",
+              "value": "{semantic.colour.action.secondary.default.background}",
               "type": "color"
             },
             "content": {
-              "value": "{system.colour.action.secondary.default.content}",
+              "value": "{semantic.colour.action.secondary.default.content}",
               "type": "color"
             },
             "state": {
               "type": "color",
-              "value": "{system.colour.action.secondary.default.state}"
+              "value": "{semantic.colour.action.secondary.default.state}"
             }
           },
           "hover": {
             "bg": {
-              "value": "{system.colour.action.secondary.hover.background}",
+              "value": "{semantic.colour.action.secondary.hover.background}",
               "type": "color"
             },
             "content": {
-              "value": "{system.colour.action.secondary.hover.content}",
+              "value": "{semantic.colour.action.secondary.hover.content}",
               "type": "color"
             },
             "state": {
               "type": "color",
-              "value": "{system.colour.action.secondary.hover.state}"
+              "value": "{semantic.colour.action.secondary.hover.state}"
             }
           },
           "press": {
             "bg": {
-              "value": "{system.colour.action.secondary.press.background}",
+              "value": "{semantic.colour.action.secondary.press.background}",
               "type": "color"
             },
             "content": {
-              "value": "{system.colour.action.secondary.press.content}",
+              "value": "{semantic.colour.action.secondary.press.content}",
               "type": "color"
             },
             "state": {
               "type": "color",
-              "value": "{system.colour.action.secondary.press.state}"
+              "value": "{semantic.colour.action.secondary.press.state}"
             }
           },
           "disabled": {
             "bg": {
-              "value": "{system.colour.action.secondary.disabled.background}",
+              "value": "{semantic.colour.action.secondary.disabled.background}",
               "type": "color"
             },
             "content": {
-              "value": "{system.colour.action.secondary.disabled.content}",
+              "value": "{semantic.colour.action.secondary.disabled.content}",
               "type": "color"
             },
             "state": {
               "type": "color",
-              "value": "{system.colour.action.secondary.disabled.state}"
+              "value": "{semantic.colour.action.secondary.disabled.state}"
             }
           }
         },
         "tertiary": {
           "default": {
             "bg": {
-              "value": "{system.colour.action.tertiary.default.background}",
+              "value": "{semantic.colour.action.tertiary.default.background}",
               "type": "color"
             },
             "content": {
-              "value": "{system.colour.action.tertiary.default.content}",
+              "value": "{semantic.colour.action.tertiary.default.content}",
               "type": "color"
             },
             "state": {
               "type": "color",
-              "value": "{system.colour.action.tertiary.default.state}"
+              "value": "{semantic.colour.action.tertiary.default.state}"
             },
             "outline": {
-              "value": "{system.colour.action.tertiary.default.outline}",
+              "value": "{semantic.colour.action.tertiary.default.outline}",
               "type": "color"
             }
           },
           "hover": {
             "bg": {
-              "value": "{system.colour.action.tertiary.hover.background}",
+              "value": "{semantic.colour.action.tertiary.hover.background}",
               "type": "color"
             },
             "content": {
-              "value": "{system.colour.action.tertiary.hover.content}",
+              "value": "{semantic.colour.action.tertiary.hover.content}",
               "type": "color"
             },
             "state": {
               "type": "color",
-              "value": "{system.colour.action.tertiary.hover.state}"
+              "value": "{semantic.colour.action.tertiary.hover.state}"
             },
             "outline": {
-              "value": "{system.colour.action.tertiary.hover.outline}",
+              "value": "{semantic.colour.action.tertiary.hover.outline}",
               "type": "color"
             }
           },
           "press": {
             "bg": {
-              "value": "{system.colour.action.tertiary.press.background}",
+              "value": "{semantic.colour.action.tertiary.press.background}",
               "type": "color"
             },
             "content": {
-              "value": "{system.colour.action.tertiary.press.content}",
+              "value": "{semantic.colour.action.tertiary.press.content}",
               "type": "color"
             },
             "state": {
               "type": "color",
-              "value": "{system.colour.action.tertiary.press.state}"
+              "value": "{semantic.colour.action.tertiary.press.state}"
             },
             "outline": {
-              "value": "{system.colour.action.tertiary.press.outline}",
+              "value": "{semantic.colour.action.tertiary.press.outline}",
               "type": "color"
             }
           },
           "disabled": {
             "bg": {
-              "value": "{system.colour.action.tertiary.disabled.background}",
+              "value": "{semantic.colour.action.tertiary.disabled.background}",
               "type": "color"
             },
             "content": {
-              "value": "{system.colour.action.tertiary.disabled.content}",
+              "value": "{semantic.colour.action.tertiary.disabled.content}",
               "type": "color"
             },
             "state": {
               "type": "color",
-              "value": "{system.colour.action.tertiary.disabled.state}"
+              "value": "{semantic.colour.action.tertiary.disabled.state}"
             },
             "outline": {
-              "value": "{system.colour.action.tertiary.disabled.outline}",
+              "value": "{semantic.colour.action.tertiary.disabled.outline}",
               "type": "color"
             }
           }
@@ -293,64 +293,64 @@
         "subtle": {
           "default": {
             "bg": {
-              "value": "{system.colour.action.subtle.default.background}",
+              "value": "{semantic.colour.action.subtle.default.background}",
               "type": "color"
             },
             "content": {
-              "value": "{system.colour.action.subtle.default.content}",
+              "value": "{semantic.colour.action.subtle.default.content}",
               "type": "color"
             },
             "state": {
               "type": "color",
-              "value": "{system.colour.action.subtle.default.state}"
+              "value": "{semantic.colour.action.subtle.default.state}"
             }
           },
           "hover": {
             "bg": {
-              "value": "{system.colour.action.subtle.hover.background}",
+              "value": "{semantic.colour.action.subtle.hover.background}",
               "type": "color"
             },
             "content": {
-              "value": "{system.colour.action.subtle.hover.content}",
+              "value": "{semantic.colour.action.subtle.hover.content}",
               "type": "color"
             },
             "state": {
               "type": "color",
-              "value": "{system.colour.action.subtle.hover.state}"
+              "value": "{semantic.colour.action.subtle.hover.state}"
             }
           },
           "press": {
             "bg": {
-              "value": "{system.colour.action.subtle.press.background}",
+              "value": "{semantic.colour.action.subtle.press.background}",
               "type": "color"
             },
             "content": {
-              "value": "{system.colour.action.subtle.press.content}",
+              "value": "{semantic.colour.action.subtle.press.content}",
               "type": "color"
             },
             "state": {
               "type": "color",
-              "value": "{system.colour.action.subtle.press.state}"
+              "value": "{semantic.colour.action.subtle.press.state}"
             }
           },
           "disabled": {
             "bg": {
-              "value": "{system.colour.action.subtle.disabled.background}",
+              "value": "{semantic.colour.action.subtle.disabled.background}",
               "type": "color"
             },
             "content": {
-              "value": "{system.colour.action.subtle.disabled.content}",
+              "value": "{semantic.colour.action.subtle.disabled.content}",
               "type": "color"
             },
             "state": {
               "type": "color",
-              "value": "{system.colour.action.subtle.disabled.state}"
+              "value": "{semantic.colour.action.subtle.disabled.state}"
             }
           }
         },
         "border": {
           "split-fill": {
-            "value": "{system.colour.action.primary.default.split}",
+            "value": "{semantic.colour.action.primary.default.split}",
             "type": "color"
           },
           "split-tonal": {

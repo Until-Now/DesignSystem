@@ -71,7 +71,7 @@
       },
       "colour": {
         "background": {
-          "value": "{system.neutral.background}",
+          "value": "{semantic.neutral.background}",
           "type": "color"
         },
         "text": {

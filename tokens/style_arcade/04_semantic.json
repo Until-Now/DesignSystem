@@ -154,7 +154,7 @@
     },
     "text-and-icons": {
       "accent-on-dark": {
-        "value": "{system.secondary.inverse-secondary}",
+        "value": "{semantic.secondary.inverse-secondary}",
         "type": "color"
       }
     },

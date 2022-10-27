@@ -11,44 +11,44 @@
         "generic": {
           "default": {
             "bg": {
-              "value": "{system.colour.navigation.avatar.default.background}",
+              "value": "{semantic.colour.navigation.avatar.default.background}",
               "type": "color"
             },
             "content": {
-              "value": "{system.colour.navigation.avatar.default.content}",
+              "value": "{semantic.colour.navigation.avatar.default.content}",
               "type": "color"
             },
             "state": {
               "type": "color",
-              "value": "{system.state-surface.neutral.lighter.default}"
+              "value": "{semantic.stateSurface.neutral.lighter.default}"
             }
           },
           "hover": {
             "bg": {
-              "value": "{system.colour.navigation.avatar.hover.background}",
+              "value": "{semantic.colour.navigation.avatar.hover.background}",
               "type": "color"
             },
             "content": {
-              "value": "{system.colour.navigation.avatar.hover.content}",
+              "value": "{semantic.colour.navigation.avatar.hover.content}",
               "type": "color"
             },
             "state": {
               "type": "color",
-              "value": "{system.state-surface.neutral.lighter.hover}"
+              "value": "{semantic.stateSurface.neutral.lighter.hover}"
             }
           },
           "press": {
             "bg": {
-              "value": "{system.colour.navigation.avatar.press.background}",
+              "value": "{semantic.colour.navigation.avatar.press.background}",
               "type": "color"
             },
             "content": {
-              "value": "{system.colour.navigation.avatar.press.content}",
+              "value": "{semantic.colour.navigation.avatar.press.content}",
               "type": "color"
             },
             "state": {
               "type": "color",
-              "value": "{system.state-surface.neutral.lighter.press}"
+              "value": "{semantic.stateSurface.neutral.lighter.press}"
             }
           }
         },
@@ -56,18 +56,18 @@
           "default": {
             "state": {
               "type": "color",
-              "value": "{system.state-surface.neutral.darker.default}"
+              "value": "{semantic.stateSurface.neutral.darker.default}"
             }
           },
           "hover": {
             "state": {
-              "value": "{system.state-surface.neutral.darker.hover}",
+              "value": "{semantic.stateSurface.neutral.darker.hover}",
               "type": "color"
             }
           },
           "press": {
             "state": {
-              "value": "{system.state-surface.neutral.darker.press}",
+              "value": "{semantic.stateSurface.neutral.darker.press}",
               "type": "color"
             }
           }
@@ -130,11 +130,11 @@
       "colour": {
         "default": {
           "bg": {
-            "value": "{system.colour.feedback.neutral.background-inverse}",
+            "value": "{semantic.colour.feedback.neutral.background-inverse}",
             "type": "color"
           },
           "content": {
-            "value": "{system.colour.feedback.content.on-dark.strong}",
+            "value": "{semantic.colour.feedback.content.on-dark.strong}",
             "type": "color"
           },
           "button-content": {
@@ -142,25 +142,25 @@
             "type": "color"
           },
           "divider": {
-            "value": "{system.colour.feedback.content.on-dark.soft}",
+            "value": "{semantic.colour.feedback.content.on-dark.soft}",
             "type": "color"
           }
         },
         "error": {
           "bg": {
-            "value": "{system.colour.feedback.strong.error.surface}",
+            "value": "{semantic.colour.feedback.strong.error.surface}",
             "type": "color"
           },
           "content": {
-            "value": "{system.colour.feedback.strong.error.cta}",
+            "value": "{semantic.colour.feedback.strong.error.cta}",
             "type": "color"
           },
           "button-content": {
-            "value": "{system.colour.feedback.strong.error.cta}",
+            "value": "{semantic.colour.feedback.strong.error.cta}",
             "type": "color"
           },
           "divider": {
-            "value": "{system.colour.feedback.content.on-dark.soft}",
+            "value": "{semantic.colour.feedback.content.on-dark.soft}",
             "type": "color"
           }
         }
@@ -251,15 +251,15 @@
         "colour": {
           "content": {
             "strong": {
-              "value": "{system.colour.inputs.content.strong}",
+              "value": "{semantic.colour.inputs.content.strong}",
               "type": "color"
             },
             "mid": {
-              "value": "{system.colour.inputs.content.mid}",
+              "value": "{semantic.colour.inputs.content.mid}",
               "type": "color"
             },
             "error": {
-              "value": "{system.colour.inputs.content.error}",
+              "value": "{semantic.colour.inputs.content.error}",
               "type": "color"
             }
           }
@@ -273,11 +273,11 @@
               "type": "color"
             },
             "content": {
-              "value": "{system.colour.inputs.content.strong}",
+              "value": "{semantic.colour.inputs.content.strong}",
               "type": "color"
             },
             "outline": {
-              "value": "{system.colour.inputs.default.outline}",
+              "value": "{semantic.colour.inputs.default.outline}",
               "type": "color"
             }
           },
@@ -287,11 +287,11 @@
               "type": "color"
             },
             "content": {
-              "value": "{system.colour.inputs.content.strong}",
+              "value": "{semantic.colour.inputs.content.strong}",
               "type": "color"
             },
             "outline": {
-              "value": "{system.colour.inputs.hover.outline}",
+              "value": "{semantic.colour.inputs.hover.outline}",
               "type": "color"
             }
           },
@@ -301,16 +301,16 @@
               "type": "color"
             },
             "content": {
-              "value": "{system.colour.inputs.content.error}",
+              "value": "{semantic.colour.inputs.content.error}",
               "type": "color"
             },
             "outline": {
-              "value": "{system.colour.inputs.error.outline}",
+              "value": "{semantic.colour.inputs.error.outline}",
               "type": "color"
             }
           },
           "text-link": {
-            "value": "{system.content.text-link}",
+            "value": "{semantic.content.text-link}",
             "type": "color"
           }
         }
@@ -320,15 +320,15 @@
       "colour": {
         "track": {
           "inactive-bg": {
-            "value": "{system.colour.inputs.measure.background}",
+            "value": "{semantic.colour.inputs.measure.background}",
             "type": "color"
           },
           "active-bg": {
-            "value": "{system.colour.inputs.measure.foreground}",
+            "value": "{semantic.colour.inputs.measure.foreground}",
             "type": "color"
           },
           "content": {
-            "value": "{system.colour.inputs.content.strong}",
+            "value": "{semantic.colour.inputs.content.strong}",
             "type": "color"
           }
         },
@@ -378,11 +378,11 @@
         },
         "tag": {
           "bg": {
-            "value": "{system.colour.inputs.measure.foreground-accent}",
+            "value": "{semantic.colour.inputs.measure.foreground-accent}",
             "type": "color"
           },
           "content": {
-            "value": "{system.colour.inputs.content.strong}",
+            "value": "{semantic.colour.inputs.content.strong}",
             "type": "color"
           }
         }

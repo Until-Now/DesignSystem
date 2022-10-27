@@ -102,7 +102,7 @@
         "y": "2",
         "blur": "16",
         "spread": "0",
-        "color": "rgba({system.shadow},0.1)",
+        "color": "rgba({semantic.shadow},0.1)",
         "type": "dropShadow"
       },
       "type": "boxShadow"

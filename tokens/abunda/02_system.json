@@ -4,15 +4,15 @@
       "secondary": {
         "default": {
           "background": {
-            "value": "{system.primary.tonal}",
+            "value": "{semantic.primary.tonal}",
             "type": "color"
           },
           "content": {
-            "value": "{system.primary.on-tonal}",
+            "value": "{semantic.primary.on-tonal}",
             "type": "color"
           },
           "split": {
-            "value": "{system.primary.on-tonal}",
+            "value": "{semantic.primary.on-tonal}",
             "type": "color"
           }
         }
@@ -22,19 +22,19 @@
       "accent": {
         "primary-light": {
           "default": {
-            "value": "rgba({system.primary.on-primary},0.00)",
+            "value": "rgba({semantic.primary.on-primary},0.00)",
             "type": "color"
           },
           "hover": {
-            "value": "rgba({system.primary.on-primary},0.16)",
+            "value": "rgba({semantic.primary.on-primary},0.16)",
             "type": "color"
           },
           "press": {
-            "value": "rgba({system.primary.on-primary},0.28)",
+            "value": "rgba({semantic.primary.on-primary},0.28)",
             "type": "color"
           },
           "disabled": {
-            "value": "rgba({system.primary.on-primary},0.00)",
+            "value": "rgba({semantic.primary.on-primary},0.00)",
             "type": "color"
           }
         }
@@ -47,7 +47,7 @@
       },
       "on-light": {
         "soft": {
-          "value": "rgba({system.content.default},0.40)",
+          "value": "rgba({semantic.content.default},0.40)",
           "type": "color"
         }
       }

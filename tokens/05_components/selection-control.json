@@ -67,243 +67,243 @@
         "colour": {
           "default": {
             "bg": {
-              "value": "{system.colour.inputs.selection.default.background}",
+              "value": "{semantic.colour.inputs.selection.default.background}",
               "type": "color"
             },
             "toggle-icon": {
-              "value": "{system.colour.inputs.content.mid}",
+              "value": "{semantic.colour.inputs.content.mid}",
               "type": "color"
             },
             "content": {
-              "value": "{system.colour.inputs.content.strong}",
+              "value": "{semantic.colour.inputs.content.strong}",
               "type": "color"
             },
             "toggle": {
-              "value": "{system.colour.inputs.default.background}",
+              "value": "{semantic.colour.inputs.default.background}",
               "type": "color"
             },
             "state": {
               "type": "color",
-              "value": "{system.state-surface.primary.primary.default}"
+              "value": "{semantic.stateSurface.primary.primary.default}"
             },
             "outline": {
-              "value": "{system.colour.inputs.selection.outline}",
+              "value": "{semantic.colour.inputs.selection.outline}",
               "type": "color"
             }
           },
           "hover": {
             "bg": {
-              "value": "{system.colour.inputs.selection.hover.background}",
+              "value": "{semantic.colour.inputs.selection.hover.background}",
               "type": "color"
             },
             "toggle-icon": {
-              "value": "{system.colour.inputs.content.mid}",
+              "value": "{semantic.colour.inputs.content.mid}",
               "type": "color"
             },
             "content": {
-              "value": "{system.colour.inputs.content.strong}",
+              "value": "{semantic.colour.inputs.content.strong}",
               "type": "color"
             },
             "toggle": {
-              "value": "{system.colour.inputs.hover.background}",
+              "value": "{semantic.colour.inputs.hover.background}",
               "type": "color"
             },
             "state": {
               "type": "color",
-              "value": "{system.state-surface.primary.primary.hover}"
+              "value": "{semantic.stateSurface.primary.primary.hover}"
             },
             "outline": {
-              "value": "{system.colour.inputs.selection.outline}",
+              "value": "{semantic.colour.inputs.selection.outline}",
               "type": "color"
             }
           },
           "press": {
             "bg": {
-              "value": "{system.colour.inputs.selection.press.background}",
+              "value": "{semantic.colour.inputs.selection.press.background}",
               "type": "color"
             },
             "toggle-icon": {
-              "value": "{system.colour.inputs.content.mid}",
+              "value": "{semantic.colour.inputs.content.mid}",
               "type": "color"
             },
             "content": {
-              "value": "{system.colour.inputs.content.strong}",
+              "value": "{semantic.colour.inputs.content.strong}",
               "type": "color"
             },
             "toggle": {
-              "value": "{system.colour.inputs.press.background}",
+              "value": "{semantic.colour.inputs.press.background}",
               "type": "color"
             },
             "state": {
               "type": "color",
-              "value": "{system.state-surface.primary.primary.press}"
+              "value": "{semantic.stateSurface.primary.primary.press}"
             },
             "outline": {
-              "value": "{system.colour.inputs.selection.outline}",
+              "value": "{semantic.colour.inputs.selection.outline}",
               "type": "color"
             }
           },
           "error": {
             "bg": {
-              "value": "{system.colour.inputs.selection.error.background}",
+              "value": "{semantic.colour.inputs.selection.error.background}",
               "type": "color"
             },
             "toggle-icon": {
-              "value": "{system.colour.inputs.content.mid}",
+              "value": "{semantic.colour.inputs.content.mid}",
               "type": "color"
             },
             "content": {
-              "value": "{system.colour.inputs.content.strong}",
+              "value": "{semantic.colour.inputs.content.strong}",
               "type": "color"
             },
             "toggle": {
-              "value": "{system.colour.inputs.error.background}",
+              "value": "{semantic.colour.inputs.error.background}",
               "type": "color"
             },
             "state": {
               "type": "color",
-              "value": "{system.state-surface.primary.primary.default}"
+              "value": "{semantic.stateSurface.primary.primary.default}"
             },
             "outline": {
-              "value": "{system.colour.inputs.error.outline}",
+              "value": "{semantic.colour.inputs.error.outline}",
               "type": "color"
             }
           },
           "disabled": {
             "bg": {
-              "value": "{system.colour.inputs.selection.disabled.background}",
+              "value": "{semantic.colour.inputs.selection.disabled.background}",
               "type": "color"
             },
             "toggle-icon": {
-              "value": "{system.colour.inputs.content.disabled}",
+              "value": "{semantic.colour.inputs.content.disabled}",
               "type": "color"
             },
             "content": {
-              "value": "{system.colour.inputs.content.disabled}",
+              "value": "{semantic.colour.inputs.content.disabled}",
               "type": "color"
             },
             "toggle": {
-              "value": "{system.colour.inputs.default.background}",
+              "value": "{semantic.colour.inputs.default.background}",
               "type": "color"
             },
             "state": {
               "type": "color",
-              "value": "{system.state-surface.primary.primary.disabled}"
+              "value": "{semantic.stateSurface.primary.primary.disabled}"
             }
           },
           "active": {
             "default": {
               "bg": {
-                "value": "{system.colour.inputs.hover.outline}",
+                "value": "{semantic.colour.inputs.hover.outline}",
                 "type": "color"
               },
               "toggle-icon": {
-                "value": "{system.colour.inputs.hover.outline}",
+                "value": "{semantic.colour.inputs.hover.outline}",
                 "type": "color"
               },
               "content": {
-                "value": "{system.colour.inputs.content.strong}",
+                "value": "{semantic.colour.inputs.content.strong}",
                 "type": "color"
               },
               "toggle": {
-                "value": "{system.colour.inputs.default.background}",
+                "value": "{semantic.colour.inputs.default.background}",
                 "type": "color"
               },
               "state": {
                 "type": "color",
-                "value": "{system.state-surface.neutral.darker.default}"
+                "value": "{semantic.stateSurface.neutral.darker.default}"
               }
             },
             "hover": {
               "bg": {
-                "value": "{system.colour.inputs.hover.outline}",
+                "value": "{semantic.colour.inputs.hover.outline}",
                 "type": "color"
               },
               "toggle-icon": {
-                "value": "{system.colour.inputs.hover.outline}",
+                "value": "{semantic.colour.inputs.hover.outline}",
                 "type": "color"
               },
               "content": {
-                "value": "{system.colour.inputs.content.strong}",
+                "value": "{semantic.colour.inputs.content.strong}",
                 "type": "color"
               },
               "toggle": {
-                "value": "{system.colour.inputs.hover.background}",
+                "value": "{semantic.colour.inputs.hover.background}",
                 "type": "color"
               },
               "state": {
                 "type": "color",
-                "value": "{system.state-surface.neutral.darker.hover}"
+                "value": "{semantic.stateSurface.neutral.darker.hover}"
               }
             },
             "press": {
               "bg": {
-                "value": "{system.colour.inputs.press.outline}",
+                "value": "{semantic.colour.inputs.press.outline}",
                 "type": "color"
               },
               "toggle-icon": {
-                "value": "{system.colour.inputs.hover.outline}",
+                "value": "{semantic.colour.inputs.hover.outline}",
                 "type": "color"
               },
               "content": {
-                "value": "{system.colour.inputs.content.strong}",
+                "value": "{semantic.colour.inputs.content.strong}",
                 "type": "color"
               },
               "toggle": {
-                "value": "{system.colour.inputs.press.background}",
+                "value": "{semantic.colour.inputs.press.background}",
                 "type": "color"
               },
               "state": {
                 "type": "color",
-                "value": "{system.state-surface.neutral.darker.press}"
+                "value": "{semantic.stateSurface.neutral.darker.press}"
               }
             },
             "error": {
               "bg": {
-                "value": "{system.colour.inputs.hover.outline}",
+                "value": "{semantic.colour.inputs.hover.outline}",
                 "type": "color"
               },
               "toggle-icon": {
-                "value": "{system.colour.inputs.hover.outline}",
+                "value": "{semantic.colour.inputs.hover.outline}",
                 "type": "color"
               },
               "content": {
-                "value": "{system.colour.inputs.content.strong}",
+                "value": "{semantic.colour.inputs.content.strong}",
                 "type": "color"
               },
               "toggle": {
-                "value": "{system.colour.inputs.error.background}",
+                "value": "{semantic.colour.inputs.error.background}",
                 "type": "color"
               },
               "state": {
                 "type": "color",
-                "value": "{system.state-surface.neutral.darker.default}"
+                "value": "{semantic.stateSurface.neutral.darker.default}"
               },
               "outline": {
-                "value": "{system.colour.inputs.error.outline}",
+                "value": "{semantic.colour.inputs.error.outline}",
                 "type": "color"
               }
             },
             "disabled": {
               "bg": {
-                "value": "{system.colour.inputs.disabled.background}",
+                "value": "{semantic.colour.inputs.disabled.background}",
                 "type": "color"
               },
               "toggle-icon": {
-                "value": "{system.colour.inputs.content.disabled}",
+                "value": "{semantic.colour.inputs.content.disabled}",
                 "type": "color"
               },
               "content": {
-                "value": "{system.colour.inputs.content.disabled}",
+                "value": "{semantic.colour.inputs.content.disabled}",
                 "type": "color"
               },
               "toggle": {
-                "value": "{system.colour.inputs.default.background}",
+                "value": "{semantic.colour.inputs.default.background}",
                 "type": "color"
               },
               "state": {
                 "type": "color",
-                "value": "{system.state-surface.neutral.darker.disabled}"
+                "value": "{semantic.stateSurface.neutral.darker.disabled}"
               }
             }
           }
@@ -413,119 +413,119 @@
         "colour": {
           "default": {
             "bg": {
-              "value": "{system.colour.inputs.default.background}",
+              "value": "{semantic.colour.inputs.default.background}",
               "type": "color"
             },
             "control": {
-              "value": "{system.colour.inputs.default.outline}",
+              "value": "{semantic.colour.inputs.default.outline}",
               "type": "color"
             },
             "content": {
-              "value": "{system.colour.inputs.content.strong}",
+              "value": "{semantic.colour.inputs.content.strong}",
               "type": "color"
             }
           },
           "active": {
             "default": {
               "bg": {
-                "value": "{system.colour.inputs.default.background}",
+                "value": "{semantic.colour.inputs.default.background}",
                 "type": "color"
               },
               "control": {
-                "value": "{system.colour.inputs.hover.outline}",
+                "value": "{semantic.colour.inputs.hover.outline}",
                 "type": "color"
               },
               "content": {
-                "value": "{system.colour.inputs.content.strong}",
+                "value": "{semantic.colour.inputs.content.strong}",
                 "type": "color"
               }
             },
             "hover": {
               "bg": {
-                "value": "{system.colour.inputs.default.background}",
+                "value": "{semantic.colour.inputs.default.background}",
                 "type": "color"
               },
               "control": {
-                "value": "{system.colour.inputs.hover.outline}",
+                "value": "{semantic.colour.inputs.hover.outline}",
                 "type": "color"
               },
               "content": {
-                "value": "{system.colour.inputs.content.strong}",
+                "value": "{semantic.colour.inputs.content.strong}",
                 "type": "color"
               }
             },
             "error": {
               "bg": {
-                "value": "{system.colour.inputs.default.background}",
+                "value": "{semantic.colour.inputs.default.background}",
                 "type": "color"
               },
               "control": {
-                "value": "{system.colour.inputs.press.outline}",
+                "value": "{semantic.colour.inputs.press.outline}",
                 "type": "color"
               },
               "content": {
-                "value": "{system.colour.inputs.content.strong}",
+                "value": "{semantic.colour.inputs.content.strong}",
                 "type": "color"
               },
               "outline": {
-                "value": "{system.colour.inputs.error.outline}",
+                "value": "{semantic.colour.inputs.error.outline}",
                 "type": "color"
               }
             },
             "disabled": {
               "bg": {
-                "value": "{system.colour.inputs.disabled.background}",
+                "value": "{semantic.colour.inputs.disabled.background}",
                 "type": "color"
               },
               "control": {
-                "value": "{system.colour.inputs.disabled.outline}",
+                "value": "{semantic.colour.inputs.disabled.outline}",
                 "type": "color"
               },
               "content": {
-                "value": "{system.colour.inputs.content.soft}",
+                "value": "{semantic.colour.inputs.content.soft}",
                 "type": "color"
               }
             }
           },
           "disabled": {
             "bg": {
-              "value": "{system.colour.inputs.disabled.background}",
+              "value": "{semantic.colour.inputs.disabled.background}",
               "type": "color"
             },
             "control": {
-              "value": "{system.colour.inputs.disabled.outline}",
+              "value": "{semantic.colour.inputs.disabled.outline}",
               "type": "color"
             },
             "content": {
-              "value": "{system.colour.inputs.content.soft}",
+              "value": "{semantic.colour.inputs.content.soft}",
               "type": "color"
             }
           },
           "hover": {
             "bg": {
-              "value": "{system.colour.inputs.default.background}",
+              "value": "{semantic.colour.inputs.default.background}",
               "type": "color"
             },
             "control": {
-              "value": "{system.colour.inputs.hover.outline}",
+              "value": "{semantic.colour.inputs.hover.outline}",
               "type": "color"
             },
             "content": {
-              "value": "{system.colour.inputs.content.strong}",
+              "value": "{semantic.colour.inputs.content.strong}",
               "type": "color"
             }
           },
           "error": {
             "bg": {
-              "value": "{system.colour.inputs.default.background}",
+              "value": "{semantic.colour.inputs.default.background}",
               "type": "color"
             },
             "control": {
-              "value": "{system.colour.inputs.error.outline}",
+              "value": "{semantic.colour.inputs.error.outline}",
               "type": "color"
             },
             "content": {
-              "value": "{system.colour.inputs.content.strong}",
+              "value": "{semantic.colour.inputs.content.strong}",
               "type": "color"
             }
           }
@@ -549,13 +549,13 @@
         "colour": {
           "default": {
             "background": {
-              "value": "{system.colour.inputs.selection.callout.default.background}",
+              "value": "{semantic.colour.inputs.selection.callout.default.background}",
               "type": "color"
             }
           },
           "disabled": {
             "background": {
-              "value": "{system.colour.inputs.selection.callout.disabled.background}",
+              "value": "{semantic.colour.inputs.selection.callout.disabled.background}",
               "type": "color"
             }
           }

@@ -19,25 +19,25 @@
         "primary": {
           "default": {
             "state": {
-              "value": "{system.state-surface.primary.primary.default}",
+              "value": "{semantic.stateSurface.primary.primary.default}",
               "type": "color"
             }
           },
           "hover": {
             "state": {
-              "value": "{system.state-surface.primary.primary.hover}",
+              "value": "{semantic.stateSurface.primary.primary.hover}",
               "type": "color"
             }
           },
           "press": {
             "state": {
-              "value": "{system.state-surface.primary.primary.press}",
+              "value": "{semantic.stateSurface.primary.primary.press}",
               "type": "color"
             }
           },
           "disabled": {
             "state": {
-              "value": "{system.state-surface.primary.primary.disabled}",
+              "value": "{semantic.stateSurface.primary.primary.disabled}",
               "type": "color"
             }
           }
@@ -45,25 +45,25 @@
         "secondary": {
           "default": {
             "state": {
-              "value": "{system.state-surface.primary.tonal.default}",
+              "value": "{semantic.stateSurface.primary.tonal.default}",
               "type": "color"
             }
           },
           "hover": {
             "state": {
-              "value": "{system.state-surface.primary.tonal.hover}",
+              "value": "{semantic.stateSurface.primary.tonal.hover}",
               "type": "color"
             }
           },
           "press": {
             "state": {
-              "value": "{system.state-surface.primary.tonal.press}",
+              "value": "{semantic.stateSurface.primary.tonal.press}",
               "type": "color"
             }
           },
           "disabled": {
             "state": {
-              "value": "{system.state-surface.primary.tonal.disabled}",
+              "value": "{semantic.stateSurface.primary.tonal.disabled}",
               "type": "color"
             }
           }
@@ -71,25 +71,25 @@
         "tertiary": {
           "default": {
             "state": {
-              "value": "{system.state-surface.primary.tonal.default}",
+              "value": "{semantic.stateSurface.primary.tonal.default}",
               "type": "color"
             }
           },
           "hover": {
             "state": {
-              "value": "{system.state-surface.primary.tonal.hover}",
+              "value": "{semantic.stateSurface.primary.tonal.hover}",
               "type": "color"
             }
           },
           "press": {
             "state": {
-              "value": "{system.state-surface.primary.tonal.press}",
+              "value": "{semantic.stateSurface.primary.tonal.press}",
               "type": "color"
             }
           },
           "disabled": {
             "state": {
-              "value": "{system.state-surface.primary.tonal.disabled}",
+              "value": "{semantic.stateSurface.primary.tonal.disabled}",
               "type": "color"
             }
           }
@@ -97,25 +97,25 @@
         "subtle": {
           "default": {
             "state": {
-              "value": "{system.state-surface.primary.tonal.default}",
+              "value": "{semantic.stateSurface.primary.tonal.default}",
               "type": "color"
             }
           },
           "hover": {
             "state": {
-              "value": "{system.state-surface.primary.tonal.hover}",
+              "value": "{semantic.stateSurface.primary.tonal.hover}",
               "type": "color"
             }
           },
           "press": {
             "state": {
-              "value": "{system.state-surface.primary.tonal.press}",
+              "value": "{semantic.stateSurface.primary.tonal.press}",
               "type": "color"
             }
           },
           "disabled": {
             "state": {
-              "value": "{system.state-surface.primary.tonal.disabled}",
+              "value": "{semantic.stateSurface.primary.tonal.disabled}",
               "type": "color"
             }
           }
@@ -135,11 +135,11 @@
       },
       "container": {
         "default": {
-          "value": "{system.neutral.transparent}",
+          "value": "{semantic.neutral.transparent}",
           "type": "color"
         },
         "disabled": {
-          "value": "{system.neutral.transparent}",
+          "value": "{semantic.neutral.transparent}",
           "type": "color"
         },
         "hover": {
@@ -170,15 +170,15 @@
       "colour": {
         "error": {
           "bg": {
-            "value": "{system.colour.feedback.error.surface}",
+            "value": "{semantic.colour.feedback.error.surface}",
             "type": "color"
           },
           "content": {
-            "value": "{system.colour.feedback.error.content}",
+            "value": "{semantic.colour.feedback.error.content}",
             "type": "color"
           },
           "button-content": {
-            "value": "{system.colour.feedback.error.content}",
+            "value": "{semantic.colour.feedback.error.content}",
             "type": "color"
           }
         }
@@ -190,19 +190,19 @@
           "active": {
             "default": {
               "state": {
-                "value": "{system.state-surface.primary.primary.default}",
+                "value": "{semantic.stateSurface.primary.primary.default}",
                 "type": "color"
               }
             },
             "hover": {
               "state": {
-                "value": "{system.state-surface.primary.primary.hover}",
+                "value": "{semantic.stateSurface.primary.primary.hover}",
                 "type": "color"
               }
             },
             "press": {
               "state": {
-                "value": "{system.state-surface.primary.primary.press}",
+                "value": "{semantic.stateSurface.primary.primary.press}",
                 "type": "color"
               }
             }
@@ -212,11 +212,11 @@
           "rating": {
             "default": {
               "bg": {
-                "value": "{system.colour.status.muted.primary.default.background}",
+                "value": "{semantic.colour.status.muted.primary.default.background}",
                 "type": "color"
               },
               "content": {
-                "value": "{system.colour.status.muted.primary.default.content}",
+                "value": "{semantic.colour.status.muted.primary.default.content}",
                 "type": "color"
               },
               "rating": {
@@ -231,19 +231,19 @@
             "info": {
               "default": {
                 "content": {
-                  "value": "{system.colour.status.muted.info.default.content}",
+                  "value": "{semantic.colour.status.muted.info.default.content}",
                   "type": "color"
                 }
               },
               "hover": {
                 "content": {
-                  "value": "{system.colour.status.muted.info.hover.content}",
+                  "value": "{semantic.colour.status.muted.info.hover.content}",
                   "type": "color"
                 }
               },
               "press": {
                 "content": {
-                  "value": "{system.colour.status.muted.info.press.content}",
+                  "value": "{semantic.colour.status.muted.info.press.content}",
                   "type": "color"
                 }
               }
@@ -277,86 +277,86 @@
         "colour": {
           "default": {
             "state": {
-              "value": "{system.state-surface.primary.tonal.default}",
+              "value": "{semantic.stateSurface.primary.tonal.default}",
               "type": "color"
             }
           },
           "hover": {
             "state": {
-              "value": "{system.state-surface.primary.tonal.hover}",
+              "value": "{semantic.stateSurface.primary.tonal.hover}",
               "type": "color"
             }
           },
           "press": {
             "state": {
-              "value": "{system.state-surface.primary.tonal.press}",
+              "value": "{semantic.stateSurface.primary.tonal.press}",
               "type": "color"
             }
           },
           "error": {
             "state": {
-              "value": "{system.state-surface.primary.tonal.default}",
+              "value": "{semantic.stateSurface.primary.tonal.default}",
               "type": "color"
             },
             "outline": {
-              "value": "{system.colour.inputs.error.outline}",
+              "value": "{semantic.colour.inputs.error.outline}",
               "type": "color"
             }
           },
           "disabled": {
             "state": {
-              "value": "{system.state-surface.primary.tonal.disabled}",
+              "value": "{semantic.stateSurface.primary.tonal.disabled}",
               "type": "color"
             }
           },
           "active": {
             "default": {
               "state": {
-                "value": "{system.state-surface.neutral.lighter.default}",
+                "value": "{semantic.stateSurface.neutral.lighter.default}",
                 "type": "color"
               },
               "toggle-icon": {
-                "value": "{system.colour.inputs.content.strong}",
+                "value": "{semantic.colour.inputs.content.strong}",
                 "type": "color"
               }
             },
             "hover": {
               "state": {
-                "value": "{system.state-surface.neutral.lighter.hover}",
+                "value": "{semantic.stateSurface.neutral.lighter.hover}",
                 "type": "color"
               },
               "toggle-icon": {
-                "value": "{system.colour.inputs.content.strong}",
+                "value": "{semantic.colour.inputs.content.strong}",
                 "type": "color"
               }
             },
             "press": {
               "state": {
-                "value": "{system.state-surface.neutral.lighter.press}",
+                "value": "{semantic.stateSurface.neutral.lighter.press}",
                 "type": "color"
               },
               "toggle-icon": {
-                "value": "{system.colour.inputs.content.strong}",
+                "value": "{semantic.colour.inputs.content.strong}",
                 "type": "color"
               }
             },
             "error": {
               "state": {
-                "value": "{system.state-surface.neutral.lighter.default}",
+                "value": "{semantic.stateSurface.neutral.lighter.default}",
                 "type": "color"
               },
               "toggle-icon": {
-                "value": "{system.colour.inputs.content.strong}",
+                "value": "{semantic.colour.inputs.content.strong}",
                 "type": "color"
               },
               "outline": {
-                "value": "{system.colour.inputs.error.outline}",
+                "value": "{semantic.colour.inputs.error.outline}",
                 "type": "color"
               }
             },
             "disabled": {
               "state": {
-                "value": "{system.state-surface.neutral.lighter.disabled}",
+                "value": "{semantic.stateSurface.neutral.lighter.disabled}",
                 "type": "color"
               }
             }
@@ -368,7 +368,7 @@
           "active": {
             "error": {
               "outline": {
-                "value": "{system.colour.inputs.error.outline}",
+                "value": "{semantic.colour.inputs.error.outline}",
                 "type": "color"
               }
             }

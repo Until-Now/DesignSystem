@@ -40,10 +40,10 @@
       "new_quantum/04_semantic": "disabled",
       "new_quantum/05_components/chip": "disabled",
       "style_arcade/01_foundation": "disabled",
-      "style_arcade/03_system": "disabled",
       "style_arcade/04_semantic": "disabled",
       "style_arcade/05_components/selection-control": "disabled",
-      "02_semantic/styles": "enabled"
+      "02_semantic/styles": "enabled",
+      "style_arcade/02_semantic": "disabled"
     },
     "$figmaStyleReferences": {}
   }

@@ -26,31 +26,31 @@
           "active": {
             "default": {
               "bg": {
-                "value": "{system.primary.on-tonal}",
+                "value": "{semantic.primary.on-tonal}",
                 "type": "color"
               },
               "control": {
-                "value": "{system.primary.tonal}",
+                "value": "{semantic.primary.tonal}",
                 "type": "color"
               }
             },
             "hover": {
               "bg": {
-                "value": "{system.primary.on-tonal}",
+                "value": "{semantic.primary.on-tonal}",
                 "type": "color"
               },
               "control": {
-                "value": "{system.primary.tonal}",
+                "value": "{semantic.primary.tonal}",
                 "type": "color"
               }
             },
             "error": {
               "bg": {
-                "value": "{system.primary.on-tonal}",
+                "value": "{semantic.primary.on-tonal}",
                 "type": "color"
               },
               "control": {
-                "value": "{system.primary.tonal}",
+                "value": "{semantic.primary.tonal}",
                 "type": "color"
               }
             }

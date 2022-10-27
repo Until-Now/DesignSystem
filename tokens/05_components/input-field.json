@@ -126,104 +126,104 @@
       "colour": {
         "default": {
           "bg": {
-            "value": "{system.colour.inputs.default.background}",
+            "value": "{semantic.colour.inputs.default.background}",
             "type": "color"
           },
           "bg-transparent": {
-            "value": "{system.colour.inputs.default.bg-transparent}",
+            "value": "{semantic.colour.inputs.default.bg-transparent}",
             "type": "color"
           },
           "outline": {
-            "value": "{system.colour.inputs.default.outline}",
+            "value": "{semantic.colour.inputs.default.outline}",
             "type": "color"
           }
         },
         "hover": {
           "bg": {
-            "value": "{system.colour.inputs.hover.background}",
+            "value": "{semantic.colour.inputs.hover.background}",
             "type": "color"
           },
           "bg-transparent": {
-            "value": "{system.colour.inputs.hover.bg-transparent}",
+            "value": "{semantic.colour.inputs.hover.bg-transparent}",
             "type": "color"
           },
           "outline": {
-            "value": "{system.colour.inputs.hover.outline}",
+            "value": "{semantic.colour.inputs.hover.outline}",
             "type": "color"
           }
         },
         "active": {
           "bg": {
-            "value": "{system.colour.inputs.press.background}",
+            "value": "{semantic.colour.inputs.press.background}",
             "type": "color"
           },
           "bg-transparent": {
-            "value": "{system.colour.inputs.press.bg-transparent}",
+            "value": "{semantic.colour.inputs.press.bg-transparent}",
             "type": "color"
           },
           "outline": {
-            "value": "{system.colour.inputs.press.outline}",
+            "value": "{semantic.colour.inputs.press.outline}",
             "type": "color"
           },
           "focus-outline": {
-            "value": "{system.colour.inputs.press.focus}",
+            "value": "{semantic.colour.inputs.press.focus}",
             "type": "color"
           }
         },
         "error": {
           "bg": {
-            "value": "{system.colour.inputs.error.background}",
+            "value": "{semantic.colour.inputs.error.background}",
             "type": "color"
           },
           "bg-transparent": {
-            "value": "{system.colour.inputs.error.bg-transparent}",
+            "value": "{semantic.colour.inputs.error.bg-transparent}",
             "type": "color"
           },
           "outline": {
-            "value": "{system.colour.inputs.error.outline}",
+            "value": "{semantic.colour.inputs.error.outline}",
             "type": "color"
           }
         },
         "disabled": {
           "bg": {
-            "value": "{system.colour.inputs.disabled.background}",
+            "value": "{semantic.colour.inputs.disabled.background}",
             "type": "color"
           },
           "bg-transparent": {
-            "value": "{system.colour.inputs.disabled.bg-transparent}",
+            "value": "{semantic.colour.inputs.disabled.bg-transparent}",
             "type": "color"
           },
           "outline": {
-            "value": "{system.colour.inputs.disabled.outline}",
+            "value": "{semantic.colour.inputs.disabled.outline}",
             "type": "color"
           }
         },
         "content": {
           "strong": {
-            "value": "{system.colour.inputs.content.strong}",
+            "value": "{semantic.colour.inputs.content.strong}",
             "type": "color",
             "description": "Active text and default icon colour"
           },
           "mid": {
-            "value": "{system.colour.inputs.content.mid}",
+            "value": "{semantic.colour.inputs.content.mid}",
             "type": "color",
             "description": "Label text"
           },
           "soft": {
-            "value": "{system.colour.inputs.content.soft}",
+            "value": "{semantic.colour.inputs.content.soft}",
             "type": "color",
             "description": "Helper text"
           },
           "error": {
-            "value": "{system.colour.inputs.content.error}",
+            "value": "{semantic.colour.inputs.content.error}",
             "type": "color"
           },
           "disabled": {
-            "value": "{system.colour.inputs.content.disabled}",
+            "value": "{semantic.colour.inputs.content.disabled}",
             "type": "color"
           },
           "link": {
-            "value": "{system.colour.inputs.content.accent-on-light}",
+            "value": "{semantic.colour.inputs.content.accent-on-light}",
             "type": "color"
           }
         }
