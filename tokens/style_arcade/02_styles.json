@@ -103,42 +103,42 @@
         "value": "{semantic.error.default}",
         "type": "color"
       },
-      "text-link": {
+      "textLink": {
         "value": "{semantic.content.text-link}",
         "type": "color"
       }
     },
     "fg": {
       "status": {
-        "error-normal": {
+        "errorNormal": {
           "value": "{semantic.error.default}",
           "type": "color"
         },
-        "error-dark": {
+        "errorDark": {
           "value": "{semantic.error.on-muted}",
           "type": "color"
         },
-        "success-normal": {
+        "successNormal": {
           "value": "{semantic.success.default}",
           "type": "color"
         },
-        "success-dark": {
+        "successDark": {
           "value": "{semantic.success.on-muted}",
           "type": "color"
         },
-        "warning-normal": {
+        "warningNormal": {
           "value": "{semantic.warning.default}",
           "type": "color"
         },
-        "warning-dark": {
+        "warningDark": {
           "value": "{semantic.warning.on-muted}",
           "type": "color"
         },
-        "info-normal": {
+        "infoNormal": {
           "value": "{semantic.info.default}",
           "type": "color"
         },
-        "info-dark": {
+        "infoDark": {
           "value": "{semantic.info.on-muted}",
           "type": "color"
         }
@@ -184,7 +184,7 @@
         "type": "color"
       },
       "dark": {
-        "value": "{semantic.outline.neutral}",
+        "value": "{semantic.outline.primary}",
         "type": "color"
       }
     }
