@@ -103,11 +103,11 @@
           "type": "color"
         },
         "hover": {
-          "value": "{styles.fg.accent.tonal.normal}",
+          "value": "{colour.fg.accent.tonal.normal}",
           "type": "color"
         },
         "press": {
-          "value": "{styles.fg.accent.tonal.dark}",
+          "value": "{colour.fg.accent.tonal.dark}",
           "type": "color"
         }
       }
@@ -235,20 +235,20 @@
     "chart": {
       "content": {
         "label": {
-          "value": "{styles.text-and-icons.on-light.strong}",
+          "value": "{colour.text-and-icons.on-light.strong}",
           "type": "color"
         },
         "legend": {
-          "value": "{styles.text-and-icons.on-light.strong}",
+          "value": "{colour.text-and-icons.on-light.strong}",
           "type": "color"
         },
         "title": {
-          "value": "{styles.text-and-icons.on-light.strong}",
+          "value": "{colour.text-and-icons.on-light.strong}",
           "type": "color"
         }
       },
       "graph-frame": {
-        "value": "{styles.bg.disabled}",
+        "value": "{colour.bg.disabled}",
         "type": "color"
       },
       "data": {
@@ -303,19 +303,19 @@
         "generic": {
           "default": {
             "content-secondary": {
-              "value": "{styles.text-and-icons.on-dark.mid}",
+              "value": "{colour.text-and-icons.on-dark.mid}",
               "type": "color"
             }
           },
           "hover": {
             "content-secondary": {
-              "value": "{styles.text-and-icons.on-dark.mid}",
+              "value": "{colour.text-and-icons.on-dark.mid}",
               "type": "color"
             }
           },
           "press": {
             "content-secondary": {
-              "value": "{styles.text-and-icons.on-dark.mid}",
+              "value": "{colour.text-and-icons.on-dark.mid}",
               "type": "color"
             }
           }

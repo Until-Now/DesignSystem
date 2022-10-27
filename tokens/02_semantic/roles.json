@@ -621,12 +621,12 @@
               "description": "Disabled action background state"
             },
             "content": {
-              "value": "{styles.text-and-icons.on-light.soft}",
+              "value": "{colour.text-and-icons.on-light.soft}",
               "type": "color",
               "description": "Icons and text on disabled action"
             },
             "split": {
-              "value": "{styles.text-and-icons.on-light.soft}",
+              "value": "{colour.text-and-icons.on-light.soft}",
               "type": "color",
               "description": "Split on disabled action"
             },
@@ -707,12 +707,12 @@
               "description": "Disabled action background state"
             },
             "content": {
-              "value": "{styles.text-and-icons.on-light.soft}",
+              "value": "{colour.text-and-icons.on-light.soft}",
               "type": "color",
               "description": "Icons and text on disabled action"
             },
             "split": {
-              "value": "{styles.text-and-icons.on-light.soft}",
+              "value": "{colour.text-and-icons.on-light.soft}",
               "type": "color",
               "description": "Split on disabled action"
             },
@@ -804,12 +804,12 @@
               "type": "color"
             },
             "content": {
-              "value": "{styles.text-and-icons.on-light.soft}",
+              "value": "{colour.text-and-icons.on-light.soft}",
               "type": "color",
               "description": "Icons and text on disabled action"
             },
             "split": {
-              "value": "{styles.text-and-icons.on-light.soft}",
+              "value": "{colour.text-and-icons.on-light.soft}",
               "type": "color",
               "description": "Split on disabled action"
             },
@@ -894,12 +894,12 @@
               "type": "color"
             },
             "content": {
-              "value": "{styles.text-and-icons.on-light.soft}",
+              "value": "{colour.text-and-icons.on-light.soft}",
               "type": "color",
               "description": "Icons and text on disabled action"
             },
             "split": {
-              "value": "{styles.text-and-icons.on-light.soft}",
+              "value": "{colour.text-and-icons.on-light.soft}",
               "type": "color",
               "description": "Split on disabled action"
             },
@@ -973,7 +973,7 @@
           },
           "disabled": {
             "background": {
-              "value": "{styles.bg.disabled}",
+              "value": "{colour.bg.disabled}",
               "type": "color"
             }
           },
@@ -1101,11 +1101,11 @@
             "type": "color"
           },
           "foreground": {
-            "value": "{styles.fg.accent.fill.dark}",
+            "value": "{colour.fg.accent.fill.lighter}",
             "type": "color"
           },
           "foreground-accent": {
-            "value": "{styles.fg.accent.tonal.dark}",
+            "value": "{colour.fg.accent.tonal.dark}",
             "type": "color"
           }
         }
@@ -1259,29 +1259,29 @@
         "content": {
           "on-light": {
             "strong": {
-              "value": "{styles.text-and-icons.on-light.strong}",
+              "value": "{colour.text-and-icons.on-light.strong}",
               "type": "color"
             },
             "mid": {
-              "value": "{styles.text-and-icons.on-light.mid}",
+              "value": "{colour.text-and-icons.on-light.mid}",
               "type": "color"
             },
             "soft": {
-              "value": "{styles.text-and-icons.on-light.soft}",
+              "value": "{colour.text-and-icons.on-light.soft}",
               "type": "color"
             }
           },
           "on-dark": {
             "strong": {
-              "value": "{styles.text-and-icons.on-dark.strong}",
+              "value": "{colour.text-and-icons.on-dark.strong}",
               "type": "color"
             },
             "mid": {
-              "value": "{styles.text-and-icons.on-dark.mid}",
+              "value": "{colour.text-and-icons.on-dark.mid}",
               "type": "color"
             },
             "soft": {
-              "value": "{styles.text-and-icons.on-dark.soft}",
+              "value": "{colour.text-and-icons.on-dark.soft}",
               "type": "color"
             }
           }
@@ -1295,7 +1295,7 @@
               "type": "color"
             },
             "content": {
-              "value": "{styles.text-and-icons.on-dark.strong}",
+              "value": "{colour.text-and-icons.on-dark.strong}",
               "type": "color"
             },
             "state": {
@@ -1309,7 +1309,7 @@
               "type": "color"
             },
             "content": {
-              "value": "{styles.text-and-icons.on-dark.strong}",
+              "value": "{colour.text-and-icons.on-dark.strong}",
               "type": "color"
             },
             "state": {
@@ -1323,7 +1323,7 @@
               "type": "color"
             },
             "content": {
-              "value": "{styles.text-and-icons.on-dark.strong}",
+              "value": "{colour.text-and-icons.on-dark.strong}",
               "type": "color"
             },
             "state": {

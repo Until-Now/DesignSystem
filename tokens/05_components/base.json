@@ -269,7 +269,7 @@
         "colour": {
           "default": {
             "bg": {
-              "value": "{styles.fg.accent.tonal.dark}",
+              "value": "{colour.fg.accent.tonal.dark}",
               "type": "color"
             },
             "content": {
@@ -283,7 +283,7 @@
           },
           "hover": {
             "bg": {
-              "value": "{styles.fg.accent.tonal.darker}",
+              "value": "{colour.fg.accent.tonal.darker}",
               "type": "color"
             },
             "content": {
@@ -297,7 +297,7 @@
           },
           "error": {
             "bg": {
-              "value": "{styles.bg.status.error}",
+              "value": "{colour.bg.status.error}",
               "type": "color"
             },
             "content": {

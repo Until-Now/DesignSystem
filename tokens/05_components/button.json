@@ -374,7 +374,7 @@
         }
       },
       "border-radius": {
-        "sm": {
+        "lg": {
           "value": "{semantic.borderRadius.action}",
           "type": "borderRadius"
         },
@@ -382,22 +382,22 @@
           "value": "{semantic.borderRadius.action}",
           "type": "borderRadius"
         },
-        "lg": {
+        "sm": {
           "value": "{semantic.borderRadius.action}",
           "type": "borderRadius"
         }
       },
       "type": {
-        "sm": {
-          "value": "{semantic.typography.action.sm}",
+        "lg": {
+          "value": "{semantic.typography.action.lg}",
           "type": "typography"
         },
         "md": {
           "value": "{semantic.typography.action.md}",
           "type": "typography"
         },
-        "lg": {
-          "value": "{semantic.typography.action.lg}",
+        "sm": {
+          "value": "{semantic.typography.action.sm}",
           "type": "typography"
         }
       }

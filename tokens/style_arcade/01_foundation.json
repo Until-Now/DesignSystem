@@ -360,7 +360,7 @@
       "type": "fontSizes"
     }
   },
-  "font-family": {
+  "fontFamily": {
     "product": {
       "heading": {
         "value": "Poppins",
@@ -375,6 +375,14 @@
   "fontSizeFactor": {
     "sm": {
       "value": "1.333333333333",
+      "type": "other"
+    },
+    "md": {
+      "value": "3",
+      "type": "other"
+    },
+    "lg": {
+      "value": "7",
       "type": "other"
     }
   }
