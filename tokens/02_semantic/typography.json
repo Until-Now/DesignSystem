@@ -1195,51 +1195,107 @@
       },
       "input": {
         "lgStandard": {
-          "value": "{semantic.typography.paragraph.lgStandard}",
+          "value": {
+            "fontFamily": "{fontFamily.product.body}",
+            "fontWeight": "{semantic.fontWeight.input.standard}",
+            "lineHeight": "{semantic.lineHeight.input.lg}",
+            "fontSize": "{semantic.fontSize.input.lg}",
+            "letterSpacing": "{semantic.letterSpacing.input.lg}",
+            "paragraphSpacing": "{paragraph-spacing.default}",
+            "textDecoration": "{textDecoration.default}",
+            "textCase": "{textCase.as-is}"
+          },
           "type": "typography"
         },
         "lgEmphasis": {
-          "value": "{semantic.typography.paragraph.lgEmphasis}",
+          "value": {
+            "fontFamily": "{fontFamily.product.body}",
+            "fontWeight": "{semantic.fontWeight.input.emphasis}",
+            "lineHeight": "{semantic.lineHeight.input.lg}",
+            "fontSize": "{semantic.fontSize.input.lg}",
+            "letterSpacing": "{semantic.letterSpacing.input.lg}",
+            "paragraphSpacing": "{paragraph-spacing.default}",
+            "textDecoration": "{textDecoration.default}",
+            "textCase": "{textCase.as-is}"
+          },
           "type": "typography"
         },
         "mdStandard": {
-          "value": "{semantic.typography.paragraph.mdStandard}",
+          "value": {
+            "fontFamily": "{fontFamily.product.body}",
+            "fontWeight": "{semantic.fontWeight.input.standard}",
+            "lineHeight": "{semantic.lineHeight.input.md}",
+            "fontSize": "{semantic.fontSize.input.md}",
+            "letterSpacing": "{semantic.letterSpacing.input.md}",
+            "paragraphSpacing": "{paragraph-spacing.default}",
+            "textDecoration": "{textDecoration.default}",
+            "textCase": "{textCase.as-is}"
+          },
           "type": "typography"
         },
         "mdEmphasis": {
-          "value": "{semantic.typography.paragraph.mdEmphasis}",
+          "value": {
+            "fontFamily": "{fontFamily.product.body}",
+            "fontWeight": "{semantic.fontWeight.input.emphasis}",
+            "lineHeight": "{semantic.lineHeight.input.md}",
+            "fontSize": "{semantic.fontSize.input.md}",
+            "letterSpacing": "{semantic.letterSpacing.input.md}",
+            "paragraphSpacing": "{paragraph-spacing.default}",
+            "textDecoration": "{textDecoration.default}",
+            "textCase": "{textCase.as-is}"
+          },
           "type": "typography"
         },
         "smStandard": {
-          "value": "{semantic.typography.paragraph.smStandard}",
+          "value": {
+            "fontFamily": "{fontFamily.product.body}",
+            "fontWeight": "{semantic.fontWeight.input.standard}",
+            "lineHeight": "{semantic.lineHeight.input.sm}",
+            "fontSize": "{semantic.fontSize.input.sm}",
+            "letterSpacing": "{semantic.letterSpacing.input.sm}",
+            "paragraphSpacing": "{paragraph-spacing.default}",
+            "textDecoration": "{textDecoration.default}",
+            "textCase": "{textCase.as-is}"
+          },
           "type": "typography"
         },
         "smEmphasis": {
-          "value": "{semantic.typography.paragraph.smEmphasis}",
+          "value": {
+            "fontFamily": "{fontFamily.product.body}",
+            "fontWeight": "{semantic.fontWeight.input.emphasis}",
+            "lineHeight": "{semantic.lineHeight.input.sm}",
+            "fontSize": "{semantic.fontSize.input.sm}",
+            "letterSpacing": "{semantic.letterSpacing.input.sm}",
+            "paragraphSpacing": "{paragraph-spacing.default}",
+            "textDecoration": "{textDecoration.default}",
+            "textCase": "{textCase.as-is}"
+          },
           "type": "typography"
         },
         "xsStandard": {
-          "value": "{semantic.typography.caption.xlStandard}",
+          "value": {
+            "fontFamily": "{fontFamily.product.body}",
+            "fontWeight": "{semantic.fontWeight.input.standard}",
+            "lineHeight": "{semantic.lineHeight.input.xs}",
+            "fontSize": "{semantic.fontSize.input.xs}",
+            "letterSpacing": "{semantic.letterSpacing.input.xs}",
+            "paragraphSpacing": "{paragraph-spacing.default}",
+            "textDecoration": "{textDecoration.default}",
+            "textCase": "{textCase.as-is}"
+          },
           "type": "typography"
         },
         "xsEmphasis": {
-          "value": "{semantic.typography.caption.xlEmphasis}",
-          "type": "typography"
-        },
-        "2xsStandard": {
-          "value": "{semantic.typography.caption.lgStandard}",
-          "type": "typography"
-        },
-        "2xsEmphasis": {
-          "value": "{semantic.typography.caption.lgEmphasis}",
-          "type": "typography"
-        },
-        "3xsStandard": {
-          "value": "{semantic.typography.caption.mdStandard}",
-          "type": "typography"
-        },
-        "3xsEmphasis": {
-          "value": "{semantic.typography.caption.mdEmphasis}",
+          "value": {
+            "fontFamily": "{fontFamily.product.body}",
+            "fontWeight": "{semantic.fontWeight.input.emphasis}",
+            "lineHeight": "{semantic.lineHeight.input.xs}",
+            "fontSize": "{semantic.fontSize.input.xs}",
+            "letterSpacing": "{semantic.letterSpacing.input.xs}",
+            "paragraphSpacing": "{paragraph-spacing.default}",
+            "textDecoration": "{textDecoration.default}",
+            "textCase": "{textCase.as-is}"
+          },
           "type": "typography"
         }
       },

@@ -300,24 +300,20 @@
           }
         },
         "assistive": {
-          "value": "{semantic.typography.input.3xsStandard}",
+          "value": "{semantic.typography.input.xsEmphasis}",
           "type": "typography"
         },
         "assistive-link": {
-          "value": "{semantic.typography.input.3xsEmphasis}",
+          "value": "{semantic.typography.input.smEmphasis}",
           "type": "typography"
         },
         "label": {
-          "x-small": {
-            "value": "{semantic.typography.input.3xsEmphasis}",
-            "type": "typography"
-          },
           "small": {
-            "value": "{semantic.typography.input.2xsEmphasis}",
+            "value": "{semantic.typography.input.xsEmphasis}",
             "type": "typography"
           },
           "medium": {
-            "value": "{semantic.typography.input.2xsEmphasis}",
+            "value": "{semantic.typography.input.xsEmphasis}",
             "type": "typography"
           },
           "large": {
