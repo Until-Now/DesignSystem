@@ -1,5 +1,5 @@
 {
-  "system": {
+  "semantic": {
     "primary": {
       "primary": {
         "value": "{colour.primary.500}",
@@ -118,7 +118,7 @@
       "value": "{colour.primary.900}",
       "type": "color"
     },
-    "state-surface": {
+    "stateSurface": {
       "primary": {
         "tonal": {
           "default": {
@@ -235,9 +235,7 @@
           }
         }
       }
-    }
-  },
-  "semantic": {
+    },
     "opacity": {
       "content": {
         "mid": {
@@ -247,6 +245,100 @@
         "soft": {
           "value": "{opacity.56}",
           "type": "opacity"
+        }
+      }
+    },
+    "size": {
+      "action": {
+        "small": {
+          "value": "{semantic.component.xs}",
+          "type": "sizing"
+        },
+        "medium": {
+          "value": "{semantic.component.sm}",
+          "type": "sizing"
+        },
+        "large": {
+          "value": "{semantic.component.md}",
+          "type": "sizing"
+        },
+        "content": {
+          "small": {
+            "value": "{size.20}",
+            "type": "sizing"
+          },
+          "large": {
+            "value": "{size.26}",
+            "type": "sizing"
+          }
+        }
+      },
+      "input": {
+        "small": {
+          "value": "{semantic.component.xs}",
+          "type": "sizing"
+        },
+        "medium": {
+          "value": "{semantic.component.sm}",
+          "type": "sizing"
+        },
+        "large": {
+          "value": "{semantic.component.md}",
+          "type": "sizing"
+        },
+        "switch": {
+          "track": {
+            "height": {
+              "value": "{size.24}",
+              "type": "sizing"
+            },
+            "width": {
+              "value": "{size.40}",
+              "type": "sizing"
+            }
+          },
+          "handle": {
+            "value": "{size.20}",
+            "type": "sizing"
+          },
+          "icon": {
+            "value": "{size.16}",
+            "type": "sizing"
+          }
+        }
+      }
+    },
+    "spacing": {
+      "action": {
+        "small": {
+          "padding-left": {
+            "value": "{space.8}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{space.8}",
+            "type": "spacing"
+          }
+        },
+        "medium": {
+          "padding-left": {
+            "value": "{space.12}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{space.12}",
+            "type": "spacing"
+          }
+        },
+        "large": {
+          "padding-left": {
+            "value": "{space.16}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{space.16}",
+            "type": "spacing"
+          }
         }
       }
     }

@@ -36,14 +36,14 @@
       "sven/04_semantic": "disabled",
       "sven/component": "disabled",
       "new_quantum/01_foundation": "disabled",
-      "new_quantum/03_system": "disabled",
-      "new_quantum/04_semantic": "disabled",
-      "new_quantum/05_components/chip": "disabled",
       "style_arcade/01_foundation": "disabled",
       "02_semantic/styles": "enabled",
       "style_arcade/02_semantic": "disabled",
       "style_arcade/02_styles": "disabled",
-      "style_arcade/03_components": "disabled"
+      "style_arcade/03_components": "disabled",
+      "new_quantum/02_semantic": "disabled",
+      "new_quantum/03_components": "disabled",
+      "new_quantum/02_styles": "disabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -85,13 +85,13 @@
       "sven/04_semantic": "disabled",
       "sven/component": "disabled",
       "new_quantum/01_foundation": "disabled",
-      "new_quantum/03_system": "disabled",
-      "new_quantum/04_semantic": "disabled",
-      "new_quantum/05_components/chip": "disabled",
       "style_arcade/01_foundation": "source",
       "style_arcade/02_semantic": "source",
       "style_arcade/02_styles": "enabled",
-      "style_arcade/03_components": "disabled"
+      "style_arcade/03_components": "disabled",
+      "new_quantum/02_semantic": "disabled",
+      "new_quantum/03_components": "disabled",
+      "new_quantum/02_styles": "disabled"
     },
     "$figmaStyleReferences": {}
   }
