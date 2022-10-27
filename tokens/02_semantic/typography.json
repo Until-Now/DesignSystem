@@ -1036,7 +1036,7 @@
           "value": {
             "fontFamily": "{fontFamily.product.body}",
             "fontWeight": "{semantic.fontWeight.typography.detail.standard}",
-            "lineHeight": "ceil(roundTo({semantic.fontSize.typography.detail.lg}*{lineHeight.caption},0) /{lineHeightFactor})*{lineHeightFactor}",
+            "lineHeight": "ceil(roundTo({semantic.fontSize.typography.detail.lg}*{lineHeight.detail},0) /{lineHeightFactor})*{lineHeightFactor}",
             "fontSize": "{semantic.fontSize.typography.detail.lg}",
             "letterSpacing": "{letterSpacing.-50}",
             "paragraphSpacing": "{paragraph-spacing.default}",
@@ -1049,7 +1049,7 @@
           "value": {
             "fontFamily": "{fontFamily.product.body}",
             "fontWeight": "{semantic.fontWeight.typography.detail.emphasis}",
-            "lineHeight": "ceil(roundTo({semantic.fontSize.typography.detail.lg}*{lineHeight.caption},0) /{lineHeightFactor})*{lineHeightFactor}",
+            "lineHeight": "ceil(roundTo({semantic.fontSize.typography.detail.lg}*{lineHeight.detail},0) /{lineHeightFactor})*{lineHeightFactor}",
             "fontSize": "{semantic.fontSize.typography.detail.lg}",
             "letterSpacing": "{letterSpacing.-50}",
             "paragraphSpacing": "{paragraph-spacing.default}",
@@ -1062,7 +1062,7 @@
           "value": {
             "fontFamily": "{fontFamily.product.body}",
             "fontWeight": "{semantic.fontWeight.typography.detail.standard}",
-            "lineHeight": "ceil(roundTo({semantic.fontSize.typography.detail.md}*{lineHeight.caption},0) /{lineHeightFactor})*{lineHeightFactor}",
+            "lineHeight": "ceil(roundTo({semantic.fontSize.typography.detail.md}*{lineHeight.detail},0) /{lineHeightFactor})*{lineHeightFactor}",
             "fontSize": "{semantic.fontSize.typography.detail.md}",
             "letterSpacing": "{letterSpacing.-50}",
             "paragraphSpacing": "{paragraph-spacing.default}",
@@ -1075,7 +1075,7 @@
           "value": {
             "fontFamily": "{fontFamily.product.body}",
             "fontWeight": "{semantic.fontWeight.typography.detail.emphasis}",
-            "lineHeight": "ceil(roundTo({semantic.fontSize.typography.detail.md}*{lineHeight.caption},0) /{lineHeightFactor})*{lineHeightFactor}",
+            "lineHeight": "ceil(roundTo({semantic.fontSize.typography.detail.md}*{lineHeight.detail},0) /{lineHeightFactor})*{lineHeightFactor}",
             "fontSize": "{semantic.fontSize.typography.detail.md}",
             "letterSpacing": "{letterSpacing.-50}",
             "paragraphSpacing": "{paragraph-spacing.default}",
@@ -1088,7 +1088,7 @@
           "value": {
             "fontFamily": "{fontFamily.product.body}",
             "fontWeight": "{semantic.fontWeight.typography.detail.standard}",
-            "lineHeight": "ceil(roundTo({semantic.fontSize.typography.detail.sm}*{lineHeight.caption},0) /{lineHeightFactor})*{lineHeightFactor}",
+            "lineHeight": "ceil(roundTo({semantic.fontSize.typography.detail.sm}*{lineHeight.detail},0) /{lineHeightFactor})*{lineHeightFactor}",
             "fontSize": "{semantic.fontSize.typography.detail.sm}",
             "letterSpacing": "{letterSpacing.-50}",
             "paragraphSpacing": "{paragraph-spacing.default}",
@@ -1101,7 +1101,7 @@
           "value": {
             "fontFamily": "{fontFamily.product.body}",
             "fontWeight": "{semantic.fontWeight.typography.detail.emphasis}",
-            "lineHeight": "ceil(roundTo({semantic.fontSize.typography.detail.sm}*{lineHeight.caption},0) /{lineHeightFactor})*{lineHeightFactor}",
+            "lineHeight": "ceil(roundTo({semantic.fontSize.typography.detail.sm}*{lineHeight.detail},0) /{lineHeightFactor})*{lineHeightFactor}",
             "fontSize": "{semantic.fontSize.typography.detail.sm}",
             "letterSpacing": "{letterSpacing.-50}",
             "paragraphSpacing": "{paragraph-spacing.default}",
@@ -1114,7 +1114,7 @@
           "value": {
             "fontFamily": "{fontFamily.product.body}",
             "fontWeight": "{semantic.fontWeight.typography.detail.standard}",
-            "lineHeight": "ceil(roundTo({semantic.fontSize.typography.detail.xs}*{lineHeight.caption},0) /{lineHeightFactor})*{lineHeightFactor}",
+            "lineHeight": "ceil(roundTo({semantic.fontSize.typography.detail.xs}*{lineHeight.detail},0) /{lineHeightFactor})*{lineHeightFactor}",
             "fontSize": "{semantic.fontSize.typography.detail.xs}",
             "letterSpacing": "{letterSpacing.-50}",
             "paragraphSpacing": "{paragraph-spacing.default}",
@@ -1127,7 +1127,7 @@
           "value": {
             "fontFamily": "{fontFamily.product.body}",
             "fontWeight": "{semantic.fontWeight.typography.detail.emphasis}",
-            "lineHeight": "ceil(roundTo({semantic.fontSize.typography.detail.xs}*{lineHeight.caption},0) /{lineHeightFactor})*{lineHeightFactor}",
+            "lineHeight": "ceil(roundTo({semantic.fontSize.typography.detail.xs}*{lineHeight.detail},0) /{lineHeightFactor})*{lineHeightFactor}",
             "fontSize": "{semantic.fontSize.typography.detail.xs}",
             "letterSpacing": "{letterSpacing.-50}",
             "paragraphSpacing": "{paragraph-spacing.default}",
@@ -1142,7 +1142,7 @@
           "value": {
             "fontFamily": "{fontFamily.product.body}",
             "fontWeight": "{fontWeight.800}",
-            "lineHeight": "ceil(roundTo({fontSize.xs}*{lineHeight.caption},0) /{lineHeightFactor})*{lineHeightFactor}",
+            "lineHeight": "ceil(roundTo({fontSize.xs}*{lineHeight.detail},0) /{lineHeightFactor})*{lineHeightFactor}",
             "fontSize": "{fontSize.xs}",
             "letterSpacing": "{letterSpacing.10}",
             "paragraphSpacing": "{paragraph-spacing.default}",
@@ -1708,87 +1708,83 @@
         },
         "heading": {
           "xl": {
-            "value": "ceil(roundTo({semantic.fontSize.typography.rubric.xl}*{lineHeight.rubric},0) /{lineHeightFactor})*{lineHeightFactor}",
+            "value": "ceil(roundTo({semantic.fontSize.typography.heading.xl}*{lineHeight.heading},0) /{lineHeightFactor})*{lineHeightFactor}",
             "type": "lineHeights"
           },
           "lg": {
-            "value": "ceil(roundTo({semantic.fontSize.typography.rubric.lg}*{lineHeight.rubric},0) /{lineHeightFactor})*{lineHeightFactor}",
+            "value": "ceil(roundTo({semantic.fontSize.typography.heading.lg}*{lineHeight.heading},0) /{lineHeightFactor})*{lineHeightFactor}",
             "type": "lineHeights"
           },
           "md": {
-            "value": "ceil(roundTo({semantic.fontSize.typography.rubric.md}*{lineHeight.rubric},0) /{lineHeightFactor})*{lineHeightFactor}",
+            "value": "ceil(roundTo({semantic.fontSize.typography.heading.md}*{lineHeight.heading},0) /{lineHeightFactor})*{lineHeightFactor}",
             "type": "lineHeights"
           },
           "sm": {
-            "value": "ceil(roundTo({semantic.fontSize.typography.rubric.sm}*{lineHeight.rubric},0) /{lineHeightFactor})*{lineHeightFactor}",
+            "value": "ceil(roundTo({semantic.fontSize.typography.heading.sm}*{lineHeight.heading},0) /{lineHeightFactor})*{lineHeightFactor}",
             "type": "lineHeights"
           }
         },
         "title": {
           "xl": {
-            "value": "ceil(roundTo({semantic.fontSize.typography.rubric.xl}*{lineHeight.rubric},0) /{lineHeightFactor})*{lineHeightFactor}",
+            "value": "ceil(roundTo({semantic.fontSize.typography.title.xl}*{lineHeight.title},0) /{lineHeightFactor})*{lineHeightFactor}",
             "type": "lineHeights"
           },
           "lg": {
-            "value": "ceil(roundTo({semantic.fontSize.typography.rubric.lg}*{lineHeight.rubric},0) /{lineHeightFactor})*{lineHeightFactor}",
+            "value": "ceil(roundTo({semantic.fontSize.typography.title.lg}*{lineHeight.title},0) /{lineHeightFactor})*{lineHeightFactor}",
             "type": "lineHeights"
           },
           "md": {
-            "value": "ceil(roundTo({semantic.fontSize.typography.rubric.md}*{lineHeight.rubric},0) /{lineHeightFactor})*{lineHeightFactor}",
+            "value": "ceil(roundTo({semantic.fontSize.typography.title.md}*{lineHeight.title},0) /{lineHeightFactor})*{lineHeightFactor}",
             "type": "lineHeights"
           },
           "sm": {
-            "value": "ceil(roundTo({semantic.fontSize.typography.rubric.sm}*{lineHeight.rubric},0) /{lineHeightFactor})*{lineHeightFactor}",
+            "value": "ceil(roundTo({semantic.fontSize.typography.title.sm}*{lineHeight.title},0) /{lineHeightFactor})*{lineHeightFactor}",
             "type": "lineHeights"
           }
         },
         "paragraph": {
           "xl": {
-            "value": "ceil(roundTo({semantic.fontSize.typography.rubric.xl}*{lineHeight.rubric},0) /{lineHeightFactor})*{lineHeightFactor}",
+            "value": "ceil(roundTo({semantic.fontSize.typography.paragraph.xl}*{lineHeight.paragraph},0) /{lineHeightFactor})*{lineHeightFactor}",
             "type": "lineHeights"
           },
           "lg": {
-            "value": "ceil(roundTo({semantic.fontSize.typography.rubric.lg}*{lineHeight.rubric},0) /{lineHeightFactor})*{lineHeightFactor}",
+            "value": "ceil(roundTo({semantic.fontSize.typography.paragraph.lg}*{lineHeight.paragraph},0) /{lineHeightFactor})*{lineHeightFactor}",
             "type": "lineHeights"
           },
           "md": {
-            "value": "ceil(roundTo({semantic.fontSize.typography.rubric.md}*{lineHeight.rubric},0) /{lineHeightFactor})*{lineHeightFactor}",
+            "value": "ceil(roundTo({semantic.fontSize.typography.paragraph.md}*{lineHeight.paragraph},0) /{lineHeightFactor})*{lineHeightFactor}",
             "type": "lineHeights"
           },
           "sm": {
-            "value": "ceil(roundTo({semantic.fontSize.typography.rubric.sm}*{lineHeight.rubric},0) /{lineHeightFactor})*{lineHeightFactor}",
+            "value": "ceil(roundTo({semantic.fontSize.typography.paragraph.sm}*{lineHeight.paragraph},0) /{lineHeightFactor})*{lineHeightFactor}",
             "type": "lineHeights"
           },
           "xs": {
-            "value": "ceil(roundTo({semantic.fontSize.typography.rubric.sm}*{lineHeight.rubric},0) /{lineHeightFactor})*{lineHeightFactor}",
+            "value": "ceil(roundTo({semantic.fontSize.typography.paragraph.xs}*{lineHeight.paragraph},0) /{lineHeightFactor})*{lineHeightFactor}",
             "type": "lineHeights"
           }
         },
         "detail": {
-          "xl": {
-            "value": "ceil(roundTo({semantic.fontSize.typography.rubric.xl}*{lineHeight.rubric},0) /{lineHeightFactor})*{lineHeightFactor}",
-            "type": "lineHeights"
-          },
           "lg": {
-            "value": "ceil(roundTo({semantic.fontSize.typography.rubric.lg}*{lineHeight.rubric},0) /{lineHeightFactor})*{lineHeightFactor}",
+            "value": "ceil(roundTo({semantic.fontSize.typography.detail.lg}*{lineHeight.detail},0) /{lineHeightFactor})*{lineHeightFactor}",
             "type": "lineHeights"
           },
           "md": {
-            "value": "ceil(roundTo({semantic.fontSize.typography.rubric.md}*{lineHeight.rubric},0) /{lineHeightFactor})*{lineHeightFactor}",
+            "value": "ceil(roundTo({semantic.fontSize.typography.detail.md}*{lineHeight.detail},0) /{lineHeightFactor})*{lineHeightFactor}",
             "type": "lineHeights"
           },
           "sm": {
-            "value": "ceil(roundTo({semantic.fontSize.typography.rubric.sm}*{lineHeight.rubric},0) /{lineHeightFactor})*{lineHeightFactor}",
+            "value": "ceil(roundTo({semantic.fontSize.typography.detail.sm}*{lineHeight.detail},0) /{lineHeightFactor})*{lineHeightFactor}",
             "type": "lineHeights"
           },
           "xs": {
-            "value": "ceil(roundTo({semantic.fontSize.typography.rubric.sm}*{lineHeight.rubric},0) /{lineHeightFactor})*{lineHeightFactor}",
+            "value": "ceil(roundTo({semantic.fontSize.typography.detail.sm}*{lineHeight.detail},0) /{lineHeightFactor})*{lineHeightFactor}",
             "type": "lineHeights"
           }
         },
         "special": {
           "overline": {
-            "value": "20",
+            "value": "ceil(roundTo({semantic.fontSize.typography.special.overline}*{lineHeight.detail},0) /{lineHeightFactor})*{lineHeightFactor}",
             "type": "lineHeights"
           }
         }

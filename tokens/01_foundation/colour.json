@@ -637,7 +637,7 @@
           "type": "lineHeights"
         },
         "caption": {
-          "value": "ceil(roundTo({fontSize.sans-serif.lg.caption}*{lineHeight.caption},0)/{lineHeight.scale.factor.large})*{lineHeight.scale.factor.large}",
+          "value": "ceil(roundTo({fontSize.sans-serif.lg.caption}*{lineHeight.detail},0)/{lineHeight.scale.factor.large})*{lineHeight.scale.factor.large}",
           "type": "lineHeights"
         }
       },
@@ -659,7 +659,7 @@
           "type": "lineHeights"
         },
         "caption": {
-          "value": "ceil(roundTo({fontSize.sans-serif.md.caption}*{lineHeight.caption},0)/{lineHeight.scale.factor.large})*{lineHeight.scale.factor.large}",
+          "value": "ceil(roundTo({fontSize.sans-serif.md.caption}*{lineHeight.detail},0)/{lineHeight.scale.factor.large})*{lineHeight.scale.factor.large}",
           "type": "lineHeights"
         }
       },
@@ -681,7 +681,7 @@
           "type": "lineHeights"
         },
         "caption": {
-          "value": "ceil(roundTo({fontSize.sans-serif.sm.caption}*{lineHeight.caption},0)/{lineHeight.scale.factor.small})*{lineHeight.scale.factor.small}",
+          "value": "ceil(roundTo({fontSize.sans-serif.sm.caption}*{lineHeight.detail},0)/{lineHeight.scale.factor.small})*{lineHeight.scale.factor.small}",
           "type": "lineHeights"
         }
       }
@@ -705,7 +705,7 @@
           "type": "lineHeights"
         },
         "caption": {
-          "value": "ceil(roundTo({fontSize.serif.lg.caption}*{lineHeight.caption},0)/{lineHeight.scale.factor.large})*{lineHeight.scale.factor.large}",
+          "value": "ceil(roundTo({fontSize.serif.lg.caption}*{lineHeight.detail},0)/{lineHeight.scale.factor.large})*{lineHeight.scale.factor.large}",
           "type": "lineHeights"
         }
       },
@@ -727,7 +727,7 @@
           "type": "lineHeights"
         },
         "caption": {
-          "value": "ceil(roundTo({fontSize.serif.md.caption}*{lineHeight.caption},0)/{lineHeight.scale.factor.large})*{lineHeight.scale.factor.large}",
+          "value": "ceil(roundTo({fontSize.serif.md.caption}*{lineHeight.detail},0)/{lineHeight.scale.factor.large})*{lineHeight.scale.factor.large}",
           "type": "lineHeights"
         }
       },
@@ -749,7 +749,7 @@
           "type": "lineHeights"
         },
         "caption": {
-          "value": "ceil(roundTo({fontSize.serif.sm.caption}*{lineHeight.caption},0)/{lineHeight.scale.factor.small})*{lineHeight.scale.factor.small}",
+          "value": "ceil(roundTo({fontSize.serif.sm.caption}*{lineHeight.detail},0)/{lineHeight.scale.factor.small})*{lineHeight.scale.factor.small}",
           "type": "lineHeights"
         }
       }
