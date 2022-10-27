@@ -198,22 +198,6 @@
       }
     }
   },
-  "semantic": {
-    "typography": {
-      "feedback": {
-        "ui-dialog": {
-          "title": {
-            "value": "{text.title.lgBold}",
-            "type": "typography"
-          },
-          "body": {
-            "value": "{text.body.mdRegular}",
-            "type": "typography"
-          }
-        }
-      }
-    }
-  },
   "elevation": {
     "100": {
       "value": [
@@ -319,6 +303,158 @@
         }
       ],
       "type": "boxShadow"
+    }
+  },
+  "text": {
+    "display": {
+      "lgRegular": {
+        "value": "{semantic.typography.rubric.lgStandard}",
+        "type": "typography"
+      },
+      "lgBold": {
+        "value": "{semantic.typography.rubric.lgEmphasis}",
+        "type": "typography"
+      },
+      "mdRegular": {
+        "value": "{semantic.typography.rubric.mdStandard}",
+        "type": "typography"
+      },
+      "mdBold": {
+        "value": "{semantic.typography.rubric.mdEmphasis}",
+        "type": "typography"
+      },
+      "smRegular": {
+        "value": "{semantic.typography.rubric.smStandard}",
+        "type": "typography"
+      },
+      "smBold": {
+        "value": "{semantic.typography.rubric.smEmphasis}",
+        "type": "typography"
+      }
+    },
+    "headline": {
+      "lgRegular": {
+        "value": "{semantic.typography.heading.lgStandard}",
+        "type": "typography"
+      },
+      "lgBold": {
+        "value": "{semantic.typography.heading.lgEmphasis}",
+        "type": "typography"
+      },
+      "mdRegular": {
+        "value": "{semantic.typography.heading.mdStandard}",
+        "type": "typography"
+      },
+      "mdBold": {
+        "value": "{semantic.typography.heading.mdEmphasis}",
+        "type": "typography"
+      },
+      "smRegular": {
+        "value": "{semantic.typography.heading.smStandard}",
+        "type": "typography"
+      },
+      "smBold": {
+        "value": "{semantic.typography.heading.smEmphasis}",
+        "type": "typography"
+      }
+    },
+    "title": {
+      "lgRegular": {
+        "value": "{semantic.typography.title.lgStandard}",
+        "type": "typography"
+      },
+      "lgBold": {
+        "value": "{semantic.typography.title.lgEmphasis}",
+        "type": "typography"
+      },
+      "mdRegular": {
+        "value": "{semantic.typography.title.mdStandard}",
+        "type": "typography"
+      },
+      "mdBold": {
+        "value": "{semantic.typography.title.mdEmphasis}",
+        "type": "typography"
+      },
+      "smRegular": {
+        "value": "{semantic.typography.title.smStandard}",
+        "type": "typography"
+      },
+      "smBold": {
+        "value": "{semantic.typography.title.smEmphasis}",
+        "type": "typography"
+      }
+    },
+    "body": {
+      "lgRegular": {
+        "value": "{semantic.typography.paragraph.lgStandard}",
+        "type": "typography"
+      },
+      "lgBold": {
+        "value": "{semantic.typography.paragraph.lgEmphasis}",
+        "type": "typography"
+      },
+      "mdRegular": {
+        "value": "{semantic.typography.paragraph.mdStandard}",
+        "type": "typography"
+      },
+      "mdBold": {
+        "value": "{semantic.typography.paragraph.mdEmphasis}",
+        "type": "typography"
+      },
+      "smRegular": {
+        "value": "{semantic.typography.paragraph.smStandard}",
+        "type": "typography"
+      },
+      "smBold": {
+        "value": "{semantic.typography.paragraph.smEmphasis}",
+        "type": "typography"
+      }
+    },
+    "caption": {
+      "lgRegular": {
+        "value": "{semantic.typography.detail.lgStandard}",
+        "type": "typography"
+      },
+      "lgBold": {
+        "value": "{semantic.typography.detail.lgEmphasis}",
+        "type": "typography"
+      },
+      "mdRegular": {
+        "value": "{semantic.typography.detail.mdStandard}",
+        "type": "typography"
+      },
+      "mdBold": {
+        "value": "{semantic.typography.detail.mdEmphasis}",
+        "type": "typography"
+      },
+      "smRegular": {
+        "value": "{semantic.typography.detail.smStandard}",
+        "type": "typography"
+      },
+      "smBold": {
+        "value": "{semantic.typography.detail.smEmphasis}",
+        "type": "typography"
+      }
+    },
+    "button": {
+      "lg": {
+        "value": "{semantic.typography.action.lg}",
+        "type": "typography"
+      },
+      "md": {
+        "value": "{semantic.typography.action.md}",
+        "type": "typography"
+      },
+      "sm": {
+        "value": "{semantic.typography.action.sm}",
+        "type": "typography"
+      }
+    },
+    "special": {
+      "overline": {
+        "value": "{semantic.typography.special.overline}",
+        "type": "typography"
+      }
     }
   }
 }

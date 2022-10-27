@@ -119,7 +119,7 @@
           "type": "typography"
         },
         "body": {
-          "value": "{semantic.typography.feedback.ui-dialog.body}",
+          "value": "{semantic.typography.feedback.smStandard}",
           "type": "typography"
         }
       }
