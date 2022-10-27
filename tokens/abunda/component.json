@@ -115,15 +115,15 @@
     "chip": {
       "type": {
         "sm": {
-          "value": "{typography.sans-serif.caption-sm.regular}",
+          "value": "{text.caption.smRegular}",
           "type": "typography"
         },
         "md": {
-          "value": "{typography.sans-serif.caption-md.regular}",
+          "value": "{text.caption.mdRegular}",
           "type": "typography"
         },
         "lg": {
-          "value": "{typography.sans-serif.caption-lg.regular}",
+          "value": "{text.caption.lgRegular}",
           "type": "typography"
         }
       }
@@ -281,19 +281,19 @@
       },
       "type": {
         "label": {
-          "value": "{typography.sans-serif.caption-sm.regular}",
+          "value": "{text.caption.smRegular}",
           "type": "typography"
         },
         "legend": {
-          "value": "{typography.sans-serif.caption-sm.regular}",
+          "value": "{text.caption.smRegular}",
           "type": "typography"
         },
         "title": {
-          "value": "{typography.sans-serif.body-md.regular}",
+          "value": "{text.body.mdRegular}",
           "type": "typography"
         },
         "title-value": {
-          "value": "{typography.sans-serif.body-md.bold}",
+          "value": "{text.body.mdBold}",
           "type": "typography"
         }
       }

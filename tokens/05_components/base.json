@@ -95,27 +95,27 @@
       },
       "type": {
         "x-sm": {
-          "value": "{typography.sans-serif.caption-sm.bold}",
+          "value": "{text.caption.smBold}",
           "type": "typography"
         },
         "sm": {
-          "value": "{typography.sans-serif.caption-md.bold}",
+          "value": "{text.caption.mdBold}",
           "type": "typography"
         },
         "md": {
-          "value": "{typography.sans-serif.title-md.bold}",
+          "value": "{text.title.mdBold}",
           "type": "typography"
         },
         "lg": {
-          "value": "{typography.sans-serif.title-lg.bold}",
+          "value": "{text.title.lgBold}",
           "type": "typography"
         },
         "x-lg": {
-          "value": "{typography.sans-serif.headline-md.bold}",
+          "value": "{text.headline.mdBold}",
           "type": "typography"
         },
         "xx-lg": {
-          "value": "{typography.sans-serif.display-sm.bold}",
+          "value": "{text.display.smBold}",
           "type": "typography"
         }
       }
@@ -167,7 +167,7 @@
       },
       "type": {
         "label": {
-          "value": "{typography.sans-serif.body-md.regular}",
+          "value": "{text.body.mdRegular}",
           "type": "typography"
         }
       },
@@ -181,42 +181,42 @@
     "chip": {
       "type": {
         "sm": {
-          "value": "{typography.sans-serif.caption-sm.bold}",
+          "value": "{text.caption.smBold}",
           "type": "typography"
         },
         "md": {
-          "value": "{typography.sans-serif.caption-md.bold}",
+          "value": "{text.caption.mdBold}",
           "type": "typography"
         },
         "lg": {
-          "value": "{typography.sans-serif.caption-lg.bold}",
+          "value": "{text.caption.lgBold}",
           "type": "typography"
         },
         "selected": {
           "sm": {
-            "value": "{typography.sans-serif.caption-sm.bold}",
+            "value": "{text.caption.smBold}",
             "type": "typography"
           },
           "md": {
-            "value": "{typography.sans-serif.caption-md.bold}",
+            "value": "{text.caption.mdBold}",
             "type": "typography"
           },
           "lg": {
-            "value": "{typography.sans-serif.caption-lg.bold}",
+            "value": "{text.caption.lgBold}",
             "type": "typography"
           }
         },
         "input": {
           "sm": {
-            "value": "{typography.sans-serif.caption-sm.regular}",
+            "value": "{text.caption.smRegular}",
             "type": "typography"
           },
           "md": {
-            "value": "{typography.sans-serif.caption-md.regular}",
+            "value": "{text.caption.mdRegular}",
             "type": "typography"
           },
           "lg": {
-            "value": "{typography.sans-serif.caption-lg.regular}",
+            "value": "{text.caption.lgRegular}",
             "type": "typography"
           }
         }
@@ -410,13 +410,13 @@
       "type": {
         "track": {
           "value": {
-            "value": "{typography.sans-serif.caption-sm.regular}",
+            "value": "{text.caption.smRegular}",
             "type": "typography"
           }
         },
         "tag": {
           "label": {
-            "value": "{typography.sans-serif.caption-md.bold}",
+            "value": "{text.caption.mdBold}",
             "type": "typography"
           }
         }

@@ -203,11 +203,11 @@
       "feedback": {
         "ui-dialog": {
           "title": {
-            "value": "{typography.sans-serif.title-lg.bold}",
+            "value": "{text.title.lgBold}",
             "type": "typography"
           },
           "body": {
-            "value": "{typography.sans-serif.body-md.regular}",
+            "value": "{text.body.mdRegular}",
             "type": "typography"
           }
         }

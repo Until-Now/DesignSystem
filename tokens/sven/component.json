@@ -153,11 +153,11 @@
       },
       "type": {
         "label": {
-          "value": "{typography.sans-serif.body-lg.bold}",
+          "value": "{text.body.lgBold}",
           "type": "typography"
         },
         "link": {
-          "value": "{typography.sans-serif.body-lg.bold}",
+          "value": "{text.body.lgBold}",
           "type": "typography"
         }
       }
@@ -267,7 +267,7 @@
       },
       "type": {
         "x-sm": {
-          "value": "{typography.sans-serif.caption-sm.regular}",
+          "value": "{text.caption.smRegular}",
           "type": "typography"
         }
       }
