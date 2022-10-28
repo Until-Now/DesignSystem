@@ -188,6 +188,36 @@
               "value": "{semantic.colour.patterns.background.outline}",
               "type": "color"
             }
+          },
+          "active": {
+            "background": {
+              "value": "{semantic.colour.patterns.background.default}",
+              "type": "color"
+            },
+            "alternate": {
+              "value": "{semantic.colour.patterns.background.subtle}",
+              "type": "color"
+            },
+            "header": {
+              "value": "{semantic.colour.patterns.background.accentAlt}",
+              "type": "color"
+            },
+            "subHeader": {
+              "value": "{semantic.colour.patterns.background.accentSubtle}",
+              "type": "color"
+            },
+            "state": {
+              "value": "{semantic.colour.patterns.state.active}",
+              "type": "color"
+            },
+            "content": {
+              "value": "{semantic.colour.patterns.content.default}",
+              "type": "color"
+            },
+            "divider": {
+              "value": "{semantic.colour.patterns.background.outline}",
+              "type": "color"
+            }
           }
         },
         "container": {

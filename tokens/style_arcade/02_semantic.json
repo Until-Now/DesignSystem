@@ -185,6 +185,10 @@
             "value": "rgba({semantic.primary.background-variant-1},0.32)",
             "type": "color"
           },
+          "active": {
+            "value": "rgba({semantic.primary.background-variant-1},0.24)",
+            "type": "color"
+          },
           "disabled": {
             "value": "rgba({semantic.primary.background-variant-1},0.00)",
             "type": "color"
@@ -201,6 +205,10 @@
           },
           "press": {
             "value": "rgba({semantic.primary.on-tonal},0.12)",
+            "type": "color"
+          },
+          "active": {
+            "value": "rgba({semantic.primary.on-tonal},0.10)",
             "type": "color"
           },
           "disabled": {
@@ -221,6 +229,10 @@
             "value": "rgba({semantic.primary.primary},0.16)",
             "type": "color"
           },
+          "active": {
+            "value": "rgba({semantic.primary.primary},0.12)",
+            "type": "color"
+          },
           "disabled": {
             "value": "rgba({semantic.primary.primary},0.00)",
             "type": "color"
@@ -237,6 +249,10 @@
           },
           "press": {
             "value": "rgba({semantic.primary.primary},0.16)",
+            "type": "color"
+          },
+          "active": {
+            "value": "rgba({semantic.primary.primary},0.12)",
             "type": "color"
           },
           "disabled": {
