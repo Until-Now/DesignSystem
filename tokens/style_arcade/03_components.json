@@ -133,6 +133,18 @@
           }
         }
       }
+    },
+    "button": {
+      "elevation": {
+        "primary": {
+          "value": "{semantic.elevation.action}",
+          "type": "boxShadow"
+        },
+        "secondary": {
+          "value": "{semantic.elevation.action}",
+          "type": "boxShadow"
+        }
+      }
     }
   }
 }

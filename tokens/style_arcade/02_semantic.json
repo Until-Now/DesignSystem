@@ -341,7 +341,7 @@
         "secondary": {
           "default": {
             "background": {
-              "value": "{semantic.primary.tonal}",
+              "value": "{semantic.primary.muted}",
               "type": "color"
             },
             "content": {
@@ -359,7 +359,7 @@
           },
           "hover": {
             "background": {
-              "value": "{semantic.primary.tonal}",
+              "value": "{semantic.primary.muted}",
               "type": "color"
             },
             "content": {
@@ -377,7 +377,7 @@
           },
           "press": {
             "background": {
-              "value": "{semantic.primary.tonal}",
+              "value": "{semantic.primary.muted}",
               "type": "color"
             },
             "content": {
@@ -580,6 +580,12 @@
       "ui-dialog": {
         "value": "{semantic.border.radius.md}",
         "type": "borderRadius"
+      }
+    },
+    "elevation": {
+      "action": {
+        "value": "{elevation.200}",
+        "type": "boxShadow"
       }
     }
   }
