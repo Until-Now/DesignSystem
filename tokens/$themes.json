@@ -43,7 +43,8 @@
       "style_arcade/03_components": "disabled",
       "new_quantum/02_semantic": "disabled",
       "new_quantum/03_components": "disabled",
-      "new_quantum/02_styles": "disabled"
+      "new_quantum/02_styles": "disabled",
+      "05_components/search": "disabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -91,7 +92,8 @@
       "style_arcade/03_components": "disabled",
       "new_quantum/02_semantic": "disabled",
       "new_quantum/03_components": "disabled",
-      "new_quantum/02_styles": "disabled"
+      "new_quantum/02_styles": "disabled",
+      "05_components/search": "disabled"
     },
     "$figmaStyleReferences": {}
   }
