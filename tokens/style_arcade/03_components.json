@@ -63,6 +63,14 @@
           }
         }
       }
+    },
+    "table": {
+      "type": {
+        "cellSubtext": {
+          "value": "{semantic.typography.patterns.xsStandard}",
+          "type": "typography"
+        }
+      }
     }
   }
 }

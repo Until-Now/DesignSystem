@@ -1144,6 +1144,57 @@
           },
           "type": "typography"
         }
+      },
+      "patterns": {
+        "xl": {
+          "value": {
+            "fontFamily": "{fontFamily.product.body}",
+            "fontWeight": "{semantic.fontWeight.navigation.emphasis}",
+            "lineHeight": "{semantic.lineHeight.navigation.lg}",
+            "fontSize": "{semantic.fontSize.navigation.xl}",
+            "letterSpacing": "{semantic.letterSpacing.navigation.xl}",
+            "paragraphSpacing": "{paragraph-spacing.default}",
+            "textDecoration": "{textDecoration.default}",
+            "textCase": "{textCase.as-is}"
+          },
+          "type": "typography"
+        },
+        "lgStandard": {
+          "value": "{semantic.typography.paragraph.lgStandard}",
+          "type": "typography"
+        },
+        "lgEmphasis": {
+          "value": "{semantic.typography.paragraph.lgEmphasis}",
+          "type": "typography"
+        },
+        "mdStandard": {
+          "value": "{semantic.typography.paragraph.mdStandard}",
+          "type": "typography"
+        },
+        "mdEmphasis": {
+          "value": "{semantic.typography.paragraph.mdEmphasis}",
+          "type": "typography"
+        },
+        "smStandard": {
+          "value": "{semantic.typography.detail.mdStandard}",
+          "type": "typography"
+        },
+        "smEmphasis": {
+          "value": "{semantic.typography.detail.mdEmphasis}",
+          "type": "typography"
+        },
+        "xsStandard": {
+          "value": "{semantic.typography.detail.smStandard}",
+          "type": "typography"
+        },
+        "xsEmphasis": {
+          "value": "{semantic.typography.detail.smEmphasis}",
+          "type": "typography"
+        },
+        "overline": {
+          "value": "{semantic.typography.special.overline}",
+          "type": "typography"
+        }
       }
     },
     "fontWeight": {
@@ -1472,12 +1523,16 @@
         }
       },
       "patterns": {
+        "3xl": {
+          "value": "{fontSize.4xl}",
+          "type": "fontSizes"
+        },
         "2xl": {
           "value": "{fontSize.3xl}",
           "type": "fontSizes"
         },
         "xl": {
-          "value": "{fontSize.xl}",
+          "value": "{fontSize.2xl}",
           "type": "fontSizes"
         },
         "lg": {

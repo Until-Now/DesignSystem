@@ -1969,8 +1969,20 @@
             "value": "{semantic.neutral.background-variant-1}",
             "type": "color"
           },
-          "inverse-default": {
+          "inverseDefault": {
             "value": "{semantic.neutral.inverse-background}",
+            "type": "color"
+          },
+          "accent": {
+            "value": "{semantic.primary.background}",
+            "type": "color"
+          },
+          "accentAlt": {
+            "value": "{semantic.primary.background-variant-2}",
+            "type": "color"
+          },
+          "accentSubtle": {
+            "value": "{semantic.primary.background-variant-1}",
             "type": "color"
           },
           "active": {
@@ -2421,16 +2433,20 @@
         }
       },
       "tables": {
-        "cell-height": {
-          "small": {
+        "cellHeight": {
+          "xs": {
+            "value": "{size.32}",
+            "type": "sizing"
+          },
+          "sm": {
             "value": "{size.40}",
             "type": "sizing"
           },
-          "medium": {
+          "md": {
             "value": "{size.48}",
             "type": "sizing"
           },
-          "large": {
+          "lg": {
             "value": "{size.56}",
             "type": "sizing"
           }

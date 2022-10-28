@@ -4,29 +4,37 @@
       "size": {
         "cell-height": {
           "compact": {
-            "value": "{semantic.size.tables.cell-height.small}",
+            "value": "{semantic.size.tables.cellHeight.xs}",
+            "type": "sizing"
+          },
+          "small": {
+            "value": "{semantic.size.tables.cellHeight.sm}",
             "type": "sizing"
           },
           "normal": {
-            "value": "{semantic.size.tables.cell-height.medium}",
+            "value": "{semantic.size.tables.cellHeight.md}",
             "type": "sizing"
           },
           "large": {
-            "value": "{semantic.size.tables.cell-height.large}",
+            "value": "{semantic.size.tables.cellHeight.lg}",
             "type": "sizing"
           }
         },
         "row-height": {
           "compact": {
-            "value": "{semantic.size.tables.cell-height.small}",
+            "value": "{semantic.size.tables.cellHeight.xs}",
+            "type": "sizing"
+          },
+          "small": {
+            "value": "{semantic.size.tables.cellHeight.sm}",
             "type": "sizing"
           },
           "normal": {
-            "value": "{semantic.size.tables.cell-height.medium}",
+            "value": "{semantic.size.tables.cellHeight.md}",
             "type": "sizing"
           },
           "large": {
-            "value": "{semantic.size.tables.cell-height.large}",
+            "value": "{semantic.size.tables.cellHeight.lg}",
             "type": "sizing"
           }
         },
@@ -92,8 +100,16 @@
               "value": "{semantic.colour.patterns.background.default}",
               "type": "color"
             },
-            "background-alt": {
+            "alternate": {
               "value": "{semantic.colour.patterns.background.subtle}",
+              "type": "color"
+            },
+            "header": {
+              "value": "{semantic.colour.patterns.background.accentAlt}",
+              "type": "color"
+            },
+            "subHeader": {
+              "value": "{semantic.colour.patterns.background.accentSubtle}",
               "type": "color"
             },
             "state": {
@@ -118,8 +134,16 @@
               "value": "{semantic.colour.patterns.background.default}",
               "type": "color"
             },
-            "background-alt": {
+            "alternate": {
               "value": "{semantic.colour.patterns.background.subtle}",
+              "type": "color"
+            },
+            "header": {
+              "value": "{semantic.colour.patterns.background.accentAlt}",
+              "type": "color"
+            },
+            "subHeader": {
+              "value": "{semantic.colour.patterns.background.accentSubtle}",
               "type": "color"
             },
             "state": {
@@ -140,8 +164,16 @@
               "value": "{semantic.colour.patterns.background.default}",
               "type": "color"
             },
-            "background-alt": {
+            "alternate": {
               "value": "{semantic.colour.patterns.background.subtle}",
+              "type": "color"
+            },
+            "header": {
+              "value": "{semantic.colour.patterns.background.accentAlt}",
+              "type": "color"
+            },
+            "subHeader": {
+              "value": "{semantic.colour.patterns.background.accentSubtle}",
               "type": "color"
             },
             "state": {
@@ -155,62 +187,6 @@
             "divider": {
               "value": "{semantic.colour.patterns.background.outline}",
               "type": "color"
-            }
-          },
-          "selected": {
-            "default": {
-              "background": {
-                "value": "{semantic.colour.patterns.background.active}",
-                "type": "color"
-              },
-              "state": {
-                "value": "{semantic.colour.patterns.state.default}",
-                "type": "color"
-              },
-              "content": {
-                "value": "{semantic.colour.patterns.content.default}",
-                "type": "color"
-              },
-              "divider": {
-                "value": "{semantic.colour.patterns.background.outline}",
-                "type": "color"
-              }
-            },
-            "hover": {
-              "background": {
-                "value": "{semantic.colour.patterns.background.active}",
-                "type": "color"
-              },
-              "state": {
-                "value": "{semantic.colour.patterns.state.hover}",
-                "type": "color"
-              },
-              "content": {
-                "value": "{semantic.colour.patterns.content.default}",
-                "type": "color"
-              },
-              "divider": {
-                "value": "{semantic.colour.patterns.background.outline}",
-                "type": "color"
-              }
-            },
-            "press": {
-              "background": {
-                "value": "{semantic.colour.patterns.background.active}",
-                "type": "color"
-              },
-              "state": {
-                "value": "{semantic.colour.patterns.state.press}",
-                "type": "color"
-              },
-              "content": {
-                "value": "{semantic.colour.patterns.content.default}",
-                "type": "color"
-              },
-              "divider": {
-                "value": "{semantic.colour.patterns.background.outline}",
-                "type": "color"
-              }
             }
           }
         },
@@ -249,6 +225,32 @@
         "default": {
           "value": "{semantic.border.width.small}",
           "type": "borderWidth"
+        }
+      },
+      "type": {
+        "header": {
+          "value": "{semantic.typography.patterns.mdEmphasis}",
+          "type": "typography"
+        },
+        "cellText": {
+          "value": "{semantic.typography.patterns.mdStandard}",
+          "type": "typography"
+        },
+        "cellLink": {
+          "value": "{semantic.typography.patterns.mdEmphasis}",
+          "type": "typography"
+        },
+        "cellSubtext": {
+          "value": "{semantic.typography.patterns.smStandard}",
+          "type": "typography"
+        },
+        "footer": {
+          "value": "{semantic.typography.patterns.xsStandard}",
+          "type": "typography"
+        },
+        "pagination": {
+          "value": "{semantic.typography.patterns.xsEmphasis}",
+          "type": "typography"
         }
       }
     }
