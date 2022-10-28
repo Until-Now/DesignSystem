@@ -71,6 +71,68 @@
           "type": "typography"
         }
       }
+    },
+    "menu": {
+      "type": {
+        "label": {
+          "small": {
+            "value": "{semantic.typography.input.mdEmphasis}",
+            "type": "typography"
+          },
+          "large": {
+            "value": "{semantic.typography.input.lgEmphasis}",
+            "type": "typography"
+          }
+        },
+        "sub-label": {
+          "small": {
+            "value": "{semantic.typography.input.xsStandard}",
+            "type": "typography"
+          },
+          "large": {
+            "value": "{semantic.typography.input.mdStandard}",
+            "type": "typography"
+          }
+        },
+        "meta": {
+          "small": {
+            "value": "{semantic.typography.input.mdStandard}",
+            "type": "typography"
+          },
+          "large": {
+            "value": "{semantic.typography.input.lgStandard}",
+            "type": "typography"
+          }
+        },
+        "link": {
+          "small": {
+            "value": "{semantic.typography.input.mdEmphasis}",
+            "type": "typography"
+          },
+          "large": {
+            "value": "{semantic.typography.input.lgEmphasis}",
+            "type": "typography"
+          }
+        }
+      }
+    },
+    "input-field": {
+      "type": {
+        "label": {
+          "small": {
+            "value": "{semantic.typography.input.mdEmphasis}",
+            "type": "typography"
+          },
+          "medium": {
+            "value": "{semantic.typography.input.mdEmphasis}",
+            "type": "typography"
+          },
+          "large": {
+            "value": "{semantic.typography.input.mdEmphasis}",
+            "type": "typography"
+          }
+        }
+      }
     }
   }
 }
