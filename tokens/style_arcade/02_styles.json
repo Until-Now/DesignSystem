@@ -10,7 +10,7 @@
         "type": "color"
       },
       "subtle": {
-        "value": "{semantic.primary.background-variant-1}",
+        "value": "{semantic.primary.background}",
         "type": "color"
       },
       "inverted": {
