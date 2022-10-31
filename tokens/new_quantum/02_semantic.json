@@ -133,6 +133,10 @@
             "value": "rgba({semantic.primary.on-tonal},0.12)",
             "type": "color"
           },
+          "active": {
+            "value": "rgba({semantic.primary.on-tonal},0.16)",
+            "type": "color"
+          },
           "disabled": {
             "value": "rgba({semantic.secondary.on-muted},0.00)",
             "type": "color"
@@ -151,6 +155,10 @@
             "value": "rgba({semantic.primary.primary},0.16)",
             "type": "color"
           },
+          "active": {
+            "value": "rgba({semantic.primary.primary},0.12)",
+            "type": "color"
+          },
           "disabled": {
             "value": "rgba({semantic.primary.primary},0.00)",
             "type": "color"
@@ -167,6 +175,10 @@
           },
           "press": {
             "value": "rgba({semantic.primary.primary},0.16)",
+            "type": "color"
+          },
+          "active": {
+            "value": "rgba({semantic.primary.primary},0.12)",
             "type": "color"
           },
           "disabled": {
