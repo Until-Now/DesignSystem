@@ -587,6 +587,23 @@
         "value": "{elevation.200}",
         "type": "boxShadow"
       }
+    },
+    "typography": {
+      "action": {
+        "sm": {
+          "value": {
+            "fontFamily": "{fontFamily.product.body}",
+            "fontWeight": "{semantic.fontWeight.action}",
+            "lineHeight": "{semantic.lineHeight.action.sm}",
+            "fontSize": "{fontSize.xs}",
+            "letterSpacing": "{semantic.letterSpacing.action.sm}",
+            "paragraphSpacing": "{paragraph-spacing.default}",
+            "textDecoration": "{textDecoration.default}",
+            "textCase": "{textCase.as-is}"
+          },
+          "type": "typography"
+        }
+      }
     }
   }
 }
