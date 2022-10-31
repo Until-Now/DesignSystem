@@ -677,7 +677,7 @@
               "description": "Disabled action background state"
             },
             "content": {
-              "value": "{colour.text-and-icons.on-light.soft}",
+              "value": "{semantic.content.primary.subtle}",
               "type": "color",
               "description": "Icons and text on disabled action"
             },
@@ -763,7 +763,7 @@
               "description": "Disabled action background state"
             },
             "content": {
-              "value": "{colour.text-and-icons.on-light.soft}",
+              "value": "{semantic.content.primary.subtle}",
               "type": "color",
               "description": "Icons and text on disabled action"
             },
@@ -860,7 +860,7 @@
               "type": "color"
             },
             "content": {
-              "value": "{colour.text-and-icons.on-light.soft}",
+              "value": "{semantic.content.primary.subtle}",
               "type": "color",
               "description": "Icons and text on disabled action"
             },
@@ -950,7 +950,7 @@
               "type": "color"
             },
             "content": {
-              "value": "{colour.text-and-icons.on-light.soft}",
+              "value": "{semantic.content.primary.subtle}",
               "type": "color",
               "description": "Icons and text on disabled action"
             },
@@ -978,7 +978,7 @@
             "type": "color"
           },
           "outline": {
-            "value": "{semantic.outline.neutral}",
+            "value": "{semantic.outline.primary}",
             "type": "color",
             "description": "Input stroke/fill default"
           },
@@ -1034,7 +1034,7 @@
             }
           },
           "outline": {
-            "value": "{semantic.outline.neutral}",
+            "value": "{semantic.outline.primary}",
             "type": "color"
           }
         },
@@ -1205,7 +1205,7 @@
               "type": "color"
             },
             "content": {
-              "value": "{semantic.colour.feedback.content.on-dark.strong}",
+              "value": "{semantic.content.inversePrimary.default}",
               "type": "color"
             }
           },
@@ -1219,7 +1219,7 @@
               "type": "color"
             },
             "content": {
-              "value": "{semantic.colour.feedback.content.on-dark.strong}",
+              "value": "{semantic.content.inversePrimary.default}",
               "type": "color"
             }
           },
@@ -1233,7 +1233,7 @@
               "type": "color"
             },
             "content": {
-              "value": "{semantic.colour.feedback.content.on-dark.strong}",
+              "value": "{semantic.content.inversePrimary.default}",
               "type": "color"
             }
           },
@@ -1247,7 +1247,7 @@
               "type": "color"
             },
             "content": {
-              "value": "{semantic.colour.feedback.content.on-dark.strong}",
+              "value": "{semantic.content.inversePrimary.default}",
               "type": "color"
             }
           }
@@ -1311,36 +1311,6 @@
             "value": "{semantic.neutral.disabled}",
             "type": "color"
           }
-        },
-        "content": {
-          "on-light": {
-            "strong": {
-              "value": "{colour.text-and-icons.on-light.strong}",
-              "type": "color"
-            },
-            "mid": {
-              "value": "{colour.text-and-icons.on-light.mid}",
-              "type": "color"
-            },
-            "soft": {
-              "value": "{colour.text-and-icons.on-light.soft}",
-              "type": "color"
-            }
-          },
-          "on-dark": {
-            "strong": {
-              "value": "{colour.text-and-icons.on-dark.strong}",
-              "type": "color"
-            },
-            "mid": {
-              "value": "{colour.text-and-icons.on-dark.mid}",
-              "type": "color"
-            },
-            "soft": {
-              "value": "{colour.text-and-icons.on-dark.soft}",
-              "type": "color"
-            }
-          }
         }
       },
       "navigation": {
@@ -1351,7 +1321,7 @@
               "type": "color"
             },
             "content": {
-              "value": "{colour.text-and-icons.on-dark.strong}",
+              "value": "{semantic.content.inversePrimary.default}",
               "type": "color"
             },
             "state": {
@@ -1365,7 +1335,7 @@
               "type": "color"
             },
             "content": {
-              "value": "{colour.text-and-icons.on-dark.strong}",
+              "value": "{semantic.content.inversePrimary.default}",
               "type": "color"
             },
             "state": {
@@ -1379,7 +1349,7 @@
               "type": "color"
             },
             "content": {
-              "value": "{colour.text-and-icons.on-dark.strong}",
+              "value": "{semantic.content.inversePrimary.default}",
               "type": "color"
             },
             "state": {

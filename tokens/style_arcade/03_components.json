@@ -131,6 +131,24 @@
             "value": "{semantic.typography.input.mdEmphasis}",
             "type": "typography"
           }
+        },
+        "input": {
+          "small": {
+            "value": "{semantic.typography.input.mdStandard}",
+            "type": "typography"
+          }
+        },
+        "helper": {
+          "small": {
+            "value": "{semantic.typography.input.mdStandard}",
+            "type": "typography"
+          }
+        },
+        "meta": {
+          "small": {
+            "value": "{semantic.typography.input.mdStandard}",
+            "type": "typography"
+          }
         }
       }
     },
