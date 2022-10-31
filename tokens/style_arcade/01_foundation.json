@@ -2,7 +2,7 @@
   "colour": {
     "primary": {
       "50": {
-        "value": "#FBFBFB",
+        "value": "#FCFCFD",
         "type": "color"
       },
       "100": {
@@ -10,7 +10,7 @@
         "type": "color"
       },
       "150": {
-        "value": "#ECEBED",
+        "value": "#EFEEF0",
         "type": "color"
       },
       "200": {
