@@ -2,7 +2,7 @@
   "comp": {
     "table": {
       "size": {
-        "cell-height": {
+        "cellHeight": {
           "compact": {
             "value": "{semantic.size.tables.cellHeight.xs}",
             "type": "sizing"
@@ -20,7 +20,7 @@
             "type": "sizing"
           }
         },
-        "row-height": {
+        "rowHeight": {
           "compact": {
             "value": "{semantic.size.tables.cellHeight.xs}",
             "type": "sizing"
@@ -50,45 +50,33 @@
         }
       },
       "spacing": {
-        "text": {
-          "padding-left": {
-            "value": "{semantic.component.text.padding-left}",
-            "type": "spacing"
+        "textCell": {
+          "text": {
+            "padding-left": {
+              "value": "{semantic.component.text.padding-left}",
+              "type": "spacing"
+            },
+            "padding-right": {
+              "value": "{semantic.component.text.padding-right}",
+              "type": "spacing"
+            },
+            "padding-top": {
+              "value": "{semantic.component.text.padding-top}",
+              "type": "spacing"
+            },
+            "padding-bot": {
+              "value": "{semantic.component.text.padding-bot}",
+              "type": "spacing"
+            }
           },
-          "padding-right": {
-            "value": "{semantic.component.text.padding-right}",
-            "type": "spacing"
-          },
-          "padding-top": {
-            "value": "{semantic.component.text.padding-top}",
-            "type": "spacing"
-          },
-          "padding-bot": {
-            "value": "{semantic.component.text.padding-bot}",
+          "padding": {
+            "value": "{semantic.spacing.patterns.none} {semantic.spacing.patterns.sm} {semantic.spacing.patterns.none} {semantic.spacing.patterns.sm}",
             "type": "spacing"
           }
         },
-        "text-cell": {
-          "padding-left": {
-            "value": "{semantic.spacing.patterns.sm.padding-left}",
-            "type": "spacing"
-          },
-          "padding-right": {
-            "value": "{semantic.spacing.patterns.sm.padding-right}",
-            "type": "spacing"
-          },
-          "space-between": {
-            "value": "{semantic.spacing.patterns.xs.space-between}",
-            "type": "spacing"
-          }
-        },
-        "generic-cell": {
-          "padding-left": {
-            "value": "{semantic.spacing.patterns.md.padding-left}",
-            "type": "spacing"
-          },
-          "padding-right": {
-            "value": "{semantic.spacing.patterns.md.padding-right}",
+        "componentCell": {
+          "padding": {
+            "value": "{semantic.spacing.patterns.none} {semantic.spacing.patterns.md} {semantic.spacing.patterns.none} {semantic.spacing.patterns.md}",
             "type": "spacing"
           }
         }
