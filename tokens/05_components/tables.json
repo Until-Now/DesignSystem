@@ -50,35 +50,17 @@
         }
       },
       "spacing": {
+        "text": {
+          "value": "{semantic.component.text.padding-top} {semantic.component.text.padding-left} {semantic.component.text.padding-top} {semantic.component.text.padding-left}",
+          "type": "spacing"
+        },
         "textCell": {
-          "text": {
-            "padding-left": {
-              "value": "{semantic.component.text.padding-left}",
-              "type": "spacing"
-            },
-            "padding-right": {
-              "value": "{semantic.component.text.padding-right}",
-              "type": "spacing"
-            },
-            "padding-top": {
-              "value": "{semantic.component.text.padding-top}",
-              "type": "spacing"
-            },
-            "padding-bot": {
-              "value": "{semantic.component.text.padding-bot}",
-              "type": "spacing"
-            }
-          },
-          "padding": {
-            "value": "{semantic.spacing.patterns.none} {semantic.spacing.patterns.sm} {semantic.spacing.patterns.none} {semantic.spacing.patterns.sm}",
-            "type": "spacing"
-          }
+          "value": "{semantic.spacing.patterns.none} {semantic.spacing.patterns.sm} {semantic.spacing.patterns.none} {semantic.spacing.patterns.sm}",
+          "type": "spacing"
         },
         "componentCell": {
-          "padding": {
-            "value": "{semantic.spacing.patterns.none} {semantic.spacing.patterns.md} {semantic.spacing.patterns.none} {semantic.spacing.patterns.md}",
-            "type": "spacing"
-          }
+          "value": "{semantic.spacing.patterns.none} {semantic.spacing.patterns.md} {semantic.spacing.patterns.none} {semantic.spacing.patterns.md}",
+          "type": "spacing"
         }
       },
       "colour": {

@@ -15,8 +15,8 @@
       },
       "spacing": {
         "small": {
-          "padding-left": {
-            "value": "{semantic.spacing.input.small.padding-left}",
+          "padding": {
+            "value": "{semantic.spacing.input.smol.padding-top} {semantic.spacing.input.small.padding-left} {semantic.spacing.input.smol.padding-top} {semantic.spacing.input.small.padding-left}",
             "type": "spacing"
           },
           "padding-right": {

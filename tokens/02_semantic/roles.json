@@ -2561,6 +2561,24 @@
             "type": "spacing"
           }
         },
+        "smol": {
+          "padding-left": {
+            "value": "{space.10}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{space.10}",
+            "type": "spacing"
+          },
+          "padding-top": {
+            "value": "{space.10}",
+            "type": "spacing"
+          },
+          "padding-bot": {
+            "value": "{space.10}",
+            "type": "spacing"
+          }
+        },
         "medium": {
           "padding-left": {
             "value": "{space.12}",
