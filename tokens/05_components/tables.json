@@ -54,12 +54,28 @@
           "value": "{semantic.component.text.padding-top} {semantic.component.text.padding-left} {semantic.component.text.padding-top} {semantic.component.text.padding-left}",
           "type": "spacing"
         },
+        "textSpaceBetween": {
+          "value": "{semantic.component.text.padding-left}",
+          "type": "spacing"
+        },
         "textCell": {
           "value": "{semantic.spacing.patterns.none} {semantic.spacing.patterns.sm} {semantic.spacing.patterns.none} {semantic.spacing.patterns.sm}",
           "type": "spacing"
         },
+        "textCellSpaceBetween": {
+          "value": "{semantic.spacing.patterns.xs}",
+          "type": "spacing"
+        },
         "componentCell": {
           "value": "{semantic.spacing.patterns.none} {semantic.spacing.patterns.md} {semantic.spacing.patterns.none} {semantic.spacing.patterns.md}",
+          "type": "spacing"
+        },
+        "footer": {
+          "value": "{semantic.spacing.patterns.none} {semantic.spacing.patterns.md} {semantic.spacing.patterns.none} {semantic.spacing.patterns.md}",
+          "type": "spacing"
+        },
+        "footerSpaceBetween": {
+          "value": "{semantic.spacing.patterns.lg}",
           "type": "spacing"
         }
       },
