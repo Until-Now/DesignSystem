@@ -2654,6 +2654,10 @@
             "value": "{space.4}",
             "type": "spacing"
           }
+        },
+        "none": {
+          "value": "{space.0}",
+          "type": "spacing"
         }
       },
       "feedback": {

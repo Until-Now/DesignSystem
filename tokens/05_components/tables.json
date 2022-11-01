@@ -51,7 +51,7 @@
       },
       "spacing": {
         "text": {
-          "value": "{semantic.component.text.padding-top} {semantic.component.text.padding-left} {semantic.component.text.padding-top} {semantic.component.text.padding-left}",
+          "value": "{semantic.component.text.padding-top} {semantic.component.text.padding-right} {semantic.component.text.padding-bot} {semantic.component.text.padding-left}",
           "type": "spacing"
         },
         "textSpaceBetween": {
