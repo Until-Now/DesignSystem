@@ -1,0 +1,38 @@
+{
+  "comp": {
+    "badge": {
+      "colour": {
+        "small": {
+          "value": "{semantic.colour.status.notification}",
+          "type": "color"
+        },
+        "large": {
+          "value": "{semantic.colour.status.notification}",
+          "type": "color"
+        },
+        "content": {
+          "value": "{semantic.colour.status.content}",
+          "type": "color"
+        }
+      },
+      "borderRadius": {
+        "all": {
+          "value": "{semantic.borderRadius.status}",
+          "type": "borderRadius"
+        }
+      },
+      "spacing": {
+        "padding": {
+          "value": "{space.0} {semantic.spacing.status.xs.padding-left} {space.0} {semantic.spacing.status.xs.padding-right}",
+          "type": "spacing"
+        }
+      },
+      "text": {
+        "label": {
+          "value": "{semantic.typography.status.smEmphasis}",
+          "type": "typography"
+        }
+      }
+    }
+  }
+}

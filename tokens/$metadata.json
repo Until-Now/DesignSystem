@@ -15,6 +15,7 @@
     "02_semantic/styles",
     "05_components/avatar",
     "05_components/base",
+    "05_components/badge",
     "05_components/button",
     "05_components/chip",
     "05_components/date-picker",

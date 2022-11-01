@@ -29,6 +29,14 @@
           "type": "spacing"
         }
       }
+    },
+    "badge": {
+      "text": {
+        "label": {
+          "value": "{semantic.typography.status.mdEmphasis}",
+          "type": "typography"
+        }
+      }
     }
   }
 }
