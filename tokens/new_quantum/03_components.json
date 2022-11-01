@@ -37,6 +37,32 @@
           "type": "typography"
         }
       }
+    },
+    "input-field": {
+      "type": {
+        "assistive": {
+          "value": "{semantic.typography.input.smStandard}",
+          "type": "typography"
+        },
+        "assistive-link": {
+          "value": "{semantic.typography.input.smEmphasis}",
+          "type": "typography"
+        },
+        "label": {
+          "small": {
+            "value": "{semantic.typography.input.smEmphasis}",
+            "type": "typography"
+          },
+          "medium": {
+            "value": "{semantic.typography.input.smEmphasis}",
+            "type": "typography"
+          },
+          "large": {
+            "value": "{semantic.typography.input.smEmphasis}",
+            "type": "typography"
+          }
+        }
+      }
     }
   }
 }

@@ -304,7 +304,7 @@
           "type": "typography"
         },
         "assistive-link": {
-          "value": "{semantic.typography.input.smEmphasis}",
+          "value": "{semantic.typography.input.xsEmphasis}",
           "type": "typography"
         },
         "label": {
