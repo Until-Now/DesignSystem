@@ -353,6 +353,40 @@
           }
         }
       }
+    },
+    "fontWeight": {
+      "typography": {
+        "rubric": {
+          "emphasis": {
+            "value": "{fontWeight.500}",
+            "type": "fontWeights"
+          }
+        },
+        "heading": {
+          "emphasis": {
+            "value": "{fontWeight.500}",
+            "type": "fontWeights"
+          }
+        },
+        "title": {
+          "emphasis": {
+            "value": "{fontWeight.500}",
+            "type": "fontWeights"
+          }
+        },
+        "paragraph": {
+          "emphasis": {
+            "value": "{fontWeight.500}",
+            "type": "fontWeights"
+          }
+        },
+        "detail": {
+          "emphasis": {
+            "value": "{fontWeight.500}",
+            "type": "fontWeights"
+          }
+        }
+      }
     }
   }
 }
