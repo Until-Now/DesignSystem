@@ -986,6 +986,10 @@
             "type": "color",
             "value": "{semantic.neutral.transparent}",
             "description": "Input background default"
+          },
+          "bgAlt": {
+            "value": "{semantic.neutral.background-variant-1}",
+            "type": "color"
           }
         },
         "selection": {

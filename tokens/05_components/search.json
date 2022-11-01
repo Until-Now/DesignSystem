@@ -56,7 +56,7 @@
       "colour": {
         "default": {
           "bg": {
-            "value": "{semantic.colour.inputs.default.background}",
+            "value": "{semantic.colour.inputs.default.bgAlt}",
             "type": "color"
           },
           "outline": {
