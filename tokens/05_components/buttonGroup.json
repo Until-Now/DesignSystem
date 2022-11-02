@@ -1,6 +1,6 @@
 {
   "comp": {
-    "button": {
+    "buttonGroup": {
       "size": {
         "height": {
           "small": {
@@ -414,26 +414,26 @@
             "type": "color"
           },
           "split-tonal": {
-            "value": "{comp.button.colour.secondary.default.content}",
+            "value": "{comp.buttonGroup.colour.secondary.default.content}",
             "type": "color"
           },
           "split-outline": {
-            "value": "{comp.button.colour.tertiary.default.content}",
+            "value": "{comp.buttonGroup.colour.tertiary.default.content}",
             "type": "color"
           },
           "split-subtle": {
-            "value": "{comp.button.colour.subtle.default.content}",
+            "value": "{comp.buttonGroup.colour.subtle.default.content}",
             "type": "color"
           }
         }
       },
-      "border-width": {
+      "borderWidth": {
         "outline": {
           "value": "{semantic.borderWidth.action.small}",
           "type": "borderWidth"
         }
       },
-      "border-radius": {
+      "borderRadius": {
         "lg": {
           "value": "{semantic.borderRadius.action}",
           "type": "borderRadius"

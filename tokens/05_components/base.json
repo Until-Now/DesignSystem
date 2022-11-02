@@ -335,43 +335,43 @@
         "thumb": {
           "default": {
             "bg": {
-              "value": "{comp.button.colour.primary.default.bg}",
+              "value": "{comp.buttonGroup.colour.primary.default.bg}",
               "type": "color"
             },
             "icon": {
-              "value": "{comp.button.colour.primary.default.content}",
+              "value": "{comp.buttonGroup.colour.primary.default.content}",
               "type": "color"
             },
             "state": {
-              "value": "{comp.button.colour.primary.default.state}",
+              "value": "{comp.buttonGroup.colour.primary.default.state}",
               "type": "color"
             }
           },
           "hover": {
             "bg": {
-              "value": "{comp.button.colour.primary.hover.bg}",
+              "value": "{comp.buttonGroup.colour.primary.hover.bg}",
               "type": "color"
             },
             "icon": {
-              "value": "{comp.button.colour.primary.hover.content}",
+              "value": "{comp.buttonGroup.colour.primary.hover.content}",
               "type": "color"
             },
             "state": {
-              "value": "{comp.button.colour.primary.hover.state}",
+              "value": "{comp.buttonGroup.colour.primary.hover.state}",
               "type": "color"
             }
           },
           "press": {
             "bg": {
-              "value": "{comp.button.colour.primary.press.bg}",
+              "value": "{comp.buttonGroup.colour.primary.press.bg}",
               "type": "color"
             },
             "icon": {
-              "value": "{comp.button.colour.primary.press.content}",
+              "value": "{comp.buttonGroup.colour.primary.press.content}",
               "type": "color"
             },
             "state": {
-              "value": "{comp.button.colour.primary.press.state}",
+              "value": "{comp.buttonGroup.colour.primary.press.state}",
               "type": "color"
             }
           }
