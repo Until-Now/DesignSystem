@@ -108,7 +108,7 @@
     },
     "outline": {
       "neutral": {
-        "value": "rgba({colour.neutral.600},{semantic.opacity.border.component})",
+        "value": "{colour.neutral.500}",
         "type": "color",
         "description": "Component outline"
       },
@@ -121,7 +121,7 @@
         "type": "color"
       },
       "primary": {
-        "value": "rgba({semantic.primary.primary},{semantic.opacity.border.component})",
+        "value": "{colour.primary.500}",
         "type": "color"
       },
       "tonal-primary": {
@@ -137,19 +137,19 @@
         "type": "color"
       },
       "error": {
-        "value": "rgba({semantic.error.on-muted},{semantic.opacity.border.component})",
+        "value": "{colour.error.500}",
         "type": "color"
       },
       "success": {
-        "value": "rgba({semantic.success.on-muted},{semantic.opacity.border.component})",
+        "value": "{colour.success.500}",
         "type": "color"
       },
       "warning": {
-        "value": "rgba({semantic.warning.on-muted},{semantic.opacity.border.component})",
+        "value": "{colour.warning.500}",
         "type": "color"
       },
       "info": {
-        "value": "rgba({semantic.info.on-muted},{semantic.opacity.border.component})",
+        "value": "{colour.info.500}",
         "type": "color"
       }
     },

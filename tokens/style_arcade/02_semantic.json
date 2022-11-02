@@ -2,7 +2,7 @@
   "semantic": {
     "primary": {
       "primary": {
-        "value": "{colour.primary.900}",
+        "value": "{colour.primary.1000}",
         "type": "color"
       },
       "on-primary": {
@@ -18,7 +18,7 @@
         "type": "color"
       },
       "on-tonal": {
-        "value": "{colour.primary.900}",
+        "value": "{colour.primary.1000}",
         "type": "color"
       },
       "muted": {
@@ -26,7 +26,7 @@
         "type": "color"
       },
       "on-muted": {
-        "value": "{colour.primary.900}",
+        "value": "{colour.primary.1000}",
         "type": "color"
       },
       "subtle": {
@@ -34,7 +34,7 @@
         "type": "color"
       },
       "on-subtle": {
-        "value": "{colour.primary.900}",
+        "value": "{colour.primary.1000}",
         "type": "color"
       },
       "background": {
@@ -51,48 +51,6 @@
       }
     },
     "secondary": {
-      "secondary": {
-        "value": "{colour.secondary.600}",
-        "type": "color",
-        "description": "Secondary key colour"
-      },
-      "on-secondary": {
-        "value": "{colour.grayscale.white}",
-        "type": "color",
-        "description": "Content on secondary"
-      },
-      "inverse-secondary": {
-        "value": "{colour.secondary.200}",
-        "type": "color"
-      },
-      "tonal": {
-        "value": "{colour.secondary.200}",
-        "type": "color",
-        "description": "Secondary support colour"
-      },
-      "on-tonal": {
-        "value": "{colour.secondary.900}",
-        "type": "color",
-        "description": "Content on secondary support"
-      },
-      "muted": {
-        "value": "{colour.grayscale.white}",
-        "type": "color"
-      },
-      "on-muted": {
-        "value": "{colour.secondary.600}",
-        "type": "color",
-        "description": "Secondary key colour"
-      },
-      "subtle": {
-        "value": "{colour.grayscale.transparent}",
-        "type": "color"
-      },
-      "on-subtle": {
-        "value": "{colour.secondary.600}",
-        "type": "color",
-        "description": "Secondary key colour"
-      },
       "background": {
         "value": "{colour.secondary.50}",
         "type": "color"
@@ -117,7 +75,7 @@
         "type": "color"
       },
       "disabled": {
-        "value": "rgba({colour.neutral.500},{semantic.opacity.disabled})",
+        "value": "rgba({colour.neutral.700},{semantic.opacity.disabled})",
         "type": "color"
       }
     },
@@ -135,11 +93,11 @@
         "type": "color"
       },
       "inverse-background": {
-        "value": "{colour.neutral.800}",
+        "value": "{colour.neutral.900}",
         "type": "color"
       },
       "disabled": {
-        "value": "rgba({colour.neutral.500},{semantic.opacity.disabled})",
+        "value": "rgba({colour.neutral.700},{semantic.opacity.disabled})",
         "type": "color",
         "description": "Disabled action background state"
       },
@@ -150,7 +108,7 @@
     },
     "content": {
       "default": {
-        "value": "{colour.primary.900}",
+        "value": "{colour.primary.1000}",
         "type": "color"
       },
       "inverse-default": {
@@ -158,16 +116,16 @@
         "type": "color"
       },
       "text-link": {
-        "value": "{colour.info.500}",
+        "value": "{colour.info.600}",
         "type": "color"
       }
     },
     "scrim": {
-      "value": "{colour.primary.800}",
+      "value": "{colour.primary.900}",
       "type": "color"
     },
     "shadow": {
-      "value": "{colour.primary.800}",
+      "value": "{colour.primary.900}",
       "type": "color"
     },
     "stateSurface": {
