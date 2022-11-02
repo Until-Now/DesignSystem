@@ -3002,6 +3002,10 @@
         "round": {
           "value": "{border-radius.100}",
           "type": "borderRadius"
+        },
+        "none": {
+          "value": "{border-radius.0}",
+          "type": "borderRadius"
         }
       },
       "width": {
