@@ -670,6 +670,27 @@
               "type": "color"
             }
           },
+          "active": {
+            "background": {
+              "value": "{semantic.primary.primary}",
+              "type": "color",
+              "description": "Primary action background press state"
+            },
+            "content": {
+              "value": "{semantic.primary.on-primary}",
+              "type": "color",
+              "description": "Icons and text on primary action press"
+            },
+            "split": {
+              "value": "{semantic.primary.on-primary}",
+              "type": "color",
+              "description": "Split on primary action press"
+            },
+            "state": {
+              "value": "{semantic.stateSurface.primary.primary.active}",
+              "type": "color"
+            }
+          },
           "disabled": {
             "background": {
               "value": "{semantic.neutral.disabled}",
@@ -753,6 +774,27 @@
             },
             "state": {
               "value": "{semantic.stateSurface.secondary.tonal.press}",
+              "type": "color"
+            }
+          },
+          "active": {
+            "background": {
+              "value": "{semantic.primary.tonal}",
+              "type": "color",
+              "description": "Secondary action background press state"
+            },
+            "content": {
+              "value": "{semantic.secondary.on-tonal}",
+              "type": "color",
+              "description": "Icons and text on secondary action press"
+            },
+            "split": {
+              "value": "{semantic.secondary.on-tonal}",
+              "type": "color",
+              "description": "Split on secondary action press"
+            },
+            "state": {
+              "value": "{semantic.stateSurface.secondary.tonal.active}",
               "type": "color"
             }
           },
@@ -854,6 +896,31 @@
               "type": "color"
             }
           },
+          "active": {
+            "background": {
+              "value": "{semantic.primary.muted}",
+              "type": "color",
+              "description": "Tertiary action background press state"
+            },
+            "content": {
+              "value": "{semantic.primary.on-muted}",
+              "type": "color",
+              "description": "Icons and text on tertiary action press"
+            },
+            "split": {
+              "value": "{semantic.primary.on-muted}",
+              "type": "color",
+              "description": "Split on tertiary action press"
+            },
+            "outline": {
+              "value": "{semantic.outline.primary}",
+              "type": "color"
+            },
+            "state": {
+              "value": "{semantic.stateSurface.primary.muted.active}",
+              "type": "color"
+            }
+          },
           "disabled": {
             "background": {
               "value": "{semantic.neutral.transparent}",
@@ -941,6 +1008,27 @@
             },
             "state": {
               "value": "{semantic.stateSurface.primary.subtle.press}",
+              "type": "color"
+            }
+          },
+          "active": {
+            "background": {
+              "value": "{semantic.primary.subtle}",
+              "type": "color",
+              "description": "Subtle action background press state"
+            },
+            "content": {
+              "value": "{semantic.primary.on-subtle}",
+              "type": "color",
+              "description": "Icons and text on subtle action press"
+            },
+            "split": {
+              "value": "{semantic.primary.on-subtle}",
+              "type": "color",
+              "description": "Split on subtle action press"
+            },
+            "state": {
+              "value": "{semantic.stateSurface.primary.subtle.active}",
               "type": "color"
             }
           },

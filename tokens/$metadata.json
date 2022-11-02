@@ -17,6 +17,7 @@
     "05_components/base",
     "05_components/badge",
     "05_components/button",
+    "05_components/buttonGroup",
     "05_components/chip",
     "05_components/date-picker",
     "05_components/dialog",
