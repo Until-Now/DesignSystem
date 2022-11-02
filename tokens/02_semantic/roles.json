@@ -228,11 +228,11 @@
         "type": "color"
       },
       "on-muted": {
-        "value": "{colour.error.700}",
+        "value": "{colour.error.800}",
         "type": "color"
       },
       "default": {
-        "value": "{colour.error.500}",
+        "value": "{colour.error.600}",
         "type": "color"
       }
     },
@@ -242,11 +242,11 @@
         "type": "color"
       },
       "on-muted": {
-        "value": "{colour.success.600}",
+        "value": "{colour.success.700}",
         "type": "color"
       },
       "default": {
-        "value": "{colour.success.500}",
+        "value": "{colour.success.600}",
         "type": "color"
       }
     },
@@ -256,7 +256,7 @@
         "type": "color"
       },
       "on-muted": {
-        "value": "{colour.warning.700}",
+        "value": "{colour.warning.800}",
         "type": "color"
       },
       "default": {
@@ -270,11 +270,11 @@
         "type": "color"
       },
       "on-muted": {
-        "value": "{colour.info.700}",
+        "value": "{colour.info.800}",
         "type": "color"
       },
       "default": {
-        "value": "{colour.info.600}",
+        "value": "{colour.info.700}",
         "type": "color"
       }
     },
