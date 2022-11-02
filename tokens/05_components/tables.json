@@ -77,6 +77,10 @@
         "footerSpaceBetween": {
           "value": "{semantic.spacing.patterns.lg}",
           "type": "spacing"
+        },
+        "header": {
+          "value": "{semantic.spacing.patterns.md} {semantic.spacing.patterns.md} {semantic.spacing.patterns.lg} {semantic.spacing.patterns.md}",
+          "type": "spacing"
         }
       },
       "colour": {
@@ -214,6 +218,14 @@
           "outline": {
             "value": "{semantic.colour.patterns.background.outline}",
             "type": "color"
+          },
+          "text": {
+            "value": "{semantic.content.primary.default}",
+            "type": "color"
+          },
+          "subText": {
+            "value": "{semantic.content.primary.muted}",
+            "type": "color"
           }
         },
         "footer": {
@@ -227,6 +239,28 @@
           },
           "outline": {
             "value": "{semantic.colour.patterns.background.outline}",
+            "type": "color"
+          }
+        },
+        "kpi": {
+          "primary": {
+            "value": "{semantic.primary.primary}",
+            "type": "color"
+          },
+          "neutral": {
+            "value": "{semantic.neutral.background-variant-2}",
+            "type": "color"
+          },
+          "red": {
+            "value": "{semantic.error.default}",
+            "type": "color"
+          },
+          "orange": {
+            "value": "{semantic.warning.default}",
+            "type": "color"
+          },
+          "green": {
+            "value": "{semantic.success.default}",
             "type": "color"
           }
         }
@@ -244,7 +278,7 @@
         }
       },
       "type": {
-        "header": {
+        "cellHeader": {
           "value": "{semantic.typography.patterns.mdEmphasis}",
           "type": "typography"
         },
@@ -266,6 +300,14 @@
         },
         "pagination": {
           "value": "{semantic.typography.patterns.xsEmphasis}",
+          "type": "typography"
+        },
+        "header": {
+          "value": "{semantic.typography.patterns.xl}",
+          "type": "typography"
+        },
+        "headerSubtext": {
+          "value": "{semantic.typography.patterns.mdStandard}",
           "type": "typography"
         }
       }
