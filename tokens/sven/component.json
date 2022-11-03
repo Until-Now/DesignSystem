@@ -164,7 +164,7 @@
     },
     "snackbar": {
       "radius": {
-        "value": "{comp.buttonGroup.borderRadius.md}",
+        "value": "{comp.buttonGroup.borderRadius.mdStart}",
         "type": "borderRadius"
       },
       "colour": {

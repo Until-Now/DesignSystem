@@ -45,7 +45,7 @@
           }
         }
       },
-      "space": {
+      "spacing": {
         "small": {
           "padding-left": {
             "value": "{semantic.spacing.action.small.padding-left}",
@@ -96,6 +96,10 @@
         },
         "space-between": {
           "value": "{semantic.spacing.action.space-between}",
+          "type": "spacing"
+        },
+        "elementsSpaceBetween": {
+          "value": "-1",
           "type": "spacing"
         }
       },
@@ -407,24 +411,6 @@
               "value": "{semantic.colour.action.subtle.disabled.state}"
             }
           }
-        },
-        "border": {
-          "split-fill": {
-            "value": "{semantic.colour.action.primary.default.split}",
-            "type": "color"
-          },
-          "split-tonal": {
-            "value": "{comp.buttonGroup.colour.secondary.default.content}",
-            "type": "color"
-          },
-          "split-outline": {
-            "value": "{comp.buttonGroup.colour.tertiary.default.content}",
-            "type": "color"
-          },
-          "split-subtle": {
-            "value": "{comp.buttonGroup.colour.subtle.default.content}",
-            "type": "color"
-          }
         }
       },
       "borderWidth": {
@@ -434,16 +420,40 @@
         }
       },
       "borderRadius": {
-        "lg": {
-          "value": "{semantic.borderRadius.action}",
+        "lgStart": {
+          "value": "{semantic.borderRadius.action} {semantic.border.radius.none} {semantic.border.radius.none} {semantic.borderRadius.action}",
           "type": "borderRadius"
         },
-        "md": {
-          "value": "{semantic.borderRadius.action}",
+        "lgMid": {
+          "value": "{semantic.border.radius.none} {semantic.border.radius.none} {semantic.border.radius.none} {semantic.border.radius.none}",
           "type": "borderRadius"
         },
-        "sm": {
-          "value": "{semantic.borderRadius.action}",
+        "lgEnd": {
+          "value": "{semantic.border.radius.none} {semantic.borderRadius.action} {semantic.borderRadius.action} {semantic.border.radius.none}",
+          "type": "borderRadius"
+        },
+        "mdStart": {
+          "value": "{semantic.borderRadius.action} {semantic.border.radius.none} {semantic.border.radius.none} {semantic.borderRadius.action}",
+          "type": "borderRadius"
+        },
+        "mdMid": {
+          "value": "{semantic.border.radius.none} {semantic.border.radius.none} {semantic.border.radius.none} {semantic.border.radius.none}",
+          "type": "borderRadius"
+        },
+        "mdEnd": {
+          "value": "{semantic.border.radius.none} {semantic.borderRadius.action} {semantic.borderRadius.action} {semantic.border.radius.none}",
+          "type": "borderRadius"
+        },
+        "smStart": {
+          "value": "{semantic.borderRadius.action} {semantic.border.radius.none} {semantic.border.radius.none} {semantic.borderRadius.action}",
+          "type": "borderRadius"
+        },
+        "smMid": {
+          "value": "{semantic.border.radius.none} {semantic.border.radius.none} {semantic.border.radius.none} {semantic.border.radius.none}",
+          "type": "borderRadius"
+        },
+        "smEnd": {
+          "value": "{semantic.border.radius.none} {semantic.borderRadius.action} {semantic.borderRadius.action} {semantic.border.radius.none}",
           "type": "borderRadius"
         }
       },

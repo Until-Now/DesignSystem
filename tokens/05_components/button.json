@@ -45,7 +45,7 @@
           }
         }
       },
-      "space": {
+      "spacing": {
         "small": {
           "padding-left": {
             "value": "{semantic.spacing.action.small.padding-left}",
