@@ -87,6 +87,10 @@
           "type": "spacing"
         },
         "toolbarSpaceBetween": {
+          "value": "{semantic.spacing.patterns.lg}",
+          "type": "spacing"
+        },
+        "toolbarActionSpaceBetween": {
           "value": "{semantic.spacing.patterns.xs}",
           "type": "spacing"
         },
