@@ -198,6 +198,24 @@
               "value": "{semantic.stateSurface.primary.tonal.press}",
               "type": "color"
             }
+          },
+          "active": {
+            "background": {
+              "value": "{semantic.primary.tonal}",
+              "type": "color"
+            },
+            "content": {
+              "value": "{semantic.primary.on-tonal}",
+              "type": "color"
+            },
+            "split": {
+              "value": "{semantic.primary.on-tonal}",
+              "type": "color"
+            },
+            "state": {
+              "value": "{semantic.stateSurface.primary.tonal.active}",
+              "type": "color"
+            }
           }
         }
       }
