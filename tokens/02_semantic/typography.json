@@ -1147,16 +1147,7 @@
       },
       "patterns": {
         "xl": {
-          "value": {
-            "fontFamily": "{fontFamily.product.body}",
-            "fontWeight": "{semantic.fontWeight.navigation.emphasis}",
-            "lineHeight": "{semantic.lineHeight.navigation.lg}",
-            "fontSize": "{semantic.fontSize.navigation.xl}",
-            "letterSpacing": "{semantic.letterSpacing.navigation.xl}",
-            "paragraphSpacing": "{paragraph-spacing.default}",
-            "textDecoration": "{textDecoration.default}",
-            "textCase": "{textCase.as-is}"
-          },
+          "value": "{semantic.typography.title.mdEmphasis}",
           "type": "typography"
         },
         "lgStandard": {

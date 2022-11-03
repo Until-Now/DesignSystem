@@ -69,6 +69,14 @@
         "cellSubtext": {
           "value": "{semantic.typography.patterns.xsStandard}",
           "type": "typography"
+        },
+        "footer": {
+          "value": "{semantic.typography.patterns.xsStandard}",
+          "type": "typography"
+        },
+        "pagination": {
+          "value": "{semantic.typography.patterns.xsEmphasis}",
+          "type": "typography"
         }
       }
     },
