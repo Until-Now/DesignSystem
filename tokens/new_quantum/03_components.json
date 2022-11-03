@@ -75,10 +75,6 @@
             "subHeader": {
               "value": "{semantic.colour.patterns.background.default}",
               "type": "color"
-            },
-            "alternate": {
-              "value": "{semantic.colour.patterns.background.alternate}",
-              "type": "color"
             }
           },
           "hover": {
@@ -88,10 +84,6 @@
             },
             "subHeader": {
               "value": "{semantic.colour.patterns.background.default}",
-              "type": "color"
-            },
-            "alternate": {
-              "value": "{semantic.colour.patterns.background.alternate}",
               "type": "color"
             }
           },
@@ -103,10 +95,6 @@
             "subHeader": {
               "value": "{semantic.colour.patterns.background.default}",
               "type": "color"
-            },
-            "alternate": {
-              "value": "{semantic.colour.patterns.background.alternate}",
-              "type": "color"
             }
           },
           "active": {
@@ -116,10 +104,6 @@
             },
             "subHeader": {
               "value": "{semantic.colour.patterns.background.default}",
-              "type": "color"
-            },
-            "alternate": {
-              "value": "{semantic.colour.patterns.background.alternate}",
               "type": "color"
             }
           }
