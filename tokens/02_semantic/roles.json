@@ -1066,7 +1066,7 @@
             "type": "color"
           },
           "outline": {
-            "value": "{semantic.outline.primary}",
+            "value": "{semantic.outline.neutral}",
             "type": "color",
             "description": "Input stroke/fill default"
           },

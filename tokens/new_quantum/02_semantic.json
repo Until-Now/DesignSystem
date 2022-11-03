@@ -218,6 +218,14 @@
             }
           }
         }
+      },
+      "inputs": {
+        "selection": {
+          "outline": {
+            "value": "{semantic.outline.neutral}",
+            "type": "color"
+          }
+        }
       }
     },
     "opacity": {
