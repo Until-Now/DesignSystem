@@ -160,19 +160,19 @@
         },
         "fill": {
           "normal": {
-            "value": "{colour.primary.600}",
-            "type": "color"
-          },
-          "dark": {
             "value": "{colour.primary.700}",
             "type": "color"
           },
-          "darker": {
+          "dark": {
             "value": "{colour.primary.800}",
             "type": "color"
           },
-          "darkest": {
+          "darker": {
             "value": "{colour.primary.900}",
+            "type": "color"
+          },
+          "darkest": {
+            "value": "{colour.primary.1000}",
             "type": "color"
           }
         }

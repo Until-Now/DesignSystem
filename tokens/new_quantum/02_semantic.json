@@ -2,7 +2,7 @@
   "semantic": {
     "primary": {
       "primary": {
-        "value": "{colour.primary.500}",
+        "value": "{colour.primary.700}",
         "type": "color"
       },
       "on-primary": {
@@ -50,55 +50,9 @@
         "type": "color"
       }
     },
-    "outline": {
-      "neutral": {
-        "value": "rgba({colour.neutral.600},{semantic.opacity.border.component})",
-        "type": "color",
-        "description": "Component outline"
-      },
-      "neutral-variant": {
-        "value": "{colour.neutral.150}",
-        "type": "color"
-      },
-      "disabled": {
-        "value": "rgba({colour.neutral.500},{semantic.opacity.disabled})",
-        "type": "color"
-      },
-      "primary": {
-        "value": "{colour.primary.600}",
-        "type": "color"
-      }
-    },
-    "neutral": {
-      "background": {
-        "value": "{colour.grayscale.white}",
-        "type": "color"
-      },
-      "background-variant-1": {
-        "value": "{colour.neutral.50}",
-        "type": "color"
-      },
-      "background-variant-2": {
-        "value": "{colour.neutral.100}",
-        "type": "color"
-      },
-      "inverse-background": {
-        "value": "{colour.neutral.800}",
-        "type": "color"
-      },
-      "disabled": {
-        "value": "rgba({colour.neutral.500},{semantic.opacity.disabled})",
-        "type": "color",
-        "description": "Disabled action background state"
-      },
-      "transparent": {
-        "value": "{colour.grayscale.transparent}",
-        "type": "color"
-      }
-    },
     "content": {
       "default": {
-        "value": "{colour.primary.800}",
+        "value": "{colour.primary.900}",
         "type": "color"
       },
       "inverse-default": {
@@ -106,16 +60,16 @@
         "type": "color"
       },
       "text-link": {
-        "value": "{colour.primary.500}",
+        "value": "{colour.primary.600}",
         "type": "color"
       }
     },
     "scrim": {
-      "value": "{colour.primary.900}",
+      "value": "{colour.primary.1000}",
       "type": "color"
     },
     "shadow": {
-      "value": "{colour.primary.900}",
+      "value": "{colour.primary.1000}",
       "type": "color"
     },
     "stateSurface": {
