@@ -2589,6 +2589,14 @@
           "padding-right": {
             "value": "{space.12}",
             "type": "spacing"
+          },
+          "padding-top": {
+            "value": "{space.0}",
+            "type": "spacing"
+          },
+          "padding-bot": {
+            "value": "{space.0}",
+            "type": "spacing"
           }
         },
         "medium": {
@@ -2599,6 +2607,14 @@
           "padding-right": {
             "value": "{space.16}",
             "type": "spacing"
+          },
+          "padding-top": {
+            "value": "{space.0}",
+            "type": "spacing"
+          },
+          "padding-bot": {
+            "value": "{space.0}",
+            "type": "spacing"
           }
         },
         "large": {
@@ -2608,6 +2624,14 @@
           },
           "padding-right": {
             "value": "{space.20}",
+            "type": "spacing"
+          },
+          "padding-top": {
+            "value": "{space.0}",
+            "type": "spacing"
+          },
+          "padding-bot": {
+            "value": "{space.0}",
             "type": "spacing"
           }
         },
