@@ -717,7 +717,7 @@
         "overline": {
           "value": {
             "fontFamily": "{fontFamily.product.body}",
-            "fontWeight": "{fontWeight.800}",
+            "fontWeight": "{semantic.fontWeight.typography.special.overline}",
             "lineHeight": "{semantic.lineHeight.typography.special.overline}",
             "fontSize": "{fontSize.xs}",
             "letterSpacing": "{semantic.letterSpacing.typography.special.overline}",

@@ -365,6 +365,12 @@
             "value": "{fontWeight.500}",
             "type": "fontWeights"
           }
+        },
+        "special": {
+          "overline": {
+            "value": "{fontWeight.600}",
+            "type": "fontWeights"
+          }
         }
       }
     }
