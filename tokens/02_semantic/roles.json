@@ -1708,12 +1708,66 @@
                 "type": "color"
               }
             }
+          },
+          "default": {
+            "background": {
+              "value": "{semantic.primary.background-variant-1}",
+              "type": "color"
+            },
+            "content": {
+              "value": "{semantic.primary.on-subtle}",
+              "type": "color"
+            },
+            "state": {
+              "value": "{semantic.stateSurface.primary.subtle.default}",
+              "type": "color"
+            },
+            "outline": {
+              "value": "rgba({semantic.outline.primary},0.16)",
+              "type": "color"
+            }
+          },
+          "hover": {
+            "background": {
+              "value": "{semantic.primary.background-variant-1}",
+              "type": "color"
+            },
+            "content": {
+              "value": "{semantic.primary.on-subtle}",
+              "type": "color"
+            },
+            "state": {
+              "value": "{semantic.stateSurface.primary.subtle.hover}",
+              "type": "color"
+            },
+            "outline": {
+              "value": "rgba({semantic.outline.primary},0.16)",
+              "type": "color"
+            }
+          },
+          "press": {
+            "background": {
+              "value": "{semantic.primary.background-variant-1}",
+              "type": "color"
+            },
+            "content": {
+              "value": "{semantic.primary.on-subtle}",
+              "type": "color"
+            },
+            "state": {
+              "value": "{semantic.stateSurface.primary.subtle.press}",
+              "type": "color"
+            },
+            "outline": {
+              "value": "rgba({semantic.outline.primary},0.16)",
+              "type": "color"
+            }
           }
         },
         "neutral": {
           "default": {
             "background": {
-              "value": "{semantic.neutral.background-variant-1}",
+              "value": "{semantic.neutral.background-variant-2}",
               "type": "color"
             },
             "content": {
@@ -1731,7 +1785,7 @@
           },
           "hover": {
             "background": {
-              "value": "{semantic.neutral.background-variant-1}",
+              "value": "{semantic.neutral.background-variant-2}",
               "type": "color"
             },
             "content": {
@@ -1749,7 +1803,7 @@
           },
           "press": {
             "background": {
-              "value": "{semantic.neutral.background-variant-1}",
+              "value": "{semantic.neutral.background-variant-2}",
               "type": "color"
             },
             "content": {

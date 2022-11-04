@@ -27,15 +27,13 @@
       },
       "colour": {
         "neutral": {
-          "default": {
-            "bg": {
-              "value": "{system.colour.status.muted.neutral.default.background}",
-              "type": "color"
-            },
-            "content": {
-              "value": "{system.colour.status.muted.neutral.default.content}",
-              "type": "color"
-            }
+          "bg": {
+            "value": "{semantic.colour.status.neutral.default.background}",
+            "type": "color"
+          },
+          "content": {
+            "value": "{semantic.colour.status.neutral.default.content}",
+            "type": "color"
           },
           "outline": {
             "value": "{semantic.colour.status.muted.primary.default.outline}",

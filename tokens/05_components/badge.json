@@ -2,12 +2,20 @@
   "comp": {
     "badge": {
       "colour": {
-        "small": {
+        "smHighPriority": {
           "value": "{semantic.colour.status.highPriority}",
           "type": "color"
         },
-        "large": {
+        "lgHighPriority": {
           "value": "{semantic.colour.status.highPriority}",
+          "type": "color"
+        },
+        "smLowPriority": {
+          "value": "{semantic.colour.status.lowPriority}",
+          "type": "color"
+        },
+        "lgLowPriority": {
+          "value": "{semantic.colour.status.lowPriority}",
           "type": "color"
         },
         "content": {
