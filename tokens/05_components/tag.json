@@ -20,12 +20,26 @@
           "value": "{semantic.spacing.status.text.padding-top} {semantic.spacing.status.text.padding-right} {semantic.spacing.status.text.padding-bot} {semantic.spacing.status.text.padding-left}",
           "type": "spacing"
         },
-        "space-between": {
+        "spaceBetween": {
           "value": "{semantic.spacing.status.space-between}",
           "type": "spacing"
         }
       },
       "colour": {
+        "primary": {
+          "bg": {
+            "value": "{semantic.colour.status.primary.default.background}",
+            "type": "color"
+          },
+          "content": {
+            "value": "{semantic.colour.status.primary.default.content}",
+            "type": "color"
+          },
+          "outline": {
+            "value": "{semantic.colour.status.primary.default.outline}",
+            "type": "color"
+          }
+        },
         "neutral": {
           "bg": {
             "value": "{semantic.colour.status.neutral.default.background}",
@@ -36,71 +50,63 @@
             "type": "color"
           },
           "outline": {
-            "value": "{semantic.colour.status.muted.primary.default.outline}",
+            "value": "{semantic.colour.status.neutral.default.outline}",
             "type": "color"
           }
         },
         "error": {
-          "default": {
-            "bg": {
-              "value": "{semantic.colour.status.muted.error.default.background}",
-              "type": "color"
-            },
-            "content": {
-              "value": "{semantic.colour.status.muted.error.default.content}",
-              "type": "color"
-            },
-            "outline": {
-              "value": "{semantic.colour.status.muted.error.default.outline}",
-              "type": "color"
-            }
+          "bg": {
+            "value": "{semantic.colour.status.error.default.background}",
+            "type": "color"
+          },
+          "content": {
+            "value": "{semantic.colour.status.error.default.content}",
+            "type": "color"
+          },
+          "outline": {
+            "value": "{semantic.colour.status.error.default.outline}",
+            "type": "color"
           }
         },
         "warning": {
-          "default": {
-            "bg": {
-              "type": "color",
-              "value": "{semantic.colour.status.muted.warning.default.background}"
-            },
-            "content": {
-              "type": "color",
-              "value": "{semantic.colour.status.muted.warning.default.content}"
-            }
+          "bg": {
+            "value": "{semantic.colour.status.warning.default.background}",
+            "type": "color"
+          },
+          "content": {
+            "value": "{semantic.colour.status.warning.default.content}",
+            "type": "color"
           },
           "outline": {
-            "value": "{semantic.colour.status.muted.warning.default.outline}",
+            "value": "{semantic.colour.status.warning.default.outline}",
             "type": "color"
           }
         },
         "success": {
-          "default": {
-            "bg": {
-              "value": "{semantic.colour.status.muted.success.default.background}",
-              "type": "color"
-            },
-            "content": {
-              "value": "{semantic.colour.status.muted.success.default.content}",
-              "type": "color"
-            }
+          "bg": {
+            "value": "{semantic.colour.status.success.default.background}",
+            "type": "color"
+          },
+          "content": {
+            "value": "{semantic.colour.status.success.default.content}",
+            "type": "color"
           },
           "outline": {
-            "value": "{semantic.colour.status.muted.success.default.outline}",
+            "value": "{semantic.colour.status.success.default.outline}",
             "type": "color"
           }
         },
         "info": {
-          "default": {
-            "bg": {
-              "value": "{semantic.colour.status.muted.info.default.background}",
-              "type": "color"
-            },
-            "content": {
-              "value": "{semantic.colour.status.muted.info.default.content}",
-              "type": "color"
-            }
+          "bg": {
+            "value": "{semantic.colour.status.info.default.background}",
+            "type": "color"
+          },
+          "content": {
+            "value": "{semantic.colour.status.info.default.content}",
+            "type": "color"
           },
           "outline": {
-            "value": "{semantic.colour.status.muted.info.default.outline}",
+            "value": "{semantic.colour.status.info.default.outline}",
             "type": "color"
           }
         }
