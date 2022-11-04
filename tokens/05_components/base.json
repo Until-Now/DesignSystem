@@ -178,54 +178,6 @@
         }
       }
     },
-    "chip": {
-      "type": {
-        "sm": {
-          "value": "{text.caption.smBold}",
-          "type": "typography"
-        },
-        "md": {
-          "value": "{text.caption.mdBold}",
-          "type": "typography"
-        },
-        "lg": {
-          "value": "{text.caption.lgBold}",
-          "type": "typography"
-        },
-        "selected": {
-          "sm": {
-            "value": "{text.caption.smBold}",
-            "type": "typography"
-          },
-          "md": {
-            "value": "{text.caption.mdBold}",
-            "type": "typography"
-          },
-          "lg": {
-            "value": "{text.caption.lgBold}",
-            "type": "typography"
-          }
-        },
-        "input": {
-          "sm": {
-            "value": "{text.caption.smRegular}",
-            "type": "typography"
-          },
-          "md": {
-            "value": "{text.caption.mdRegular}",
-            "type": "typography"
-          },
-          "lg": {
-            "value": "{text.caption.lgRegular}",
-            "type": "typography"
-          }
-        }
-      },
-      "elevation": {
-        "value": "{elevation.300}",
-        "type": "boxShadow"
-      }
-    },
     "card": {
       "border-radius": {
         "top-left": {
