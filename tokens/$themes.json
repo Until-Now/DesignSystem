@@ -46,7 +46,8 @@
       "new_quantum/02_styles": "disabled",
       "05_components/search": "disabled",
       "05_components/badge": "disabled",
-      "05_components/buttonGroup": "disabled"
+      "05_components/buttonGroup": "disabled",
+      "05_components/tag": "disabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -97,7 +98,8 @@
       "new_quantum/02_styles": "disabled",
       "05_components/search": "disabled",
       "05_components/badge": "disabled",
-      "05_components/buttonGroup": "disabled"
+      "05_components/buttonGroup": "disabled",
+      "05_components/tag": "disabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -148,7 +150,8 @@
       "style_arcade/02_styles": "disabled",
       "style_arcade/03_components": "disabled",
       "05_components/badge": "disabled",
-      "05_components/buttonGroup": "disabled"
+      "05_components/buttonGroup": "disabled",
+      "05_components/tag": "disabled"
     },
     "$figmaStyleReferences": {
       "text.display.lgRegular": "S:cfc7f0181dff62732f48aae89616edbcdfcd4861,",

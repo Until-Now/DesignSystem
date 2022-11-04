@@ -1564,7 +1564,7 @@
         }
       },
       "status": {
-        "notification": {
+        "priority": {
           "value": "{semantic.error.default}",
           "type": "color"
         },
@@ -3088,8 +3088,12 @@
         "value": "{semantic.border.radius.md}",
         "type": "borderRadius"
       },
-      "status": {
+      "statusRounded": {
         "value": "{semantic.border.radius.round}",
+        "type": "borderRadius"
+      },
+      "status": {
+        "value": "{semantic.borderRadius.action}",
         "type": "borderRadius"
       },
       "feedback": {

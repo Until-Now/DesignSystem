@@ -3,11 +3,11 @@
     "badge": {
       "colour": {
         "small": {
-          "value": "{semantic.colour.status.notification}",
+          "value": "{semantic.colour.status.priority}",
           "type": "color"
         },
         "large": {
-          "value": "{semantic.colour.status.notification}",
+          "value": "{semantic.colour.status.priority}",
           "type": "color"
         },
         "content": {
@@ -17,7 +17,7 @@
       },
       "borderRadius": {
         "all": {
-          "value": "{semantic.borderRadius.status}",
+          "value": "{semantic.borderRadius.statusRounded}",
           "type": "borderRadius"
         }
       },
