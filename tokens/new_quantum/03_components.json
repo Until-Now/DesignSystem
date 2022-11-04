@@ -4,11 +4,11 @@
       "size": {
         "height": {
           "sm": {
-            "value": "{semantic.size.status.height.x-small}",
+            "value": "{semantic.size.status.height.xs}",
             "type": "sizing"
           },
           "md": {
-            "value": "{semantic.size.status.height.small}",
+            "value": "{semantic.size.status.height.sm}",
             "type": "sizing"
           }
         },

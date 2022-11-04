@@ -1564,66 +1564,204 @@
         }
       },
       "status": {
-        "priority": {
+        "highPriority": {
           "value": "{semantic.error.default}",
           "type": "color"
         },
-        "content": {
+        "lowPriority": {
+          "value": "{semantic.info.default}",
+          "type": "color"
+        },
+        "onPriority": {
           "value": "{semantic.content.inversePrimary.default}",
           "type": "color"
         },
         "primary": {
+          "unselected": {
+            "default": {
+              "background": {
+                "value": "{semantic.primary.subtle}",
+                "type": "color"
+              },
+              "content": {
+                "value": "{semantic.primary.on-subtle}",
+                "type": "color"
+              },
+              "state": {
+                "value": "{semantic.stateSurface.primary.subtle.default}",
+                "type": "color"
+              },
+              "outline": {
+                "value": "{semantic.outline.primary}",
+                "type": "color"
+              }
+            },
+            "hover": {
+              "background": {
+                "value": "{semantic.primary.subtle}",
+                "type": "color"
+              },
+              "content": {
+                "value": "{semantic.primary.on-subtle}",
+                "type": "color"
+              },
+              "state": {
+                "value": "{semantic.stateSurface.primary.subtle.hover}",
+                "type": "color"
+              },
+              "outline": {
+                "value": "{semantic.outline.primary}",
+                "type": "color"
+              }
+            },
+            "press": {
+              "background": {
+                "value": "{semantic.primary.subtle}",
+                "type": "color"
+              },
+              "content": {
+                "value": "{semantic.primary.on-subtle}",
+                "type": "color"
+              },
+              "state": {
+                "value": "{semantic.stateSurface.primary.subtle.press}",
+                "type": "color"
+              },
+              "outline": {
+                "value": "{semantic.outline.primary}",
+                "type": "color"
+              }
+            },
+            "active": {
+              "background": {
+                "value": "{semantic.primary.subtle}",
+                "type": "color"
+              },
+              "content": {
+                "value": "{semantic.primary.on-subtle}",
+                "type": "color"
+              },
+              "state": {
+                "value": "{semantic.stateSurface.primary.subtle.active}",
+                "type": "color"
+              },
+              "outline": {
+                "value": "{semantic.outline.primary}",
+                "type": "color"
+              }
+            }
+          },
+          "selected": {
+            "default": {
+              "background": {
+                "value": "{semantic.primary.tonal}",
+                "type": "color"
+              },
+              "content": {
+                "value": "{semantic.primary.on-tonal}",
+                "type": "color"
+              },
+              "state": {
+                "value": "{semantic.stateSurface.primary.tonal.default}",
+                "type": "color"
+              }
+            },
+            "hover": {
+              "background": {
+                "value": "{semantic.primary.tonal}",
+                "type": "color"
+              },
+              "content": {
+                "value": "{semantic.primary.on-tonal}",
+                "type": "color"
+              },
+              "state": {
+                "value": "{semantic.stateSurface.primary.tonal.hover}",
+                "type": "color"
+              }
+            },
+            "press": {
+              "background": {
+                "value": "{semantic.primary.tonal}",
+                "type": "color"
+              },
+              "content": {
+                "value": "{semantic.primary.on-tonal}",
+                "type": "color"
+              },
+              "state": {
+                "value": "{semantic.stateSurface.primary.tonal.press}",
+                "type": "color"
+              }
+            },
+            "active": {
+              "background": {
+                "value": "{semantic.primary.tonal}",
+                "type": "color"
+              },
+              "content": {
+                "value": "{semantic.primary.on-tonal}",
+                "type": "color"
+              },
+              "state": {
+                "value": "{semantic.stateSurface.primary.tonal.active}",
+                "type": "color"
+              }
+            }
+          }
+        },
+        "neutral": {
           "default": {
             "background": {
-              "value": "{semantic.primary.muted}",
+              "value": "{semantic.neutral.background-variant-1}",
               "type": "color"
             },
             "content": {
-              "value": "{semantic.secondary.on-tonal}",
+              "value": "{semantic.neutral.inverse-background}",
               "type": "color"
             },
             "state": {
-              "value": "{semantic.stateSurface.secondary.secondary.default}",
+              "value": "{semantic.stateSurface.neutral.darker.default}",
               "type": "color"
             },
             "outline": {
-              "value": "{semantic.outline.tonal-primary}",
+              "value": "rgba({semantic.outline.neutral},0.16)",
               "type": "color"
             }
           },
           "hover": {
             "background": {
-              "value": "{semantic.primary.muted}",
+              "value": "{semantic.neutral.background-variant-1}",
               "type": "color"
             },
             "content": {
-              "value": "{semantic.secondary.on-tonal}",
+              "value": "{semantic.neutral.inverse-background}",
               "type": "color"
             },
             "state": {
-              "value": "{semantic.stateSurface.secondary.secondary.hover}",
+              "value": "{semantic.stateSurface.neutral.darker.hover}",
               "type": "color"
             },
             "outline": {
-              "value": "{semantic.outline.tonal-primary}",
+              "value": "rgba({semantic.outline.neutral},0.16)",
               "type": "color"
             }
           },
           "press": {
             "background": {
-              "value": "{semantic.primary.muted}",
+              "value": "{semantic.neutral.background-variant-1}",
               "type": "color"
             },
             "content": {
-              "value": "{semantic.secondary.on-tonal}",
+              "value": "{semantic.neutral.inverse-background}",
               "type": "color"
             },
             "state": {
-              "value": "{semantic.stateSurface.secondary.secondary.press}",
+              "value": "{semantic.stateSurface.neutral.darker.press}",
               "type": "color"
             },
             "outline": {
-              "value": "{semantic.outline.tonal-primary}",
+              "value": "rgba({semantic.outline.neutral},0.16)",
               "type": "color"
             }
           }
@@ -1643,7 +1781,7 @@
               "type": "color"
             },
             "outline": {
-              "value": "{semantic.outline.error}",
+              "value": "rgba({semantic.outline.error},0.16)",
               "type": "color"
             }
           },
@@ -1661,7 +1799,7 @@
               "type": "color"
             },
             "outline": {
-              "value": "{semantic.outline.error}",
+              "value": "rgba({semantic.outline.error},0.16)",
               "type": "color"
             }
           },
@@ -1679,7 +1817,7 @@
               "type": "color"
             },
             "outline": {
-              "value": "{semantic.outline.error}",
+              "value": "rgba({semantic.outline.error},0.16)",
               "type": "color"
             }
           }
@@ -1699,7 +1837,7 @@
               "type": "color"
             },
             "outline": {
-              "value": "{semantic.outline.warning}",
+              "value": "rgba({semantic.outline.warning},0.16)",
               "type": "color"
             }
           },
@@ -1717,7 +1855,7 @@
               "type": "color"
             },
             "outline": {
-              "value": "{semantic.outline.warning}",
+              "value": "rgba({semantic.outline.warning},0.16)",
               "type": "color"
             }
           },
@@ -1735,7 +1873,7 @@
               "type": "color"
             },
             "outline": {
-              "value": "{semantic.outline.warning}",
+              "value": "rgba({semantic.outline.warning},0.16)",
               "type": "color"
             }
           }
@@ -1755,7 +1893,7 @@
               "type": "color"
             },
             "outline": {
-              "value": "{semantic.outline.success}",
+              "value": "rgba({semantic.outline.success},0.16)",
               "type": "color"
             }
           },
@@ -1773,7 +1911,7 @@
               "type": "color"
             },
             "outline": {
-              "value": "{semantic.outline.success}",
+              "value": "rgba({semantic.outline.success},0.16)",
               "type": "color"
             }
           },
@@ -1791,7 +1929,7 @@
               "type": "color"
             },
             "outline": {
-              "value": "{semantic.outline.success}",
+              "value": "rgba({semantic.outline.success},0.16)",
               "type": "color"
             }
           }
@@ -1811,7 +1949,7 @@
               "type": "color"
             },
             "outline": {
-              "value": "{semantic.outline.info}",
+              "value": "rgba({semantic.outline.info},0.16)",
               "type": "color"
             }
           },
@@ -1829,7 +1967,7 @@
               "type": "color"
             },
             "outline": {
-              "value": "{semantic.outline.info}",
+              "value": "rgba({semantic.outline.info},0.16)",
               "type": "color"
             }
           },
@@ -1847,7 +1985,7 @@
               "type": "color"
             },
             "outline": {
-              "value": "{semantic.outline.info}",
+              "value": "rgba({semantic.outline.info},0.16)",
               "type": "color"
             }
           }
@@ -2284,23 +2422,23 @@
       },
       "status": {
         "height": {
-          "2x-small": {
+          "2xs": {
             "value": "{semantic.component.4xs}",
             "type": "sizing"
           },
-          "x-small": {
+          "xs": {
             "value": "{semantic.component.3xs}",
             "type": "sizing"
           },
-          "small": {
+          "sm": {
             "value": "{semantic.component.2xs}",
             "type": "sizing"
           },
-          "medium": {
+          "md": {
             "value": "{semantic.component.xs}",
             "type": "sizing"
           },
-          "large": {
+          "lg": {
             "value": "{semantic.component.sm}",
             "type": "sizing"
           }

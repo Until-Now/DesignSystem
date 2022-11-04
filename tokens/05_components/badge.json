@@ -3,15 +3,15 @@
     "badge": {
       "colour": {
         "small": {
-          "value": "{semantic.colour.status.priority}",
+          "value": "{semantic.colour.status.highPriority}",
           "type": "color"
         },
         "large": {
-          "value": "{semantic.colour.status.priority}",
+          "value": "{semantic.colour.status.highPriority}",
           "type": "color"
         },
         "content": {
-          "value": "{semantic.colour.status.content}",
+          "value": "{semantic.colour.status.onPriority}",
           "type": "color"
         }
       },
