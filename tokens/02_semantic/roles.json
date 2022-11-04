@@ -1572,285 +1572,283 @@
           "value": "{semantic.content.inversePrimary.default}",
           "type": "color"
         },
-        "muted": {
-          "primary": {
-            "default": {
-              "background": {
-                "value": "{semantic.primary.muted}",
-                "type": "color"
-              },
-              "content": {
-                "value": "{semantic.secondary.on-tonal}",
-                "type": "color"
-              },
-              "state": {
-                "value": "{semantic.stateSurface.secondary.secondary.default}",
-                "type": "color"
-              },
-              "outline": {
-                "value": "{semantic.outline.tonal-primary}",
-                "type": "color"
-              }
+        "primary": {
+          "default": {
+            "background": {
+              "value": "{semantic.primary.muted}",
+              "type": "color"
             },
-            "hover": {
-              "background": {
-                "value": "{semantic.primary.muted}",
-                "type": "color"
-              },
-              "content": {
-                "value": "{semantic.secondary.on-tonal}",
-                "type": "color"
-              },
-              "state": {
-                "value": "{semantic.stateSurface.secondary.secondary.hover}",
-                "type": "color"
-              },
-              "outline": {
-                "value": "{semantic.outline.tonal-primary}",
-                "type": "color"
-              }
+            "content": {
+              "value": "{semantic.secondary.on-tonal}",
+              "type": "color"
             },
-            "press": {
-              "background": {
-                "value": "{semantic.primary.muted}",
-                "type": "color"
-              },
-              "content": {
-                "value": "{semantic.secondary.on-tonal}",
-                "type": "color"
-              },
-              "state": {
-                "value": "{semantic.stateSurface.secondary.secondary.press}",
-                "type": "color"
-              },
-              "outline": {
-                "value": "{semantic.outline.tonal-primary}",
-                "type": "color"
-              }
+            "state": {
+              "value": "{semantic.stateSurface.secondary.secondary.default}",
+              "type": "color"
+            },
+            "outline": {
+              "value": "{semantic.outline.tonal-primary}",
+              "type": "color"
             }
           },
-          "error": {
-            "default": {
-              "background": {
-                "value": "{semantic.error.muted}",
-                "type": "color"
-              },
-              "content": {
-                "value": "{semantic.error.on-muted}",
-                "type": "color"
-              },
-              "state": {
-                "value": "{semantic.stateSurface.status.error.default}",
-                "type": "color"
-              },
-              "outline": {
-                "value": "{semantic.outline.error}",
-                "type": "color"
-              }
+          "hover": {
+            "background": {
+              "value": "{semantic.primary.muted}",
+              "type": "color"
             },
-            "hover": {
-              "background": {
-                "value": "{semantic.error.muted}",
-                "type": "color"
-              },
-              "content": {
-                "value": "{semantic.error.on-muted}",
-                "type": "color"
-              },
-              "state": {
-                "value": "{semantic.stateSurface.status.error.hover}",
-                "type": "color"
-              },
-              "outline": {
-                "value": "{semantic.outline.error}",
-                "type": "color"
-              }
+            "content": {
+              "value": "{semantic.secondary.on-tonal}",
+              "type": "color"
             },
-            "press": {
-              "background": {
-                "value": "{semantic.error.muted}",
-                "type": "color"
-              },
-              "content": {
-                "value": "{semantic.error.on-muted}",
-                "type": "color"
-              },
-              "state": {
-                "value": "{semantic.stateSurface.status.error.press}",
-                "type": "color"
-              },
-              "outline": {
-                "value": "{semantic.outline.error}",
-                "type": "color"
-              }
+            "state": {
+              "value": "{semantic.stateSurface.secondary.secondary.hover}",
+              "type": "color"
+            },
+            "outline": {
+              "value": "{semantic.outline.tonal-primary}",
+              "type": "color"
             }
           },
-          "warning": {
-            "default": {
-              "background": {
-                "value": "{semantic.warning.muted}",
-                "type": "color"
-              },
-              "content": {
-                "value": "{semantic.warning.on-muted}",
-                "type": "color"
-              },
-              "state": {
-                "value": "{semantic.stateSurface.status.warning.default}",
-                "type": "color"
-              },
-              "outline": {
-                "value": "{semantic.outline.warning}",
-                "type": "color"
-              }
+          "press": {
+            "background": {
+              "value": "{semantic.primary.muted}",
+              "type": "color"
             },
-            "hover": {
-              "background": {
-                "value": "{semantic.warning.muted}",
-                "type": "color"
-              },
-              "content": {
-                "value": "{semantic.warning.on-muted}",
-                "type": "color"
-              },
-              "state": {
-                "value": "{semantic.stateSurface.status.warning.hover}",
-                "type": "color"
-              },
-              "outline": {
-                "value": "{semantic.outline.warning}",
-                "type": "color"
-              }
+            "content": {
+              "value": "{semantic.secondary.on-tonal}",
+              "type": "color"
             },
-            "press": {
-              "background": {
-                "value": "{semantic.warning.muted}",
-                "type": "color"
-              },
-              "content": {
-                "value": "{semantic.warning.on-muted}",
-                "type": "color"
-              },
-              "state": {
-                "value": "{semantic.stateSurface.status.warning.press}",
-                "type": "color"
-              },
-              "outline": {
-                "value": "{semantic.outline.warning}",
-                "type": "color"
-              }
+            "state": {
+              "value": "{semantic.stateSurface.secondary.secondary.press}",
+              "type": "color"
+            },
+            "outline": {
+              "value": "{semantic.outline.tonal-primary}",
+              "type": "color"
+            }
+          }
+        },
+        "error": {
+          "default": {
+            "background": {
+              "value": "{semantic.error.muted}",
+              "type": "color"
+            },
+            "content": {
+              "value": "{semantic.error.on-muted}",
+              "type": "color"
+            },
+            "state": {
+              "value": "{semantic.stateSurface.status.error.default}",
+              "type": "color"
+            },
+            "outline": {
+              "value": "{semantic.outline.error}",
+              "type": "color"
             }
           },
-          "success": {
-            "default": {
-              "background": {
-                "value": "{semantic.success.muted}",
-                "type": "color"
-              },
-              "content": {
-                "value": "{semantic.success.on-muted}",
-                "type": "color"
-              },
-              "state": {
-                "value": "{semantic.stateSurface.status.success.default}",
-                "type": "color"
-              },
-              "outline": {
-                "value": "{semantic.outline.success}",
-                "type": "color"
-              }
+          "hover": {
+            "background": {
+              "value": "{semantic.error.muted}",
+              "type": "color"
             },
-            "hover": {
-              "background": {
-                "value": "{semantic.success.muted}",
-                "type": "color"
-              },
-              "content": {
-                "value": "{semantic.success.on-muted}",
-                "type": "color"
-              },
-              "state": {
-                "value": "{semantic.stateSurface.status.success.hover}",
-                "type": "color"
-              },
-              "outline": {
-                "value": "{semantic.outline.success}",
-                "type": "color"
-              }
+            "content": {
+              "value": "{semantic.error.on-muted}",
+              "type": "color"
             },
-            "press": {
-              "background": {
-                "value": "{semantic.success.muted}",
-                "type": "color"
-              },
-              "content": {
-                "value": "{semantic.success.on-muted}",
-                "type": "color"
-              },
-              "state": {
-                "value": "{semantic.stateSurface.status.success.press}",
-                "type": "color"
-              },
-              "outline": {
-                "value": "{semantic.outline.success}",
-                "type": "color"
-              }
+            "state": {
+              "value": "{semantic.stateSurface.status.error.hover}",
+              "type": "color"
+            },
+            "outline": {
+              "value": "{semantic.outline.error}",
+              "type": "color"
             }
           },
-          "info": {
-            "default": {
-              "background": {
-                "value": "{semantic.info.muted}",
-                "type": "color"
-              },
-              "content": {
-                "value": "{semantic.info.on-muted}",
-                "type": "color"
-              },
-              "state": {
-                "value": "{semantic.stateSurface.status.info.default}",
-                "type": "color"
-              },
-              "outline": {
-                "value": "{semantic.outline.info}",
-                "type": "color"
-              }
+          "press": {
+            "background": {
+              "value": "{semantic.error.muted}",
+              "type": "color"
             },
-            "hover": {
-              "background": {
-                "value": "{semantic.info.muted}",
-                "type": "color"
-              },
-              "content": {
-                "value": "{semantic.info.on-muted}",
-                "type": "color"
-              },
-              "state": {
-                "value": "{semantic.stateSurface.status.info.hover}",
-                "type": "color"
-              },
-              "outline": {
-                "value": "{semantic.outline.info}",
-                "type": "color"
-              }
+            "content": {
+              "value": "{semantic.error.on-muted}",
+              "type": "color"
             },
-            "press": {
-              "background": {
-                "value": "{semantic.info.muted}",
-                "type": "color"
-              },
-              "content": {
-                "value": "{semantic.info.on-muted}",
-                "type": "color"
-              },
-              "state": {
-                "value": "{semantic.stateSurface.status.info.press}",
-                "type": "color"
-              },
-              "outline": {
-                "value": "{semantic.outline.info}",
-                "type": "color"
-              }
+            "state": {
+              "value": "{semantic.stateSurface.status.error.press}",
+              "type": "color"
+            },
+            "outline": {
+              "value": "{semantic.outline.error}",
+              "type": "color"
+            }
+          }
+        },
+        "warning": {
+          "default": {
+            "background": {
+              "value": "{semantic.warning.muted}",
+              "type": "color"
+            },
+            "content": {
+              "value": "{semantic.warning.on-muted}",
+              "type": "color"
+            },
+            "state": {
+              "value": "{semantic.stateSurface.status.warning.default}",
+              "type": "color"
+            },
+            "outline": {
+              "value": "{semantic.outline.warning}",
+              "type": "color"
+            }
+          },
+          "hover": {
+            "background": {
+              "value": "{semantic.warning.muted}",
+              "type": "color"
+            },
+            "content": {
+              "value": "{semantic.warning.on-muted}",
+              "type": "color"
+            },
+            "state": {
+              "value": "{semantic.stateSurface.status.warning.hover}",
+              "type": "color"
+            },
+            "outline": {
+              "value": "{semantic.outline.warning}",
+              "type": "color"
+            }
+          },
+          "press": {
+            "background": {
+              "value": "{semantic.warning.muted}",
+              "type": "color"
+            },
+            "content": {
+              "value": "{semantic.warning.on-muted}",
+              "type": "color"
+            },
+            "state": {
+              "value": "{semantic.stateSurface.status.warning.press}",
+              "type": "color"
+            },
+            "outline": {
+              "value": "{semantic.outline.warning}",
+              "type": "color"
+            }
+          }
+        },
+        "success": {
+          "default": {
+            "background": {
+              "value": "{semantic.success.muted}",
+              "type": "color"
+            },
+            "content": {
+              "value": "{semantic.success.on-muted}",
+              "type": "color"
+            },
+            "state": {
+              "value": "{semantic.stateSurface.status.success.default}",
+              "type": "color"
+            },
+            "outline": {
+              "value": "{semantic.outline.success}",
+              "type": "color"
+            }
+          },
+          "hover": {
+            "background": {
+              "value": "{semantic.success.muted}",
+              "type": "color"
+            },
+            "content": {
+              "value": "{semantic.success.on-muted}",
+              "type": "color"
+            },
+            "state": {
+              "value": "{semantic.stateSurface.status.success.hover}",
+              "type": "color"
+            },
+            "outline": {
+              "value": "{semantic.outline.success}",
+              "type": "color"
+            }
+          },
+          "press": {
+            "background": {
+              "value": "{semantic.success.muted}",
+              "type": "color"
+            },
+            "content": {
+              "value": "{semantic.success.on-muted}",
+              "type": "color"
+            },
+            "state": {
+              "value": "{semantic.stateSurface.status.success.press}",
+              "type": "color"
+            },
+            "outline": {
+              "value": "{semantic.outline.success}",
+              "type": "color"
+            }
+          }
+        },
+        "info": {
+          "default": {
+            "background": {
+              "value": "{semantic.info.muted}",
+              "type": "color"
+            },
+            "content": {
+              "value": "{semantic.info.on-muted}",
+              "type": "color"
+            },
+            "state": {
+              "value": "{semantic.stateSurface.status.info.default}",
+              "type": "color"
+            },
+            "outline": {
+              "value": "{semantic.outline.info}",
+              "type": "color"
+            }
+          },
+          "hover": {
+            "background": {
+              "value": "{semantic.info.muted}",
+              "type": "color"
+            },
+            "content": {
+              "value": "{semantic.info.on-muted}",
+              "type": "color"
+            },
+            "state": {
+              "value": "{semantic.stateSurface.status.info.hover}",
+              "type": "color"
+            },
+            "outline": {
+              "value": "{semantic.outline.info}",
+              "type": "color"
+            }
+          },
+          "press": {
+            "background": {
+              "value": "{semantic.info.muted}",
+              "type": "color"
+            },
+            "content": {
+              "value": "{semantic.info.on-muted}",
+              "type": "color"
+            },
+            "state": {
+              "value": "{semantic.stateSurface.status.info.press}",
+              "type": "color"
+            },
+            "outline": {
+              "value": "{semantic.outline.info}",
+              "type": "color"
             }
           }
         }
