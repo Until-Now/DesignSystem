@@ -2476,38 +2476,42 @@
       },
       "status": {
         "height": {
-          "2xs": {
-            "value": "{semantic.component.4xs}",
-            "type": "sizing"
-          },
-          "xs": {
-            "value": "{semantic.component.3xs}",
-            "type": "sizing"
-          },
-          "sm": {
-            "value": "{semantic.component.2xs}",
+          "lg": {
+            "value": "{semantic.component.sm}",
             "type": "sizing"
           },
           "md": {
             "value": "{semantic.component.xs}",
             "type": "sizing"
           },
-          "lg": {
-            "value": "{semantic.component.sm}",
+          "sm": {
+            "value": "{semantic.component.2xs}",
+            "type": "sizing"
+          },
+          "xs": {
+            "value": "{semantic.component.3xs}",
+            "type": "sizing"
+          },
+          "2xs": {
+            "value": "{semantic.component.4xs}",
             "type": "sizing"
           }
         },
-        "content": {
-          "small": {
-            "value": "{size.20}",
+        "icon": {
+          "lg": {
+            "value": "{size.24}",
             "type": "sizing"
           },
-          "medium": {
+          "md": {
             "value": "{size.22}",
             "type": "sizing"
           },
-          "large": {
-            "value": "{size.24}",
+          "sm": {
+            "value": "{size.20}",
+            "type": "sizing"
+          },
+          "xs": {
+            "value": "{size.16}",
             "type": "sizing"
           }
         }

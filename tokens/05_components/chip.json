@@ -18,15 +18,15 @@
         },
         "content": {
           "sm": {
-            "value": "{semantic.size.status.content.small}",
+            "value": "{semantic.size.status.icon.sm}",
             "type": "sizing"
           },
           "md": {
-            "value": "{semantic.size.status.content.medium}",
+            "value": "{semantic.size.status.icon.md}",
             "type": "sizing"
           },
           "lg": {
-            "value": "{semantic.size.status.content.large}",
+            "value": "{semantic.size.status.icon.lg}",
             "type": "sizing"
           }
         }

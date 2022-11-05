@@ -7,7 +7,7 @@
           "type": "sizing"
         },
         "icon": {
-          "value": "{semantic.size.status.content.small}",
+          "value": "{semantic.size.status.icon.xs}",
           "type": "sizing"
         }
       },
@@ -121,6 +121,12 @@
         "label": {
           "value": "{semantic.typography.status.smEmphasis}",
           "type": "typography"
+        }
+      },
+      "borderWidth": {
+        "default": {
+          "value": "{semantic.borderWidth.status.small}",
+          "type": "borderWidth"
         }
       }
     }
