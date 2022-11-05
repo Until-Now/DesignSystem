@@ -35,7 +35,7 @@
           "type": "spacing"
         }
       },
-      "text": {
+      "type": {
         "label": {
           "value": "{semantic.typography.status.smEmphasis}",
           "type": "typography"
