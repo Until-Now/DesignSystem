@@ -4,10 +4,6 @@
       "size": {
         "height": {
           "sm": {
-            "value": "{semantic.component.2xs}",
-            "type": "sizing"
-          },
-          "md": {
             "value": "{semantic.component.xs}",
             "type": "sizing"
           },
@@ -21,10 +17,6 @@
             "value": "{semantic.size.status.icon.sm}",
             "type": "sizing"
           },
-          "md": {
-            "value": "{semantic.size.status.icon.md}",
-            "type": "sizing"
-          },
           "lg": {
             "value": "{semantic.size.status.icon.lg}",
             "type": "sizing"
@@ -33,10 +25,6 @@
       },
       "spacing": {
         "smPadding": {
-          "value": "{semantic.spacing.status.small.padding-top} {semantic.spacing.status.small.padding-right} {semantic.spacing.status.small.padding-bot} {semantic.spacing.status.small.padding-left}",
-          "type": "spacing"
-        },
-        "mdPadding": {
           "value": "{semantic.spacing.status.medium.padding-top} {semantic.spacing.status.medium.padding-right} {semantic.spacing.status.medium.padding-bot} {semantic.spacing.status.medium.padding-left}",
           "type": "spacing"
         },
@@ -108,7 +96,7 @@
             "value": "{semantic.colour.status.primary.unselected.press.state}"
           }
         },
-        "active": {
+        "selected": {
           "default": {
             "bg": {
               "value": "{semantic.colour.status.primary.selected.default.background}",
@@ -271,50 +259,38 @@
           }
         }
       },
-      "border-radius": {
+      "borderRadius": {
         "all": {
           "value": "{semantic.borderRadius.status}",
           "type": "borderRadius"
         }
       },
-      "border-width": {
-        "action": {
+      "borderWidth": {
+        "unselected": {
           "value": "{semantic.borderWidth.status.small}",
           "type": "borderWidth"
         },
         "input": {
           "value": "{semantic.borderWidth.status.medium}",
           "type": "borderWidth"
-        },
-        "status": {
-          "value": "{semantic.borderWidth.status.small}",
-          "type": "borderWidth"
         }
       },
       "type": {
         "sm": {
-          "value": "{semantic.typography.status.smEmphasis}",
-          "type": "typography"
-        },
-        "md": {
-          "value": "{semantic.typography.status.smEmphasis}",
+          "value": "{semantic.typography.status.mdEmphasis}",
           "type": "typography"
         },
         "lg": {
-          "value": "{semantic.typography.status.smEmphasis}",
+          "value": "{semantic.typography.status.mdEmphasis}",
           "type": "typography"
         },
         "selected": {
           "sm": {
-            "value": "{semantic.typography.status.smEmphasis}",
-            "type": "typography"
-          },
-          "md": {
-            "value": "{semantic.typography.status.smEmphasis}",
+            "value": "{semantic.typography.status.mdEmphasis}",
             "type": "typography"
           },
           "lg": {
-            "value": "{semantic.typography.status.smEmphasis}",
+            "value": "{semantic.typography.status.mdEmphasis}",
             "type": "typography"
           }
         },
