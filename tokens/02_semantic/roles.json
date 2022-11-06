@@ -2551,6 +2551,10 @@
           "xl": {
             "value": "{size.64}",
             "type": "sizing"
+          },
+          "2xl": {
+            "value": "{size.72}",
+            "type": "sizing"
           }
         }
       }

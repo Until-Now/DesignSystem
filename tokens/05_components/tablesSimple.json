@@ -1,30 +1,36 @@
 {
   "comp": {
-    "table": {
+    "tableSimple": {
       "size": {
         "cellHeight": {
           "sm": {
-            "value": "{semantic.size.tables.cellHeight.xs}",
+            "value": "{semantic.size.tables.cellHeight.sm}",
             "type": "sizing"
           },
           "lg": {
-            "value": "{semantic.size.tables.cellHeight.xl}",
+            "value": "{semantic.size.tables.cellHeight.2xl}",
             "type": "sizing"
           }
         },
         "rowHeight": {
           "sm": {
-            "value": "{semantic.size.tables.cellHeight.xs}",
+            "value": "{semantic.size.tables.cellHeight.sm}",
             "type": "sizing"
           },
           "lg": {
-            "value": "{semantic.size.tables.cellHeight.xl}",
+            "value": "{semantic.size.tables.cellHeight.2xl}",
             "type": "sizing"
           }
         },
         "icon": {
-          "value": "{size.16}",
-          "type": "sizing"
+          "xs": {
+            "value": "{size.16}",
+            "type": "sizing"
+          },
+          "sm": {
+            "value": "{size.20}",
+            "type": "sizing"
+          }
         }
       },
       "spacing": {
@@ -45,7 +51,7 @@
           "type": "spacing"
         },
         "padding": {
-          "value": "{semantic.spacing.patterns.xs} {semantic.spacing.patterns.md} {semantic.spacing.patterns.xs} {semantic.spacing.patterns.md}",
+          "value": "{semantic.spacing.patterns.sm} {semantic.spacing.patterns.md} {semantic.spacing.patterns.sm} {semantic.spacing.patterns.md}",
           "type": "spacing"
         },
         "elementsSpaceBetween": {
@@ -74,6 +80,10 @@
             },
             "content": {
               "value": "{semantic.colour.patterns.content.default}",
+              "type": "color"
+            },
+            "contentMuted": {
+              "value": "{semantic.colour.patterns.content.muted}",
               "type": "color"
             },
             "divider": {
@@ -171,20 +181,14 @@
           }
         }
       },
-      "border-radius": {
-        "all": {
-          "value": "{semantic.border.radius.md}",
+      "borderRadius": {
+        "row": {
+          "value": "{semantic.border.radius.lg}",
           "type": "borderRadius"
         }
       },
-      "border-width": {
-        "default": {
-          "value": "{semantic.border.width.small}",
-          "type": "borderWidth"
-        }
-      },
       "type": {
-        "cellLargeText": {
+        "cellLgText": {
           "value": "{semantic.typography.patterns.mdStandard}",
           "type": "typography"
         },
