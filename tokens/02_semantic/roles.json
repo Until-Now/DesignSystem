@@ -2547,6 +2547,10 @@
           "lg": {
             "value": "{size.56}",
             "type": "sizing"
+          },
+          "xl": {
+            "value": "{size.64}",
+            "type": "sizing"
           }
         }
       }
