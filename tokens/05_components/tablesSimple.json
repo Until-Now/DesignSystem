@@ -4,7 +4,7 @@
       "size": {
         "cellHeight": {
           "sm": {
-            "value": "{semantic.size.tables.cellHeight.sm}",
+            "value": "{semantic.size.tables.cellHeight.xs}",
             "type": "sizing"
           },
           "lg": {
@@ -14,7 +14,7 @@
         },
         "rowHeight": {
           "sm": {
-            "value": "{semantic.size.tables.cellHeight.sm}",
+            "value": "{semantic.size.tables.cellHeight.xs}",
             "type": "sizing"
           },
           "lg": {
@@ -40,20 +40,20 @@
           "value": "{semantic.spacing.patterns.none} {semantic.spacing.patterns.sm} {semantic.spacing.patterns.none} {semantic.spacing.patterns.sm}",
           "type": "spacing"
         },
-        "textCellSpaceBetween": {
-          "value": "{semantic.spacing.patterns.xs}",
+        "spaceBetween": {
+          "value": "{semantic.spacing.patterns.2xs}",
           "type": "spacing"
         },
-        "componentCell": {
-          "value": "{semantic.spacing.patterns.none} {semantic.spacing.patterns.md} {semantic.spacing.patterns.none} {semantic.spacing.patterns.md}",
+        "padding": {
+          "value": "{semantic.spacing.patterns.xs} {semantic.spacing.patterns.md} {semantic.spacing.patterns.xs} {semantic.spacing.patterns.md}",
           "type": "spacing"
         },
         "elementsSpaceBetween": {
-          "value": "{semantic.spacing.patterns.xs}",
+          "value": "{semantic.spacing.patterns.none}",
           "type": "spacing"
         },
         "header": {
-          "value": "{semantic.spacing.patterns.md} {semantic.spacing.patterns.md} {semantic.spacing.patterns.md} {semantic.spacing.patterns.md}",
+          "value": "{semantic.spacing.patterns.none} {semantic.spacing.patterns.md} {semantic.spacing.patterns.none} {semantic.spacing.patterns.md}",
           "type": "spacing"
         }
       },
@@ -184,36 +184,24 @@
         }
       },
       "type": {
-        "cellHeader": {
-          "value": "{semantic.typography.patterns.mdEmphasis}",
-          "type": "typography"
-        },
-        "cellText": {
+        "cellLargeText": {
           "value": "{semantic.typography.patterns.mdStandard}",
           "type": "typography"
         },
+        "cellSubHeader": {
+          "value": "{semantic.typography.patterns.overline}",
+          "type": "typography"
+        },
+        "cellText": {
+          "value": "{semantic.typography.patterns.smStandard}",
+          "type": "typography"
+        },
         "cellLink": {
-          "value": "{semantic.typography.patterns.mdEmphasis}",
-          "type": "typography"
-        },
-        "cellSubtext": {
-          "value": "{semantic.typography.patterns.smStandard}",
-          "type": "typography"
-        },
-        "footer": {
-          "value": "{semantic.typography.patterns.smStandard}",
-          "type": "typography"
-        },
-        "pagination": {
           "value": "{semantic.typography.patterns.smEmphasis}",
           "type": "typography"
         },
         "header": {
-          "value": "{semantic.typography.patterns.xl}",
-          "type": "typography"
-        },
-        "headerSubtext": {
-          "value": "{semantic.typography.patterns.mdStandard}",
+          "value": "{semantic.typography.patterns.smStandard}",
           "type": "typography"
         }
       }
