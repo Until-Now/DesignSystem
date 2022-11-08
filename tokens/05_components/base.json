@@ -11,11 +11,11 @@
         "generic": {
           "default": {
             "bg": {
-              "value": "{semantic.colour.navigation.avatar.default.background}",
+              "value": "{semantic.colour.navigation.primary.unselected.default.background}",
               "type": "color"
             },
             "content": {
-              "value": "{semantic.colour.navigation.avatar.default.content}",
+              "value": "{semantic.colour.navigation.primary.unselected.default.content}",
               "type": "color"
             },
             "state": {
@@ -25,11 +25,11 @@
           },
           "hover": {
             "bg": {
-              "value": "{semantic.colour.navigation.avatar.hover.background}",
+              "value": "{semantic.colour.navigation.primary.unselected.hover.background}",
               "type": "color"
             },
             "content": {
-              "value": "{semantic.colour.navigation.avatar.hover.content}",
+              "value": "{semantic.colour.navigation.primary.unselected.hover.content}",
               "type": "color"
             },
             "state": {
@@ -39,11 +39,11 @@
           },
           "press": {
             "bg": {
-              "value": "{semantic.colour.navigation.avatar.press.background}",
+              "value": "{semantic.colour.navigation.primary.unselected.press.background}",
               "type": "color"
             },
             "content": {
-              "value": "{semantic.colour.navigation.avatar.press.content}",
+              "value": "{semantic.colour.navigation.primary.unselected.press.content}",
               "type": "color"
             },
             "state": {
