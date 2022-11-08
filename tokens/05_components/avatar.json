@@ -2,71 +2,173 @@
   "comp": {
     "avatar": {
       "size": {
-        "xxx-sm": {
-          "value": "{semantic.size.navigation.xxx-sm}",
+        "6xl": {
+          "value": "{semantic.size.navigation.6xl}",
           "type": "sizing"
         },
-        "xx-sm": {
-          "value": "{semantic.size.navigation.xx-sm}",
+        "5xl": {
+          "value": "{semantic.size.navigation.5xl}",
           "type": "sizing"
         },
-        "x-sm": {
-          "value": "{semantic.size.navigation.x-sm}",
+        "4xl": {
+          "value": "{semantic.size.navigation.4xl}",
           "type": "sizing"
         },
-        "sm": {
-          "value": "{semantic.size.navigation.sm}",
+        "3xl": {
+          "value": "{semantic.size.navigation.3xl}",
           "type": "sizing"
         },
-        "md": {
-          "value": "{semantic.size.navigation.md}",
+        "2xl": {
+          "value": "{semantic.size.navigation.2xl}",
+          "type": "sizing"
+        },
+        "xl": {
+          "value": "{semantic.size.navigation.xl}",
           "type": "sizing"
         },
         "lg": {
           "value": "{semantic.size.navigation.lg}",
           "type": "sizing"
         },
-        "x-lg": {
-          "value": "{semantic.size.navigation.x-lg}",
+        "md": {
+          "value": "{semantic.size.navigation.md}",
           "type": "sizing"
         },
-        "xx-lg": {
-          "value": "{semantic.size.navigation.xx-lg}",
+        "sm": {
+          "value": "{semantic.size.navigation.sm}",
+          "type": "sizing"
+        },
+        "xs": {
+          "value": "{semantic.size.navigation.xs}",
           "type": "sizing"
         },
         "content": {
-          "xxx-sm": {
-            "value": "{semantic.size.navigation.content.xxx-sm}",
+          "6xl": {
+            "value": "{semantic.size.navigation.content.6xl}",
             "type": "sizing"
           },
-          "xx-sm": {
-            "value": "{semantic.size.navigation.content.xx-sm}",
+          "5xl": {
+            "value": "{semantic.size.navigation.content.5xl}",
             "type": "sizing"
           },
-          "x-sm": {
-            "value": "{semantic.size.navigation.content.x-sm}",
+          "4xl": {
+            "value": "{semantic.size.navigation.content.4xl}",
             "type": "sizing"
           },
-          "sm": {
-            "value": "{semantic.size.navigation.content.sm}",
+          "3xl": {
+            "value": "{semantic.size.navigation.content.3xl}",
             "type": "sizing"
           },
-          "md": {
-            "value": "{semantic.size.navigation.content.md}",
+          "2xl": {
+            "value": "{semantic.size.navigation.content.2xl}",
+            "type": "sizing"
+          },
+          "xl": {
+            "value": "{semantic.size.navigation.content.xl}",
             "type": "sizing"
           },
           "lg": {
             "value": "{semantic.size.navigation.content.lg}",
             "type": "sizing"
           },
-          "x-lg": {
-            "value": "{semantic.size.navigation.content.x-lg}",
+          "md": {
+            "value": "{semantic.size.navigation.content.md}",
             "type": "sizing"
           },
-          "xx-lg": {
-            "value": "{semantic.size.navigation.content.xx-lg}",
+          "sm": {
+            "value": "{semantic.size.navigation.content.sm}",
+            "type": "sizing"
+          },
+          "xs": {
+            "value": "{semantic.size.navigation.content.xs}",
             "type": "sizing"
           }
+        }
+      },
+      "colour": {
+        "default": {
+          "bg": {
+            "value": "{semantic.colour.navigation.primary.unselected.default.background}",
+            "type": "color"
+          },
+          "content": {
+            "value": "{semantic.colour.navigation.primary.unselected.default.content}",
+            "type": "color"
+          },
+          "state": {
+            "type": "color",
+            "value": "{semantic.stateSurface.neutral.lighter.default}"
+          }
+        },
+        "hover": {
+          "bg": {
+            "value": "{semantic.colour.navigation.primary.unselected.hover.background}",
+            "type": "color"
+          },
+          "content": {
+            "value": "{semantic.colour.navigation.primary.unselected.hover.content}",
+            "type": "color"
+          },
+          "state": {
+            "type": "color",
+            "value": "{semantic.stateSurface.neutral.lighter.hover}"
+          }
+        },
+        "press": {
+          "bg": {
+            "value": "{semantic.colour.navigation.primary.unselected.press.background}",
+            "type": "color"
+          },
+          "content": {
+            "value": "{semantic.colour.navigation.primary.unselected.press.content}",
+            "type": "color"
+          },
+          "state": {
+            "type": "color",
+            "value": "{semantic.stateSurface.neutral.lighter.press}"
+          }
+        }
+      },
+      "border": {
+        "active-transparent": {
+          "value": "{sys.border.transparent.primary}",
+          "type": "color"
+        },
+        "active-opaque": {
+          "value": "{sys.border.opaque.primary}",
+          "type": "color"
+        },
+        "outline": {
+          "value": "{sys.border.opaque.white}",
+          "type": "color"
+        }
+      },
+      "borderRadius": {
+        "all": {
+          "value": "{semantic.border.radius.round}",
+          "type": "borderRadius"
+        }
+      },
+      "type": {
+        "6xl": {
+          "value": "{semantic.typography.heading.mdEmphasis}",
+          "type": "typography"
+        },
+        "5xl": {
+          "value": "{semantic.typography.heading.smEmphasis}",
+          "type": "typography"
+        },
+        "4xl": {
+          "value": "{semantic.typography.title.xlEmphasis}",
+          "type": "typography"
+        },
+        "3xl": {
+          "value": "{semantic.typography.title.lgEmphasis}",
+          "type": "typography"
+        },
+        "2xl": {
+          "value": "{semantic.typography.title.mdEmphasis}",
+          "type": "typography"
         }
       }
     }
