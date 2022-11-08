@@ -393,12 +393,6 @@
           "type": "fontSizes"
         }
       },
-      "navigation": {
-        "xs": {
-          "value": "{fontSize.sm}",
-          "type": "fontSizes"
-        }
-      },
       "patterns": {
         "xs": {
           "value": "{fontSize.sm}",

@@ -1492,6 +1492,22 @@
         }
       },
       "navigation": {
+        "5xl": {
+          "value": "{fontSize.5xl}",
+          "type": "fontSizes"
+        },
+        "4xl": {
+          "value": "{fontSize.4xl}",
+          "type": "fontSizes"
+        },
+        "3xl": {
+          "value": "{fontSize.3xl}",
+          "type": "fontSizes"
+        },
+        "2xl": {
+          "value": "{fontSize.2xl}",
+          "type": "fontSizes"
+        },
         "xl": {
           "value": "{fontSize.xl}",
           "type": "fontSizes"
@@ -1510,6 +1526,10 @@
         },
         "xs": {
           "value": "{fontSize.xs}",
+          "type": "fontSizes"
+        },
+        "2xs": {
+          "value": "{fontSize.2xs}",
           "type": "fontSizes"
         }
       },
