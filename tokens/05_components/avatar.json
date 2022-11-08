@@ -151,23 +151,43 @@
       },
       "type": {
         "6xl": {
-          "value": "{semantic.typography.heading.mdEmphasis}",
+          "value": "{semantic.typography.navigation.5xl}",
           "type": "typography"
         },
         "5xl": {
-          "value": "{semantic.typography.heading.smEmphasis}",
+          "value": "{semantic.typography.navigation.4xl}",
           "type": "typography"
         },
         "4xl": {
-          "value": "{semantic.typography.title.xlEmphasis}",
+          "value": "{semantic.typography.navigation.3xl}",
           "type": "typography"
         },
         "3xl": {
-          "value": "{semantic.typography.title.lgEmphasis}",
+          "value": "{semantic.typography.navigation.2xl}",
           "type": "typography"
         },
         "2xl": {
-          "value": "{semantic.typography.title.mdEmphasis}",
+          "value": "{semantic.typography.navigation.xl}",
+          "type": "typography"
+        },
+        "xl": {
+          "value": "{semantic.typography.navigation.lgEmphasis}",
+          "type": "typography"
+        },
+        "lg": {
+          "value": "{semantic.typography.navigation.smEmphasis}",
+          "type": "typography"
+        },
+        "md": {
+          "value": "{semantic.typography.navigation.xsEmphasis}",
+          "type": "typography"
+        },
+        "sm": {
+          "value": "{semantic.typography.navigation.xsEmphasis}",
+          "type": "typography"
+        },
+        "xs": {
+          "value": "{semantic.typography.navigation.2xsEmphasis}",
           "type": "typography"
         }
       }
