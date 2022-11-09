@@ -23,15 +23,15 @@
       },
       "accent": {
         "light": {
-          "value": "{semantic.secondary.background-variant-1}",
+          "value": "{semantic.primary.background}",
           "type": "color"
         },
         "normal": {
-          "value": "{semantic.secondary.background-variant-2}",
+          "value": "{semantic.primary.background-variant-1}",
           "type": "color"
         },
         "dark": {
-          "value": "{semantic.secondary.tonal}",
+          "value": "{semantic.primary.background-variant-2}",
           "type": "color"
         }
       },
