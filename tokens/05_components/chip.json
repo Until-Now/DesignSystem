@@ -267,11 +267,11 @@
       },
       "borderWidth": {
         "unselected": {
-          "value": "{semantic.borderWidth.status.small}",
+          "value": "{semantic.borderWidth.status.sm}",
           "type": "borderWidth"
         },
         "input": {
-          "value": "{semantic.borderWidth.status.medium}",
+          "value": "{semantic.borderWidth.status.md}",
           "type": "borderWidth"
         }
       },

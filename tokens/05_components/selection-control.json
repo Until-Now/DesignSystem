@@ -310,11 +310,11 @@
         },
         "border-width": {
           "default": {
-            "value": "{semantic.border.width.small}",
+            "value": "{semantic.border.width.sm}",
             "type": "borderWidth"
           },
           "error": {
-            "value": "{semantic.border.width.medium}",
+            "value": "{semantic.border.width.md}",
             "type": "borderWidth"
           }
         },

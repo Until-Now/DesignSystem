@@ -140,11 +140,11 @@
       },
       "borderWidth": {
         "default": {
-          "value": "{semantic.borderWidth.input.small}",
+          "value": "{semantic.borderWidth.input.sm}",
           "type": "borderWidth"
         },
         "active": {
-          "value": "{semantic.borderWidth.input.medium}",
+          "value": "{semantic.borderWidth.input.md}",
           "type": "borderWidth"
         }
       },

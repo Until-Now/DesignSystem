@@ -289,7 +289,7 @@
       },
       "border-width": {
         "default": {
-          "value": "{semantic.border.width.small}",
+          "value": "{semantic.border.width.sm}",
           "type": "borderWidth"
         }
       },

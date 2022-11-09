@@ -98,6 +98,14 @@
           "state": {
             "type": "color",
             "value": "{semantic.stateSurface.neutral.darker.default}"
+          },
+          "outline": {
+            "type": "color",
+            "value": "{semantic.neutral.background}"
+          },
+          "focus": {
+            "type": "color",
+            "value": "{semantic.outline.primary}"
           }
         },
         "hover": {
@@ -112,6 +120,14 @@
           "state": {
             "type": "color",
             "value": "{semantic.stateSurface.neutral.darker.hover}"
+          },
+          "outline": {
+            "type": "color",
+            "value": "{semantic.neutral.background}"
+          },
+          "focus": {
+            "type": "color",
+            "value": "{semantic.outline.primary}"
           }
         },
         "press": {
@@ -126,35 +142,15 @@
           "state": {
             "type": "color",
             "value": "{semantic.stateSurface.neutral.darker.press}"
-          }
-        },
-        "active": {
-          "bg": {
-            "value": "{semantic.colour.navigation.secondary.selected.press.background}",
-            "type": "color"
           },
-          "content": {
-            "value": "{semantic.colour.navigation.secondary.selected.press.content}",
-            "type": "color"
-          },
-          "state": {
+          "outline": {
             "type": "color",
-            "value": "{semantic.stateSurface.neutral.darker.press}"
+            "value": "{semantic.neutral.background}"
+          },
+          "focus": {
+            "type": "color",
+            "value": "{semantic.outline.primary}"
           }
-        }
-      },
-      "border": {
-        "active-transparent": {
-          "value": "{sys.border.transparent.primary}",
-          "type": "color"
-        },
-        "active-opaque": {
-          "value": "{sys.border.opaque.primary}",
-          "type": "color"
-        },
-        "outline": {
-          "value": "{sys.border.opaque.white}",
-          "type": "color"
         }
       },
       "borderRadius": {
@@ -203,6 +199,16 @@
         "xs": {
           "value": "{semantic.typography.navigation.2xsEmphasis}",
           "type": "typography"
+        }
+      },
+      "borderWidth": {
+        "default": {
+          "value": "{semantic.borderWidth.navigation.sm}",
+          "type": "borderWidth"
+        },
+        "active": {
+          "value": "{semantic.borderWidth.navigation.md}",
+          "type": "borderWidth"
         }
       }
     }
