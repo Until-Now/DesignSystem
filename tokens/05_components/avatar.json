@@ -88,44 +88,58 @@
       "colour": {
         "default": {
           "bg": {
-            "value": "{semantic.colour.navigation.primary.unselected.default.background}",
+            "value": "{semantic.colour.navigation.secondary.selected.default.background}",
             "type": "color"
           },
           "content": {
-            "value": "{semantic.colour.navigation.primary.unselected.default.content}",
+            "value": "{semantic.colour.navigation.secondary.selected.default.content}",
             "type": "color"
           },
           "state": {
             "type": "color",
-            "value": "{semantic.stateSurface.neutral.lighter.default}"
+            "value": "{semantic.stateSurface.neutral.darker.default}"
           }
         },
         "hover": {
           "bg": {
-            "value": "{semantic.colour.navigation.primary.unselected.hover.background}",
+            "value": "{semantic.colour.navigation.secondary.selected.hover.background}",
             "type": "color"
           },
           "content": {
-            "value": "{semantic.colour.navigation.primary.unselected.hover.content}",
+            "value": "{semantic.colour.navigation.secondary.selected.hover.content}",
             "type": "color"
           },
           "state": {
             "type": "color",
-            "value": "{semantic.stateSurface.neutral.lighter.hover}"
+            "value": "{semantic.stateSurface.neutral.darker.hover}"
           }
         },
         "press": {
           "bg": {
-            "value": "{semantic.colour.navigation.primary.unselected.press.background}",
+            "value": "{semantic.colour.navigation.secondary.selected.press.background}",
             "type": "color"
           },
           "content": {
-            "value": "{semantic.colour.navigation.primary.unselected.press.content}",
+            "value": "{semantic.colour.navigation.secondary.selected.press.content}",
             "type": "color"
           },
           "state": {
             "type": "color",
-            "value": "{semantic.stateSurface.neutral.lighter.press}"
+            "value": "{semantic.stateSurface.neutral.darker.press}"
+          }
+        },
+        "active": {
+          "bg": {
+            "value": "{semantic.colour.navigation.secondary.selected.press.background}",
+            "type": "color"
+          },
+          "content": {
+            "value": "{semantic.colour.navigation.secondary.selected.press.content}",
+            "type": "color"
+          },
+          "state": {
+            "type": "color",
+            "value": "{semantic.stateSurface.neutral.darker.press}"
           }
         }
       },

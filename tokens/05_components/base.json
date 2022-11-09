@@ -1,42 +1,10 @@
 {
   "comp": {
     "avatar": {
-      "border-radius": {
-        "all": {
-          "value": "{border-radius.100}",
-          "type": "borderRadius"
-        }
-      },
       "border-width": {
         "active": {
           "value": "{borderWidth.2}",
           "type": "borderWidth"
-        }
-      },
-      "type": {
-        "x-sm": {
-          "value": "{text.caption.smBold}",
-          "type": "typography"
-        },
-        "sm": {
-          "value": "{text.caption.mdBold}",
-          "type": "typography"
-        },
-        "md": {
-          "value": "{text.title.mdBold}",
-          "type": "typography"
-        },
-        "lg": {
-          "value": "{text.title.lgBold}",
-          "type": "typography"
-        },
-        "x-lg": {
-          "value": "{text.headline.mdBold}",
-          "type": "typography"
-        },
-        "xx-lg": {
-          "value": "{text.display.smBold}",
-          "type": "typography"
         }
       }
     },
