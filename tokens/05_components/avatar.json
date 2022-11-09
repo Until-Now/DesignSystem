@@ -143,20 +143,6 @@
           }
         }
       },
-      "border": {
-        "active-transparent": {
-          "value": "{sys.border.transparent.primary}",
-          "type": "color"
-        },
-        "active-opaque": {
-          "value": "{sys.border.opaque.primary}",
-          "type": "color"
-        },
-        "outline": {
-          "value": "{sys.border.opaque.white}",
-          "type": "color"
-        }
-      },
       "borderRadius": {
         "all": {
           "value": "{semantic.border.radius.round}",

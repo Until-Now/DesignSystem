@@ -375,24 +375,6 @@
               "value": "{semantic.colour.action.subtle.disabled.state}"
             }
           }
-        },
-        "border": {
-          "split-fill": {
-            "value": "{semantic.colour.action.primary.default.split}",
-            "type": "color"
-          },
-          "split-tonal": {
-            "value": "{comp.buttonGroup.colour.secondary.default.content}",
-            "type": "color"
-          },
-          "split-outline": {
-            "value": "{comp.buttonGroup.colour.tertiary.default.content}",
-            "type": "color"
-          },
-          "split-subtle": {
-            "value": "{comp.buttonGroup.colour.subtle.default.content}",
-            "type": "color"
-          }
         }
       },
       "borderWidth": {

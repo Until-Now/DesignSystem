@@ -1242,20 +1242,6 @@
             "value": "{semantic.neutral.transparent}",
             "description": "Input background default"
           }
-        },
-        "measure": {
-          "background": {
-            "value": "{semantic.neutral.background-variant-1}",
-            "type": "color"
-          },
-          "foreground": {
-            "value": "{colour.fg.accent.fill.lighter}",
-            "type": "color"
-          },
-          "foreground-accent": {
-            "value": "{colour.fg.accent.tonal.dark}",
-            "type": "color"
-          }
         }
       },
       "container": {

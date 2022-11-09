@@ -60,7 +60,7 @@
         },
         "type": {
           "label": {
-            "value": "{semantic.typography.input.2xsStandard}",
+            "value": "{semantic.typography.input.smStandard}",
             "type": "typography"
           }
         },
@@ -406,7 +406,7 @@
         },
         "type": {
           "label": {
-            "value": "{semantic.typography.input.2xsStandard}",
+            "value": "{semantic.typography.input.smStandard}",
             "type": "typography"
           }
         },
