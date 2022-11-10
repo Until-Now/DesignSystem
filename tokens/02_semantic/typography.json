@@ -1886,220 +1886,220 @@
       "typography": {
         "rubric": {
           "xl": {
-            "value": "{letterSpacing.-150}",
+            "value": "{letterSpacing.narrow.150}",
             "type": "letterSpacing"
           },
           "lg": {
-            "value": "{letterSpacing.-150}",
+            "value": "{letterSpacing.narrow.150}",
             "type": "letterSpacing"
           },
           "md": {
-            "value": "{letterSpacing.-150}",
+            "value": "{letterSpacing.narrow.150}",
             "type": "letterSpacing"
           },
           "sm": {
-            "value": "{letterSpacing.-150}",
+            "value": "{letterSpacing.narrow.150}",
             "type": "letterSpacing"
           }
         },
         "heading": {
           "xl": {
-            "value": "{letterSpacing.-50}",
+            "value": "{letterSpacing.narrow.50}",
             "type": "letterSpacing"
           },
           "lg": {
-            "value": "{letterSpacing.-50}",
+            "value": "{letterSpacing.narrow.50}",
             "type": "letterSpacing"
           },
           "md": {
-            "value": "{letterSpacing.-50}",
+            "value": "{letterSpacing.narrow.50}",
             "type": "letterSpacing"
           },
           "sm": {
-            "value": "{letterSpacing.-50}",
+            "value": "{letterSpacing.narrow.50}",
             "type": "letterSpacing"
           }
         },
         "title": {
           "xl": {
-            "value": "{letterSpacing.0}",
+            "value": "{letterSpacing.wide.0}",
             "type": "letterSpacing"
           },
           "lg": {
-            "value": "{letterSpacing.0}",
+            "value": "{letterSpacing.wide.0}",
             "type": "letterSpacing"
           },
           "md": {
-            "value": "{letterSpacing.0}",
+            "value": "{letterSpacing.wide.0}",
             "type": "letterSpacing"
           },
           "sm": {
-            "value": "{letterSpacing.0}",
+            "value": "{letterSpacing.wide.0}",
             "type": "letterSpacing"
           }
         },
         "paragraph": {
           "xl": {
-            "value": "{letterSpacing.15}",
+            "value": "{letterSpacing.wide.15}",
             "type": "letterSpacing"
           },
           "lg": {
-            "value": "{letterSpacing.15}",
+            "value": "{letterSpacing.wide.15}",
             "type": "letterSpacing"
           },
           "md": {
-            "value": "{letterSpacing.15}",
+            "value": "{letterSpacing.wide.15}",
             "type": "letterSpacing"
           },
           "sm": {
-            "value": "{letterSpacing.15}",
+            "value": "{letterSpacing.wide.15}",
             "type": "letterSpacing"
           },
           "xs": {
-            "value": "{letterSpacing.15}",
+            "value": "{letterSpacing.wide.15}",
             "type": "letterSpacing"
           }
         },
         "detail": {
           "lg": {
-            "value": "{letterSpacing.20}",
+            "value": "{letterSpacing.wide.20}",
             "type": "letterSpacing"
           },
           "md": {
-            "value": "{letterSpacing.20}",
+            "value": "{letterSpacing.wide.20}",
             "type": "letterSpacing"
           },
           "sm": {
-            "value": "{letterSpacing.20}",
+            "value": "{letterSpacing.wide.20}",
             "type": "letterSpacing"
           },
           "xs": {
-            "value": "{letterSpacing.20}",
+            "value": "{letterSpacing.wide.20}",
             "type": "letterSpacing"
           }
         },
         "special": {
           "overline": {
-            "value": "{letterSpacing.100}",
+            "value": "{letterSpacing.wide.100}",
             "type": "letterSpacing"
           }
         }
       },
       "action": {
         "xl": {
-          "value": "{letterSpacing.20}",
+          "value": "{letterSpacing.wide.20}",
           "type": "letterSpacing"
         },
         "lg": {
-          "value": "{letterSpacing.20}",
+          "value": "{letterSpacing.wide.20}",
           "type": "letterSpacing"
         },
         "md": {
-          "value": "{letterSpacing.20}",
+          "value": "{letterSpacing.wide.20}",
           "type": "letterSpacing"
         },
         "sm": {
-          "value": "{letterSpacing.20}",
+          "value": "{letterSpacing.wide.20}",
           "type": "letterSpacing"
         }
       },
       "input": {
         "xl": {
-          "value": "{letterSpacing.15}",
+          "value": "{letterSpacing.wide.15}",
           "type": "letterSpacing"
         },
         "lg": {
-          "value": "{letterSpacing.15}",
+          "value": "{letterSpacing.wide.15}",
           "type": "letterSpacing"
         },
         "md": {
-          "value": "{letterSpacing.15}",
+          "value": "{letterSpacing.wide.15}",
           "type": "letterSpacing"
         },
         "sm": {
-          "value": "{letterSpacing.15}",
+          "value": "{letterSpacing.wide.15}",
           "type": "letterSpacing"
         },
         "xs": {
-          "value": "{letterSpacing.15}",
+          "value": "{letterSpacing.wide.15}",
           "type": "letterSpacing"
         }
       },
       "feedback": {
         "xl": {
-          "value": "{letterSpacing.0}",
+          "value": "{letterSpacing.wide.0}",
           "type": "letterSpacing"
         },
         "lg": {
-          "value": "{letterSpacing.15}",
+          "value": "{letterSpacing.wide.15}",
           "type": "letterSpacing"
         },
         "md": {
-          "value": "{letterSpacing.15}",
+          "value": "{letterSpacing.wide.15}",
           "type": "letterSpacing"
         },
         "sm": {
-          "value": "{letterSpacing.15}",
+          "value": "{letterSpacing.wide.15}",
           "type": "letterSpacing"
         },
         "xs": {
-          "value": "{letterSpacing.15}",
+          "value": "{letterSpacing.wide.15}",
           "type": "letterSpacing"
         }
       },
       "status": {
         "lg": {
-          "value": "{letterSpacing.20}",
+          "value": "{letterSpacing.wide.20}",
           "type": "letterSpacing"
         },
         "md": {
-          "value": "{letterSpacing.20}",
+          "value": "{letterSpacing.wide.20}",
           "type": "letterSpacing"
         },
         "sm": {
-          "value": "{letterSpacing.20}",
+          "value": "{letterSpacing.wide.20}",
           "type": "letterSpacing"
         }
       },
       "navigation": {
         "5xl": {
-          "value": "{letterSpacing.20}",
+          "value": "{letterSpacing.wide.20}",
           "type": "letterSpacing"
         },
         "4xl": {
-          "value": "{letterSpacing.20}",
+          "value": "{letterSpacing.wide.20}",
           "type": "letterSpacing"
         },
         "3xl": {
-          "value": "{letterSpacing.20}",
+          "value": "{letterSpacing.wide.20}",
           "type": "letterSpacing"
         },
         "2xl": {
-          "value": "{letterSpacing.20}",
+          "value": "{letterSpacing.wide.20}",
           "type": "letterSpacing"
         },
         "xl": {
-          "value": "{letterSpacing.20}",
+          "value": "{letterSpacing.wide.20}",
           "type": "letterSpacing"
         },
         "lg": {
-          "value": "{letterSpacing.20}",
+          "value": "{letterSpacing.wide.20}",
           "type": "letterSpacing"
         },
         "md": {
-          "value": "{letterSpacing.20}",
+          "value": "{letterSpacing.wide.20}",
           "type": "letterSpacing"
         },
         "sm": {
-          "value": "{letterSpacing.20}",
+          "value": "{letterSpacing.wide.20}",
           "type": "letterSpacing"
         },
         "xs": {
-          "value": "{letterSpacing.20}",
+          "value": "{letterSpacing.wide.20}",
           "type": "letterSpacing"
         },
         "2xs": {
-          "value": "{letterSpacing.20}",
+          "value": "{letterSpacing.wide.20}",
           "type": "letterSpacing"
         }
       }
