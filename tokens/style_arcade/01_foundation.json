@@ -413,5 +413,9 @@
       "value": "7",
       "type": "other"
     }
+  },
+  "lineHeightFactor": {
+    "value": "8",
+    "type": "other"
   }
 }
