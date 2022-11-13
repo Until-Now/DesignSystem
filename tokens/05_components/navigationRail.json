@@ -1,0 +1,40 @@
+{
+  "comp": {
+    "navigationRail": {
+      "type": {
+        "heading": {
+          "value": "{semantic.typography.patterns.mdStandard}",
+          "type": "typography"
+        },
+        "navUnselected": {
+          "value": "{semantic.typography.patterns.mdStandard}",
+          "type": "typography"
+        },
+        "navSelected": {
+          "value": "{semantic.typography.patterns.mdEmphasis}",
+          "type": "typography"
+        },
+        "navSubheading": {
+          "value": "{semantic.typography.patterns.mdStandard}",
+          "type": "typography"
+        }
+      },
+      "sizing": {
+        "icon": {
+          "value": "{size.24}",
+          "type": "sizing"
+        }
+      },
+      "spacing": {
+        "padding": {
+          "value": "{semantic.spacing.patterns.sm} {semantic.spacing.patterns.sm} {semantic.spacing.patterns.sm} {semantic.spacing.patterns.sm}",
+          "type": "spacing"
+        },
+        "text": {
+          "value": "{semantic.component.text.padding-top} {semantic.component.text.padding-right} {semantic.component.text.padding-bot} {semantic.component.text.padding-left}",
+          "type": "spacing"
+        }
+      }
+    }
+  }
+}
