@@ -3,7 +3,7 @@
     "navigationRail": {
       "type": {
         "heading": {
-          "value": "{semantic.typography.patterns.mdStandard}",
+          "value": "{semantic.typography.patterns.xl}",
           "type": "typography"
         },
         "navUnselected": {
@@ -14,8 +14,16 @@
           "value": "{semantic.typography.patterns.mdEmphasis}",
           "type": "typography"
         },
-        "navSubheading": {
+        "caption": {
           "value": "{semantic.typography.patterns.mdStandard}",
+          "type": "typography"
+        },
+        "captionEmphasis": {
+          "value": "{semantic.typography.patterns.mdEmphasis}",
+          "type": "typography"
+        },
+        "navSubheading": {
+          "value": "{semantic.typography.patterns.overline}",
           "type": "typography"
         }
       },
@@ -26,13 +34,71 @@
         }
       },
       "spacing": {
-        "padding": {
+        "navItemPadding": {
           "value": "{semantic.spacing.patterns.sm} {semantic.spacing.patterns.sm} {semantic.spacing.patterns.sm} {semantic.spacing.patterns.sm}",
+          "type": "spacing"
+        },
+        "railCondensed": {
+          "value": "{semantic.spacing.patterns.xl} {space.20} {semantic.spacing.patterns.xl} {space.20}",
+          "type": "spacing"
+        },
+        "railExpanded": {
+          "value": "{semantic.spacing.patterns.xl} {semantic.spacing.patterns.xl} {semantic.spacing.patterns.xl} {semantic.spacing.patterns.xl}",
+          "type": "spacing"
+        },
+        "heading": {
+          "value": "{semantic.spacing.patterns.none} {semantic.spacing.patterns.sm} {semantic.spacing.patterns.none} {semantic.spacing.patterns.sm}",
           "type": "spacing"
         },
         "text": {
           "value": "{semantic.component.text.padding-top} {semantic.component.text.padding-right} {semantic.component.text.padding-bot} {semantic.component.text.padding-left}",
           "type": "spacing"
+        }
+      },
+      "colour": {
+        "item": {
+          "default": {
+            "background": {
+              "value": "{semantic.colour.action.subtle.default.background}",
+              "type": "color"
+            },
+            "content": {
+              "value": "{semantic.colour.action.subtle.default.content}",
+              "type": "color"
+            },
+            "state": {
+              "value": "{semantic.colour.action.subtle.default.state}",
+              "type": "color"
+            }
+          },
+          "hover": {
+            "background": {
+              "value": "{semantic.colour.action.subtle.hover.background}",
+              "type": "color"
+            },
+            "content": {
+              "value": "{semantic.colour.action.subtle.hover.content}",
+              "type": "color"
+            },
+            "state": {
+              "value": "{semantic.colour.action.subtle.hover.state}",
+              "type": "color"
+            }
+          },
+          "press": {
+            "background": {
+              "value": "{semantic.colour.action.subtle.press.background}",
+              "type": "color"
+            },
+            "content": {
+              "value": "{semantic.colour.action.subtle.press.content}",
+              "type": "color"
+            },
+            "state": {
+              "value": "{semantic.colour.action.subtle.press.state}",
+              "type": "color"
+            }
+          }
         }
       }
     }
