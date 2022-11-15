@@ -175,6 +175,11 @@
         "type": "color",
         "description": "Disabled action background state"
       },
+      "disabledVariant": {
+        "value": "{colour.neutral.150}",
+        "type": "color",
+        "description": "Disabled action background state"
+      },
       "transparent": {
         "value": "{colour.grayscale.transparent}",
         "type": "color"
