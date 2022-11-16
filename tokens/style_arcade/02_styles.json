@@ -393,11 +393,11 @@
         "type": "typography"
       },
       "smRegular": {
-        "value": "{semantic.typography.paragraph.xsStandard}",
+        "value": "{semantic.typography.paragraph.smStandard}",
         "type": "typography"
       },
       "smBold": {
-        "value": "{semantic.typography.paragraph.xsEmphasis}",
+        "value": "{semantic.typography.paragraph.smEmphasis}",
         "type": "typography"
       }
     },

@@ -384,7 +384,7 @@
   },
   "fontSize": {
     "base": {
-      "value": "13",
+      "value": "14",
       "type": "fontSizes"
     }
   },
@@ -399,23 +399,5 @@
         "type": "fontFamilies"
       }
     }
-  },
-  "fontSizeFactor": {
-    "sm": {
-      "value": "1.333333333333",
-      "type": "other"
-    },
-    "md": {
-      "value": "3",
-      "type": "other"
-    },
-    "lg": {
-      "value": "7",
-      "type": "other"
-    }
-  },
-  "lineHeightFactor": {
-    "value": "8",
-    "type": "other"
   }
 }
