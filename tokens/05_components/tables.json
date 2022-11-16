@@ -75,7 +75,7 @@
           "type": "spacing"
         },
         "footerSpaceBetween": {
-          "value": "{semantic.spacing.patterns.lg}",
+          "value": "{semantic.spacing.patterns.xl}",
           "type": "spacing"
         },
         "elementsSpaceBetween": {
@@ -87,7 +87,7 @@
           "type": "spacing"
         },
         "toolbarSpaceBetween": {
-          "value": "{semantic.spacing.patterns.lg}",
+          "value": "{semantic.spacing.patterns.xl}",
           "type": "spacing"
         },
         "toolbarActionSpaceBetween": {

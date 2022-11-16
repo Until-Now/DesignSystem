@@ -43,7 +43,7 @@
           "type": "spacing"
         },
         "navTitlePadding": {
-          "value": "{semantic.spacing.patterns.lg} {semantic.spacing.patterns.sm} {semantic.spacing.patterns.xs} {semantic.spacing.patterns.sm}",
+          "value": "{semantic.spacing.patterns.xl} {semantic.spacing.patterns.sm} {semantic.spacing.patterns.xs} {semantic.spacing.patterns.sm}",
           "type": "spacing"
         },
         "navSpaceBetween": {
@@ -51,7 +51,7 @@
           "type": "spacing"
         },
         "railSpaceBetween": {
-          "value": "{semantic.spacing.patterns.xl}",
+          "value": "{semantic.spacing.patterns.2xl}",
           "type": "spacing"
         },
         "railItemSpaceBetween": {
@@ -59,11 +59,11 @@
           "type": "spacing"
         },
         "railCondensedPadding": {
-          "value": "{semantic.spacing.patterns.xl} {space.20} {semantic.spacing.patterns.xl} {space.20}",
+          "value": "{semantic.spacing.patterns.2xl} {space.20} {semantic.spacing.patterns.2xl} {space.20}",
           "type": "spacing"
         },
         "railExpandedPadding": {
-          "value": "{semantic.spacing.patterns.xl} {semantic.spacing.patterns.xl} {semantic.spacing.patterns.xl} {semantic.spacing.patterns.xl}",
+          "value": "{semantic.spacing.patterns.2xl} {semantic.spacing.patterns.2xl} {semantic.spacing.patterns.2xl} {semantic.spacing.patterns.2xl}",
           "type": "spacing"
         },
         "heading": {

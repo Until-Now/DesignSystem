@@ -3089,24 +3089,104 @@
           "type": "spacing"
         },
         "lg": {
-          "value": "{space.24}",
+          "value": "{space.20}",
           "type": "spacing"
         },
         "xl": {
-          "value": "{space.32}",
+          "value": "{space.24}",
           "type": "spacing"
         },
         "2xl": {
-          "value": "{space.40}",
+          "value": "{space.32}",
           "type": "spacing"
         },
         "3xl": {
-          "value": "{space.48}",
+          "value": "{space.40}",
           "type": "spacing"
         },
         "4xl": {
+          "value": "{space.48}",
+          "type": "spacing"
+        },
+        "5xl": {
           "value": "{space.64}",
           "type": "spacing"
+        }
+      },
+      "navigation": {
+        "snackbar": {
+          "padding-left": {
+            "value": "{space.8}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{space.8}",
+            "type": "spacing"
+          },
+          "text": {
+            "padding-left": {
+              "value": "{space.8}",
+              "type": "spacing"
+            },
+            "padding-right": {
+              "value": "{space.8}",
+              "type": "spacing"
+            }
+          },
+          "space-between": {
+            "value": "{space.0}",
+            "type": "spacing"
+          },
+          "button": {
+            "padding-left": {
+              "value": "{space.4}",
+              "type": "spacing"
+            },
+            "padding-right": {
+              "value": "{space.4}",
+              "type": "spacing"
+            }
+          }
+        },
+        "ui-dialog": {
+          "padding-left": {
+            "value": "{space.20}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{space.20}",
+            "type": "spacing"
+          },
+          "padding-top": {
+            "value": "{space.20}",
+            "type": "spacing"
+          },
+          "padding-bottom": {
+            "value": "{space.20}",
+            "type": "spacing"
+          },
+          "content-spacing": {
+            "body": {
+              "value": "{space.40}",
+              "type": "spacing"
+            },
+            "body-fixed": {
+              "value": "Auto",
+              "type": "spacing"
+            },
+            "text": {
+              "value": "{space.16}",
+              "type": "spacing"
+            },
+            "buttons-primary": {
+              "value": "{space.8}",
+              "type": "spacing"
+            },
+            "buttons-secondary": {
+              "value": "{space.16}",
+              "type": "spacing"
+            }
+          }
         }
       }
     },
