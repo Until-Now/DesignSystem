@@ -3063,6 +3063,98 @@
           }
         }
       },
+      "navigation": {
+        "text": {
+          "padding-left": {
+            "value": "{space.0}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{space.0}",
+            "type": "spacing"
+          },
+          "padding-top": {
+            "value": "{semantic.component.text.padding-top}",
+            "type": "spacing"
+          },
+          "padding-bot": {
+            "value": "{semantic.component.text.padding-bot}",
+            "type": "spacing"
+          }
+        },
+        "sm": {
+          "padding-left": {
+            "value": "{space.8}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{space.8}",
+            "type": "spacing"
+          },
+          "padding-top": {
+            "value": "{space.4}",
+            "type": "spacing"
+          },
+          "padding-bottom": {
+            "value": "{space.4}",
+            "type": "spacing"
+          }
+        },
+        "md": {
+          "padding-left": {
+            "value": "{space.12}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{space.12}",
+            "type": "spacing"
+          },
+          "padding-top": {
+            "value": "{space.8}",
+            "type": "spacing"
+          },
+          "padding-bottom": {
+            "value": "{space.8}",
+            "type": "spacing"
+          }
+        },
+        "lg": {
+          "padding-left": {
+            "value": "{space.16}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{space.16}",
+            "type": "spacing"
+          },
+          "padding-top": {
+            "value": "{space.12}",
+            "type": "spacing"
+          },
+          "padding-bottom": {
+            "value": "{space.12}",
+            "type": "spacing"
+          }
+        },
+        "xl": {
+          "padding-left": {
+            "value": "{space.16}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{space.16}",
+            "type": "spacing"
+          },
+          "padding-top": {
+            "value": "{space.16}",
+            "type": "spacing"
+          },
+          "padding-bottom": {
+            "value": "{space.16}",
+            "type": "spacing"
+          }
+        }
+      },
       "patterns": {
         "none": {
           "value": "{space.0}",
@@ -3111,82 +3203,6 @@
         "5xl": {
           "value": "{space.64}",
           "type": "spacing"
-        }
-      },
-      "navigation": {
-        "snackbar": {
-          "padding-left": {
-            "value": "{space.8}",
-            "type": "spacing"
-          },
-          "padding-right": {
-            "value": "{space.8}",
-            "type": "spacing"
-          },
-          "text": {
-            "padding-left": {
-              "value": "{space.8}",
-              "type": "spacing"
-            },
-            "padding-right": {
-              "value": "{space.8}",
-              "type": "spacing"
-            }
-          },
-          "space-between": {
-            "value": "{space.0}",
-            "type": "spacing"
-          },
-          "button": {
-            "padding-left": {
-              "value": "{space.4}",
-              "type": "spacing"
-            },
-            "padding-right": {
-              "value": "{space.4}",
-              "type": "spacing"
-            }
-          }
-        },
-        "ui-dialog": {
-          "padding-left": {
-            "value": "{space.20}",
-            "type": "spacing"
-          },
-          "padding-right": {
-            "value": "{space.20}",
-            "type": "spacing"
-          },
-          "padding-top": {
-            "value": "{space.20}",
-            "type": "spacing"
-          },
-          "padding-bottom": {
-            "value": "{space.20}",
-            "type": "spacing"
-          },
-          "content-spacing": {
-            "body": {
-              "value": "{space.40}",
-              "type": "spacing"
-            },
-            "body-fixed": {
-              "value": "Auto",
-              "type": "spacing"
-            },
-            "text": {
-              "value": "{space.16}",
-              "type": "spacing"
-            },
-            "buttons-primary": {
-              "value": "{space.8}",
-              "type": "spacing"
-            },
-            "buttons-secondary": {
-              "value": "{space.16}",
-              "type": "spacing"
-            }
-          }
         }
       }
     },
