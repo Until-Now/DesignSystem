@@ -14,7 +14,7 @@
         "type": "color"
       },
       "tonal": {
-        "value": "{colour.primary.200}",
+        "value": "{colour.primary.100}",
         "type": "color"
       },
       "on-tonal": {
@@ -299,7 +299,7 @@
         "secondary": {
           "default": {
             "background": {
-              "value": "{semantic.primary.muted}",
+              "value": "{semantic.primary.tonal}",
               "type": "color"
             },
             "content": {
@@ -317,7 +317,7 @@
           },
           "hover": {
             "background": {
-              "value": "{semantic.primary.muted}",
+              "value": "{semantic.primary.tonal}",
               "type": "color"
             },
             "content": {
@@ -335,7 +335,7 @@
           },
           "press": {
             "background": {
-              "value": "{semantic.primary.muted}",
+              "value": "{semantic.primary.tonal}",
               "type": "color"
             },
             "content": {
@@ -353,7 +353,7 @@
           },
           "active": {
             "background": {
-              "value": "{semantic.primary.muted}",
+              "value": "{semantic.primary.tonal}",
               "type": "color"
             },
             "content": {
