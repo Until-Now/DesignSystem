@@ -188,7 +188,33 @@
       "05_components/navigationRail": "disabled",
       "05_components/tabs": "disabled"
     },
-    "$figmaStyleReferences": {}
+    "$figmaStyleReferences": {
+      "colour.bg.default": "S:c5c0a9fa9ebb6517c3a061b68cd6a073b20e80db,",
+      "colour.bg.cloud": "S:6203e96bd33cbc0f44a0eff8d673dd0b0036fe82,",
+      "colour.bg.overcast": "S:c9591d264892c4995f4e4032b6d7d0259cf3a365,",
+      "colour.bg.scrim": "S:3bb7d1b54fe19dd5339539b0553862cf3d45d8c7,",
+      "colour.bg.status.error": "S:d9cd9b58867ce1264ba66316319e1adf4fa16d82,",
+      "colour.bg.status.success": "S:ece2dbeea3ce2df1f6972ccb3cd602345fe4c552,",
+      "colour.bg.status.warning": "S:41ba7dcce16bdc0f553551753fb942a15440729f,",
+      "colour.bg.status.info": "S:b693c7651b6d1710b3f7774a9fb243a020694b0d,",
+      "colour.text-and-icons.default": "S:7f7029ef2a09af673fd0bb0e3371363cec42ad02,",
+      "colour.text-and-icons.muted": "S:35fec57359256bec34125f1cc12d15993e475551,",
+      "colour.text-and-icons.subtle": "S:73966373ed4c5f529675db7481f67fdfb38d5794,",
+      "colour.text-and-icons.inverted": "S:b5e06cfcaabeb28c540c872aa78e2045e6bbed31,",
+      "colour.text-and-icons.textLink": "S:903093062432ede8242d369ada408a9ec62f65dc,",
+      "colour.fg.status.error": "S:4288f0afd4af4717a15471d90ae498bfe9995c1a,",
+      "colour.fg.status.success": "S:141802351e02a77f6416209980da18e3a65828a2,",
+      "colour.fg.status.warning": "S:e80d4a5315fa39120fbd4223a0d05768e1cd8ccc,",
+      "colour.fg.status.info": "S:6341908c505e85b86d2e0711c3a1bfdb8d53ac7e,",
+      "colour.fg.supplementary.one": "S:3bcca5f8276bde6adba1bdd0c30ea50944f0a1bd,",
+      "colour.fg.supplementary.two": "S:e1f204762af407314ea21a1b8091e7861e3f7cc9,",
+      "colour.fg.supplementary.three": "S:7ab7882b2f18d9d1f59d9e297d8b9eedb42acda4,",
+      "colour.outline.light": "S:7a52f990c32b0778a01de85ded96cea29c54e11c,",
+      "colour.outline.dark": "S:705a1073b0d420733d84b61b73bea4b7bf6e80c1,",
+      "colour.fg.primary": "S:f8ef39f72780bf1c2545e9140479e105518575b8,",
+      "colour.fg.tonal": "S:b4246180db3f5c350f32a823f39f572c64b66320,",
+      "colour.fg.secondary": "S:9457ea17faad1fc0cd0d9417903b48ac2bc5ac89,"
+    }
   },
   {
     "id": "1607a10061b17b687f917ef3d4f82ade439c64c2",

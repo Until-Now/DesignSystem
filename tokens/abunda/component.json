@@ -103,11 +103,11 @@
           "type": "color"
         },
         "hover": {
-          "value": "{colour.fg.accent.tonal.normal}",
+          "value": "{colour.fg.supplementary.tonal.normal}",
           "type": "color"
         },
         "press": {
-          "value": "{colour.fg.accent.tonal.dark}",
+          "value": "{colour.fg.supplementary.tonal.dark}",
           "type": "color"
         }
       }
@@ -235,15 +235,15 @@
     "chart": {
       "content": {
         "label": {
-          "value": "{colour.text-and-icons.on-light.strong}",
+          "value": "{colour.text-and-icons.default}",
           "type": "color"
         },
         "legend": {
-          "value": "{colour.text-and-icons.on-light.strong}",
+          "value": "{colour.text-and-icons.default}",
           "type": "color"
         },
         "title": {
-          "value": "{colour.text-and-icons.on-light.strong}",
+          "value": "{colour.text-and-icons.default}",
           "type": "color"
         }
       },

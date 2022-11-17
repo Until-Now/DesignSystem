@@ -1,49 +1,21 @@
 {
   "colour": {
     "bg": {
-      "main": {
+      "default": {
         "value": "{semantic.neutral.background}",
         "type": "color"
       },
-      "alternate": {
+      "cloud": {
+        "value": "{semantic.primary.background-variant-1}",
+        "type": "color"
+      },
+      "overcast": {
         "value": "{semantic.primary.background-variant-2}",
         "type": "color"
       },
-      "subtle": {
-        "value": "{semantic.primary.background}",
-        "type": "color"
-      },
-      "inverted": {
-        "value": "{semantic.neutral.inverse-background}",
-        "type": "color"
-      },
-      "disabled": {
-        "value": "{semantic.neutral.disabled}",
-        "type": "color"
-      },
-      "accent": {
-        "light": {
-          "value": "{semantic.secondary.background-variant-1}",
-          "type": "color"
-        },
-        "normal": {
-          "value": "{semantic.secondary.background-variant-2}",
-          "type": "color"
-        },
-        "dark": {
-          "value": "#CFC7C1",
-          "type": "color"
-        }
-      },
       "scrim": {
-        "dark": {
-          "value": "rgba({semantic.scrim},0.5)",
-          "type": "color"
-        },
-        "light": {
-          "value": "rgba({semantic.scrim},0.25)",
-          "type": "color"
-        }
+        "value": "rgba({semantic.scrim},0.5)",
+        "type": "color"
       },
       "status": {
         "error": {
@@ -65,43 +37,25 @@
       }
     },
     "text-and-icons": {
-      "on-light": {
-        "strong": {
-          "value": "{semantic.content.primary.default}",
-          "type": "color",
-          "description": "High emphasis, dark"
-        },
-        "mid": {
-          "value": "{semantic.content.primary.muted}",
-          "type": "color",
-          "description": "md emphasis, dark"
-        },
-        "soft": {
-          "value": "{semantic.content.primary.subtle}",
-          "type": "color",
-          "description": "Low emphasis, dark"
-        }
+      "default": {
+        "value": "{semantic.content.primary.default}",
+        "type": "color",
+        "description": "High emphasis, dark"
       },
-      "on-dark": {
-        "strong": {
-          "value": "{semantic.content.inversePrimary.default}",
-          "type": "color",
-          "description": "High emphasis, light"
-        },
-        "mid": {
-          "value": "{semantic.content.inversePrimary.muted}",
-          "type": "color",
-          "description": "md emphasis, light"
-        },
-        "soft": {
-          "value": "{semantic.content.inversePrimary.subtle}",
-          "type": "color",
-          "description": "Low emphasis, light"
-        }
+      "muted": {
+        "value": "{semantic.content.primary.muted}",
+        "type": "color",
+        "description": "md emphasis, dark"
       },
-      "error": {
-        "value": "{semantic.error.default}",
-        "type": "color"
+      "subtle": {
+        "value": "{semantic.content.primary.subtle}",
+        "type": "color",
+        "description": "Low emphasis, dark"
+      },
+      "inverted": {
+        "value": "{semantic.content.inversePrimary.default}",
+        "type": "color",
+        "description": "High emphasis, light"
       },
       "textLink": {
         "value": "{semantic.content.text-link}",
@@ -110,72 +64,48 @@
     },
     "fg": {
       "status": {
-        "errorNormal": {
+        "error": {
           "value": "{semantic.error.default}",
           "type": "color"
         },
-        "errorDark": {
-          "value": "{semantic.error.on-muted}",
-          "type": "color"
-        },
-        "successNormal": {
+        "success": {
           "value": "{semantic.success.default}",
           "type": "color"
         },
-        "successDark": {
-          "value": "{semantic.success.on-muted}",
-          "type": "color"
-        },
-        "warningNormal": {
+        "warning": {
           "value": "{semantic.warning.default}",
           "type": "color"
         },
-        "warningDark": {
-          "value": "{semantic.warning.on-muted}",
-          "type": "color"
-        },
-        "infoNormal": {
+        "info": {
           "value": "{semantic.info.default}",
-          "type": "color"
-        },
-        "infoDark": {
-          "value": "{semantic.info.on-muted}",
           "type": "color"
         }
       },
-      "accent": {
-        "tonal": {
-          "normal": {
-            "value": "{colour.primary.200}",
-            "type": "color"
-          },
-          "dark": {
-            "value": "{colour.primary.300}",
-            "type": "color"
-          },
-          "darker": {
-            "value": "{colour.primary.400}",
-            "type": "color"
-          }
+      "supplementary": {
+        "one": {
+          "value": "#95CFD5",
+          "type": "color"
         },
-        "fill": {
-          "normal": {
-            "value": "{colour.primary.900}",
-            "type": "color"
-          },
-          "light": {
-            "value": "{colour.primary.800}",
-            "type": "color"
-          },
-          "lighter": {
-            "value": "{colour.primary.700}",
-            "type": "color"
-          },
-          "lightest": {
-            "value": "{colour.primary.600}",
-            "type": "color"
-          }
+        "two": {
+          "value": "#FD7E50",
+          "type": "color"
+        },
+        "three": {
+          "value": "#7E2E84",
+          "type": "color"
         }
+      },
+      "primary": {
+        "value": "{semantic.primary.primary}",
+        "type": "color"
+      },
+      "tonal": {
+        "value": "{semantic.primary.tonal}",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "{semantic.secondary.secondary}",
+        "type": "color"
       }
     },
     "outline": {

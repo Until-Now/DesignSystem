@@ -109,7 +109,7 @@
         "colour": {
           "default": {
             "bg": {
-              "value": "{colour.fg.accent.tonal.dark}",
+              "value": "{colour.fg.supplementary.tonal.dark}",
               "type": "color"
             },
             "content": {
@@ -123,7 +123,7 @@
           },
           "hover": {
             "bg": {
-              "value": "{colour.fg.accent.tonal.darker}",
+              "value": "{colour.fg.supplementary.tonal.darker}",
               "type": "color"
             },
             "content": {

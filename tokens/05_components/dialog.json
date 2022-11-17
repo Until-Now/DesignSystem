@@ -76,15 +76,15 @@
         },
         "text": {
           "strong": {
-            "value": "{colour.text-and-icons.on-light.strong}",
+            "value": "{colour.text-and-icons.default}",
             "type": "color"
           },
           "mid": {
-            "value": "{colour.text-and-icons.on-light.mid}",
+            "value": "{colour.text-and-icons.muted}",
             "type": "color"
           },
           "soft": {
-            "value": "{colour.text-and-icons.on-light.soft}",
+            "value": "{colour.text-and-icons.subtle}",
             "type": "color"
           }
         }

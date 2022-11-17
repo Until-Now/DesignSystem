@@ -51,6 +51,42 @@
       }
     },
     "secondary": {
+      "secondary": {
+        "value": "{colour.secondary.500}",
+        "type": "color"
+      },
+      "on-secondary": {
+        "value": "{colour.grayscale.white}",
+        "type": "color"
+      },
+      "inverse-secondary": {
+        "value": "{colour.secondary.100}",
+        "type": "color"
+      },
+      "tonal": {
+        "value": "{colour.secondary.150}",
+        "type": "color"
+      },
+      "on-tonal": {
+        "value": "{colour.secondary.700}",
+        "type": "color"
+      },
+      "muted": {
+        "value": "{colour.grayscale.white}",
+        "type": "color"
+      },
+      "on-muted": {
+        "value": "{colour.secondary.700}",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "{colour.grayscale.transparent}",
+        "type": "color"
+      },
+      "on-subtle": {
+        "value": "{colour.secondary.700}",
+        "type": "color"
+      },
       "background": {
         "value": "{colour.secondary.50}",
         "type": "color"
@@ -117,6 +153,62 @@
       },
       "text-link": {
         "value": "{colour.info.600}",
+        "type": "color"
+      }
+    },
+    "error": {
+      "muted": {
+        "value": "{colour.error.100}",
+        "type": "color"
+      },
+      "on-muted": {
+        "value": "{colour.error.500}",
+        "type": "color"
+      },
+      "default": {
+        "value": "{colour.error.500}",
+        "type": "color"
+      }
+    },
+    "warning": {
+      "muted": {
+        "value": "{colour.warning.100}",
+        "type": "color"
+      },
+      "on-muted": {
+        "value": "{colour.warning.500}",
+        "type": "color"
+      },
+      "default": {
+        "value": "{colour.warning.500}",
+        "type": "color"
+      }
+    },
+    "success": {
+      "muted": {
+        "value": "{colour.success.100}",
+        "type": "color"
+      },
+      "on-muted": {
+        "value": "{colour.success.500}",
+        "type": "color"
+      },
+      "default": {
+        "value": "{colour.success.500}",
+        "type": "color"
+      }
+    },
+    "info": {
+      "muted": {
+        "value": "{colour.info.100}",
+        "type": "color"
+      },
+      "on-muted": {
+        "value": "{colour.info.500}",
+        "type": "color"
+      },
+      "default": {
+        "value": "{colour.info.500}",
         "type": "color"
       }
     },

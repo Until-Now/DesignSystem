@@ -1254,11 +1254,11 @@
             "type": "color"
           },
           "foreground": {
-            "value": "{colour.fg.accent.fill.lighter}",
+            "value": "{colour.fg.supplementary.three}",
             "type": "color"
           },
           "foreground-accent": {
-            "value": "{colour.fg.accent.tonal.dark}",
+            "value": "{colour.fg.supplementary.tonal.dark}",
             "type": "color"
           }
         }
