@@ -641,10 +641,6 @@
       }
     },
     "borderRadius": {
-      "action": {
-        "value": "{semantic.border.radius.md}",
-        "type": "borderRadius"
-      },
       "ui-dialog": {
         "value": "{semantic.border.radius.md}",
         "type": "borderRadius"
@@ -679,6 +675,18 @@
         "xs": {
           "value": "{fontSize.sm}",
           "type": "fontSizes"
+        }
+      }
+    },
+    "border": {
+      "radius": {
+        "md": {
+          "value": "{border-radius.6}",
+          "type": "borderRadius"
+        },
+        "lg": {
+          "value": "{border-radius.12}",
+          "type": "borderRadius"
         }
       }
     }

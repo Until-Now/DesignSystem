@@ -171,6 +171,14 @@
           "type": "boxShadow"
         }
       }
+    },
+    "buttonGroup": {
+      "spacing": {
+        "elementsSpaceBetween": {
+          "value": "1",
+          "type": "spacing"
+        }
+      }
     }
   }
 }
