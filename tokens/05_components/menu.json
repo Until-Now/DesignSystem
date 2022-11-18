@@ -3,11 +3,15 @@
     "menu": {
       "size": {
         "icon": {
-          "small": {
+          "xs": {
             "value": "{semantic.size.input.icon.small}",
             "type": "sizing"
           },
-          "large": {
+          "sm": {
+            "value": "{semantic.size.input.icon.small}",
+            "type": "sizing"
+          },
+          "lg": {
             "value": "{semantic.size.input.icon.medium}",
             "type": "sizing"
           }
@@ -106,16 +110,16 @@
           }
         }
       },
-      "border-radius": {
+      "borderRadius": {
         "xs": {
           "value": "{border-radius.0}",
           "type": "borderRadius"
         },
-        "small": {
+        "sm": {
           "value": "{border-radius.0}",
           "type": "borderRadius"
         },
-        "large": {
+        "lg": {
           "value": "{border-radius.0}",
           "type": "borderRadius"
         }
@@ -126,21 +130,21 @@
             "value": "{semantic.typography.input.xsEmphasis}",
             "type": "typography"
           },
-          "small": {
+          "sm": {
             "value": "{semantic.typography.input.smEmphasis}",
             "type": "typography"
           },
-          "large": {
+          "lg": {
             "value": "{semantic.typography.input.mdEmphasis}",
             "type": "typography"
           }
         },
-        "sub-label": {
-          "small": {
+        "subLabel": {
+          "sm": {
             "value": "{semantic.typography.input.xsStandard}",
             "type": "typography"
           },
-          "large": {
+          "lg": {
             "value": "{semantic.typography.input.smStandard}",
             "type": "typography"
           }
@@ -150,11 +154,11 @@
             "value": "{semantic.typography.input.xsStandard}",
             "type": "typography"
           },
-          "small": {
+          "sm": {
             "value": "{semantic.typography.input.smStandard}",
             "type": "typography"
           },
-          "large": {
+          "lg": {
             "value": "{semantic.typography.input.mdStandard}",
             "type": "typography"
           }
@@ -164,11 +168,11 @@
             "value": "{semantic.typography.input.xsEmphasis}",
             "type": "typography"
           },
-          "small": {
+          "sm": {
             "value": "{semantic.typography.input.smEmphasis}",
             "type": "typography"
           },
-          "large": {
+          "lg": {
             "value": "{semantic.typography.input.mdEmphasis}",
             "type": "typography"
           }
