@@ -1,0 +1,51 @@
+{
+  "fontWeight": {
+    "300": {
+      "value": "Light",
+      "type": "fontWeights"
+    },
+    "400": {
+      "value": "Regular",
+      "type": "fontWeights"
+    },
+    "500": {
+      "value": "Medium",
+      "type": "fontWeights"
+    },
+    "600": {
+      "value": "SemiBold",
+      "type": "fontWeights"
+    },
+    "700": {
+      "value": "Bold",
+      "type": "fontWeights"
+    },
+    "800": {
+      "value": "ExtraBold",
+      "type": "fontWeights",
+      "description": "e.g. 'Heavy', 'Extrabold', 'Ultrabold'"
+    },
+    "900": {
+      "value": "Black",
+      "type": "fontWeights"
+    }
+  },
+  "fontSize": {
+    "base": {
+      "value": "14",
+      "type": "fontSizes"
+    }
+  },
+  "fontFamily": {
+    "product": {
+      "heading": {
+        "value": "Athletics",
+        "type": "fontFamilies"
+      },
+      "body": {
+        "value": "Athletics",
+        "type": "fontFamilies"
+      }
+    }
+  }
+}

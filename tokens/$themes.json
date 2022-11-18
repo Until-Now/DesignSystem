@@ -50,7 +50,9 @@
       "05_components/tag": "disabled",
       "05_components/tablesSimple": "disabled",
       "05_components/navigationRail": "disabled",
-      "05_components/tabs": "disabled"
+      "05_components/tabs": "disabled",
+      "solo/01_foundation": "disabled",
+      "solo/02_semantic": "disabled"
     },
     "$figmaStyleReferences": {
       "styles.bg.main": "S:aec6d5b5eaab23c9b60e889be6252c48f392954f,",
@@ -186,7 +188,9 @@
       "05_components/tag": "disabled",
       "05_components/tablesSimple": "disabled",
       "05_components/navigationRail": "disabled",
-      "05_components/tabs": "disabled"
+      "05_components/tabs": "disabled",
+      "solo/01_foundation": "disabled",
+      "solo/02_semantic": "disabled"
     },
     "$figmaStyleReferences": {
       "colour.bg.default": "S:c5c0a9fa9ebb6517c3a061b68cd6a073b20e80db,",
@@ -267,7 +271,9 @@
       "05_components/tag": "disabled",
       "05_components/tablesSimple": "disabled",
       "05_components/navigationRail": "disabled",
-      "05_components/tabs": "disabled"
+      "05_components/tabs": "disabled",
+      "solo/01_foundation": "disabled",
+      "solo/02_semantic": "disabled"
     },
     "$figmaStyleReferences": {
       "text.display.lgRegular": "S:cfc7f0181dff62732f48aae89616edbcdfcd4861,",

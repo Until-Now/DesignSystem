@@ -1,0 +1,118 @@
+{
+  "semantic": {
+    "fontWeight": {
+      "typography": {
+        "rubric": {
+          "emphasis": {
+            "value": "{fontWeight.500}",
+            "type": "fontWeights"
+          }
+        },
+        "heading": {
+          "emphasis": {
+            "value": "{fontWeight.500}",
+            "type": "fontWeights"
+          }
+        },
+        "title": {
+          "emphasis": {
+            "value": "{fontWeight.500}",
+            "type": "fontWeights"
+          }
+        },
+        "paragraph": {
+          "emphasis": {
+            "value": "{fontWeight.500}",
+            "type": "fontWeights"
+          }
+        },
+        "detail": {
+          "emphasis": {
+            "value": "{fontWeight.500}",
+            "type": "fontWeights"
+          }
+        }
+      }
+    },
+    "spacing": {
+      "action": {
+        "small": {
+          "padding-left": {
+            "value": "{space.8}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{space.8}",
+            "type": "spacing"
+          }
+        },
+        "medium": {
+          "padding-left": {
+            "value": "{space.12}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{space.12}",
+            "type": "spacing"
+          }
+        },
+        "large": {
+          "padding-left": {
+            "value": "{space.16}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{space.16}",
+            "type": "spacing"
+          }
+        }
+      },
+      "feedback": {
+        "ui-dialog": {
+          "padding-left": {
+            "value": "{space.32}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{space.32}",
+            "type": "spacing"
+          },
+          "padding-top": {
+            "value": "{space.32}",
+            "type": "spacing"
+          },
+          "padding-bottom": {
+            "value": "{space.32}",
+            "type": "spacing"
+          }
+        }
+      }
+    },
+    "fontSize": {
+      "input": {
+        "xs": {
+          "value": "{fontSize.sm}",
+          "type": "fontSizes"
+        }
+      },
+      "feedback": {
+        "xs": {
+          "value": "{fontSize.sm}",
+          "type": "fontSizes"
+        }
+      },
+      "status": {
+        "sm": {
+          "value": "{fontSize.sm}",
+          "type": "fontSizes"
+        }
+      },
+      "patterns": {
+        "xs": {
+          "value": "{fontSize.sm}",
+          "type": "fontSizes"
+        }
+      }
+    }
+  }
+}
