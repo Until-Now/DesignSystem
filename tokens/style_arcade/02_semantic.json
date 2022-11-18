@@ -462,6 +462,12 @@
             }
           }
         }
+      },
+      "status": {
+        "lowPriority": {
+          "value": "{semantic.secondary.secondary}",
+          "type": "color"
+        }
       }
     },
     "fontWeight": {
