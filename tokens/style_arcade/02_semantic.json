@@ -774,6 +774,18 @@
             "type": "spacing"
           }
         }
+      },
+      "navigation": {
+        "md": {
+          "padding-top": {
+            "value": "{space.10}",
+            "type": "spacing"
+          },
+          "padding-bot": {
+            "value": "{space.10}",
+            "type": "spacing"
+          }
+        }
       }
     },
     "borderRadius": {

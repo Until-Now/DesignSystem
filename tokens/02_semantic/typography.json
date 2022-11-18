@@ -1160,7 +1160,7 @@
         "mdEmphasis": {
           "value": {
             "fontFamily": "{fontFamily.product.body}",
-            "fontWeight": "{semantic.fontWeight.navigation.standard}",
+            "fontWeight": "{semantic.fontWeight.navigation.emphasis}",
             "lineHeight": "{semantic.lineHeight.navigation.md}",
             "fontSize": "{semantic.fontSize.navigation.md}",
             "letterSpacing": "{semantic.letterSpacing.navigation.md}",

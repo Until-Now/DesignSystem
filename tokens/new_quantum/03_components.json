@@ -45,6 +45,18 @@
           }
         }
       }
+    },
+    "tab": {
+      "type": {
+        "labelUnselected": {
+          "value": "{semantic.typography.navigation.mdStandard}",
+          "type": "typography"
+        },
+        "labelSelected": {
+          "value": "{semantic.typography.navigation.mdEmphasis}",
+          "type": "typography"
+        }
+      }
     }
   }
 }

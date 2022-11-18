@@ -17,7 +17,7 @@
           "type": "spacing"
         },
         "mdPadding": {
-          "value": "{semantic.spacing.navigation.md.padding-top} {semantic.spacing.navigation.md.padding-right} {semantic.spacing.navigation.md.padding-bottom} {semantic.spacing.navigation.md.padding-left}",
+          "value": "{semantic.spacing.navigation.md.padding-top} {semantic.spacing.navigation.md.padding-right} {semantic.spacing.navigation.md.padding-bot} {semantic.spacing.navigation.md.padding-left}",
           "type": "spacing"
         }
       },
