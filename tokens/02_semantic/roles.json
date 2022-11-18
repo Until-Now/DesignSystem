@@ -3056,11 +3056,11 @@
       "navigation": {
         "text": {
           "padding-left": {
-            "value": "{space.0}",
+            "value": "{semantic.component.text.padding-left}",
             "type": "spacing"
           },
           "padding-right": {
-            "value": "{space.0}",
+            "value": "{semantic.component.text.padding-right}",
             "type": "spacing"
           },
           "padding-top": {
@@ -3082,11 +3082,11 @@
             "type": "spacing"
           },
           "padding-top": {
-            "value": "{space.4}",
+            "value": "{space.8}",
             "type": "spacing"
           },
           "padding-bottom": {
-            "value": "{space.4}",
+            "value": "{space.8}",
             "type": "spacing"
           }
         },
@@ -3100,11 +3100,11 @@
             "type": "spacing"
           },
           "padding-top": {
-            "value": "{space.8}",
+            "value": "{space.11}",
             "type": "spacing"
           },
           "padding-bottom": {
-            "value": "{space.8}",
+            "value": "{space.11}",
             "type": "spacing"
           }
         },

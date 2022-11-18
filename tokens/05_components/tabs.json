@@ -1,1 +1,66 @@
-{}
+{
+  "comp": {
+    "tab": {
+      "type": {
+        "labelUnselected": {
+          "value": "{semantic.typography.navigation.smStandard}",
+          "type": "typography"
+        },
+        "labelSelected": {
+          "value": "{semantic.typography.navigation.smEmphasis}",
+          "type": "typography"
+        }
+      },
+      "spacing": {
+        "text": {
+          "value": "{semantic.spacing.navigation.text.padding-top} {semantic.spacing.navigation.text.padding-right} {semantic.spacing.navigation.text.padding-bot} {semantic.spacing.navigation.text.padding-left}",
+          "type": "spacing"
+        },
+        "mdPadding": {
+          "value": "{semantic.spacing.navigation.md.padding-top} {semantic.spacing.navigation.md.padding-right} {semantic.spacing.navigation.md.padding-bottom} {semantic.spacing.navigation.md.padding-left}",
+          "type": "spacing"
+        }
+      },
+      "colour": {
+        "primary": {
+          "default": {
+            "text": {
+              "value": "{semantic.colour.navigation.primary.unselected.default.content}",
+              "type": "color"
+            },
+            "outline": {
+              "value": "{semantic.colour.navigation.primary.unselected.default.outline}",
+              "type": "color"
+            }
+          },
+          "hover": {
+            "text": {
+              "value": "{semantic.colour.navigation.primary.unselected.hover.content}",
+              "type": "color"
+            },
+            "outline": {
+              "value": "{semantic.colour.navigation.primary.unselected.hover.outline}",
+              "type": "color"
+            }
+          },
+          "active": {
+            "text": {
+              "value": "{semantic.colour.navigation.primary.unselected.press.content}",
+              "type": "color"
+            },
+            "outline": {
+              "value": "{semantic.colour.navigation.primary.unselected.press.outline}",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "borderWidth": {
+        "default": {
+          "value": "{semantic.borderWidth.navigation.md}",
+          "type": "borderWidth"
+        }
+      }
+    }
+  }
+}
