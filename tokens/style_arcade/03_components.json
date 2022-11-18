@@ -206,6 +206,24 @@
           "value": "1",
           "type": "spacing"
         }
+      },
+      "borderRadius": {
+        "group": {
+          "value": "{semantic.borderRadius.action}",
+          "type": "borderRadius"
+        }
+      },
+      "colour": {
+        "group": {
+          "background": {
+            "value": "{semantic.colour.action.secondary.default.background}",
+            "type": "color"
+          },
+          "outline": {
+            "value": "{semantic.colour.action.secondary.default.background}",
+            "type": "color"
+          }
+        }
       }
     }
   }
