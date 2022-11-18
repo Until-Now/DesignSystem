@@ -1795,11 +1795,11 @@
           "type": "lineHeights"
         },
         "sm": {
-          "value": "18",
+          "value": "20",
           "type": "lineHeights"
         },
         "xs": {
-          "value": "16",
+          "value": "20",
           "type": "lineHeights"
         }
       },

@@ -14,71 +14,29 @@
         }
       },
       "spacing": {
-        "small": {
-          "padding": {
-            "value": "{semantic.spacing.input.smol.padding-top} {semantic.spacing.input.small.padding-left} {semantic.spacing.input.smol.padding-top} {semantic.spacing.input.small.padding-left}",
-            "type": "spacing"
-          },
-          "padding-right": {
-            "value": "{semantic.spacing.input.small.padding-right}",
-            "type": "spacing"
-          },
-          "padding-top": {
-            "value": "{semantic.spacing.input.medium.padding-top}",
-            "type": "spacing"
-          },
-          "padding-bot": {
-            "value": "{semantic.spacing.input.medium.padding-bot}",
-            "type": "spacing"
-          }
+        "xs": {
+          "value": "{semantic.spacing.input.xs.padding-top} {semantic.spacing.input.xs.padding-right} {semantic.spacing.input.xs.padding-bot} {semantic.spacing.input.xs.padding-left}",
+          "type": "spacing"
         },
-        "large": {
-          "padding-left": {
-            "value": "{semantic.spacing.input.medium.padding-left}",
-            "type": "spacing"
-          },
-          "padding-right": {
-            "value": "{semantic.spacing.input.medium.padding-right}",
-            "type": "spacing"
-          },
-          "padding-top": {
-            "value": "{semantic.spacing.input.large.padding-top}",
-            "type": "spacing"
-          },
-          "padding-bot": {
-            "value": "{semantic.spacing.input.large.padding-bot}",
-            "type": "spacing"
-          }
+        "sm": {
+          "value": "{semantic.spacing.input.small.padding-top} {semantic.spacing.input.small.padding-right} {semantic.spacing.input.small.padding-bot} {semantic.spacing.input.small.padding-left}",
+          "type": "spacing"
+        },
+        "lg": {
+          "value": "{semantic.spacing.input.large.padding-top} {semantic.spacing.input.medium.padding-right} {semantic.spacing.input.large.padding-bot} {semantic.spacing.input.medium.padding-left}",
+          "type": "spacing"
         },
         "text": {
-          "padding-left": {
-            "value": "{semantic.spacing.input.text.padding-left}",
-            "type": "spacing"
-          },
-          "padding-right": {
-            "value": "{semantic.spacing.input.text.padding-right}",
-            "type": "spacing"
-          },
-          "padding-top": {
-            "value": "{semantic.spacing.input.text.padding-top}",
-            "type": "spacing"
-          },
-          "padding-bot": {
-            "value": "{semantic.spacing.input.text.padding-bot}",
-            "type": "spacing"
-          }
+          "value": "{semantic.spacing.input.text.padding-top} {semantic.spacing.input.text.padding-right} {semantic.spacing.input.text.padding-bot} {semantic.spacing.input.text.padding-right}",
+          "type": "spacing"
         },
-        "content": {
-          "space-between": {
-            "value": "{semantic.spacing.input.content.space-between}",
-            "type": "spacing"
-          }
+        "contentSpaceBetween": {
+          "value": "{semantic.spacing.input.content.space-between}",
+          "type": "spacing"
         },
-        "elements": {
-          "space-between": {
-            "value": "{semantic.spacing.input.elements.space-between}",
-            "type": "spacing"
-          }
+        "elementsSpaceBetween": {
+          "value": "{semantic.spacing.input.elements.space-between}",
+          "type": "spacing"
         }
       },
       "colour": {
@@ -149,6 +107,10 @@
         }
       },
       "border-radius": {
+        "xs": {
+          "value": "{border-radius.0}",
+          "type": "borderRadius"
+        },
         "small": {
           "value": "{border-radius.0}",
           "type": "borderRadius"
@@ -160,6 +122,10 @@
       },
       "type": {
         "label": {
+          "xs": {
+            "value": "{semantic.typography.input.xsEmphasis}",
+            "type": "typography"
+          },
           "small": {
             "value": "{semantic.typography.input.smEmphasis}",
             "type": "typography"
@@ -180,6 +146,10 @@
           }
         },
         "meta": {
+          "xs": {
+            "value": "{semantic.typography.input.xsStandard}",
+            "type": "typography"
+          },
           "small": {
             "value": "{semantic.typography.input.smStandard}",
             "type": "typography"
@@ -190,6 +160,10 @@
           }
         },
         "link": {
+          "xs": {
+            "value": "{semantic.typography.input.xsEmphasis}",
+            "type": "typography"
+          },
           "small": {
             "value": "{semantic.typography.input.smEmphasis}",
             "type": "typography"
