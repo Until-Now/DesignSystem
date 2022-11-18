@@ -78,6 +78,34 @@
           "value": "{semantic.typography.patterns.xsEmphasis}",
           "type": "typography"
         }
+      },
+      "colour": {
+        "row": {
+          "default": {
+            "header": {
+              "value": "{semantic.colour.patterns.background.accentSubtle}",
+              "type": "color"
+            }
+          },
+          "hovere": {
+            "header": {
+              "value": "{semantic.colour.patterns.background.accentSubtle}",
+              "type": "color"
+            }
+          },
+          "press": {
+            "header": {
+              "value": "{semantic.colour.patterns.background.accentSubtle}",
+              "type": "color"
+            },
+            "active": {
+              "header": {
+                "value": "{semantic.colour.patterns.background.accentSubtle}",
+                "type": "color"
+              }
+            }
+          }
+        }
       }
     },
     "menu": {
