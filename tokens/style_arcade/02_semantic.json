@@ -467,6 +467,124 @@
         "lowPriority": {
           "value": "{semantic.secondary.secondary}",
           "type": "color"
+        },
+        "primary": {
+          "unselected": {
+            "default": {
+              "background": {
+                "value": "{semantic.primary.tonal}",
+                "type": "color"
+              },
+              "content": {
+                "value": "{semantic.primary.on-tonal}",
+                "type": "color"
+              },
+              "state": {
+                "value": "{semantic.stateSurface.primary.tonal.default}",
+                "type": "color"
+              }
+            },
+            "hover": {
+              "background": {
+                "value": "{semantic.primary.tonal}",
+                "type": "color"
+              },
+              "content": {
+                "value": "{semantic.primary.on-tonal}",
+                "type": "color"
+              },
+              "state": {
+                "value": "{semantic.stateSurface.primary.tonal.hover}",
+                "type": "color"
+              }
+            },
+            "press": {
+              "background": {
+                "value": "{semantic.primary.tonal}",
+                "type": "color"
+              },
+              "content": {
+                "value": "{semantic.primary.on-tonal}",
+                "type": "color"
+              },
+              "state": {
+                "value": "{semantic.stateSurface.primary.tonal.press}",
+                "type": "color"
+              }
+            },
+            "active": {
+              "background": {
+                "value": "{semantic.primary.tonal}",
+                "type": "color"
+              },
+              "content": {
+                "value": "{semantic.primary.on-tonal}",
+                "type": "color"
+              },
+              "state": {
+                "value": "{semantic.stateSurface.primary.tonal.active}",
+                "type": "color"
+              }
+            }
+          },
+          "selected": {
+            "default": {
+              "background": {
+                "value": "{semantic.secondary.tonal}",
+                "type": "color"
+              },
+              "content": {
+                "value": "{semantic.secondary.on-tonal}",
+                "type": "color"
+              },
+              "state": {
+                "value": "{semantic.stateSurface.secondary.tonal.default}",
+                "type": "color"
+              }
+            },
+            "hover": {
+              "background": {
+                "value": "{semantic.secondary.tonal}",
+                "type": "color"
+              },
+              "content": {
+                "value": "{semantic.secondary.on-tonal}",
+                "type": "color"
+              },
+              "state": {
+                "value": "{semantic.stateSurface.secondary.tonal.hover}",
+                "type": "color"
+              }
+            },
+            "press": {
+              "background": {
+                "value": "{semantic.secondary.tonal}",
+                "type": "color"
+              },
+              "content": {
+                "value": "{semantic.secondary.on-tonal}",
+                "type": "color"
+              },
+              "state": {
+                "value": "{semantic.stateSurface.secondary.tonal.press}",
+                "type": "color"
+              }
+            },
+            "active": {
+              "background": {
+                "value": "{semantic.secondary.tonal}",
+                "type": "color"
+              },
+              "content": {
+                "value": "{semantic.secondary.on-tonal}",
+                "type": "color"
+              },
+              "state": {
+                "value": "{semantic.stateSurface.secondary.tonal.active}",
+                "type": "color"
+              }
+            }
+          }
         }
       }
     },
@@ -648,6 +766,10 @@
     },
     "borderRadius": {
       "ui-dialog": {
+        "value": "{semantic.border.radius.md}",
+        "type": "borderRadius"
+      },
+      "action": {
         "value": "{semantic.border.radius.md}",
         "type": "borderRadius"
       }
