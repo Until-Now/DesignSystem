@@ -25,7 +25,7 @@
       },
       "borderRadius": {
         "all": {
-          "value": "{semantic.borderRadius.statusRounded}",
+          "value": "{semantic.borderRadius.status}",
           "type": "borderRadius"
         }
       },
