@@ -3255,7 +3255,11 @@
         "value": "{semantic.borderRadius.action}",
         "type": "borderRadius"
       },
-      "feedback": {
+      "feedbackSm": {
+        "value": "{semantic.borderRadius.action}",
+        "type": "borderRadius"
+      },
+      "feedbackLg": {
         "value": "{semantic.border.radius.lg}",
         "type": "borderRadius"
       },

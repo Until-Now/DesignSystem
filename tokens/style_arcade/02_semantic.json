@@ -804,32 +804,6 @@
         "type": "boxShadow"
       }
     },
-    "fontSize": {
-      "input": {
-        "xs": {
-          "value": "{fontSize.sm}",
-          "type": "fontSizes"
-        }
-      },
-      "feedback": {
-        "xs": {
-          "value": "{fontSize.sm}",
-          "type": "fontSizes"
-        }
-      },
-      "status": {
-        "sm": {
-          "value": "{fontSize.sm}",
-          "type": "fontSizes"
-        }
-      },
-      "patterns": {
-        "xs": {
-          "value": "{fontSize.sm}",
-          "type": "fontSizes"
-        }
-      }
-    },
     "border": {
       "radius": {
         "md": {

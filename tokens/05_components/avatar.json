@@ -185,11 +185,11 @@
           "type": "typography"
         },
         "lg": {
-          "value": "{semantic.typography.navigation.smEmphasis}",
+          "value": "{semantic.typography.navigation.mdEmphasis}",
           "type": "typography"
         },
         "md": {
-          "value": "{semantic.typography.navigation.xsEmphasis}",
+          "value": "{semantic.typography.navigation.smEmphasis}",
           "type": "typography"
         },
         "sm": {

@@ -1,0 +1,22 @@
+{
+  "comp": {
+    "tooltip": {
+      "borderRadius": {
+        "all": {
+          "value": "{semantic.borderRadius.feedbackSm}",
+          "type": "borderRadius"
+        }
+      },
+      "type": {
+        "heading": {
+          "value": "{semantic.typography.feedback.xsEmphasis}",
+          "type": "typography"
+        },
+        "body": {
+          "value": "{semantic.typography.feedback.xsStandard}",
+          "type": "typography"
+        }
+      }
+    }
+  }
+}

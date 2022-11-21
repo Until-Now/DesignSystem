@@ -17,8 +17,9 @@
       "type": "fontSizes"
     },
     "xs": {
-      "value": "roundTo(floor(roundTo({fontSize.sm}/{fontSize.scale},0)/{fontSizeFactor.sm})*{fontSizeFactor.sm},0)",
-      "type": "fontSizes"
+      "value": "12",
+      "type": "fontSizes",
+      "description": "Font size floor"
     },
     "sm": {
       "value": "roundTo(floor(roundTo({fontSize.base}/{fontSize.scale},0)/{fontSizeFactor.sm})*{fontSizeFactor.sm},0)",

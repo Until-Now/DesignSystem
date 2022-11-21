@@ -309,15 +309,15 @@
         },
         "label": {
           "small": {
-            "value": "{semantic.typography.input.xsEmphasis}",
+            "value": "{semantic.typography.input.mdEmphasis}",
             "type": "typography"
           },
           "medium": {
-            "value": "{semantic.typography.input.xsEmphasis}",
+            "value": "{semantic.typography.input.mdEmphasis}",
             "type": "typography"
           },
           "large": {
-            "value": "{semantic.typography.input.xsEmphasis}",
+            "value": "{semantic.typography.input.mdEmphasis}",
             "type": "typography"
           }
         }
