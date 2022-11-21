@@ -1538,24 +1538,16 @@
         }
       },
       "input": {
-        "xl": {
-          "value": "{fontSize.xl}",
-          "type": "fontSizes"
-        },
         "lg": {
-          "value": "{fontSize.lg}",
+          "value": "16",
           "type": "fontSizes"
         },
         "md": {
-          "value": "{fontSize.md}",
+          "value": "14",
           "type": "fontSizes"
         },
         "sm": {
-          "value": "{fontSize.sm}",
-          "type": "fontSizes"
-        },
-        "xs": {
-          "value": "{fontSize.xs}",
+          "value": "12",
           "type": "fontSizes"
         }
       },

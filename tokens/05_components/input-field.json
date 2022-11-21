@@ -259,7 +259,7 @@
       "type": {
         "input": {
           "small": {
-            "value": "{semantic.typography.input.smStandard}",
+            "value": "{semantic.typography.input.mdStandard}",
             "type": "typography"
           },
           "medium": {
@@ -273,7 +273,7 @@
         },
         "helper": {
           "small": {
-            "value": "{semantic.typography.input.smStandard}",
+            "value": "{semantic.typography.input.mdStandard}",
             "type": "typography"
           },
           "medium": {
@@ -287,7 +287,7 @@
         },
         "meta": {
           "small": {
-            "value": "{semantic.typography.input.smStandard}",
+            "value": "{semantic.typography.input.mdStandard}",
             "type": "typography"
           },
           "medium": {
@@ -300,11 +300,11 @@
           }
         },
         "assistive": {
-          "value": "{semantic.typography.input.xsEmphasis}",
+          "value": "{semantic.typography.input.smEmphasis}",
           "type": "typography"
         },
         "assistive-link": {
-          "value": "{semantic.typography.input.xsEmphasis}",
+          "value": "{semantic.typography.input.smEmphasis}",
           "type": "typography"
         },
         "label": {

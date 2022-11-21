@@ -2770,11 +2770,11 @@
         },
         "large": {
           "padding-left": {
-            "value": "{space.14}",
+            "value": "{space.12}",
             "type": "spacing"
           },
           "padding-right": {
-            "value": "{space.14}",
+            "value": "{space.12}",
             "type": "spacing"
           },
           "padding-top": {
