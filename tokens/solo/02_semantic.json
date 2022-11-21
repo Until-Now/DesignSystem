@@ -89,12 +89,6 @@
       }
     },
     "fontSize": {
-      "input": {
-        "xs": {
-          "value": "{fontSize.sm}",
-          "type": "fontSizes"
-        }
-      },
       "feedback": {
         "xs": {
           "value": "{fontSize.sm}",
