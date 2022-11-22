@@ -157,6 +157,76 @@
           "type": "typography"
         }
       }
+    },
+    "avatar": {
+      "colour": {
+        "default": {
+          "bg": {
+            "value": "{semantic.colour.navigation.primary.selected.default.background}",
+            "type": "color"
+          },
+          "content": {
+            "value": "{semantic.colour.navigation.primary.selected.default.content}",
+            "type": "color"
+          },
+          "state": {
+            "type": "color",
+            "value": "{semantic.stateSurface.neutral.lighter.default}"
+          },
+          "outline": {
+            "type": "color",
+            "value": "{semantic.neutral.background}"
+          },
+          "focus": {
+            "type": "color",
+            "value": "{semantic.outline.secondary}"
+          }
+        },
+        "hover": {
+          "bg": {
+            "value": "{semantic.colour.navigation.primary.selected.hover.background}",
+            "type": "color"
+          },
+          "content": {
+            "value": "{semantic.colour.navigation.primary.selected.hover.content}",
+            "type": "color"
+          },
+          "state": {
+            "type": "color",
+            "value": "{semantic.stateSurface.neutral.lighter.hover}"
+          },
+          "outline": {
+            "type": "color",
+            "value": "{semantic.neutral.background}"
+          },
+          "focus": {
+            "type": "color",
+            "value": "{semantic.outline.secondary}"
+          }
+        },
+        "press": {
+          "bg": {
+            "value": "{semantic.colour.navigation.primary.selected.press.background}",
+            "type": "color"
+          },
+          "content": {
+            "value": "{semantic.colour.navigation.primary.selected.press.content}",
+            "type": "color"
+          },
+          "state": {
+            "type": "color",
+            "value": "{semantic.stateSurface.neutral.lighter.press}"
+          },
+          "outline": {
+            "type": "color",
+            "value": "{semantic.neutral.background}"
+          },
+          "focus": {
+            "type": "color",
+            "value": "{semantic.outline.secondary}"
+          }
+        }
+      }
     }
   }
 }
