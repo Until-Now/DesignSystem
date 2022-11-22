@@ -51,6 +51,12 @@
             "value": "{semantic.spacing.feedback.ui-dialog.content-spacing.text}",
             "type": "spacing"
           }
+        },
+        "header": {
+          "spaceBetween": {
+            "value": "{semantic.spacing.feedback.sm.spaceBetween}",
+            "type": "spacing"
+          }
         }
       },
       "colour": {
@@ -87,6 +93,10 @@
           "type": "typography"
         },
         "body": {
+          "value": "{semantic.typography.feedback.smStandard}",
+          "type": "typography"
+        },
+        "subtitle": {
           "value": "{semantic.typography.feedback.smStandard}",
           "type": "typography"
         }
