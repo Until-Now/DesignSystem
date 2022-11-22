@@ -1407,6 +1407,10 @@
           "disabled": {
             "value": "{semantic.neutral.disabled}",
             "type": "color"
+          },
+          "action": {
+            "value": "{semantic.primary.inverse-primary}",
+            "type": "color"
           }
         }
       },
@@ -2481,6 +2485,10 @@
               "type": "sizing"
             }
           }
+        },
+        "icon": {
+          "value": "{size.20}",
+          "type": "sizing"
         }
       },
       "navigation": {
@@ -2948,6 +2956,10 @@
           "paddingBot": {
             "value": "{space.8}",
             "type": "spacing"
+          },
+          "spaceBetween": {
+            "value": "{space.4}",
+            "type": "spacing"
           }
         },
         "md": {
@@ -2966,6 +2978,10 @@
           "paddingBot": {
             "value": "{space.12}",
             "type": "spacing"
+          },
+          "spaceBetween": {
+            "value": "{space.12}",
+            "type": "spacing"
           }
         },
         "lg": {
@@ -2982,6 +2998,10 @@
             "type": "spacing"
           },
           "paddingBot": {
+            "value": "{space.16}",
+            "type": "spacing"
+          },
+          "spaceBetween": {
             "value": "{space.16}",
             "type": "spacing"
           }

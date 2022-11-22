@@ -60,7 +60,7 @@
         "type": "color"
       },
       "inverse-secondary": {
-        "value": "{colour.secondary.100}",
+        "value": "{colour.secondary.400}",
         "type": "color"
       },
       "tonal": {
@@ -152,7 +152,7 @@
         "type": "color"
       },
       "text-link": {
-        "value": "{colour.info.600}",
+        "value": "{semantic.secondary.secondary}",
         "type": "color"
       }
     },
@@ -596,6 +596,18 @@
                 "type": "color"
               }
             }
+          }
+        }
+      },
+      "feedback": {
+        "neutral": {
+          "background-inverse": {
+            "value": "{semantic.primary.primary}",
+            "type": "color"
+          },
+          "action": {
+            "value": "{semantic.secondary.inverse-secondary}",
+            "type": "color"
           }
         }
       }
