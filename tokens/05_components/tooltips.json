@@ -26,6 +26,20 @@
           "value": "{semantic.content.inversePrimary.default}",
           "type": "color"
         }
+      },
+      "spacing": {
+        "text": {
+          "value": "{semantic.spacing.feedback.text.paddingTop} {semantic.spacing.feedback.text.paddingRight} {semantic.spacing.feedback.text.paddingBot} {semantic.spacing.feedback.text.paddingLeft}",
+          "type": "spacing"
+        },
+        "textSpaceBetween": {
+          "value": "2",
+          "type": "spacing"
+        },
+        "padding": {
+          "value": "{semantic.spacing.feedback.sm.paddingTop} {semantic.spacing.feedback.sm.paddingRight} {semantic.spacing.feedback.sm.paddingBot} {semantic.spacing.feedback.sm.paddingLeft}",
+          "type": "spacing"
+        }
       }
     }
   }

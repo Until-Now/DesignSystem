@@ -2913,6 +2913,78 @@
               "type": "spacing"
             }
           }
+        },
+        "text": {
+          "paddingLeft": {
+            "value": "{space.4}",
+            "type": "spacing"
+          },
+          "paddingRight": {
+            "value": "{space.4}",
+            "type": "spacing"
+          },
+          "paddingTop": {
+            "value": "{space.0}",
+            "type": "spacing"
+          },
+          "paddingBot": {
+            "value": "{space.0}",
+            "type": "spacing"
+          }
+        },
+        "sm": {
+          "paddingLeft": {
+            "value": "{space.8}",
+            "type": "spacing"
+          },
+          "paddingRight": {
+            "value": "{space.8}",
+            "type": "spacing"
+          },
+          "paddingTop": {
+            "value": "{space.8}",
+            "type": "spacing"
+          },
+          "paddingBot": {
+            "value": "{space.8}",
+            "type": "spacing"
+          }
+        },
+        "md": {
+          "paddingLeft": {
+            "value": "{space.12}",
+            "type": "spacing"
+          },
+          "paddingRight": {
+            "value": "{space.12}",
+            "type": "spacing"
+          },
+          "paddingTop": {
+            "value": "{space.12}",
+            "type": "spacing"
+          },
+          "paddingBot": {
+            "value": "{space.12}",
+            "type": "spacing"
+          }
+        },
+        "lg": {
+          "paddingLeft": {
+            "value": "{space.16}",
+            "type": "spacing"
+          },
+          "paddingRight": {
+            "value": "{space.16}",
+            "type": "spacing"
+          },
+          "paddingTop": {
+            "value": "{space.16}",
+            "type": "spacing"
+          },
+          "paddingBot": {
+            "value": "{space.16}",
+            "type": "spacing"
+          }
         }
       },
       "status": {
