@@ -60,7 +60,7 @@
         "type": "color"
       },
       "inverse-secondary": {
-        "value": "{colour.secondary.400}",
+        "value": "{colour.secondary.300}",
         "type": "color"
       },
       "tonal": {
