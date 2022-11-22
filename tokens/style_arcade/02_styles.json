@@ -6,11 +6,11 @@
         "type": "color"
       },
       "cloud": {
-        "value": "{semantic.primary.background-variant-1}",
+        "value": "{semantic.primary.background}",
         "type": "color"
       },
       "overcast": {
-        "value": "{semantic.primary.background-variant-2}",
+        "value": "{semantic.primary.background-variant-1}",
         "type": "color"
       },
       "scrim": {
