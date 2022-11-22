@@ -16,6 +16,16 @@
           "value": "{semantic.typography.feedback.xsStandard}",
           "type": "typography"
         }
+      },
+      "colour": {
+        "background": {
+          "value": "{semantic.colour.feedback.neutral.background-inverse}",
+          "type": "color"
+        },
+        "text": {
+          "value": "{semantic.content.inversePrimary.default}",
+          "type": "color"
+        }
       }
     }
   }

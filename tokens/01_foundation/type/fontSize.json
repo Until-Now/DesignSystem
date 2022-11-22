@@ -8,6 +8,14 @@
       "value": "1.11",
       "type": "fontSizes"
     },
+    "raise": {
+      "value": "2",
+      "type": "fontSizes"
+    },
+    "pare": {
+      "value": "2",
+      "type": "fontSizes"
+    },
     "3xs": {
       "value": "roundTo(floor(roundTo({fontSize.2xs}/{fontSize.scale},0)/{fontSizeFactor.sm})*{fontSizeFactor.sm},0)",
       "type": "fontSizes"
@@ -17,12 +25,12 @@
       "type": "fontSizes"
     },
     "xs": {
-      "value": "12",
+      "value": "{fontSize.sm}-{fontSize.pare}",
       "type": "fontSizes",
       "description": "Font size floor"
     },
     "sm": {
-      "value": "roundTo(floor(roundTo({fontSize.base}/{fontSize.scale},0)/{fontSizeFactor.sm})*{fontSizeFactor.sm},0)",
+      "value": "{fontSize.base}-{fontSize.pare}",
       "type": "fontSizes"
     },
     "md": {
@@ -30,7 +38,7 @@
       "type": "fontSizes"
     },
     "lg": {
-      "value": "roundTo(ceil(roundTo({fontSize.base}*{fontSize.scale},0)/{fontSizeFactor.sm})*{fontSizeFactor.sm},0)",
+      "value": "{fontSize.base}+{fontSize.raise}",
       "type": "fontSizes"
     },
     "xl": {
