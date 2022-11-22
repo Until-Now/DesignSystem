@@ -72,11 +72,11 @@
             "type": "color"
           },
           "text": {
-            "value": "{semantic.content.inversePrimary.default}",
+            "value": "{semantic.colour.feedback.strong.success.content}",
             "type": "color"
           },
           "icon": {
-            "value": "{semantic.content.inversePrimary.default}",
+            "value": "{semantic.colour.feedback.strong.success.content}",
             "type": "color"
           }
         },
@@ -86,11 +86,11 @@
             "type": "color"
           },
           "text": {
-            "value": "{semantic.content.inversePrimary.default}",
+            "value": "{semantic.colour.feedback.strong.error.content}",
             "type": "color"
           },
           "icon": {
-            "value": "{semantic.content.inversePrimary.default}",
+            "value": "{semantic.colour.feedback.strong.error.content}",
             "type": "color"
           }
         },
