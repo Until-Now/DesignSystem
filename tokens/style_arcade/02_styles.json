@@ -106,6 +106,10 @@
       "secondary": {
         "value": "{semantic.secondary.secondary}",
         "type": "color"
+      },
+      "secondaryLight": {
+        "value": "{semantic.secondary.background-variant-1}",
+        "type": "color"
       }
     },
     "outline": {
