@@ -25,6 +25,14 @@
         "text": {
           "value": "{semantic.content.inversePrimary.default}",
           "type": "color"
+        },
+        "backgroundInverted": {
+          "value": "{semantic.colour.feedback.neutral.background}",
+          "type": "color"
+        },
+        "textInverted": {
+          "value": "{semantic.content.primary.default}",
+          "type": "color"
         }
       },
       "spacing": {
