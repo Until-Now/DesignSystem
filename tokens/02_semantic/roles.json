@@ -1730,6 +1730,64 @@
                 "value": "{semantic.outline.primary}",
                 "type": "color"
               }
+            },
+            "strong": {
+              "default": {
+                "background": {
+                  "value": "{semantic.primary.primary}",
+                  "type": "color"
+                },
+                "content": {
+                  "value": "{semantic.primary.on-primary}",
+                  "type": "color"
+                },
+                "state": {
+                  "value": "{semantic.stateSurface.primary.primary.default}",
+                  "type": "color"
+                }
+              },
+              "hover": {
+                "background": {
+                  "value": "{semantic.primary.primary}",
+                  "type": "color"
+                },
+                "content": {
+                  "value": "{semantic.primary.on-primary}",
+                  "type": "color"
+                },
+                "state": {
+                  "value": "{semantic.stateSurface.primary.primary.hover}",
+                  "type": "color"
+                }
+              },
+              "press": {
+                "background": {
+                  "value": "{semantic.primary.primary}",
+                  "type": "color"
+                },
+                "content": {
+                  "value": "{semantic.primary.on-primary}",
+                  "type": "color"
+                },
+                "state": {
+                  "value": "{semantic.stateSurface.primary.primary.press}",
+                  "type": "color"
+                }
+              },
+              "active": {
+                "background": {
+                  "value": "{semantic.primary.primary}",
+                  "type": "color"
+                },
+                "content": {
+                  "value": "{semantic.primary.on-primary}",
+                  "type": "color"
+                },
+                "state": {
+                  "value": "{semantic.stateSurface.primary.primary.active}",
+                  "type": "color"
+                }
+              }
             }
           },
           "selected": {
