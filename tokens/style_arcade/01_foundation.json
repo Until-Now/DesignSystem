@@ -102,7 +102,7 @@
     },
     "error": {
       "50": {
-        "value": "#FFE9EA",
+        "value": "#FFF0F1",
         "type": "color"
       },
       "100": {
@@ -152,7 +152,7 @@
     },
     "success": {
       "50": {
-        "value": "#E2F7F2",
+        "value": "#EFFDFA",
         "type": "color"
       },
       "100": {
@@ -202,7 +202,7 @@
     },
     "warning": {
       "50": {
-        "value": "#FFF3E6",
+        "value": "#FFF7EF",
         "type": "color"
       },
       "100": {
@@ -252,7 +252,7 @@
     },
     "info": {
       "50": {
-        "value": "#E9EFFD",
+        "value": "#F0F5FF",
         "type": "color"
       },
       "100": {

@@ -158,7 +158,7 @@
     },
     "error": {
       "muted": {
-        "value": "{colour.error.100}",
+        "value": "{colour.error.50}",
         "type": "color"
       },
       "on-muted": {
@@ -172,7 +172,7 @@
     },
     "warning": {
       "muted": {
-        "value": "{colour.warning.100}",
+        "value": "{colour.warning.50}",
         "type": "color"
       },
       "on-muted": {
@@ -186,7 +186,7 @@
     },
     "success": {
       "muted": {
-        "value": "{colour.success.100}",
+        "value": "{colour.success.50}",
         "type": "color"
       },
       "on-muted": {
@@ -200,7 +200,7 @@
     },
     "info": {
       "muted": {
-        "value": "{colour.info.100}",
+        "value": "{colour.info.50}",
         "type": "color"
       },
       "on-muted": {
