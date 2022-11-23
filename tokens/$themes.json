@@ -195,7 +195,6 @@
       "05_components/tooltips": "disabled"
     },
     "$figmaStyleReferences": {
-      "colour.bg.default": "S:c5c0a9fa9ebb6517c3a061b68cd6a073b20e80db,",
       "colour.bg.cloud": "S:6203e96bd33cbc0f44a0eff8d673dd0b0036fe82,",
       "colour.bg.overcast": "S:c9591d264892c4995f4e4032b6d7d0259cf3a365,",
       "colour.bg.scrim": "S:3bb7d1b54fe19dd5339539b0553862cf3d45d8c7,",
@@ -220,7 +219,8 @@
       "colour.fg.primary": "S:f8ef39f72780bf1c2545e9140479e105518575b8,",
       "colour.fg.tonal": "S:b4246180db3f5c350f32a823f39f572c64b66320,",
       "colour.fg.secondary": "S:9457ea17faad1fc0cd0d9417903b48ac2bc5ac89,",
-      "colour.fg.secondaryLight": "S:a5cb4de96f74eb71ead75a107f890b48651422ca,"
+      "colour.fg.secondaryLight": "S:a5cb4de96f74eb71ead75a107f890b48651422ca,",
+      "colour.bg.main": "S:c5c0a9fa9ebb6517c3a061b68cd6a073b20e80db,"
     }
   },
   {

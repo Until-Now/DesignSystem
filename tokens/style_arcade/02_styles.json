@@ -1,7 +1,7 @@
 {
   "colour": {
     "bg": {
-      "default": {
+      "main": {
         "value": "{semantic.neutral.background}",
         "type": "color"
       },
