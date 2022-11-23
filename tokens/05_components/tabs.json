@@ -19,6 +19,10 @@
         "mdPadding": {
           "value": "{semantic.spacing.navigation.md.padding-top} {semantic.spacing.navigation.md.padding-right} {semantic.spacing.navigation.md.padding-bot} {semantic.spacing.navigation.md.padding-left}",
           "type": "spacing"
+        },
+        "containerPadding": {
+          "value": "{semantic.spacing.navigation.sm.padding-top} {semantic.spacing.navigation.md.padding-right} {semantic.spacing.navigation.sm.padding-bot} {semantic.spacing.navigation.md.padding-left}",
+          "type": "spacing"
         }
       },
       "colour": {
@@ -53,12 +57,50 @@
               "type": "color"
             }
           }
+        },
+        "secondary": {
+          "default": {
+            "text": {
+              "value": "{semantic.colour.navigation.secondary.selected.default.content}",
+              "type": "color"
+            },
+            "state": {
+              "value": "{semantic.colour.navigation.secondary.selected.default.state}",
+              "type": "color"
+            }
+          },
+          "hover": {
+            "text": {
+              "value": "{semantic.colour.navigation.secondary.selected.hover.content}",
+              "type": "color"
+            },
+            "state": {
+              "value": "{semantic.colour.navigation.secondary.selected.hover.state}",
+              "type": "color"
+            }
+          },
+          "active": {
+            "background": {
+              "value": "{semantic.colour.navigation.secondary.selected.default.background}",
+              "type": "color"
+            },
+            "text": {
+              "value": "{semantic.colour.navigation.secondary.selected.default.content}",
+              "type": "color"
+            }
+          }
         }
       },
       "borderWidth": {
         "default": {
           "value": "{semantic.borderWidth.navigation.md}",
           "type": "borderWidth"
+        }
+      },
+      "borderRadius": {
+        "all": {
+          "value": "{semantic.borderRadius.navigation}",
+          "type": "borderRadius"
         }
       }
     }

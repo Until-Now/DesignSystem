@@ -3416,6 +3416,14 @@
       "ui-dialog": {
         "value": "{semantic.border.radius.xl}",
         "type": "borderRadius"
+      },
+      "navigation": {
+        "value": "{semantic.borderRadius.action}",
+        "type": "borderRadius"
+      },
+      "navigationRounded": {
+        "value": "{semantic.border.radius.round}",
+        "type": "borderRadius"
       }
     },
     "borderWidth": {

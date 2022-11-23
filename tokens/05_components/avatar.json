@@ -155,7 +155,7 @@
       },
       "borderRadius": {
         "all": {
-          "value": "{semantic.border.radius.round}",
+          "value": "{semantic.borderRadius.navigationRounded}",
           "type": "borderRadius"
         }
       },
