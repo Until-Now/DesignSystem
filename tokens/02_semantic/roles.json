@@ -3222,6 +3222,24 @@
             "type": "spacing"
           }
         },
+        "xs": {
+          "padding-left": {
+            "value": "{space.4}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{space.4}",
+            "type": "spacing"
+          },
+          "padding-top": {
+            "value": "{space.4}",
+            "type": "spacing"
+          },
+          "padding-bot": {
+            "value": "{space.4}",
+            "type": "spacing"
+          }
+        },
         "sm": {
           "padding-left": {
             "value": "{space.8}",

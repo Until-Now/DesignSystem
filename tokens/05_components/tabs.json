@@ -2,13 +2,25 @@
   "comp": {
     "tab": {
       "type": {
-        "labelUnselected": {
-          "value": "{semantic.typography.navigation.smStandard}",
-          "type": "typography"
+        "md": {
+          "labelUnselected": {
+            "value": "{semantic.typography.navigation.mdStandard}",
+            "type": "typography"
+          },
+          "labelSelected": {
+            "value": "{semantic.typography.navigation.mdEmphasis}",
+            "type": "typography"
+          }
         },
-        "labelSelected": {
-          "value": "{semantic.typography.navigation.smEmphasis}",
-          "type": "typography"
+        "sm": {
+          "labelUnselected": {
+            "value": "{semantic.typography.navigation.smStandard}",
+            "type": "typography"
+          },
+          "labelSelected": {
+            "value": "{semantic.typography.navigation.smEmphasis}",
+            "type": "typography"
+          }
         }
       },
       "spacing": {
@@ -20,8 +32,16 @@
           "value": "{semantic.spacing.navigation.md.padding-top} {semantic.spacing.navigation.md.padding-right} {semantic.spacing.navigation.md.padding-bot} {semantic.spacing.navigation.md.padding-left}",
           "type": "spacing"
         },
-        "containerPadding": {
+        "smPadding": {
+          "value": "7 {semantic.spacing.navigation.sm.padding-right} 7 {semantic.spacing.navigation.sm.padding-left}",
+          "type": "spacing"
+        },
+        "mdContainerPadding": {
           "value": "{semantic.spacing.navigation.sm.padding-top} {semantic.spacing.navigation.md.padding-right} {semantic.spacing.navigation.sm.padding-bot} {semantic.spacing.navigation.md.padding-left}",
+          "type": "spacing"
+        },
+        "smContainerPadding": {
+          "value": "0 {semantic.spacing.navigation.xs.padding-right} 0 {semantic.spacing.navigation.xs.padding-left}",
           "type": "spacing"
         }
       },
