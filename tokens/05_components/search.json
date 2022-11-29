@@ -151,7 +151,7 @@
       "type": {
         "input": {
           "sm": {
-            "value": "{semantic.typography.input.smStandard}",
+            "value": "{semantic.typography.input.mdStandard}",
             "type": "typography"
           },
           "md": {
@@ -165,7 +165,7 @@
         },
         "helper": {
           "sm": {
-            "value": "{semantic.typography.input.smStandard}",
+            "value": "{semantic.typography.input.mdStandard}",
             "type": "typography"
           },
           "md": {
@@ -179,7 +179,7 @@
         },
         "meta": {
           "sm": {
-            "value": "{semantic.typography.input.smStandard}",
+            "value": "{semantic.typography.input.mdStandard}",
             "type": "typography"
           },
           "md": {
