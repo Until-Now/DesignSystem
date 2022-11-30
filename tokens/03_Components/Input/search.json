@@ -33,15 +33,15 @@
       },
       "spacing": {
         "sm": {
-          "value": "{semantic.spacing.input.none} {semantic.spacing.input.small.padding-left} {semantic.spacing.input.none} {semantic.spacing.input.small.padding-left}",
+          "value": "{semantic.spacing.none} {semantic.spacing.input.small.padding-left} {semantic.spacing.none} {semantic.spacing.input.small.padding-left}",
           "type": "spacing"
         },
         "md": {
-          "value": "{semantic.spacing.input.none} {semantic.spacing.input.medium.padding-left} {semantic.spacing.input.none} {semantic.spacing.input.medium.padding-left}",
+          "value": "{semantic.spacing.none} {semantic.spacing.input.medium.padding-left} {semantic.spacing.none} {semantic.spacing.input.medium.padding-left}",
           "type": "spacing"
         },
         "lg": {
-          "value": "{semantic.spacing.input.none} {semantic.spacing.input.large.padding-left} {semantic.spacing.input.none} {semantic.spacing.input.large.padding-left}",
+          "value": "{semantic.spacing.none} {semantic.spacing.input.large.padding-left} {semantic.spacing.none} {semantic.spacing.input.large.padding-left}",
           "type": "spacing"
         },
         "text": {
