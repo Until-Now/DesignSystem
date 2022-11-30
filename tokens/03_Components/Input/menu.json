@@ -18,15 +18,15 @@
         }
       },
       "spacing": {
-        "xs": {
+        "xsPadding": {
           "value": "{semantic.spacing.input.xs.padding-top} {semantic.spacing.input.medium.padding-right} {semantic.spacing.input.xs.padding-bot} {semantic.spacing.input.medium.padding-left}",
           "type": "spacing"
         },
-        "sm": {
+        "smPadding": {
           "value": "{semantic.spacing.input.small.padding-top} {semantic.spacing.input.medium.padding-right} {semantic.spacing.input.small.padding-bot} {semantic.spacing.input.medium.padding-left}",
           "type": "spacing"
         },
-        "lg": {
+        "lgPadding": {
           "value": "{semantic.spacing.input.large.padding-top} {semantic.spacing.input.medium.padding-right} {semantic.spacing.input.large.padding-bot} {semantic.spacing.input.medium.padding-left}",
           "type": "spacing"
         },

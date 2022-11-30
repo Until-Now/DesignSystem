@@ -386,30 +386,10 @@
         }
       }
     },
-    "fontSize": {
+    "borderRadius": {
       "input": {
-        "xs": {
-          "value": "{fontSize.sm}",
-          "type": "fontSizes"
-        }
-      },
-      "feedback": {
-        "xs": {
-          "value": "{fontSize.sm}",
-          "type": "fontSizes"
-        }
-      },
-      "status": {
-        "sm": {
-          "value": "{fontSize.sm}",
-          "type": "fontSizes"
-        }
-      },
-      "patterns": {
-        "xs": {
-          "value": "{fontSize.sm}",
-          "type": "fontSizes"
-        }
+        "value": "{semantic.border.radius.lg}",
+        "type": "borderRadius"
       }
     }
   }

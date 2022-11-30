@@ -3,29 +3,29 @@
     "textField": {
       "size": {
         "height": {
-          "small": {
+          "sm": {
             "value": "{semantic.size.input.small}",
             "type": "sizing"
           },
-          "medium": {
+          "md": {
             "value": "{semantic.size.input.medium}",
             "type": "sizing"
           },
-          "large": {
+          "lg": {
             "value": "{semantic.size.input.large}",
             "type": "sizing"
           }
         },
         "icon": {
-          "small": {
+          "sm": {
             "value": "{semantic.size.input.icon.small}",
             "type": "sizing"
           },
-          "medium": {
+          "md": {
             "value": "{semantic.size.input.icon.medium}",
             "type": "sizing"
           },
-          "large": {
+          "lg": {
             "value": "{semantic.size.input.icon.large}",
             "type": "sizing"
           }
@@ -175,15 +175,15 @@
         }
       },
       "borderRadius": {
-        "small": {
+        "sm": {
           "value": "{semantic.borderRadius.input}",
           "type": "borderRadius"
         },
-        "medium": {
+        "md": {
           "value": "{semantic.borderRadius.input}",
           "type": "borderRadius"
         },
-        "large": {
+        "lg": {
           "value": "{semantic.borderRadius.input}",
           "type": "borderRadius"
         }
@@ -204,44 +204,44 @@
       },
       "type": {
         "input": {
-          "small": {
+          "sm": {
             "value": "{semantic.typography.input.mdStandard}",
             "type": "typography"
           },
-          "medium": {
+          "md": {
             "value": "{semantic.typography.input.mdStandard}",
             "type": "typography"
           },
-          "large": {
+          "lg": {
             "value": "{semantic.typography.input.lgStandard}",
             "type": "typography"
           }
         },
         "helper": {
-          "small": {
-            "value": "{semantic.typography.input.mdStandard}",
+          "sm": {
+            "value": "{comp.textField.type.input.sm}",
             "type": "typography"
           },
-          "medium": {
-            "value": "{semantic.typography.input.mdStandard}",
+          "md": {
+            "value": "{comp.textField.type.input.md}",
             "type": "typography"
           },
-          "large": {
-            "value": "{semantic.typography.input.lgStandard}",
+          "lg": {
+            "value": "{comp.textField.type.input.lg}",
             "type": "typography"
           }
         },
         "meta": {
-          "small": {
-            "value": "{semantic.typography.input.mdStandard}",
+          "sm": {
+            "value": "{comp.textField.type.input.sm}",
             "type": "typography"
           },
-          "medium": {
-            "value": "{semantic.typography.input.mdStandard}",
+          "md": {
+            "value": "{comp.textField.type.input.md}",
             "type": "typography"
           },
-          "large": {
-            "value": "{semantic.typography.input.lgStandard}",
+          "lg": {
+            "value": "{comp.textField.type.input.lg}",
             "type": "typography"
           }
         },
@@ -254,15 +254,15 @@
           "type": "typography"
         },
         "label": {
-          "small": {
+          "sm": {
             "value": "{semantic.typography.input.mdEmphasis}",
             "type": "typography"
           },
-          "medium": {
+          "md": {
             "value": "{semantic.typography.input.mdEmphasis}",
             "type": "typography"
           },
-          "large": {
+          "lg": {
             "value": "{semantic.typography.input.mdEmphasis}",
             "type": "typography"
           }
