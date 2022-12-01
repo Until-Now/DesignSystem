@@ -3,43 +3,43 @@
     "button": {
       "size": {
         "height": {
-          "small": {
+          "sm": {
             "type": "sizing",
             "value": "{semantic.size.action.small}"
           },
-          "medium": {
+          "md": {
             "type": "sizing",
             "value": "{semantic.size.action.medium}"
           },
-          "large": {
+          "lg": {
             "type": "sizing",
             "value": "{semantic.size.action.large}"
           }
         },
         "width": {
-          "small": {
+          "sm": {
             "type": "sizing",
             "value": "{semantic.size.action.small}"
           },
-          "medium": {
+          "md": {
             "type": "sizing",
             "value": "{semantic.size.action.medium}"
           },
-          "large": {
+          "lg": {
             "type": "sizing",
             "value": "{semantic.size.action.large}"
           }
         },
         "content": {
-          "small": {
+          "sm": {
             "type": "sizing",
             "value": "{semantic.size.action.content.small}"
           },
-          "medium": {
+          "md": {
             "type": "sizing",
             "value": "{semantic.size.action.content.medium}"
           },
-          "large": {
+          "lg": {
             "type": "sizing",
             "value": "{semantic.size.action.content.large}"
           }
@@ -47,7 +47,7 @@
       },
       "spacing": {
         "smPadding": {
-          "value": "{semantic.spacing.action.small.padding-top} {semantic.spacing.action.small.padding-right} {semantic.spacing.action.small.padding-bot} {semantic.spacing.action.small.padding-left}",
+          "value": "{semantic.spacing.action.medium.padding-top} {semantic.spacing.action.medium.padding-right} {semantic.spacing.action.medium.padding-bot} {semantic.spacing.action.medium.padding-left}",
           "type": "spacing"
         },
         "mdPadding": {
@@ -425,7 +425,7 @@
           "type": "typography"
         },
         "sm": {
-          "value": "{semantic.typography.action.sm}",
+          "value": "{semantic.typography.action.md}",
           "type": "typography"
         }
       }

@@ -15,6 +15,18 @@
           "type": "borderRadius"
         }
       }
+    },
+    "button": {
+      "type": {
+        "md": {
+          "value": "{semantic.typography.action.lg}",
+          "type": "typography"
+        },
+        "sm": {
+          "value": "{semantic.typography.action.lg}",
+          "type": "typography"
+        }
+      }
     }
   }
 }
