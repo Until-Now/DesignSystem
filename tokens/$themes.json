@@ -197,8 +197,6 @@
       "solo/02_Semantic/styles": "disabled"
     },
     "$figmaStyleReferences": {
-      "colour.bg.cloud": "S:6203e96bd33cbc0f44a0eff8d673dd0b0036fe82,",
-      "colour.bg.overcast": "S:c9591d264892c4995f4e4032b6d7d0259cf3a365,",
       "colour.bg.scrim": "S:3bb7d1b54fe19dd5339539b0553862cf3d45d8c7,",
       "colour.bg.status.error": "S:d9cd9b58867ce1264ba66316319e1adf4fa16d82,",
       "colour.bg.status.success": "S:ece2dbeea3ce2df1f6972ccb3cd602345fe4c552,",
@@ -222,7 +220,9 @@
       "colour.fg.tonal": "S:b4246180db3f5c350f32a823f39f572c64b66320,",
       "colour.fg.secondary": "S:9457ea17faad1fc0cd0d9417903b48ac2bc5ac89,",
       "colour.fg.secondaryLight": "S:a5cb4de96f74eb71ead75a107f890b48651422ca,",
-      "colour.bg.main": "S:c5c0a9fa9ebb6517c3a061b68cd6a073b20e80db,"
+      "colour.bg.main": "S:c5c0a9fa9ebb6517c3a061b68cd6a073b20e80db,",
+      "colour.bg.subtle": "S:6203e96bd33cbc0f44a0eff8d673dd0b0036fe82,",
+      "colour.bg.alternate": "S:c9591d264892c4995f4e4032b6d7d0259cf3a365,"
     }
   },
   {
@@ -318,5 +318,64 @@
       "text.button.sm": "S:fa144958e93c11807c35983b098f43de2cb80741,",
       "text.special.overline": "S:a043bdebd8ae8f846730b724920a3834bd42f960,"
     }
+  },
+  {
+    "id": "490a2117de02beb8f8f5d57b7ac42ed728d5e6c2",
+    "name": "Solo FD-A",
+    "selectedTokenSets": {
+      "01_Foundation/colour": "source",
+      "01_Foundation/Type/fontFamily": "source",
+      "01_Foundation/Type/fontSize": "source",
+      "01_Foundation/Type/fontWeight": "source",
+      "01_Foundation/Type/lineHeight": "source",
+      "01_Foundation/Type/spacing": "source",
+      "01_Foundation/Type/settings": "source",
+      "01_Foundation/dimensions": "source",
+      "01_Foundation/effects": "source",
+      "01_Foundation/opacity": "source",
+      "02_Semantic/roles": "source",
+      "02_Semantic/typography": "source",
+      "02_Semantic/styles": "disabled",
+      "03_Components/Action/button": "disabled",
+      "03_Components/Action/buttonGroup": "disabled",
+      "03_Components/Container/divider": "disabled",
+      "03_Components/Feedback/dialog": "disabled",
+      "03_Components/Feedback/snackbar": "disabled",
+      "03_Components/Feedback/tooltips": "disabled",
+      "03_Components/Input/datePicker": "disabled",
+      "03_Components/Input/menu": "disabled",
+      "03_Components/Input/search": "disabled",
+      "03_Components/Input/selectionControls": "disabled",
+      "03_Components/Input/slider": "disabled",
+      "03_Components/Input/textField": "disabled",
+      "03_Components/Navigation/avatar": "disabled",
+      "03_Components/Navigation/tabs": "disabled",
+      "03_Components/Navigation/navigationRail": "disabled",
+      "03_Components/Patterns/tables": "disabled",
+      "03_Components/Patterns/tablesSimple": "disabled",
+      "03_Components/Status/badge": "disabled",
+      "03_Components/Status/tag": "disabled",
+      "03_Components/Status/chip": "disabled",
+      "03_Components/base": "disabled",
+      "abunda/01_foundation": "disabled",
+      "abunda/02_system": "disabled",
+      "abunda/component": "disabled",
+      "sven/01_foundation": "disabled",
+      "sven/02_system": "disabled",
+      "sven/04_semantic": "disabled",
+      "sven/component": "disabled",
+      "new_quantum/01_foundation": "disabled",
+      "new_quantum/02_semantic": "disabled",
+      "new_quantum/02_styles": "disabled",
+      "new_quantum/03_components": "disabled",
+      "solo/01_Foundation": "source",
+      "solo/02_Semantic/roles": "source",
+      "solo/02_Semantic/styles": "enabled",
+      "style_arcade/01_foundation": "disabled",
+      "style_arcade/02_semantic": "disabled",
+      "style_arcade/02_styles": "disabled",
+      "style_arcade/03_components": "disabled"
+    },
+    "$figmaStyleReferences": {}
   }
 ]

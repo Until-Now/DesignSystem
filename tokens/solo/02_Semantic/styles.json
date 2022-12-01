@@ -5,11 +5,11 @@
         "value": "{semantic.neutral.background}",
         "type": "color"
       },
-      "cloud": {
+      "subtle": {
         "value": "{semantic.neutral.background-variant-1}",
         "type": "color"
       },
-      "overcast": {
+      "alternate": {
         "value": "{semantic.neutral.background-variant-2}",
         "type": "color"
       },
