@@ -3,43 +3,43 @@
     "buttonGroup": {
       "size": {
         "height": {
-          "small": {
+          "sm": {
             "type": "sizing",
             "value": "{semantic.size.action.small}"
           },
-          "medium": {
+          "md": {
             "type": "sizing",
             "value": "{semantic.size.action.medium}"
           },
-          "large": {
+          "lg": {
             "type": "sizing",
             "value": "{semantic.size.action.large}"
           }
         },
         "width": {
-          "small": {
+          "sm": {
             "type": "sizing",
             "value": "{semantic.size.action.small}"
           },
-          "medium": {
+          "md": {
             "type": "sizing",
             "value": "{semantic.size.action.medium}"
           },
-          "large": {
+          "lg": {
             "type": "sizing",
             "value": "{semantic.size.action.large}"
           }
         },
         "content": {
-          "small": {
+          "sm": {
             "type": "sizing",
             "value": "{semantic.size.action.content.small}"
           },
-          "medium": {
+          "md": {
             "type": "sizing",
             "value": "{semantic.size.action.content.medium}"
           },
-          "large": {
+          "lg": {
             "type": "sizing",
             "value": "{semantic.size.action.content.large}"
           }
@@ -363,7 +363,7 @@
           "type": "typography"
         },
         "sm": {
-          "value": "{semantic.typography.action.sm}",
+          "value": "{semantic.typography.action.md}",
           "type": "typography"
         }
       }
