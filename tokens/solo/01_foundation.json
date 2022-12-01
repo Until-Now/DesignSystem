@@ -1,4 +1,56 @@
 {
+  "colour": {
+    "primary": {
+      "50": {
+        "value": "#FCFDFF",
+        "type": "color"
+      },
+      "100": {
+        "value": "#F0F2FD",
+        "type": "color"
+      },
+      "150": {
+        "value": "#E7E9FA",
+        "type": "color"
+      },
+      "200": {
+        "value": "#DEDEF6",
+        "type": "color"
+      },
+      "300": {
+        "value": "#C5C1ED",
+        "type": "color"
+      },
+      "400": {
+        "value": "#9E92DE",
+        "type": "color"
+      },
+      "500": {
+        "value": "#8879D6",
+        "type": "color"
+      },
+      "600": {
+        "value": "#7867D0",
+        "type": "color"
+      },
+      "700": {
+        "value": "#5840C4",
+        "type": "color"
+      },
+      "800": {
+        "value": "#3D21BA",
+        "type": "color"
+      },
+      "900": {
+        "value": "#311B95",
+        "type": "color"
+      },
+      "1000": {
+        "value": "#24146E",
+        "type": "color"
+      }
+    }
+  },
   "fontWeight": {
     "300": {
       "value": "Light",
