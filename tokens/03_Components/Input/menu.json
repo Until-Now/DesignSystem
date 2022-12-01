@@ -143,7 +143,7 @@
             "type": "typography"
           },
           "lg": {
-            "value": "{semantic.typography.input.mdEmphasis}",
+            "value": "{semantic.typography.input.lgEmphasis}",
             "type": "typography"
           }
         },
@@ -159,29 +159,29 @@
         },
         "meta": {
           "xs": {
-            "value": "{semantic.typography.input.smStandard}",
+            "value": "{comp.menu.type.label.xs}",
             "type": "typography"
           },
           "sm": {
-            "value": "{semantic.typography.input.mdStandard}",
+            "value": "{comp.menu.type.label.sm}",
             "type": "typography"
           },
           "lg": {
-            "value": "{semantic.typography.input.mdStandard}",
+            "value": "{comp.menu.type.label.lg}",
             "type": "typography"
           }
         },
         "link": {
           "xs": {
-            "value": "{semantic.typography.input.smEmphasis}",
+            "value": "{comp.menu.type.label.xs}",
             "type": "typography"
           },
           "sm": {
-            "value": "{semantic.typography.input.mdEmphasis}",
+            "value": "{comp.menu.type.label.sm}",
             "type": "typography"
           },
           "lg": {
-            "value": "{semantic.typography.input.mdEmphasis}",
+            "value": "{comp.menu.type.label.lg}",
             "type": "typography"
           }
         }

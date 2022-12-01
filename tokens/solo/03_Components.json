@@ -1,0 +1,20 @@
+{
+  "comp": {
+    "menu": {
+      "borderRadius": {
+        "xs": {
+          "value": "{semantic.borderRadius.action}",
+          "type": "borderRadius"
+        },
+        "sm": {
+          "value": "{semantic.borderRadius.action}",
+          "type": "borderRadius"
+        },
+        "lg": {
+          "value": "{semantic.borderRadius.action}",
+          "type": "borderRadius"
+        }
+      }
+    }
+  }
+}
