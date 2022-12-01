@@ -34,6 +34,14 @@
           "value": "{semantic.spacing.input.text.padding-top} {semantic.spacing.input.text.padding-right} {semantic.spacing.input.text.padding-bot} {semantic.spacing.input.text.padding-right}",
           "type": "spacing"
         },
+        "textPrefix": {
+          "value": "{semantic.spacing.input.text.padding-top} {semantic.spacing.none} {semantic.spacing.input.text.padding-bot} {semantic.spacing.input.text.padding-left}",
+          "type": "spacing"
+        },
+        "textSuffix": {
+          "value": "{semantic.spacing.input.text.padding-top} {semantic.spacing.input.text.padding-right} {semantic.spacing.input.text.padding-bot} {semantic.spacing.none}",
+          "type": "spacing"
+        },
         "contentSpaceBetween": {
           "value": "{semantic.spacing.input.content.space-between}",
           "type": "spacing"
