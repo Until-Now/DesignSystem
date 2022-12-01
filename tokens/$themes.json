@@ -18,8 +18,6 @@
       "new_quantum/02_semantic": "disabled",
       "new_quantum/03_components": "disabled",
       "new_quantum/02_styles": "disabled",
-      "solo/01_foundation": "disabled",
-      "solo/02_semantic": "disabled",
       "03_Components/Navigation/avatar": "disabled",
       "01_Foundation/colour": "source",
       "01_Foundation/Type/fontFamily": "source",
@@ -53,7 +51,10 @@
       "03_Components/Patterns/tablesSimple": "disabled",
       "03_Components/Patterns/tables": "disabled",
       "03_Components/base": "disabled",
-      "03_Components/Input/slider": "disabled"
+      "03_Components/Input/slider": "disabled",
+      "solo/01_Foundation": "disabled",
+      "solo/02_Semantic/roles": "disabled",
+      "solo/02_Semantic/styles": "disabled"
     },
     "$figmaStyleReferences": {
       "styles.bg.main": "S:aec6d5b5eaab23c9b60e889be6252c48f392954f,",
@@ -157,8 +158,6 @@
       "new_quantum/02_semantic": "disabled",
       "new_quantum/03_components": "disabled",
       "new_quantum/02_styles": "disabled",
-      "solo/01_foundation": "disabled",
-      "solo/02_semantic": "disabled",
       "03_Components/Navigation/avatar": "disabled",
       "01_Foundation/colour": "source",
       "01_Foundation/Type/fontFamily": "source",
@@ -192,7 +191,10 @@
       "03_Components/Patterns/tablesSimple": "disabled",
       "03_Components/Patterns/tables": "disabled",
       "03_Components/base": "disabled",
-      "03_Components/Input/slider": "disabled"
+      "03_Components/Input/slider": "disabled",
+      "solo/01_Foundation": "disabled",
+      "solo/02_Semantic/roles": "disabled",
+      "solo/02_Semantic/styles": "disabled"
     },
     "$figmaStyleReferences": {
       "colour.bg.cloud": "S:6203e96bd33cbc0f44a0eff8d673dd0b0036fe82,",
@@ -242,8 +244,6 @@
       "style_arcade/02_semantic": "disabled",
       "style_arcade/02_styles": "disabled",
       "style_arcade/03_components": "disabled",
-      "solo/01_foundation": "disabled",
-      "solo/02_semantic": "disabled",
       "03_Components/Navigation/avatar": "disabled",
       "01_Foundation/colour": "source",
       "01_Foundation/Type/fontFamily": "source",
@@ -277,7 +277,10 @@
       "03_Components/Patterns/tablesSimple": "disabled",
       "03_Components/Patterns/tables": "disabled",
       "03_Components/base": "disabled",
-      "03_Components/Input/slider": "disabled"
+      "03_Components/Input/slider": "disabled",
+      "solo/01_Foundation": "disabled",
+      "solo/02_Semantic/roles": "disabled",
+      "solo/02_Semantic/styles": "disabled"
     },
     "$figmaStyleReferences": {
       "text.display.lgRegular": "S:cfc7f0181dff62732f48aae89616edbcdfcd4861,",

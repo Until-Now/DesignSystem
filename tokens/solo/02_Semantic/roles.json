@@ -60,7 +60,7 @@
         "type": "color"
       },
       "text-link": {
-        "value": "{colour.primary.600}",
+        "value": "{colour.primary.800}",
         "type": "color"
       }
     },
