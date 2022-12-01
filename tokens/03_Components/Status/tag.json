@@ -119,7 +119,7 @@
       },
       "type": {
         "label": {
-          "value": "{semantic.typography.status.smEmphasis}",
+          "value": "{semantic.typography.status.mdEmphasis}",
           "type": "typography"
         }
       },
