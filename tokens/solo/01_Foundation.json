@@ -49,6 +49,56 @@
         "value": "#24146E",
         "type": "color"
       }
+    },
+    "neutral": {
+      "50": {
+        "value": "#FCFDFD",
+        "type": "color"
+      },
+      "100": {
+        "value": "#F2F4F6",
+        "type": "color"
+      },
+      "150": {
+        "value": "#E9EAEE",
+        "type": "color"
+      },
+      "200": {
+        "value": "#DFDFE6",
+        "type": "color"
+      },
+      "300": {
+        "value": "#C6C5CD",
+        "type": "color"
+      },
+      "400": {
+        "value": "#9B9BA1",
+        "type": "color"
+      },
+      "500": {
+        "value": "#86868B",
+        "type": "color"
+      },
+      "600": {
+        "value": "#76767B",
+        "type": "color"
+      },
+      "700": {
+        "value": "#58575B",
+        "type": "color"
+      },
+      "800": {
+        "value": "#434245",
+        "type": "color"
+      },
+      "900": {
+        "value": "#363537",
+        "type": "color"
+      },
+      "1000": {
+        "value": "#272628",
+        "type": "color"
+      }
     }
   },
   "fontWeight": {

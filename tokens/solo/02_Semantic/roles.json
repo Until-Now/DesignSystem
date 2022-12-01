@@ -65,11 +65,11 @@
       }
     },
     "scrim": {
-      "value": "{colour.primary.1000}",
+      "value": "{colour.neutral.1000}",
       "type": "color"
     },
     "shadow": {
-      "value": "{colour.primary.1000}",
+      "value": "{colour.neutral.1000}",
       "type": "color"
     },
     "stateSurface": {

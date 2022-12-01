@@ -6,11 +6,11 @@
         "type": "color"
       },
       "cloud": {
-        "value": "{semantic.primary.background}",
+        "value": "{semantic.neutral.background-variant-1}",
         "type": "color"
       },
       "overcast": {
-        "value": "{semantic.primary.background-variant-1}",
+        "value": "{semantic.neutral.background-variant-2}",
         "type": "color"
       },
       "scrim": {
@@ -68,16 +68,32 @@
           "value": "{semantic.error.default}",
           "type": "color"
         },
+        "errorDark": {
+          "value": "{semantic.error.on-muted}",
+          "type": "color"
+        },
         "success": {
           "value": "{semantic.success.default}",
+          "type": "color"
+        },
+        "successDark": {
+          "value": "{semantic.success.on-muted}",
           "type": "color"
         },
         "warning": {
           "value": "{semantic.warning.default}",
           "type": "color"
         },
+        "warningDark": {
+          "value": "{semantic.warning.on-muted}",
+          "type": "color"
+        },
         "info": {
           "value": "{semantic.info.default}",
+          "type": "color"
+        },
+        "infoDark": {
+          "value": "{semantic.info.on-muted}",
           "type": "color"
         }
       },
