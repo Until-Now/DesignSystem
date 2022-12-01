@@ -27,6 +27,14 @@
           "type": "typography"
         }
       }
+    },
+    "chip": {
+      "type": {
+        "label": {
+          "value": "{semantic.typography.status.xlEmphasis}",
+          "type": "typography"
+        }
+      }
     }
   }
 }

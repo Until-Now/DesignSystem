@@ -3,33 +3,17 @@
     "chip": {
       "size": {
         "height": {
-          "sm": {
-            "value": "{semantic.component.xs}",
-            "type": "sizing"
-          },
-          "lg": {
-            "value": "{semantic.component.sm}",
-            "type": "sizing"
-          }
+          "value": "{semantic.component.xs}",
+          "type": "sizing"
         },
         "content": {
-          "sm": {
-            "value": "{semantic.size.status.icon.sm}",
-            "type": "sizing"
-          },
-          "lg": {
-            "value": "{semantic.size.status.icon.lg}",
-            "type": "sizing"
-          }
+          "value": "{semantic.size.status.icon.sm}",
+          "type": "sizing"
         }
       },
       "spacing": {
-        "smPadding": {
+        "padding": {
           "value": "{semantic.spacing.status.medium.padding-top} {semantic.spacing.status.medium.padding-right} {semantic.spacing.status.medium.padding-bot} {semantic.spacing.status.medium.padding-left}",
-          "type": "spacing"
-        },
-        "lgPadding": {
-          "value": "{semantic.spacing.status.large.padding-top} {semantic.spacing.status.large.padding-right} {semantic.spacing.status.large.padding-bot} {semantic.spacing.status.large.padding-left}",
           "type": "spacing"
         },
         "text": {
@@ -141,124 +125,6 @@
           }
         }
       },
-      "input": {
-        "default": {
-          "bg": {
-            "value": "{semantic.colour.status.muted.primary.default.background}",
-            "type": "color"
-          },
-          "content": {
-            "value": "{semantic.colour.status.muted.primary.default.content}",
-            "type": "color"
-          },
-          "outline": {
-            "value": "{semantic.colour.status.muted.primary.default.outline}",
-            "type": "color"
-          },
-          "state": {
-            "type": "color",
-            "value": "{semantic.stateSurface.secondary.secondary.default}"
-          }
-        },
-        "hover": {
-          "bg": {
-            "value": "{semantic.colour.status.muted.primary.hover.background}",
-            "type": "color"
-          },
-          "content": {
-            "value": "{semantic.colour.status.muted.primary.hover.content}",
-            "type": "color"
-          },
-          "outline": {
-            "value": "{semantic.colour.status.muted.primary.hover.outline}",
-            "type": "color"
-          },
-          "state": {
-            "type": "color",
-            "value": "{semantic.stateSurface.secondary.secondary.hover}"
-          }
-        },
-        "press": {
-          "bg": {
-            "value": "{semantic.colour.status.muted.primary.press.background}",
-            "type": "color"
-          },
-          "content": {
-            "value": "{semantic.colour.status.muted.primary.press.content}",
-            "type": "color"
-          },
-          "outline": {
-            "value": "{semantic.colour.status.muted.primary.default.outline}",
-            "type": "color"
-          },
-          "state": {
-            "type": "color",
-            "value": "{semantic.stateSurface.secondary.secondary.press}"
-          }
-        },
-        "active": {
-          "default": {
-            "bg": {
-              "value": "{semantic.colour.status.emphasis.primary.default.background}",
-              "type": "color"
-            },
-            "content": {
-              "value": "{semantic.colour.status.emphasis.primary.default.content}",
-              "type": "color"
-            },
-            "state": {
-              "type": "color",
-              "value": "{semantic.stateSurface.neutral.lighter.default}"
-            }
-          },
-          "hover": {
-            "bg": {
-              "value": "{semantic.colour.status.emphasis.primary.hover.background}",
-              "type": "color"
-            },
-            "content": {
-              "value": "{semantic.colour.status.emphasis.primary.hover.content}",
-              "type": "color"
-            },
-            "state": {
-              "type": "color",
-              "value": "{semantic.stateSurface.neutral.lighter.hover}"
-            }
-          },
-          "press": {
-            "bg": {
-              "value": "{semantic.colour.status.emphasis.primary.press.background}",
-              "type": "color"
-            },
-            "content": {
-              "value": "{semantic.colour.status.emphasis.primary.press.content}",
-              "type": "color"
-            },
-            "state": {
-              "type": "color",
-              "value": "{semantic.stateSurface.neutral.lighter.press}"
-            }
-          }
-        },
-        "active-input": {
-          "bg": {
-            "value": "{semantic.colour.inputs.default.background}",
-            "type": "color"
-          },
-          "active-text": {
-            "value": "{semantic.colour.inputs.content.strong}",
-            "type": "color"
-          },
-          "helper-text": {
-            "value": "{semantic.colour.inputs.content.soft}",
-            "type": "color"
-          },
-          "outline": {
-            "type": "color",
-            "value": "{semantic.colour.inputs.press.outline}"
-          }
-        }
-      },
       "borderRadius": {
         "all": {
           "value": "{semantic.borderRadius.status}",
@@ -276,37 +142,9 @@
         }
       },
       "type": {
-        "sm": {
-          "value": "{semantic.typography.status.mdEmphasis}",
+        "label": {
+          "value": "{semantic.typography.status.lgEmphasis}",
           "type": "typography"
-        },
-        "lg": {
-          "value": "{semantic.typography.status.mdEmphasis}",
-          "type": "typography"
-        },
-        "selected": {
-          "sm": {
-            "value": "{semantic.typography.status.mdEmphasis}",
-            "type": "typography"
-          },
-          "lg": {
-            "value": "{semantic.typography.status.mdEmphasis}",
-            "type": "typography"
-          }
-        },
-        "input": {
-          "sm": {
-            "value": "{text.caption.smRegular}",
-            "type": "typography"
-          },
-          "md": {
-            "value": "{text.caption.mdRegular}",
-            "type": "typography"
-          },
-          "lg": {
-            "value": "{text.caption.lgRegular}",
-            "type": "typography"
-          }
         }
       },
       "elevation": {

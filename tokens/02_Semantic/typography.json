@@ -917,6 +917,32 @@
         }
       },
       "status": {
+        "xlStandard": {
+          "value": {
+            "fontFamily": "{fontFamily.product.body}",
+            "fontWeight": "{semantic.fontWeight.status.standard}",
+            "lineHeight": "{semantic.lineHeight.status.xl}",
+            "fontSize": "{semantic.fontSize.status.xl}",
+            "letterSpacing": "{semantic.letterSpacing.status.xl}",
+            "paragraphSpacing": "{paragraph-spacing.default}",
+            "textDecoration": "{textDecoration.default}",
+            "textCase": "{textCase.as-is}"
+          },
+          "type": "typography"
+        },
+        "xlEmphasis": {
+          "value": {
+            "fontFamily": "{fontFamily.product.body}",
+            "fontWeight": "{semantic.fontWeight.status.emphasis}",
+            "lineHeight": "{semantic.lineHeight.status.xl}",
+            "fontSize": "{semantic.fontSize.status.xl}",
+            "letterSpacing": "{semantic.letterSpacing.status.xl}",
+            "paragraphSpacing": "{paragraph-spacing.default}",
+            "textDecoration": "{textDecoration.default}",
+            "textCase": "{textCase.as-is}"
+          },
+          "type": "typography"
+        },
         "lgStandard": {
           "value": {
             "fontFamily": "{fontFamily.product.body}",
@@ -1518,6 +1544,10 @@
         }
       },
       "status": {
+        "xl": {
+          "value": "{fontSize.lg}",
+          "type": "fontSizes"
+        },
         "lg": {
           "value": "{fontSize.md}",
           "type": "fontSizes"
@@ -1758,6 +1788,10 @@
         }
       },
       "status": {
+        "xl": {
+          "value": "20",
+          "type": "lineHeights"
+        },
         "lg": {
           "value": "20",
           "type": "lineHeights"
@@ -1976,6 +2010,10 @@
         }
       },
       "status": {
+        "xl": {
+          "value": "{letterSpacing.wide.20}",
+          "type": "letterSpacing"
+        },
         "lg": {
           "value": "{letterSpacing.wide.20}",
           "type": "letterSpacing"
