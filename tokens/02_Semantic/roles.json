@@ -2465,7 +2465,7 @@
         "switch": {
           "track": {
             "height": {
-              "value": "{size.32}",
+              "value": "{size.28}",
               "type": "sizing"
             },
             "width": {
@@ -2474,7 +2474,7 @@
             }
           },
           "handle": {
-            "value": "{size.28}",
+            "value": "{size.24}",
             "type": "sizing"
           },
           "icon": {

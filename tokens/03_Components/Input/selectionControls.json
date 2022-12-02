@@ -1,63 +1,189 @@
 {
   "comp": {
-    "selection-control": {
-      "switch": {
-        "size": {
-          "width": {
-            "value": "{semantic.size.input.switch.track.width}",
-            "type": "sizing"
+    "switch": {
+      "size": {
+        "width": {
+          "value": "{semantic.size.input.switch.track.width}",
+          "type": "sizing"
+        },
+        "height": {
+          "value": "{semantic.size.input.switch.track.height}",
+          "type": "sizing"
+        },
+        "toggle": {
+          "value": "{semantic.size.input.switch.handle}",
+          "type": "sizing"
+        },
+        "icon": {
+          "value": "{semantic.size.input.switch.icon}",
+          "type": "sizing"
+        }
+      },
+      "spacing": {
+        "callout": {
+          "value": "{semantic.spacing.input.small.padding-top} {semantic.spacing.input.medium.padding-right} {semantic.spacing.input.small.padding-bot} {semantic.spacing.input.medium.padding-left}",
+          "type": "spacing"
+        },
+        "contentSpaceBetween": {
+          "value": "{semantic.spacing.input.content.space-between}",
+          "type": "spacing"
+        },
+        "elementsSpaceBetween": {
+          "value": "{semantic.spacing.input.elements.space-between}",
+          "type": "spacing"
+        },
+        "text": {
+          "value": "{semantic.spacing.input.text.padding-top} {semantic.spacing.input.text.padding-right} {semantic.spacing.input.text.padding-bot} {semantic.spacing.input.text.padding-left}",
+          "type": "spacing"
+        }
+      },
+      "borderRadius": {
+        "all": {
+          "value": "{semantic.border.radius.round}",
+          "type": "borderRadius"
+        }
+      },
+      "type": {
+        "label": {
+          "value": "{semantic.typography.input.lgStandard}",
+          "type": "typography"
+        }
+      },
+      "colour": {
+        "default": {
+          "bg": {
+            "value": "{semantic.colour.inputs.selection.default.background}",
+            "type": "color"
           },
-          "height": {
-            "value": "{semantic.size.input.switch.track.height}",
-            "type": "sizing"
+          "toggle-icon": {
+            "value": "{semantic.colour.inputs.content.mid}",
+            "type": "color"
+          },
+          "content": {
+            "value": "{semantic.colour.inputs.content.strong}",
+            "type": "color"
           },
           "toggle": {
-            "value": "{semantic.size.input.switch.handle}",
-            "type": "sizing"
+            "value": "{semantic.colour.inputs.default.background}",
+            "type": "color"
           },
-          "icon": {
-            "value": "{semantic.size.input.switch.icon}",
-            "type": "sizing"
+          "state": {
+            "type": "color",
+            "value": "{semantic.stateSurface.primary.primary.default}"
+          },
+          "outline": {
+            "value": "{semantic.colour.inputs.selection.outline}",
+            "type": "color"
           }
         },
-        "spacing": {
-          "callout": {
-            "value": "{semantic.spacing.input.small.padding-top} {semantic.spacing.input.medium.padding-right} {semantic.spacing.input.small.padding-bot} {semantic.spacing.input.medium.padding-left}",
-            "type": "spacing"
+        "hover": {
+          "bg": {
+            "value": "{semantic.colour.inputs.selection.hover.background}",
+            "type": "color"
           },
-          "contentSpaceBetween": {
-            "value": "{semantic.spacing.input.content.space-between}",
-            "type": "spacing"
+          "toggle-icon": {
+            "value": "{semantic.colour.inputs.content.mid}",
+            "type": "color"
           },
-          "elementsSpaceBetween": {
-            "value": "{semantic.spacing.input.elements.space-between}",
-            "type": "spacing"
+          "content": {
+            "value": "{semantic.colour.inputs.content.strong}",
+            "type": "color"
           },
-          "text": {
-            "value": "{semantic.spacing.input.text.padding-top} {semantic.spacing.input.text.padding-right} {semantic.spacing.input.text.padding-bot} {semantic.spacing.input.text.padding-left}",
-            "type": "spacing"
+          "toggle": {
+            "value": "{semantic.colour.inputs.hover.background}",
+            "type": "color"
+          },
+          "state": {
+            "type": "color",
+            "value": "{semantic.stateSurface.primary.primary.hover}"
+          },
+          "outline": {
+            "value": "{semantic.colour.inputs.selection.outline}",
+            "type": "color"
           }
         },
-        "border-radius": {
-          "all": {
-            "value": "{semantic.border.radius.round}",
-            "type": "borderRadius"
+        "press": {
+          "bg": {
+            "value": "{semantic.colour.inputs.selection.press.background}",
+            "type": "color"
+          },
+          "toggle-icon": {
+            "value": "{semantic.colour.inputs.content.mid}",
+            "type": "color"
+          },
+          "content": {
+            "value": "{semantic.colour.inputs.content.strong}",
+            "type": "color"
+          },
+          "toggle": {
+            "value": "{semantic.colour.inputs.press.background}",
+            "type": "color"
+          },
+          "state": {
+            "type": "color",
+            "value": "{semantic.stateSurface.primary.primary.press}"
+          },
+          "outline": {
+            "value": "{semantic.colour.inputs.selection.outline}",
+            "type": "color"
           }
         },
-        "type": {
-          "label": {
-            "value": "{semantic.typography.input.2xsStandard}",
-            "type": "typography"
+        "error": {
+          "bg": {
+            "value": "{semantic.colour.inputs.selection.error.background}",
+            "type": "color"
+          },
+          "toggle-icon": {
+            "value": "{semantic.colour.inputs.content.mid}",
+            "type": "color"
+          },
+          "content": {
+            "value": "{semantic.colour.inputs.content.strong}",
+            "type": "color"
+          },
+          "toggle": {
+            "value": "{semantic.colour.inputs.error.background}",
+            "type": "color"
+          },
+          "state": {
+            "type": "color",
+            "value": "{semantic.stateSurface.primary.primary.default}"
+          },
+          "outline": {
+            "value": "{semantic.colour.inputs.error.outline}",
+            "type": "color"
           }
         },
-        "colour": {
+        "disabled": {
+          "bg": {
+            "value": "{semantic.colour.inputs.selection.disabled.background}",
+            "type": "color"
+          },
+          "toggle-icon": {
+            "value": "{semantic.colour.inputs.content.disabled}",
+            "type": "color"
+          },
+          "content": {
+            "value": "{semantic.colour.inputs.content.disabled}",
+            "type": "color"
+          },
+          "toggle": {
+            "value": "{semantic.colour.inputs.default.background}",
+            "type": "color"
+          },
+          "state": {
+            "type": "color",
+            "value": "{semantic.stateSurface.primary.primary.disabled}"
+          }
+        },
+        "active": {
           "default": {
             "bg": {
-              "value": "{semantic.colour.inputs.selection.default.background}",
+              "value": "{semantic.colour.inputs.hover.outline}",
               "type": "color"
             },
             "toggle-icon": {
-              "value": "{semantic.colour.inputs.content.mid}",
+              "value": "{semantic.colour.inputs.hover.outline}",
               "type": "color"
             },
             "content": {
@@ -70,20 +196,16 @@
             },
             "state": {
               "type": "color",
-              "value": "{semantic.stateSurface.primary.primary.default}"
-            },
-            "outline": {
-              "value": "{semantic.colour.inputs.selection.outline}",
-              "type": "color"
+              "value": "{semantic.stateSurface.neutral.darker.default}"
             }
           },
           "hover": {
             "bg": {
-              "value": "{semantic.colour.inputs.selection.hover.background}",
+              "value": "{semantic.colour.inputs.hover.outline}",
               "type": "color"
             },
             "toggle-icon": {
-              "value": "{semantic.colour.inputs.content.mid}",
+              "value": "{semantic.colour.inputs.hover.outline}",
               "type": "color"
             },
             "content": {
@@ -96,20 +218,16 @@
             },
             "state": {
               "type": "color",
-              "value": "{semantic.stateSurface.primary.primary.hover}"
-            },
-            "outline": {
-              "value": "{semantic.colour.inputs.selection.outline}",
-              "type": "color"
+              "value": "{semantic.stateSurface.neutral.darker.hover}"
             }
           },
           "press": {
             "bg": {
-              "value": "{semantic.colour.inputs.selection.press.background}",
+              "value": "{semantic.colour.inputs.press.outline}",
               "type": "color"
             },
             "toggle-icon": {
-              "value": "{semantic.colour.inputs.content.mid}",
+              "value": "{semantic.colour.inputs.hover.outline}",
               "type": "color"
             },
             "content": {
@@ -122,20 +240,16 @@
             },
             "state": {
               "type": "color",
-              "value": "{semantic.stateSurface.primary.primary.press}"
-            },
-            "outline": {
-              "value": "{semantic.colour.inputs.selection.outline}",
-              "type": "color"
+              "value": "{semantic.stateSurface.neutral.darker.press}"
             }
           },
           "error": {
             "bg": {
-              "value": "{semantic.colour.inputs.selection.error.background}",
+              "value": "{semantic.colour.inputs.hover.outline}",
               "type": "color"
             },
             "toggle-icon": {
-              "value": "{semantic.colour.inputs.content.mid}",
+              "value": "{semantic.colour.inputs.hover.outline}",
               "type": "color"
             },
             "content": {
@@ -148,7 +262,7 @@
             },
             "state": {
               "type": "color",
-              "value": "{semantic.stateSurface.primary.primary.default}"
+              "value": "{semantic.stateSurface.neutral.darker.default}"
             },
             "outline": {
               "value": "{semantic.colour.inputs.error.outline}",
@@ -157,7 +271,7 @@
           },
           "disabled": {
             "bg": {
-              "value": "{semantic.colour.inputs.selection.disabled.background}",
+              "value": "{semantic.colour.inputs.disabled.background}",
               "type": "color"
             },
             "toggle-icon": {
@@ -174,266 +288,90 @@
             },
             "state": {
               "type": "color",
-              "value": "{semantic.stateSurface.primary.primary.disabled}"
+              "value": "{semantic.stateSurface.neutral.darker.disabled}"
             }
-          },
-          "active": {
-            "default": {
-              "bg": {
-                "value": "{semantic.colour.inputs.hover.outline}",
-                "type": "color"
-              },
-              "toggle-icon": {
-                "value": "{semantic.colour.inputs.hover.outline}",
-                "type": "color"
-              },
-              "content": {
-                "value": "{semantic.colour.inputs.content.strong}",
-                "type": "color"
-              },
-              "toggle": {
-                "value": "{semantic.colour.inputs.default.background}",
-                "type": "color"
-              },
-              "state": {
-                "type": "color",
-                "value": "{semantic.stateSurface.neutral.darker.default}"
-              }
-            },
-            "hover": {
-              "bg": {
-                "value": "{semantic.colour.inputs.hover.outline}",
-                "type": "color"
-              },
-              "toggle-icon": {
-                "value": "{semantic.colour.inputs.hover.outline}",
-                "type": "color"
-              },
-              "content": {
-                "value": "{semantic.colour.inputs.content.strong}",
-                "type": "color"
-              },
-              "toggle": {
-                "value": "{semantic.colour.inputs.hover.background}",
-                "type": "color"
-              },
-              "state": {
-                "type": "color",
-                "value": "{semantic.stateSurface.neutral.darker.hover}"
-              }
-            },
-            "press": {
-              "bg": {
-                "value": "{semantic.colour.inputs.press.outline}",
-                "type": "color"
-              },
-              "toggle-icon": {
-                "value": "{semantic.colour.inputs.hover.outline}",
-                "type": "color"
-              },
-              "content": {
-                "value": "{semantic.colour.inputs.content.strong}",
-                "type": "color"
-              },
-              "toggle": {
-                "value": "{semantic.colour.inputs.press.background}",
-                "type": "color"
-              },
-              "state": {
-                "type": "color",
-                "value": "{semantic.stateSurface.neutral.darker.press}"
-              }
-            },
-            "error": {
-              "bg": {
-                "value": "{semantic.colour.inputs.hover.outline}",
-                "type": "color"
-              },
-              "toggle-icon": {
-                "value": "{semantic.colour.inputs.hover.outline}",
-                "type": "color"
-              },
-              "content": {
-                "value": "{semantic.colour.inputs.content.strong}",
-                "type": "color"
-              },
-              "toggle": {
-                "value": "{semantic.colour.inputs.error.background}",
-                "type": "color"
-              },
-              "state": {
-                "type": "color",
-                "value": "{semantic.stateSurface.neutral.darker.default}"
-              },
-              "outline": {
-                "value": "{semantic.colour.inputs.error.outline}",
-                "type": "color"
-              }
-            },
-            "disabled": {
-              "bg": {
-                "value": "{semantic.colour.inputs.disabled.background}",
-                "type": "color"
-              },
-              "toggle-icon": {
-                "value": "{semantic.colour.inputs.content.disabled}",
-                "type": "color"
-              },
-              "content": {
-                "value": "{semantic.colour.inputs.content.disabled}",
-                "type": "color"
-              },
-              "toggle": {
-                "value": "{semantic.colour.inputs.default.background}",
-                "type": "color"
-              },
-              "state": {
-                "type": "color",
-                "value": "{semantic.stateSurface.neutral.darker.disabled}"
-              }
-            }
-          }
-        },
-        "border-width": {
-          "default": {
-            "value": "{semantic.border.width.sm}",
-            "type": "borderWidth"
-          },
-          "error": {
-            "value": "{semantic.border.width.md}",
-            "type": "borderWidth"
-          }
-        },
-        "elevation": {
-          "toggle": {
-            "value": "{elevation.100}",
-            "type": "boxShadow"
           }
         }
       },
-      "radio-and-checkbox": {
-        "size": {
+      "borderWidth": {
+        "default": {
+          "value": "{semantic.border.width.sm}",
+          "type": "borderWidth"
+        },
+        "error": {
+          "value": "{semantic.border.width.md}",
+          "type": "borderWidth"
+        }
+      },
+      "elevation": {
+        "toggle": {
+          "value": "{elevation.100}",
+          "type": "boxShadow"
+        }
+      }
+    },
+    "radioAndCheckbox": {
+      "size": {
+        "control": {
+          "value": "{semantic.size.input.radio-and-checkbox.toggle}",
+          "type": "sizing"
+        },
+        "icon": {
+          "value": "{semantic.size.input.radio-and-checkbox.icon}",
+          "type": "sizing"
+        }
+      },
+      "spacing": {
+        "callout": {
+          "value": "{semantic.spacing.input.small.padding-top} {semantic.spacing.input.medium.padding-right} {semantic.spacing.input.small.padding-bot} {semantic.spacing.input.medium.padding-left}",
+          "type": "spacing"
+        },
+        "contentSpaceBetween": {
+          "value": "{semantic.spacing.input.content.space-between}",
+          "type": "spacing"
+        },
+        "elementsSpaceBetween": {
+          "value": "{semantic.spacing.input.elements.space-between}",
+          "type": "spacing"
+        },
+        "text": {
+          "value": "{semantic.spacing.input.text.padding-top} {semantic.spacing.input.text.padding-right} {semantic.spacing.input.text.padding-bot} {semantic.spacing.input.text.padding-left}",
+          "type": "spacing"
+        }
+      },
+      "type": {
+        "label": {
+          "value": "{semantic.typography.input.lgStandard}",
+          "type": "typography"
+        }
+      },
+      "colour": {
+        "default": {
+          "bg": {
+            "value": "{semantic.colour.inputs.default.background}",
+            "type": "color"
+          },
           "control": {
-            "value": "{semantic.size.input.radio-and-checkbox.toggle}",
-            "type": "sizing"
+            "value": "{semantic.colour.inputs.default.outline}",
+            "type": "color"
           },
-          "icon": {
-            "value": "{semantic.size.input.radio-and-checkbox.icon}",
-            "type": "sizing"
+          "content": {
+            "value": "{semantic.colour.inputs.content.strong}",
+            "type": "color"
           }
         },
-        "spacing": {
-          "callout": {
-            "value": "{semantic.spacing.input.small.padding-top} {semantic.spacing.input.medium.padding-right} {semantic.spacing.input.small.padding-bot} {semantic.spacing.input.medium.padding-left}",
-            "type": "spacing"
-          },
-          "contentSpaceBetween": {
-            "value": "{semantic.spacing.input.content.space-between}",
-            "type": "spacing"
-          },
-          "elementsSpaceBetween": {
-            "value": "{semantic.spacing.input.elements.space-between}",
-            "type": "spacing"
-          },
-          "text": {
-            "value": "{semantic.spacing.input.text.padding-top} {semantic.spacing.input.text.padding-right} {semantic.spacing.input.text.padding-bot} {semantic.spacing.input.text.padding-left}",
-            "type": "spacing"
-          }
-        },
-        "type": {
-          "label": {
-            "value": "{semantic.typography.input.2xsStandard}",
-            "type": "typography"
-          }
-        },
-        "colour": {
+        "active": {
           "default": {
             "bg": {
               "value": "{semantic.colour.inputs.default.background}",
               "type": "color"
             },
             "control": {
-              "value": "{semantic.colour.inputs.default.outline}",
+              "value": "{semantic.colour.inputs.hover.outline}",
               "type": "color"
             },
             "content": {
               "value": "{semantic.colour.inputs.content.strong}",
-              "type": "color"
-            }
-          },
-          "active": {
-            "default": {
-              "bg": {
-                "value": "{semantic.colour.inputs.default.background}",
-                "type": "color"
-              },
-              "control": {
-                "value": "{semantic.colour.inputs.hover.outline}",
-                "type": "color"
-              },
-              "content": {
-                "value": "{semantic.colour.inputs.content.strong}",
-                "type": "color"
-              }
-            },
-            "hover": {
-              "bg": {
-                "value": "{semantic.colour.inputs.default.background}",
-                "type": "color"
-              },
-              "control": {
-                "value": "{semantic.colour.inputs.hover.outline}",
-                "type": "color"
-              },
-              "content": {
-                "value": "{semantic.colour.inputs.content.strong}",
-                "type": "color"
-              }
-            },
-            "error": {
-              "bg": {
-                "value": "{semantic.colour.inputs.default.background}",
-                "type": "color"
-              },
-              "control": {
-                "value": "{semantic.colour.inputs.press.outline}",
-                "type": "color"
-              },
-              "content": {
-                "value": "{semantic.colour.inputs.content.strong}",
-                "type": "color"
-              },
-              "outline": {
-                "value": "{semantic.colour.inputs.error.outline}",
-                "type": "color"
-              }
-            },
-            "disabled": {
-              "bg": {
-                "value": "{semantic.colour.inputs.disabled.background}",
-                "type": "color"
-              },
-              "control": {
-                "value": "{semantic.colour.inputs.disabled.outline}",
-                "type": "color"
-              },
-              "content": {
-                "value": "{semantic.colour.inputs.content.soft}",
-                "type": "color"
-              }
-            }
-          },
-          "disabled": {
-            "bg": {
-              "value": "{semantic.colour.inputs.disabled.background}",
-              "type": "color"
-            },
-            "control": {
-              "value": "{semantic.colour.inputs.disabled.outline}",
-              "type": "color"
-            },
-            "content": {
-              "value": "{semantic.colour.inputs.content.soft}",
               "type": "color"
             }
           },
@@ -457,43 +395,103 @@
               "type": "color"
             },
             "control": {
-              "value": "{semantic.colour.inputs.error.outline}",
+              "value": "{semantic.colour.inputs.press.outline}",
               "type": "color"
             },
             "content": {
               "value": "{semantic.colour.inputs.content.strong}",
               "type": "color"
-            }
-          }
-        }
-      },
-      "checkbox": {
-        "border-radius": {
-          "all": {
-            "value": "{semantic.border.radius.sm}",
-            "type": "borderRadius"
-          }
-        }
-      },
-      "call-out": {
-        "border-radius": {
-          "all": {
-            "value": "{semantic.borderRadius.input}",
-            "type": "borderRadius"
-          }
-        },
-        "colour": {
-          "default": {
-            "background": {
-              "value": "{semantic.colour.inputs.selection.callout.default.background}",
+            },
+            "outline": {
+              "value": "{semantic.colour.inputs.error.outline}",
               "type": "color"
             }
           },
           "disabled": {
-            "background": {
-              "value": "{semantic.colour.inputs.selection.callout.disabled.background}",
+            "bg": {
+              "value": "{semantic.colour.inputs.disabled.background}",
+              "type": "color"
+            },
+            "control": {
+              "value": "{semantic.colour.inputs.disabled.outline}",
+              "type": "color"
+            },
+            "content": {
+              "value": "{semantic.colour.inputs.content.soft}",
               "type": "color"
             }
+          }
+        },
+        "disabled": {
+          "bg": {
+            "value": "{semantic.colour.inputs.disabled.background}",
+            "type": "color"
+          },
+          "control": {
+            "value": "{semantic.colour.inputs.disabled.outline}",
+            "type": "color"
+          },
+          "content": {
+            "value": "{semantic.colour.inputs.content.soft}",
+            "type": "color"
+          }
+        },
+        "hover": {
+          "bg": {
+            "value": "{semantic.colour.inputs.default.background}",
+            "type": "color"
+          },
+          "control": {
+            "value": "{semantic.colour.inputs.hover.outline}",
+            "type": "color"
+          },
+          "content": {
+            "value": "{semantic.colour.inputs.content.strong}",
+            "type": "color"
+          }
+        },
+        "error": {
+          "bg": {
+            "value": "{semantic.colour.inputs.default.background}",
+            "type": "color"
+          },
+          "control": {
+            "value": "{semantic.colour.inputs.error.outline}",
+            "type": "color"
+          },
+          "content": {
+            "value": "{semantic.colour.inputs.content.strong}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "checkbox": {
+      "borderRadius": {
+        "all": {
+          "value": "{semantic.border.radius.sm}",
+          "type": "borderRadius"
+        }
+      }
+    },
+    "call-out": {
+      "borderRadius": {
+        "all": {
+          "value": "{semantic.borderRadius.input}",
+          "type": "borderRadius"
+        }
+      },
+      "colour": {
+        "default": {
+          "background": {
+            "value": "{semantic.colour.inputs.selection.callout.default.background}",
+            "type": "color"
+          }
+        },
+        "disabled": {
+          "background": {
+            "value": "{semantic.colour.inputs.selection.callout.disabled.background}",
+            "type": "color"
           }
         }
       }
