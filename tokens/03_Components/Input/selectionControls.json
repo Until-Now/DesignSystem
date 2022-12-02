@@ -45,7 +45,7 @@
       },
       "type": {
         "label": {
-          "value": "{semantic.typography.input.lgStandard}",
+          "value": "{semantic.typography.input.mdStandard}",
           "type": "typography"
         }
       },
@@ -341,7 +341,7 @@
       },
       "type": {
         "label": {
-          "value": "{semantic.typography.input.lgStandard}",
+          "value": "{semantic.typography.input.mdStandard}",
           "type": "typography"
         }
       },
@@ -474,7 +474,7 @@
         }
       }
     },
-    "call-out": {
+    "callout": {
       "borderRadius": {
         "all": {
           "value": "{semantic.borderRadius.input}",
