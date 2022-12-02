@@ -86,12 +86,16 @@
           "value": "{semantic.spacing.patterns.md} {semantic.spacing.patterns.md} {semantic.spacing.patterns.md} {semantic.spacing.patterns.md}",
           "type": "spacing"
         },
+        "toolbarSpaceBetween": {
+          "value": "{semantic.spacing.patterns.xl}",
+          "type": "spacing"
+        },
         "filterbar": {
           "value": "{semantic.spacing.patterns.sm} {semantic.spacing.patterns.md} {semantic.spacing.patterns.sm} {semantic.spacing.patterns.md}",
           "type": "spacing"
         },
-        "toolbarSpaceBetween": {
-          "value": "{semantic.spacing.patterns.xl}",
+        "filterbarSpaceBetween": {
+          "value": "{semantic.spacing.patterns.2xs}",
           "type": "spacing"
         },
         "toolbarActionSpaceBetween": {
