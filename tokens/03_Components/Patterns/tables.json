@@ -79,11 +79,15 @@
           "type": "spacing"
         },
         "elementsSpaceBetween": {
-          "value": "{semantic.spacing.patterns.xs}",
+          "value": "{semantic.spacing.patterns.none}",
           "type": "spacing"
         },
         "toolbar": {
-          "value": "{semantic.spacing.patterns.none} {semantic.spacing.patterns.md} {semantic.spacing.patterns.none} {semantic.spacing.patterns.md}",
+          "value": "{semantic.spacing.patterns.md} {semantic.spacing.patterns.md} {semantic.spacing.patterns.md} {semantic.spacing.patterns.md}",
+          "type": "spacing"
+        },
+        "filterbar": {
+          "value": "{semantic.spacing.patterns.sm} {semantic.spacing.patterns.md} {semantic.spacing.patterns.sm} {semantic.spacing.patterns.md}",
           "type": "spacing"
         },
         "toolbarSpaceBetween": {
