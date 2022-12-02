@@ -35,6 +35,22 @@
           "type": "typography"
         }
       }
+    },
+    "switch": {
+      "type": {
+        "label": {
+          "value": "{semantic.typography.input.lgStandard}",
+          "type": "typography"
+        }
+      }
+    },
+    "radioAndCheckbox": {
+      "type": {
+        "label": {
+          "value": "{semantic.typography.input.lgStandard}",
+          "type": "typography"
+        }
+      }
     }
   }
 }

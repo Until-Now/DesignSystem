@@ -323,7 +323,7 @@
       },
       "spacing": {
         "callout": {
-          "value": "{semantic.spacing.input.small.padding-top} {semantic.spacing.input.medium.padding-right} {semantic.spacing.input.small.padding-bot} {semantic.spacing.input.medium.padding-left}",
+          "value": "{semantic.spacing.input.medium.padding-top} {semantic.spacing.input.medium.padding-right} {semantic.spacing.input.medium.padding-bot} {semantic.spacing.input.medium.padding-left}",
           "type": "spacing"
         },
         "contentSpaceBetween": {
@@ -463,6 +463,16 @@
             "value": "{semantic.colour.inputs.content.strong}",
             "type": "color"
           }
+        }
+      },
+      "borderWidth": {
+        "default": {
+          "value": "{semantic.border.width.sm}",
+          "type": "borderWidth"
+        },
+        "error": {
+          "value": "{semantic.border.width.md}",
+          "type": "borderWidth"
         }
       }
     },
