@@ -52,6 +52,7 @@
     "style_arcade/01_foundation",
     "style_arcade/02_semantic",
     "style_arcade/02_styles",
-    "style_arcade/03_components"
+    "style_arcade/03_components",
+    "happly/01_Foundation"
   ]
 }

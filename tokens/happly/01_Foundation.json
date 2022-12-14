@@ -1,0 +1,55 @@
+{
+  "fontWeight": {
+    "300": {
+      "value": "Light",
+      "type": "fontWeights"
+    },
+    "400": {
+      "value": "Regular",
+      "type": "fontWeights"
+    },
+    "500": {
+      "value": "Medium",
+      "type": "fontWeights"
+    },
+    "600": {
+      "value": "Semibold",
+      "type": "fontWeights"
+    },
+    "700": {
+      "value": "Bold",
+      "type": "fontWeights"
+    },
+    "800": {
+      "value": "Extrabold",
+      "type": "fontWeights",
+      "description": "e.g. 'Heavy', 'Extrabold', 'Ultrabold'"
+    },
+    "900": {
+      "value": "Black",
+      "type": "fontWeights"
+    }
+  },
+  "fontFamily": {
+    "brand": {
+      "heading": {
+        "value": "Goldplay",
+        "type": "fontFamilies"
+      },
+      "body": {
+        "value": "Goldplay",
+        "type": "fontFamilies"
+      }
+    },
+    "product": {
+      "heading": {
+        "value": "Gilroy",
+        "type": "fontFamilies"
+      },
+      "body": {
+        "value": "Gilroy",
+        "type": "fontFamilies"
+      }
+    }
+  }
+}

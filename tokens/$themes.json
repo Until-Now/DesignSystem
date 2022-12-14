@@ -55,7 +55,8 @@
       "solo/01_Foundation": "disabled",
       "solo/02_Semantic/roles": "disabled",
       "solo/02_Semantic/styles": "disabled",
-      "solo/03_Components": "disabled"
+      "solo/03_Components": "disabled",
+      "happly/01_Foundation": "disabled"
     },
     "$figmaStyleReferences": {
       "styles.bg.main": "S:aec6d5b5eaab23c9b60e889be6252c48f392954f,",
@@ -196,7 +197,8 @@
       "solo/01_Foundation": "disabled",
       "solo/02_Semantic/roles": "disabled",
       "solo/02_Semantic/styles": "disabled",
-      "solo/03_Components": "disabled"
+      "solo/03_Components": "disabled",
+      "happly/01_Foundation": "disabled"
     },
     "$figmaStyleReferences": {
       "colour.bg.scrim": "S:3bb7d1b54fe19dd5339539b0553862cf3d45d8c7,",
@@ -283,7 +285,8 @@
       "style_arcade/02_semantic": "disabled",
       "style_arcade/02_styles": "disabled",
       "style_arcade/03_components": "disabled",
-      "solo/03_Components": "disabled"
+      "solo/03_Components": "disabled",
+      "happly/01_Foundation": "disabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -343,7 +346,8 @@
       "solo/01_Foundation": "disabled",
       "solo/02_Semantic/roles": "disabled",
       "solo/02_Semantic/styles": "disabled",
-      "solo/03_Components": "disabled"
+      "solo/03_Components": "disabled",
+      "happly/01_Foundation": "disabled"
     },
     "$figmaStyleReferences": {
       "text.display.lgRegular": "S:cfc7f0181dff62732f48aae89616edbcdfcd4861,",
